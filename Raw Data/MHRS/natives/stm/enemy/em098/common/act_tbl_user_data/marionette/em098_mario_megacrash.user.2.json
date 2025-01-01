@@ -1,0 +1,274 @@
+{
+  "snow.enemy.EnemyThinkData": {
+    "_StateList": [
+      {
+        "_ID": 0,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2957624320,
+            "set_type": 0,
+            "_ActionTableInfo": {
+              "_Category": 4,
+              "_TableNo": 0,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1971476256,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 3
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3664000878
+      },
+      {
+        "_ID": 1,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 4048445144,
+            "set_type": 1,
+            "_ActionTableInfo": {
+              "_Category": 4,
+              "_TableNo": 0,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2660142709
+      },
+      {
+        "_ID": 2,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3188705311
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 112439162,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3480578598
+      },
+      {
+        "_ID": 3,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1769075921,
+            "_IgnoreNoCancelFlags": 0
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 3369509621,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 4
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 4073500536
+      },
+      {
+        "_ID": 4,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 420747708,
+            "_ActionNo": 4,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 4210389372,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2865666282
+      },
+      {
+        "_ID": 5,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1434329475,
+            "_ActionNo": 6,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 184553866,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 7
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1108359519
+      },
+      {
+        "_ID": 6,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1335882400,
+            "_ActionNo": 10,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2104984594,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 2
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2111007165
+      },
+      {
+        "_ID": 7,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 201906364,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 12.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 6
+          },
+          {
+            "_Condition": {
+              "v0_ID": 4053733954,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 8
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1933167034
+      },
+      {
+        "_ID": 8,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 587840572,
+            "_ActionNo": 7,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 6
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2529161564,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 6
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2118132216
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          0,
+          0
+        ],
+        "_Cancel": [
+          0,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": [
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1140785152,
+              1123024896
+            ],
+            "_Cancel": [
+              1101004800,
+              1101004800
+            ],
+            "_Group": [
+              1136852992,
+              1123024896
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1108082688
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "BUFF_DEFENCE_AREA"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV1"
+      },
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1135869952,
+              1119092736
+            ],
+            "_Cancel": [
+              1101004800,
+              1101004800
+            ],
+            "_Group": [
+              0,
+              1123024896
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1108082688
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "BUFF_DEFENCE_AREA"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV2"
+      }
+    ]
+  }
+}

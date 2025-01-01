@@ -1,0 +1,107 @@
+{
+  "ace.user_data.ShellMainParam": {
+    "_ShellMiniParams": [
+      {
+        "MiniParamName": "Common\u0000",
+        "MiniParamtype": 1,
+        "_IsDependedOn": false,
+        "UpdateOrder": 0,
+        "LateUpdateOrder": 0,
+        "_LifeSec": 3.0,
+        "_HitOnSec": 0.0
+      },
+      {
+        "MiniParamName": "AppColHit\u0000",
+        "MiniParamtype": 3,
+        "_IsDependedOn": false,
+        "UpdateOrder": 100,
+        "LateUpdateOrder": 100,
+        "_ColHitFlag": 0,
+        "_SubCollisionIDList": [],
+        "_IsHitOwner": false,
+        "_IsHitOwnerOhterShell": false,
+        "_IsHitAnimalCollision": false,
+        "_IsDisableNearestHit": false,
+        "_IsNoHitAttackerShell": false,
+        "_IsDamageShellNoSort": false,
+        "_IsDamageDestory": false,
+        "_IsEnableDynamicShape": false,
+        "_AppHitTerrainSetting": {
+          "_FirstTerrainHitType": 0,
+          "_ShellHitWaterBehavior": 0,
+          "_ShellHitGroundBehavior": 0,
+          "STRUCT__ShellHitWallBehavior__HasValue": false,
+          "STRUCT__ShellHitWallBehavior__Value": 0,
+          "STRUCT__ShellHitCeilingBehavior__HasValue": false,
+          "STRUCT__ShellHitCeilingBehavior__Value": 0,
+          "_IsFirstTerrainCheck": true,
+          "_FirstTerrainCheckJoint": {
+            "_Hash": 0
+          },
+          "STRUCT__FirstTerrainCheckOffset__HasValue": false,
+          "STRUCT__FirstTerrainCheckOffset__Value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_FirstTerrainCheckGoalJoint": {
+            "_Hash": 0
+          },
+          "_TimeNotHitInTerrain": -1.0,
+          "_IsShellHitTerrainCorrect": true,
+          "STRUCT__HitTerrainLimitDeg__HasValue": false,
+          "STRUCT__HitTerrainLimitDeg__Value": 0.0,
+          "_ShellAttackColLifeSec": -1.0,
+          "_ShowRailgunHit": false
+        }
+      },
+      {
+        "MiniParamName": "MoveStraightAccel\u0000",
+        "MiniParamtype": 2,
+        "_IsDependedOn": false,
+        "UpdateOrder": 200,
+        "LateUpdateOrder": 200,
+        "_MoveSpeed": 60.0,
+        "_TargetOffset": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "_RotationType": 2,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__HasValue": false,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__Value": 0,
+        "_IsUseTargetRotOffset": false,
+        "_TargetRotOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IsDisableTarget": false,
+        "_IsTargetDirLimit": true,
+        "_TargetDirLimitDeg_X": 40,
+        "_TargetDirLimitDeg_Y": 10,
+        "_IsUseDistanceTargetDirLimitDegX": false,
+        "_IsUseDistanceParentRoot": false,
+        "_TargetDirMaxDistance": 0.0,
+        "_TargetDirMinDistance": 0.0,
+        "_IsUseNoTargetAdjustYaw": true,
+        "_NoTargetAdjustYaw_Deg": 50.0,
+        "_Range_Distance": -1.0,
+        "_AccelBeginTime": 0.0,
+        "_AccelBeginDist": 25.0,
+        "_Acceleration": -100.0,
+        "_Gravity": 100.0,
+        "_IsStopZero": true
+      }
+    ],
+    "_CommonParam": {
+      "MiniParamName": "Common\u0000",
+      "MiniParamtype": 1,
+      "_IsDependedOn": false,
+      "UpdateOrder": 0,
+      "LateUpdateOrder": 0,
+      "_LifeSec": 3.0,
+      "_HitOnSec": 0.0
+    }
+  }
+}

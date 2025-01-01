@@ -1,0 +1,370 @@
+{
+  "snow.enemy.EnemyThinkData": {
+    "_StateList": [
+      {
+        "_ID": 0,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 4166060059,
+            "set_type": 0,
+            "_ActionTableInfo": {
+              "_Category": 1,
+              "_TableNo": 201,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 665453698,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 8
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3664000878
+      },
+      {
+        "_ID": 1,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 26562153,
+            "set_type": 1,
+            "_ActionTableInfo": {
+              "_Category": 4,
+              "_TableNo": 0,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2660142709
+      },
+      {
+        "_ID": 2,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 4194923341,
+            "_ActionNo": 26,
+            "_motSeqFilterHashKey": 435289965,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1516235632,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 707859716
+      },
+      {
+        "_ID": 3,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1342225350,
+            "_ActionNo": 26,
+            "_motSeqFilterHashKey": 2213819515,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2905427688,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1921704184
+      },
+      {
+        "_ID": 4,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1970005018,
+            "_ActionNo": 26,
+            "_motSeqFilterHashKey": 4003944287,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 472327033,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2376893747
+      },
+      {
+        "_ID": 5,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1105264927,
+            "RandomValueSum": 100
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2248663136,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "PercentValue": 50
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 10
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1069374370,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 7
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2413562104
+      },
+      {
+        "_ID": 6,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3533797667,
+            "_ActionNo": 26,
+            "_motSeqFilterHashKey": 234374619,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 398441004,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2642752235
+      },
+      {
+        "_ID": 7,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 392882691,
+            "_CounterType": 4,
+            "_CounterUniqueId": 4,
+            "_AddValue": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1905022807,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_differenceHeight": 10.0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 4
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1573121652,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 3
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 656219184
+      },
+      {
+        "_ID": 8,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 3036623881,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_CounterType": 3,
+              "_CounterUniqueId": 3,
+              "_CheckValue": 1,
+              "_CheckType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 7
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1333150106,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 9
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2055310702
+      },
+      {
+        "_ID": 9,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 174932665,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_CounterType": 4,
+              "_CounterUniqueId": 4,
+              "_CheckValue": 1,
+              "_CheckType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 10
+          },
+          {
+            "_Condition": {
+              "v0_ID": 3000221150,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2359407755
+      },
+      {
+        "_ID": 10,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1998073598,
+            "_CounterType": 3,
+            "_CounterUniqueId": 3,
+            "_AddValue": 1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2150522324,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_differenceHeight": 10.0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 6
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1928379470,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 2
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2162236687
+      }
+    ]
+  }
+}

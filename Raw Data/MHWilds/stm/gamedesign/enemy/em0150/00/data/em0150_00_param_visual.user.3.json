@@ -1,0 +1,81 @@
+{
+  "app.user_data.EmParamVisual": {
+    "_IsBossZakoParam": true,
+    "_BlendShapeType": 0,
+    "_EyeBlinkParam": {
+      "_BlinkType": 0,
+      "_MotionSetIDOneShot": 24626,
+      "_MotionSetIDClose": 24627,
+      "_MotionSetIDCloseLoop": 24628,
+      "_MotionSetIDOpen": 24629,
+      "_BlinkSpanMin": 2.0,
+      "_BlinkSpanMax": 4.0,
+      "_FastBlinkRate": 2
+    },
+    "_FacialParam": {
+      "_MotionSetIDLife": 24636,
+      "_MotionSetIDCombatBegin": 24637,
+      "_MotionSetIDCombatLoop": 24638,
+      "_MotionSetIDCombatEnd": 24639
+    },
+    "_PredictionIKParam": {},
+    "_GrassPressParam": {
+      "_CollisionType": 0,
+      "_JointArray": [],
+      "_FootSizeType": 150,
+      "_FootSize": 1.0,
+      "_FootPowerType": 100,
+      "_FootPower": 1.0
+    },
+    "_SnowPressParam": {
+      "_CollisionType": 2,
+      "_Extent": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "_TextureIndex": 0,
+      "_JointArray": [
+        {
+          "_Hash": 3471977595,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 152489342,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 935285574,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 1936325518,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        }
+      ]
+    },
+    "_TurnFootParam": {
+      "_footLockOffDistanceXZ": 2.0,
+      "_footLockOnDistanceXZ": 1.0,
+      "_footLockOffDistanceX": 0.3
+    },
+    "_RotateTwoFootsParam": {
+      "_ChangeRotationBorderAngle": 45.0,
+      "_ChangeStopBorderAngle": 30.0,
+      "_RotationLerpFrame": 10.0,
+      "_StopRotationLerpFrame": 10.0,
+      "_ChangeFootRollLimit": 1.0,
+      "_ChangeHealRollLimit": 1.0
+    },
+    "_SandSinkParam": {
+      "_SandSinkSettingPattern": 3
+    },
+    "_FieldPitfallParam": {
+      "_ConstJointNameHash": 1549972489
+    }
+  }
+}

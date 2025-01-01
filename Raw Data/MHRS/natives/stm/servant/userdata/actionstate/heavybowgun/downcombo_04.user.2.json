@@ -1,0 +1,32 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_RangeType": 0
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_SubType": 1,
+        "_DisableGroupFiter": false,
+        "_IsPrioryMysteryGroupTarget": false
+      },
+      {},
+      {
+        "_EnemyTargetDistanceMax": 2.0,
+        "_EnemyDistanceMax": 3.0,
+        "_StayShotDistance": 3.0
+      }
+    ]
+  }
+}

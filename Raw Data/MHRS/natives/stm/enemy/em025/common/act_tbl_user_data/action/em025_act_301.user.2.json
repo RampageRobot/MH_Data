@@ -1,0 +1,175 @@
+{
+  "snow.enemy.EnemyThinkData": {
+    "_StateList": [
+      {
+        "_ID": 0,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2911117519,
+            "set_type": 0,
+            "_ActionTableInfo": {
+              "_Category": 0,
+              "_TableNo": 301,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1413471602,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 3
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3664000878
+      },
+      {
+        "_ID": 1,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 4169831038,
+            "set_type": 1,
+            "_ActionTableInfo": {
+              "_Category": 4,
+              "_TableNo": 0,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2660142709
+      },
+      {
+        "_ID": 2,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3968055831,
+            "_ActionNo": 13000,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 0,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2074795646,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 4
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3643997726
+      },
+      {
+        "_ID": 3,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1006470873,
+            "_IgnoreNoCancelFlags": 0
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 902050057,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3817333551
+      },
+      {
+        "_ID": 4,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2873564295
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 182471331,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1060351167
+      },
+      {
+        "_ID": 5,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1953324164,
+            "_SituationType": 1,
+            "isTiredDisable": true,
+            "isMasterRank": true,
+            "isMystery": false,
+            "isMysteryOver": true,
+            "isMysteryOverBurst": true
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 67678697,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 2
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3969782340
+      }
+    ]
+  }
+}

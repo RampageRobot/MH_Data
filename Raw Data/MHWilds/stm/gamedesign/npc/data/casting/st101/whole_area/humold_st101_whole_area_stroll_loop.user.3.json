@@ -1,0 +1,169 @@
+{
+  "app.user_data.NpcTaskData": {
+    "_UpstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_IsLoopMainstream": false,
+    "_MainstreamActionParam": {
+      "_ActionParamList": [
+        {
+          "_PointSelectType": 1,
+          "_PointSearcher": {
+            "_TargetType": 0,
+            "_DestList": [
+              {
+                "_Pos": [
+                  -845.0755,
+                  9.998982,
+                  1013.595
+                ],
+                "_DegY": 0
+              },
+              {
+                "_Pos": [
+                  -834.8584,
+                  13.9864,
+                  1049.254
+                ],
+                "_DegY": 80
+              },
+              {
+                "_Pos": [
+                  -818.8269,
+                  14.10188,
+                  1032.867
+                ],
+                "_DegY": -110
+              },
+              {
+                "_Pos": [
+                  -834.1644,
+                  9.754794,
+                  1001.917
+                ],
+                "_DegY": 0
+              },
+              {
+                "_Pos": [
+                  -834.9276,
+                  8.735638,
+                  973.8528
+                ],
+                "_DegY": -115
+              }
+            ],
+            "_PointSelector": {
+              "_Category": 1,
+              "_PointType": 0
+            },
+            "STRUCT__IsOnOff__HasValue": false,
+            "STRUCT__IsOnOff__Value": false,
+            "_Pos": [
+              -768.0,
+              0.0,
+              896.0
+            ],
+            "_Range": 200.0,
+            "_GroupAIType": "INVALID",
+            "_FieldUnitType": "INVALID"
+          },
+          "_GoalActionSelector": {
+            "_Category": -1528925056,
+            "_MoveID": -442093600,
+            "_ActionID": -1816547840,
+            "_HoldMotionPackID": 139599872,
+            "_Variation": -663541696
+          },
+          "_InfiniteActionTime": false,
+          "_ActionTime": [
+            0,
+            0
+          ],
+          "_InterruptTime": [
+            1106247680,
+            1106247680
+          ],
+          "_InterruptProbability": 100,
+          "_InterruptActionParamList": [],
+          "_TaskColliderID": "INVALID",
+          "_TaskDialogueID": "INVALID",
+          "_DisableStreet": false
+        },
+        {
+          "_PointSelectType": 0,
+          "_PointSearcher": {
+            "_TargetType": 0,
+            "_DestList": [
+              {
+                "_Pos": [
+                  -824.6246,
+                  12.16109,
+                  1025.466
+                ],
+                "_DegY": 0
+              }
+            ],
+            "_PointSelector": {
+              "_Category": 1,
+              "_PointType": 0
+            },
+            "STRUCT__IsOnOff__HasValue": false,
+            "STRUCT__IsOnOff__Value": false,
+            "_Pos": [
+              -768.0,
+              0.0,
+              896.0
+            ],
+            "_Range": 5.0,
+            "_GroupAIType": "INVALID",
+            "_FieldUnitType": "INVALID"
+          },
+          "_GoalActionSelector": {
+            "_Category": -1528925056,
+            "_MoveID": -442093600,
+            "_ActionID": 1917938944,
+            "_HoldMotionPackID": 139599872,
+            "_Variation": -663541696
+          },
+          "_InfiniteActionTime": true,
+          "_ActionTime": [
+            0,
+            0
+          ],
+          "_InterruptTime": [
+            1106247680,
+            1106247680
+          ],
+          "_InterruptProbability": 100,
+          "_InterruptActionParamList": [],
+          "_TaskColliderID": "INVALID",
+          "_TaskDialogueID": "INVALID",
+          "_DisableStreet": false
+        }
+      ]
+    },
+    "_DownstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_VariousData": {
+      "_SkeletonType": "HUMAN_OLD",
+      "_OnlyDefaultBodyScale": false,
+      "_Gender": -1,
+      "_VisualType": {
+        "_Species": 3,
+        "_ModelKindFixedID": -1
+      },
+      "_NeedRunTimerByMove": true,
+      "_CanInterrupt_Rest": true,
+      "_CanInterrupt_Combi": true,
+      "_NotSkipUpstream": false,
+      "_PtJackVisualChecker": {
+        "_ScaleType": "NOT_SUPPORTED"
+      },
+      "_EmJackVisualChecker": {
+        "STRUCT__IsChild__HasValue": false,
+        "STRUCT__IsChild__Value": false
+      }
+    }
+  }
+}

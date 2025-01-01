@@ -1,0 +1,790 @@
+{
+  "ace.user_data.ActionID": {
+    "_ActionIDArray": {
+      "_DataArray": [
+        {
+          "_Class": "cNothing\u0000",
+          "_InstanceGuid": "3fc8db8e-199c-4dbe-b80c-aae9cb622ef3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+          "_LowerGuid": "de5733d5-d64b-4182-b887-5b72be5def8d"
+        },
+        {
+          "_Class": "cRootStand\u0000",
+          "_InstanceGuid": "de5733d5-d64b-4182-b887-5b72be5def8d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3fc8db8e-199c-4dbe-b80c-aae9cb622ef3",
+          "_LowerGuid": "8c39f427-fcf3-4dd2-bc9f-35206e3e0585"
+        },
+        {
+          "_Class": "cRootCrouch\u0000",
+          "_InstanceGuid": "8c39f427-fcf3-4dd2-bc9f-35206e3e0585",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "de5733d5-d64b-4182-b887-5b72be5def8d",
+          "_LowerGuid": "68148aba-0c0e-40e2-80a2-75188c00c6b1"
+        },
+        {
+          "_Class": "cRootAir\u0000",
+          "_InstanceGuid": "68148aba-0c0e-40e2-80a2-75188c00c6b1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8c39f427-fcf3-4dd2-bc9f-35206e3e0585",
+          "_LowerGuid": "0c07b9a6-1377-4a43-b545-8e5c8edc0dda"
+        },
+        {
+          "_Class": "cRootWallClimb\u0000",
+          "_InstanceGuid": "0c07b9a6-1377-4a43-b545-8e5c8edc0dda",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "68148aba-0c0e-40e2-80a2-75188c00c6b1",
+          "_LowerGuid": "4ebbf1fa-2477-48e5-bab5-84b46a4415ae"
+        },
+        {
+          "_Class": "cRootSwim\u0000",
+          "_InstanceGuid": "4ebbf1fa-2477-48e5-bab5-84b46a4415ae",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0c07b9a6-1377-4a43-b545-8e5c8edc0dda",
+          "_LowerGuid": "9fa7d41d-3854-48ae-b26b-33487fc97001"
+        },
+        {
+          "_Class": "cRootDamage\u0000",
+          "_InstanceGuid": "9fa7d41d-3854-48ae-b26b-33487fc97001",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4ebbf1fa-2477-48e5-bab5-84b46a4415ae",
+          "_LowerGuid": "8db85bbb-0087-4bfb-bf95-12e57296a454"
+        },
+        {
+          "_Class": "cNothing\u0000",
+          "_InstanceGuid": "8db85bbb-0087-4bfb-bf95-12e57296a454",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9fa7d41d-3854-48ae-b26b-33487fc97001",
+          "_LowerGuid": "75c795e8-d895-46c5-8ce2-c03786312741"
+        },
+        {
+          "_Class": "cNothing\u0000",
+          "_InstanceGuid": "75c795e8-d895-46c5-8ce2-c03786312741",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8db85bbb-0087-4bfb-bf95-12e57296a454",
+          "_LowerGuid": "7cb1332f-d787-4283-858e-15544035cc1c"
+        },
+        {
+          "_Class": "cNothing\u0000",
+          "_InstanceGuid": "7cb1332f-d787-4283-858e-15544035cc1c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "75c795e8-d895-46c5-8ce2-c03786312741",
+          "_LowerGuid": "5096125b-3664-4852-8eb3-71d5c005e692"
+        },
+        {
+          "_Class": "cNothing\u0000",
+          "_InstanceGuid": "5096125b-3664-4852-8eb3-71d5c005e692",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7cb1332f-d787-4283-858e-15544035cc1c",
+          "_LowerGuid": "9e00b641-6b31-4ec7-a553-6d9b2186a114"
+        },
+        {
+          "_Class": "cRootPorterRide\u0000",
+          "_InstanceGuid": "9e00b641-6b31-4ec7-a553-6d9b2186a114",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5096125b-3664-4852-8eb3-71d5c005e692",
+          "_LowerGuid": "b0b70582-f485-4256-a491-c69b8d26da9f"
+        },
+        {
+          "_Class": "cRootPorterRideSplint\u0000",
+          "_InstanceGuid": "b0b70582-f485-4256-a491-c69b8d26da9f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9e00b641-6b31-4ec7-a553-6d9b2186a114",
+          "_LowerGuid": "cd4a3bfe-a21d-4cdb-be6b-beabdfeb1bed"
+        },
+        {
+          "_Class": "cRootPorterRideStep\u0000",
+          "_InstanceGuid": "cd4a3bfe-a21d-4cdb-be6b-beabdfeb1bed",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b0b70582-f485-4256-a491-c69b8d26da9f",
+          "_LowerGuid": "73dd7724-6bf6-4097-8d13-2e36b7e7955d"
+        },
+        {
+          "_Class": "cRootPorterRideClimb\u0000",
+          "_InstanceGuid": "73dd7724-6bf6-4097-8d13-2e36b7e7955d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cd4a3bfe-a21d-4cdb-be6b-beabdfeb1bed",
+          "_LowerGuid": "dfcf762d-4e22-47aa-bd86-06ecffc1f87d"
+        },
+        {
+          "_Class": "cRootPorterRideGlide\u0000",
+          "_InstanceGuid": "dfcf762d-4e22-47aa-bd86-06ecffc1f87d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "73dd7724-6bf6-4097-8d13-2e36b7e7955d",
+          "_LowerGuid": "ba990ead-5403-4bdf-98b5-136e425d1778"
+        },
+        {
+          "_Class": "cRootPorterRideExclusive\u0000",
+          "_InstanceGuid": "ba990ead-5403-4bdf-98b5-136e425d1778",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "dfcf762d-4e22-47aa-bd86-06ecffc1f87d",
+          "_LowerGuid": "a92df0c7-eaff-4090-a424-8a8f635a4138"
+        },
+        {
+          "_Class": "cSlingerAim\u0000",
+          "_InstanceGuid": "a92df0c7-eaff-4090-a424-8a8f635a4138",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ba990ead-5403-4bdf-98b5-136e425d1778",
+          "_LowerGuid": "81fb1fb9-dd31-486f-8c02-8238c7f0d0fd"
+        },
+        {
+          "_Class": "cSlingerAimEnd\u0000",
+          "_InstanceGuid": "81fb1fb9-dd31-486f-8c02-8238c7f0d0fd",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a92df0c7-eaff-4090-a424-8a8f635a4138",
+          "_LowerGuid": "c8d572ee-68c2-401f-b28a-28cbf622a367"
+        },
+        {
+          "_Class": "cSlingerShoot\u0000",
+          "_InstanceGuid": "c8d572ee-68c2-401f-b28a-28cbf622a367",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "81fb1fb9-dd31-486f-8c02-8238c7f0d0fd",
+          "_LowerGuid": "777d4391-606d-4ed6-b325-1654c4f9324e"
+        },
+        {
+          "_Class": "cSlingerShootReload\u0000",
+          "_InstanceGuid": "777d4391-606d-4ed6-b325-1654c4f9324e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c8d572ee-68c2-401f-b28a-28cbf622a367",
+          "_LowerGuid": "d0c3508a-5df4-4b17-888a-5886ce1d138a"
+        },
+        {
+          "_Class": "cSlingerEmpty\u0000",
+          "_InstanceGuid": "d0c3508a-5df4-4b17-888a-5886ce1d138a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "777d4391-606d-4ed6-b325-1654c4f9324e",
+          "_LowerGuid": "1488a5db-f126-4dd6-af19-1d8396151002"
+        },
+        {
+          "_Class": "cStrongSlingerShoot\u0000",
+          "_InstanceGuid": "1488a5db-f126-4dd6-af19-1d8396151002",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d0c3508a-5df4-4b17-888a-5886ce1d138a",
+          "_LowerGuid": "84208cb4-2616-4eb5-baf0-57144eb44dae"
+        },
+        {
+          "_Class": "cCatchSlingerShoot\u0000",
+          "_InstanceGuid": "84208cb4-2616-4eb5-baf0-57144eb44dae",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1488a5db-f126-4dd6-af19-1d8396151002",
+          "_LowerGuid": "48efeb51-d3a1-44cc-8076-02e0945bf125"
+        },
+        {
+          "_Class": "cCatchSlingerShootGimmickCancel\u0000",
+          "_InstanceGuid": "48efeb51-d3a1-44cc-8076-02e0945bf125",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "84208cb4-2616-4eb5-baf0-57144eb44dae",
+          "_LowerGuid": "5d08a6ab-e435-479d-a233-bad6227937b3"
+        },
+        {
+          "_Class": "cCaptureNetShoot\u0000",
+          "_InstanceGuid": "5d08a6ab-e435-479d-a233-bad6227937b3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "48efeb51-d3a1-44cc-8076-02e0945bf125",
+          "_LowerGuid": "9d67b6a5-d429-4b0f-83e1-07d52af9b9bb"
+        },
+        {
+          "_Class": "cCaptureNetSuccess\u0000",
+          "_InstanceGuid": "9d67b6a5-d429-4b0f-83e1-07d52af9b9bb",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5d08a6ab-e435-479d-a233-bad6227937b3",
+          "_LowerGuid": "0365ade1-7af0-4ee3-894a-43f5e1fdf44d"
+        },
+        {
+          "_Class": "cCaptureNetFailure\u0000",
+          "_InstanceGuid": "0365ade1-7af0-4ee3-894a-43f5e1fdf44d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9d67b6a5-d429-4b0f-83e1-07d52af9b9bb",
+          "_LowerGuid": "5c4fd174-8d1a-4ca0-bab8-4a3b8be8e490"
+        },
+        {
+          "_Class": "cItemPick\u0000",
+          "_InstanceGuid": "5c4fd174-8d1a-4ca0-bab8-4a3b8be8e490",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0365ade1-7af0-4ee3-894a-43f5e1fdf44d",
+          "_LowerGuid": "865821ff-5458-4c7b-8e72-f4bc65d1d3ca"
+        },
+        {
+          "_Class": "cMining\u0000",
+          "_InstanceGuid": "865821ff-5458-4c7b-8e72-f4bc65d1d3ca",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5c4fd174-8d1a-4ca0-bab8-4a3b8be8e490",
+          "_LowerGuid": "77f1015b-6c85-41fe-810a-dc06c70704d1"
+        },
+        {
+          "_Class": "cMiningPickUp\u0000",
+          "_InstanceGuid": "77f1015b-6c85-41fe-810a-dc06c70704d1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "865821ff-5458-4c7b-8e72-f4bc65d1d3ca",
+          "_LowerGuid": "65d2625f-0878-419a-9fb6-793a737f8755"
+        },
+        {
+          "_Class": "cGasagoso\u0000",
+          "_InstanceGuid": "65d2625f-0878-419a-9fb6-793a737f8755",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "77f1015b-6c85-41fe-810a-dc06c70704d1",
+          "_LowerGuid": "5434d1e4-8558-4095-8814-98757eed3eda"
+        },
+        {
+          "_Class": "cGasagosoPickUp\u0000",
+          "_InstanceGuid": "5434d1e4-8558-4095-8814-98757eed3eda",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "65d2625f-0878-419a-9fb6-793a737f8755",
+          "_LowerGuid": "9d791d43-4a1d-4f1a-b397-4748ffe9475f"
+        },
+        {
+          "_Class": "cGasagosoAloeL\u0000",
+          "_InstanceGuid": "9d791d43-4a1d-4f1a-b397-4748ffe9475f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5434d1e4-8558-4095-8814-98757eed3eda",
+          "_LowerGuid": "e367d2ae-f4b5-4ba3-8f62-5ef9dc5dde7b"
+        },
+        {
+          "_Class": "cGasagosoPickel\u0000",
+          "_InstanceGuid": "e367d2ae-f4b5-4ba3-8f62-5ef9dc5dde7b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9d791d43-4a1d-4f1a-b397-4748ffe9475f",
+          "_LowerGuid": "1dcd2b0b-03f9-4ce2-a900-80a69654807e"
+        },
+        {
+          "_Class": "cGasagosoQueen\u0000",
+          "_InstanceGuid": "1dcd2b0b-03f9-4ce2-a900-80a69654807e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e367d2ae-f4b5-4ba3-8f62-5ef9dc5dde7b",
+          "_LowerGuid": "96352f7c-469f-47f2-8508-56d3a81e95ba"
+        },
+        {
+          "_Class": "cGasagosoRelic\u0000",
+          "_InstanceGuid": "96352f7c-469f-47f2-8508-56d3a81e95ba",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1dcd2b0b-03f9-4ce2-a900-80a69654807e",
+          "_LowerGuid": "67d894e4-f3b7-49a1-9ca1-f0a948bd6aa3"
+        },
+        {
+          "_Class": "cGasagosoRafflesia\u0000",
+          "_InstanceGuid": "67d894e4-f3b7-49a1-9ca1-f0a948bd6aa3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "96352f7c-469f-47f2-8508-56d3a81e95ba",
+          "_LowerGuid": "f160d48c-f7bb-43c7-837f-9585f01c26b2"
+        },
+        {
+          "_Class": "cGasagosoOil\u0000",
+          "_InstanceGuid": "f160d48c-f7bb-43c7-837f-9585f01c26b2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "67d894e4-f3b7-49a1-9ca1-f0a948bd6aa3",
+          "_LowerGuid": "8f886dae-ff18-4dec-baa9-4b23541caf46"
+        },
+        {
+          "_Class": "cGasagosoCordyceps\u0000",
+          "_InstanceGuid": "8f886dae-ff18-4dec-baa9-4b23541caf46",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f160d48c-f7bb-43c7-837f-9585f01c26b2",
+          "_LowerGuid": "608e9417-ff57-4cb3-834e-f38a23cf233a"
+        },
+        {
+          "_Class": "cKnifeCut\u0000",
+          "_InstanceGuid": "608e9417-ff57-4cb3-834e-f38a23cf233a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8f886dae-ff18-4dec-baa9-4b23541caf46",
+          "_LowerGuid": "9e77cfce-a7f5-4397-8c25-330f863ba986"
+        },
+        {
+          "_Class": "cUseDrinkItem\u0000",
+          "_InstanceGuid": "9e77cfce-a7f5-4397-8c25-330f863ba986",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "608e9417-ff57-4cb3-834e-f38a23cf233a",
+          "_LowerGuid": "538129e0-da52-45d4-92f1-f1679b207688"
+        },
+        {
+          "_Class": "cNoUseDrinkItem\u0000",
+          "_InstanceGuid": "538129e0-da52-45d4-92f1-f1679b207688",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9e77cfce-a7f5-4397-8c25-330f863ba986",
+          "_LowerGuid": "dc1cc3ed-99c1-4f3d-aa94-c5d5febb88c3"
+        },
+        {
+          "_Class": "cUseTabletItem\u0000",
+          "_InstanceGuid": "dc1cc3ed-99c1-4f3d-aa94-c5d5febb88c3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "538129e0-da52-45d4-92f1-f1679b207688",
+          "_LowerGuid": "308dc3bd-9e08-49c1-8142-7f8c51de2fe6"
+        },
+        {
+          "_Class": "cNoUseTabletItem\u0000",
+          "_InstanceGuid": "308dc3bd-9e08-49c1-8142-7f8c51de2fe6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "dc1cc3ed-99c1-4f3d-aa94-c5d5febb88c3",
+          "_LowerGuid": "586565e0-fe53-41b9-a9b5-4ce96750859c"
+        },
+        {
+          "_Class": "cEatMeat\u0000",
+          "_InstanceGuid": "586565e0-fe53-41b9-a9b5-4ce96750859c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "308dc3bd-9e08-49c1-8142-7f8c51de2fe6",
+          "_LowerGuid": "986ab304-b1c3-430e-ae7e-e496d4d58288"
+        },
+        {
+          "_Class": "cUsePowderItem\u0000",
+          "_InstanceGuid": "986ab304-b1c3-430e-ae7e-e496d4d58288",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "586565e0-fe53-41b9-a9b5-4ce96750859c",
+          "_LowerGuid": "0d194f7f-bdcb-4c2d-b2d2-bc278dafb4b4"
+        },
+        {
+          "_Class": "cUseSougankyou\u0000",
+          "_InstanceGuid": "0d194f7f-bdcb-4c2d-b2d2-bc278dafb4b4",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "986ab304-b1c3-430e-ae7e-e496d4d58288",
+          "_LowerGuid": "c6dd337a-1625-4458-8968-c0788f2f477a"
+        },
+        {
+          "_Class": "cSougankyouEnd\u0000",
+          "_InstanceGuid": "c6dd337a-1625-4458-8968-c0788f2f477a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0d194f7f-bdcb-4c2d-b2d2-bc278dafb4b4",
+          "_LowerGuid": "8d56f1be-8048-4b64-9c2e-00f4d0509ef2"
+        },
+        {
+          "_Class": "cUseSlingerItem\u0000",
+          "_InstanceGuid": "8d56f1be-8048-4b64-9c2e-00f4d0509ef2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c6dd337a-1625-4458-8968-c0788f2f477a",
+          "_LowerGuid": "2cd0d7e5-44f7-4922-9787-a67b51b054b2"
+        },
+        {
+          "_Class": "cUseThrowBallItem\u0000",
+          "_InstanceGuid": "2cd0d7e5-44f7-4922-9787-a67b51b054b2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8d56f1be-8048-4b64-9c2e-00f4d0509ef2",
+          "_LowerGuid": "e4e752ec-7efa-4767-9eac-0a49de3a407a"
+        },
+        {
+          "_Class": "cOpenNotebook\u0000",
+          "_InstanceGuid": "e4e752ec-7efa-4767-9eac-0a49de3a407a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2cd0d7e5-44f7-4922-9787-a67b51b054b2",
+          "_LowerGuid": "80fb9841-0c49-4d9d-8592-7eace9b8d9b8"
+        },
+        {
+          "_Class": "cOpenNotebookSmall\u0000",
+          "_InstanceGuid": "80fb9841-0c49-4d9d-8592-7eace9b8d9b8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e4e752ec-7efa-4767-9eac-0a49de3a407a",
+          "_LowerGuid": "5259e5bf-c6f1-4689-94cd-92f8ea064008"
+        },
+        {
+          "_Class": "cOpenNotebookWorldMap\u0000",
+          "_InstanceGuid": "5259e5bf-c6f1-4689-94cd-92f8ea064008",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "80fb9841-0c49-4d9d-8592-7eace9b8d9b8",
+          "_LowerGuid": "51c3b26c-aea7-4528-b98d-6b605f9f57e9"
+        },
+        {
+          "_Class": "cCloseNotebook\u0000",
+          "_InstanceGuid": "51c3b26c-aea7-4528-b98d-6b605f9f57e9",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5259e5bf-c6f1-4689-94cd-92f8ea064008",
+          "_LowerGuid": "13618303-7daf-4afd-bea7-b59436e50505"
+        },
+        {
+          "_Class": "cMayday\u0000",
+          "_InstanceGuid": "13618303-7daf-4afd-bea7-b59436e50505",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "51c3b26c-aea7-4528-b98d-6b605f9f57e9",
+          "_LowerGuid": "6a2de20c-34d7-473e-931e-21369340086e"
+        },
+        {
+          "_Class": "cUseItemFishingRod\u0000",
+          "_InstanceGuid": "6a2de20c-34d7-473e-931e-21369340086e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "13618303-7daf-4afd-bea7-b59436e50505",
+          "_LowerGuid": "2c3c7d06-3bac-482d-9420-8a9af9de2e9f"
+        },
+        {
+          "_Class": "cHoldFishingRod\u0000",
+          "_InstanceGuid": "2c3c7d06-3bac-482d-9420-8a9af9de2e9f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6a2de20c-34d7-473e-931e-21369340086e",
+          "_LowerGuid": "eb76a2b3-0de2-4b2c-9531-3bd7a5226fd2"
+        },
+        {
+          "_Class": "cEndItemFishingRod\u0000",
+          "_InstanceGuid": "eb76a2b3-0de2-4b2c-9531-3bd7a5226fd2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2c3c7d06-3bac-482d-9420-8a9af9de2e9f",
+          "_LowerGuid": "98e47f37-bb71-47b2-8c2d-4cf9655d492b"
+        },
+        {
+          "_Class": "cDamageStunEnd\u0000",
+          "_InstanceGuid": "98e47f37-bb71-47b2-8c2d-4cf9655d492b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "eb76a2b3-0de2-4b2c-9531-3bd7a5226fd2",
+          "_LowerGuid": "9f9f4099-d3f4-42d3-8372-fefcb83864ae"
+        },
+        {
+          "_Class": "cPorterItemNoReplenish\u0000",
+          "_InstanceGuid": "9f9f4099-d3f4-42d3-8372-fefcb83864ae",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "98e47f37-bb71-47b2-8c2d-4cf9655d492b",
+          "_LowerGuid": "81e37984-112a-43a1-9e6c-78f225206f7b"
+        },
+        {
+          "_Class": "cCallPorter\u0000",
+          "_InstanceGuid": "81e37984-112a-43a1-9e6c-78f225206f7b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9f9f4099-d3f4-42d3-8372-fefcb83864ae",
+          "_LowerGuid": "6240857f-2e8b-4694-8908-c550b78748c6"
+        },
+        {
+          "_Class": "cCallPorter\u0000",
+          "_InstanceGuid": "6240857f-2e8b-4694-8908-c550b78748c6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "81e37984-112a-43a1-9e6c-78f225206f7b",
+          "_LowerGuid": "7869e9a1-35cc-4a86-b1fe-621d5ddec7e3"
+        },
+        {
+          "_Class": "cCallPorter\u0000",
+          "_InstanceGuid": "7869e9a1-35cc-4a86-b1fe-621d5ddec7e3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6240857f-2e8b-4694-8908-c550b78748c6",
+          "_LowerGuid": "14d50e94-f57b-4bbe-a538-2f8705b25ba6"
+        },
+        {
+          "_Class": "cPorterRideStart\u0000",
+          "_InstanceGuid": "14d50e94-f57b-4bbe-a538-2f8705b25ba6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7869e9a1-35cc-4a86-b1fe-621d5ddec7e3",
+          "_LowerGuid": "46f68c1f-06e1-448b-8758-667073d41229"
+        },
+        {
+          "_Class": "cPorterRideAvoidSide\u0000",
+          "_InstanceGuid": "46f68c1f-06e1-448b-8758-667073d41229",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "14d50e94-f57b-4bbe-a538-2f8705b25ba6",
+          "_LowerGuid": "e3c2f6ac-6360-4de2-998e-33e62faf46ca"
+        },
+        {
+          "_Class": "cPorterRideOpenNotebook\u0000",
+          "_InstanceGuid": "e3c2f6ac-6360-4de2-998e-33e62faf46ca",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "46f68c1f-06e1-448b-8758-667073d41229",
+          "_LowerGuid": "08721018-38d9-4491-8ad8-96a375c775ce"
+        },
+        {
+          "_Class": "cPorterRideOpenNotebookSmall\u0000",
+          "_InstanceGuid": "08721018-38d9-4491-8ad8-96a375c775ce",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e3c2f6ac-6360-4de2-998e-33e62faf46ca",
+          "_LowerGuid": "6d67df8e-1dba-4a6f-b2e9-611609f673d3"
+        },
+        {
+          "_Class": "cPorterRideOpenNotebookWorldMap\u0000",
+          "_InstanceGuid": "6d67df8e-1dba-4a6f-b2e9-611609f673d3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "08721018-38d9-4491-8ad8-96a375c775ce",
+          "_LowerGuid": "935312f1-c32c-4122-b087-5f1ed72d8cb0"
+        },
+        {
+          "_Class": "cPorterRideCloseNotebook\u0000",
+          "_InstanceGuid": "935312f1-c32c-4122-b087-5f1ed72d8cb0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6d67df8e-1dba-4a6f-b2e9-611609f673d3",
+          "_LowerGuid": "4077fd02-2287-4c32-9392-dc1ff06e9247"
+        },
+        {
+          "_Class": "cPorterRideUseThrowBallItem\u0000",
+          "_InstanceGuid": "4077fd02-2287-4c32-9392-dc1ff06e9247",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "935312f1-c32c-4122-b087-5f1ed72d8cb0",
+          "_LowerGuid": "1d3a0f13-ec97-4e94-bcc6-c2a62096632b"
+        },
+        {
+          "_Class": "cPorterRideWeaponChange\u0000",
+          "_InstanceGuid": "1d3a0f13-ec97-4e94-bcc6-c2a62096632b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4077fd02-2287-4c32-9392-dc1ff06e9247",
+          "_LowerGuid": "ce2f4c15-b062-411e-a693-35e617d3042c"
+        },
+        {
+          "_Class": "cPorterRideItemReplenish\u0000",
+          "_InstanceGuid": "ce2f4c15-b062-411e-a693-35e617d3042c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1d3a0f13-ec97-4e94-bcc6-c2a62096632b",
+          "_LowerGuid": "ad6b66ef-da7d-4a82-a073-4e4e7f4d8ff2"
+        },
+        {
+          "_Class": "cPorterRideItemReplenishEnd\u0000",
+          "_InstanceGuid": "ad6b66ef-da7d-4a82-a073-4e4e7f4d8ff2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ce2f4c15-b062-411e-a693-35e617d3042c",
+          "_LowerGuid": "f574a26b-9020-4dce-a11a-063059033652"
+        },
+        {
+          "_Class": "cPorterRideItemPick\u0000",
+          "_InstanceGuid": "f574a26b-9020-4dce-a11a-063059033652",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ad6b66ef-da7d-4a82-a073-4e4e7f4d8ff2",
+          "_LowerGuid": "d2e57c6a-33b5-4852-b768-8151015d64c1"
+        },
+        {
+          "_Class": "cPorterRidePopActivate\u0000",
+          "_InstanceGuid": "d2e57c6a-33b5-4852-b768-8151015d64c1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f574a26b-9020-4dce-a11a-063059033652",
+          "_LowerGuid": "9e12b040-9d8e-4087-8197-db1552769c45"
+        },
+        {
+          "_Class": "cPorterRideBeforeMining\u0000",
+          "_InstanceGuid": "9e12b040-9d8e-4087-8197-db1552769c45",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d2e57c6a-33b5-4852-b768-8151015d64c1",
+          "_LowerGuid": "1cbe74a5-97fb-48ca-bf4b-76ff76745ed2"
+        },
+        {
+          "_Class": "cPorterRideMining\u0000",
+          "_InstanceGuid": "1cbe74a5-97fb-48ca-bf4b-76ff76745ed2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9e12b040-9d8e-4087-8197-db1552769c45",
+          "_LowerGuid": "5d01107b-c623-4a1c-ab3d-caca2841a241"
+        },
+        {
+          "_Class": "cPorterRideBeforeMining\u0000",
+          "_InstanceGuid": "5d01107b-c623-4a1c-ab3d-caca2841a241",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1cbe74a5-97fb-48ca-bf4b-76ff76745ed2",
+          "_LowerGuid": "38f50a79-231e-4bf5-91ce-9b11135ae5c0"
+        },
+        {
+          "_Class": "cPorterRideMiningPickUp\u0000",
+          "_InstanceGuid": "38f50a79-231e-4bf5-91ce-9b11135ae5c0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5d01107b-c623-4a1c-ab3d-caca2841a241",
+          "_LowerGuid": "857da4c3-4b39-49c2-999c-ef27fe23fbbf"
+        },
+        {
+          "_Class": "cPorterRideBeforeBone\u0000",
+          "_InstanceGuid": "857da4c3-4b39-49c2-999c-ef27fe23fbbf",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "38f50a79-231e-4bf5-91ce-9b11135ae5c0",
+          "_LowerGuid": "3fc9272d-0ea6-4b39-8d64-f4fe0a93329f"
+        },
+        {
+          "_Class": "cPorterRideBonePickUp\u0000",
+          "_InstanceGuid": "3fc9272d-0ea6-4b39-8d64-f4fe0a93329f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "857da4c3-4b39-49c2-999c-ef27fe23fbbf",
+          "_LowerGuid": "b5ff0478-a340-4266-922f-07888fc6f243"
+        },
+        {
+          "_Class": "cPorterRideUseItemToishi\u0000",
+          "_InstanceGuid": "b5ff0478-a340-4266-922f-07888fc6f243",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3fc9272d-0ea6-4b39-8d64-f4fe0a93329f",
+          "_LowerGuid": "73ca5b9c-3423-41b8-bfdc-89cd9c2afe3d"
+        },
+        {
+          "_Class": "cPorterRideUseSougankyou\u0000",
+          "_InstanceGuid": "73ca5b9c-3423-41b8-bfdc-89cd9c2afe3d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b5ff0478-a340-4266-922f-07888fc6f243",
+          "_LowerGuid": "c0deabaa-b745-4b5b-a5fc-ef7efe8aa26c"
+        },
+        {
+          "_Class": "cPorterRideSougankyouEnd\u0000",
+          "_InstanceGuid": "c0deabaa-b745-4b5b-a5fc-ef7efe8aa26c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "73ca5b9c-3423-41b8-bfdc-89cd9c2afe3d",
+          "_LowerGuid": "9691734d-7e0d-4775-9e67-1a68be098d10"
+        },
+        {
+          "_Class": "cPorterRideDamageSmallFly\u0000",
+          "_InstanceGuid": "9691734d-7e0d-4775-9e67-1a68be098d10",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c0deabaa-b745-4b5b-a5fc-ef7efe8aa26c",
+          "_LowerGuid": "6685b36f-e888-4bf5-8836-63ff2b0956e5"
+        },
+        {
+          "_Class": "cPorterRideDamageEarEnd\u0000",
+          "_InstanceGuid": "6685b36f-e888-4bf5-8836-63ff2b0956e5",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9691734d-7e0d-4775-9e67-1a68be098d10",
+          "_LowerGuid": "17c669d0-d255-4c8a-970d-3752b808065b"
+        },
+        {
+          "_Class": "cPorterRidePopBeforeDismount\u0000",
+          "_InstanceGuid": "17c669d0-d255-4c8a-970d-3752b808065b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6685b36f-e888-4bf5-8836-63ff2b0956e5",
+          "_LowerGuid": "c10e04ac-ddf4-4297-8d35-bacac72c6737"
+        },
+        {
+          "_Class": "cPorterRideCutSceneStart\u0000",
+          "_InstanceGuid": "c10e04ac-ddf4-4297-8d35-bacac72c6737",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "17c669d0-d255-4c8a-970d-3752b808065b",
+          "_LowerGuid": "84d5e445-3d00-4f3e-b6f3-f75f93a9d4c9"
+        },
+        {
+          "_Class": "cPorterRideCutSceneEnd\u0000",
+          "_InstanceGuid": "84d5e445-3d00-4f3e-b6f3-f75f93a9d4c9",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c10e04ac-ddf4-4297-8d35-bacac72c6737",
+          "_LowerGuid": "e2bf4ba6-c550-4c50-b46b-7f3d43268897"
+        },
+        {
+          "_Class": "cPorterRideSecondaryMove\u0000",
+          "_InstanceGuid": "e2bf4ba6-c550-4c50-b46b-7f3d43268897",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "84d5e445-3d00-4f3e-b6f3-f75f93a9d4c9",
+          "_LowerGuid": "fcb8cd9b-f565-442e-a69e-c154587f6d92"
+        },
+        {
+          "_Class": "cPoterRideCatchSlingerGimmickPull\u0000",
+          "_InstanceGuid": "fcb8cd9b-f565-442e-a69e-c154587f6d92",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e2bf4ba6-c550-4c50-b46b-7f3d43268897",
+          "_LowerGuid": "59017468-e239-4645-b5a0-c103b4b25ffa"
+        },
+        {
+          "_Class": "cPorterRideNPCGeneral\u0000",
+          "_InstanceGuid": "59017468-e239-4645-b5a0-c103b4b25ffa",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fcb8cd9b-f565-442e-a69e-c154587f6d92",
+          "_LowerGuid": "ee16da02-2593-472d-abb2-41658a5e638d"
+        },
+        {
+          "_Class": "cQuestClearGesture\u0000",
+          "_InstanceGuid": "ee16da02-2593-472d-abb2-41658a5e638d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "59017468-e239-4645-b5a0-c103b4b25ffa",
+          "_LowerGuid": "639abdee-45a6-4a28-b706-088a62516499"
+        },
+        {
+          "_Class": "cGestureAction\u0000",
+          "_InstanceGuid": "639abdee-45a6-4a28-b706-088a62516499",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ee16da02-2593-472d-abb2-41658a5e638d",
+          "_LowerGuid": "f45935d2-4f6e-4a20-b811-52b10944511b"
+        },
+        {
+          "_Class": "cUseMantleItem\u0000",
+          "_InstanceGuid": "f45935d2-4f6e-4a20-b811-52b10944511b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "639abdee-45a6-4a28-b706-088a62516499",
+          "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    "_ExportSettingArray": {
+      "_DataArray": [
+        {
+          "_Guid": "0ce16214-0076-40b6-9014-ac6eb2c1ae79",
+          "_ClassName": "PlayerCommonSubAction\u0000",
+          "_ActionCategory": 0
+        }
+      ]
+    },
+    "_BaseActionID": {
+      "_ActionID": {},
+      "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+    },
+    "_ConnectInheritGuidsDic": {}
+  }
+}

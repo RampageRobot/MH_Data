@@ -1,0 +1,29 @@
+{
+  "snow.enemy.EnemyNaviFilterSetting": {
+    "_FilterGroups": [
+      {
+        "_InitFlag": false,
+        "_SnowFilter": [
+          {
+            "_Enable": true,
+            "_Attr0": 6,
+            "_Type": 0,
+            "_Cost": 10.0
+          }
+        ]
+      }
+    ],
+    "GroundParam": {
+      "LineOptimizeTiming": 0,
+      "UnderSearchLength": 10.0,
+      "DetectBase": 1,
+      "AgentDetectHeight": 3.0
+    },
+    "FlyParam": {
+      "LineOptimizeTiming": 0,
+      "UnderSearchLength": 10.0,
+      "DetectBase": 1,
+      "AgentDetectHeight": 3.0
+    }
+  }
+}

@@ -1,0 +1,1552 @@
+{
+  "snow.enemy.EnemyRuntimeStepActionData": {
+    "_StepSearchDist": 3.0,
+    "_StepActDataGroupList": [
+      {
+        "_StepActNo_01m": {
+          "_StepActType_Up": 2,
+          "_StepActScale_Up": 2.5,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": true,
+            "_Frame": 32.0,
+            "_Adjust": 0.4
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 32.0,
+            "_Adjust": 0.7
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_02m": {
+          "_StepActType_Up": 2,
+          "_StepActScale_Up": 2.5,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": true,
+            "_Frame": 30.0,
+            "_Adjust": 0.25
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 40.0,
+            "_Adjust": 0.7
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_03m": {
+          "_StepActType_Up": 2,
+          "_StepActScale_Up": 2.5,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": true,
+            "_Frame": 30.0,
+            "_Adjust": 0.25
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 45.0,
+            "_Adjust": 0.7
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_05m": {
+          "_StepActType_Up": 1,
+          "_StepActScale_Up": 2.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": true,
+            "_Frame": 30.0,
+            "_Adjust": 0.25
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 38.0,
+            "_Adjust": 0.7
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_10m": {
+          "_StepActType_Up": 4,
+          "_StepActScale_Up": 1.5,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": true,
+            "_Frame_atStart": 10.0,
+            "_MoveSpeed_atStart": 8.0,
+            "_RotateSpd_atStart": 280.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 50.0,
+            "_Adjust": 0.65
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_12mOver": {
+          "_StepActType_Up": 4,
+          "_StepActScale_Up": 1.5,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": true,
+            "_Frame_atStart": 10.0,
+            "_MoveSpeed_atStart": 8.0,
+            "_RotateSpd_atStart": 280.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 3,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": true,
+            "_Frame": 50.0,
+            "_Adjust": 0.7
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_LongJump": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_MarionetteSpStepJumpDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_ArrivalFrame": 50.0,
+            "_TopOfsY": 3.0
+          }
+        },
+        "_MarionetteSpStepFlyTrainDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_Param": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_ReplacePreActionInfos": {
+          "_ReplaceNaviAction": [
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            }
+          ]
+        },
+        "_NaviActionReplacePreActionInfoListPairList": []
+      },
+      {
+        "_StepActNo_01m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_02m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_03m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_05m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_10m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_12mOver": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_LongJump": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_MarionetteSpStepJumpDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_ArrivalFrame": 50.0,
+            "_TopOfsY": 3.0
+          }
+        },
+        "_MarionetteSpStepFlyTrainDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_Param": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_ReplacePreActionInfos": {
+          "_ReplaceNaviAction": [
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            }
+          ]
+        },
+        "_NaviActionReplacePreActionInfoListPairList": []
+      },
+      {
+        "_StepActNo_01m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_02m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_03m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_05m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_10m": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_12mOver": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_StepActNo_LongJump": {
+          "_StepActType_Up": 0,
+          "_StepActScale_Up": 1.0,
+          "_StepActReplacePreAction_Up": false,
+          "_StepJumpParam_Up": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Up": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Up": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          },
+          "_StepActType_Down": 0,
+          "_StepActScale_Down": 1.0,
+          "_StepActReplacePreAction_Down": false,
+          "_StepJumpParam_Down": {
+            "_UseFlag": false,
+            "_Frame": 10.0,
+            "_Adjust": 0.5
+          },
+          "_StepMoveParam_Down": {
+            "_UseFlag_atStart": false,
+            "_Frame_atStart": 1.0,
+            "_MoveSpeed_atStart": 10.0,
+            "_RotateSpd_atStart": 320.0,
+            "_EdgeDist_atStart": -10000.0,
+            "_NoEndPlayingStartMotion_atStart": false,
+            "_UseFlag_atEnd": false,
+            "_Frame_atEnd": 1.0,
+            "_RotateSpd_atEnd": 360.0,
+            "_ChangeStance_atEnd": 6,
+            "_StanceChangeFrame_atEnd": -1.0,
+            "_GroundAttachSpeed_atEnd": -1.0
+          },
+          "_StepFlyTrainParam_Down": {
+            "_TuneParam": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_MarionetteSpStepJumpDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_ArrivalFrame": 50.0,
+            "_TopOfsY": 3.0
+          }
+        },
+        "_MarionetteSpStepFlyTrainDownTuneParam": {
+          "_ActionNo": 0,
+          "_TuneParam": {
+            "_BaseStepHeight": 40.0,
+            "_BorderHeight": 10.0,
+            "_AddFrame": 5.0,
+            "_Param": {
+              "_StepMoveFrame": 40.0,
+              "_StepMoveTopPosRatio": 0.5,
+              "_ResetPoseFrame": 25.0,
+              "_StartHeadAdjustFrame": 10.0
+            }
+          }
+        },
+        "_ReplacePreActionInfos": {
+          "_ReplaceNaviAction": [
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            },
+            {
+              "_ActionCategory": 1,
+              "_ActionNo": 65535,
+              "_ActionTuneVariationDataID": 0,
+              "_ActionOverWriteUniqueId": 0,
+              "_motSeqFilterHashKey": 0,
+              "_MotSeqUniqueFilter00Hash": 0,
+              "_MotSeqUniqueFilter01Hash": 0,
+              "_MotSeqUniqueFilter02Hash": 0
+            }
+          ]
+        },
+        "_NaviActionReplacePreActionInfoListPairList": []
+      }
+    ]
+  }
+}

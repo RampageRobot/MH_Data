@@ -1,0 +1,111 @@
+{
+  "app.user_data.EmParamBasic": {
+    "_ModelSize": 6,
+    "_BeaconOffset": [
+      0.0,
+      5.3,
+      0.0
+    ],
+    "_StealthIconOffset": [
+      0.0,
+      3.0,
+      -2.0
+    ],
+    "_AdditionalStealthCheckPointList": [],
+    "_SlimRate": 1.0,
+    "_CenterOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_FlyCharacterControllerOffset": 4.5,
+    "_EmCameraParamPackGuid": "4f5d85a2-87cc-4401-8787-7b0522e683bc",
+    "_DetecotorParamGuid": {
+      "_DataList": [
+        {
+          "DetectorType": "app.cEnemyNoticeLeadDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeHuntDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeEscapeDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeDieDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeCautionDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeCombatDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        },
+        {
+          "DetectorType": "app.cEnemyNoticeAngryDetectorAttribute\u0000",
+          "ParamGuid": {
+            "Value": "00000000-0000-0000-0000-000000000000"
+          }
+        }
+      ]
+    },
+    "_ObstacleActionWallDistance": 3.0,
+    "_ObstacleActionWallDistanceDown": 1.0,
+    "_ClimbActionHeightWall": 10.0,
+    "_ClimbActionHeightStepL": 6.0,
+    "_ClimbActionHeightStepM": 3.0,
+    "_ClimbActionHeightStepS": 1.0,
+    "_IsEnableRouteAvoidHighWall": false,
+    "_TrapCollisionParam": {
+      "Value": "21e2b814-18c7-476f-9dbf-4e64e4f2a13e"
+    },
+    "LookedPos": {
+      "Joint": {
+        "_Hash": 935285574
+      },
+      "Offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "LimitTimeOutSideTerritory": 1.0,
+    "ApproachStealthBushRate": 30,
+    "ApproachStealthBushInTime": 60.0,
+    "ApproachStealthBushOutTime": 120.0,
+    "_CadaverOutSideScale": 1.5,
+    "_CadaverInSideScale": 0.5,
+    "_InitCadaverExList": [],
+    "_DetourRadius": 30.0,
+    "_DetourDeg": 30.0,
+    "_BurningGrassDetectorParam": {
+      "Value": "36e1f7aa-e8d4-4c88-b628-1c392ae00933"
+    },
+    "isMagmaFloorDamage": true,
+    "PredatorParam": {
+      "TraceGimmickID": "GM030_050_00",
+      "CheckTrapMeatInterval": 45.0,
+      "EatTrapMeatProb_Life": 100,
+      "EatTrapMeatProb_Combat": 100,
+      "CancelEatTrapMeatHeight": 0.8
+    },
+    "IkSwordGroundChangeDetectRange": 0.0
+  }
+}

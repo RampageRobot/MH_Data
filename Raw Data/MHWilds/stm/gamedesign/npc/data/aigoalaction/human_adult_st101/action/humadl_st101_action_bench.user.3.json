@@ -1,0 +1,152 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "1a2ce8ba-e81f-041c-251a-0d9d21c8fc1f",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "1a2ce8ba-e81f-041c-251a-0d9d21c8fc1f",
+                "_GoalNameHash": {
+                  "_Hash": 2386129669
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2386129669
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "1a2ce8ba-e81f-041c-251a-0d9d21c8fc1f",
+                "_GoalNameHash": {
+                  "_Hash": 234151083
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "1a2ce8ba-e81f-041c-251a-0d9d21c8fc1f",
+                "_GoalNameHash": {
+                  "_Hash": 2763829319
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2763829319
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "GOAL_ACITON",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": 0,
+                "_ActionID": 1851511808,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          },
+          {
+            "_Param": {
+              "_SetTiming": "LIKE_ACTION_MAINSTRAEM"
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 234151083
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "GOAL_ACITON",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": 0,
+                "_ActionID": 1508929664,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          },
+          {
+            "_Param": {
+              "_SetTiming": "LIKE_ACTION_MAINSTRAEM"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

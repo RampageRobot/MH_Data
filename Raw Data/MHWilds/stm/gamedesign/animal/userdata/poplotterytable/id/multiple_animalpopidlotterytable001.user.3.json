@@ -1,0 +1,48 @@
+{
+  "app.user_data.AnimalPopIdLotteryTable": {
+    "_LotteryTable": {
+      "_IsConfigureEachEnvironment": true,
+      "_IsConfigureEachTimeZone": false,
+      "_LotteryTables": [
+        {
+          "_EnvironmentType": "RUIN",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [
+            {
+              "_Probability": 40,
+              "_EmId": "EM5301_00_0"
+            },
+            {
+              "_Probability": 40,
+              "_EmId": "EM5303_00_0"
+            },
+            {
+              "_Probability": 15,
+              "_EmId": "EM5307_00_0"
+            },
+            {
+              "_Probability": 5,
+              "_EmId": "EM5308_00_0"
+            }
+          ],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": false,
+          "STRUCT__OtherTableReferenceFixedId__Value": 0
+        },
+        {
+          "_EnvironmentType": "ABNORMAL",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": true,
+          "STRUCT__OtherTableReferenceFixedId__Value": 1961958400
+        },
+        {
+          "_EnvironmentType": "FERTILITY",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": true,
+          "STRUCT__OtherTableReferenceFixedId__Value": 1961958400
+        }
+      ]
+    }
+  }
+}

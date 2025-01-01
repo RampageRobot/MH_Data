@@ -1,0 +1,34 @@
+{
+  "snow.enemy.Em109UniqueData": {
+    "_ClimbDamageNum": 5,
+    "_AttackRateCharged": 1.1,
+    "_WarterConditionDamageParam": {
+      "_FirstValue": 10,
+      "_Timer": 5.0,
+      "_Value": 5
+    },
+    "_BarrierData": {
+      "LevelArray": [
+        {
+          "_Threshold": 0,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 99,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 100,
+          "_MotionSpeedRate": 1.0
+        }
+      ],
+      "_IncRateAngry": 1.0,
+      "_IncRatePoison": 1.0,
+      "_DecRateTired": 1.0,
+      "_RemainHpToCorrect": 0.0,
+      "_IncRateRemainHp": 1.0,
+      "_AdjustValueAngry": 0,
+      "InitValueLotData": []
+    }
+  }
+}

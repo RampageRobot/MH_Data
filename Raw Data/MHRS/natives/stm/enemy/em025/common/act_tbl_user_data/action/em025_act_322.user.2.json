@@ -1,0 +1,593 @@
+{
+  "snow.enemy.EnemyThinkData": {
+    "_StateList": [
+      {
+        "_ID": 0,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 769489596,
+            "set_type": 0,
+            "_ActionTableInfo": {
+              "_Category": 0,
+              "_TableNo": 322,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2664399734,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 9
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3664000878
+      },
+      {
+        "_ID": 1,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 393095273,
+            "set_type": 1,
+            "_ActionTableInfo": {
+              "_Category": 4,
+              "_TableNo": 0,
+              "_Regist": true
+            }
+          }
+        ],
+        "_ConditionList": [],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2660142709
+      },
+      {
+        "_ID": 2,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1479524014,
+            "_ActionNo": 13006,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1326923361,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 10
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1428435394
+      },
+      {
+        "_ID": 3,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3089204487,
+            "_ActionNo": 13005,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2725137027,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 10
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 4167236715
+      },
+      {
+        "_ID": 4,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3012500392,
+            "_ActionNo": 13007,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2775782869,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 10
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 10940036
+      },
+      {
+        "_ID": 5,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1598438772,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 9.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 4
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1006362980,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 14.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 3
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1435717843,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 2
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2992720606
+      },
+      {
+        "_ID": 6,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2705657737,
+            "_ActionNo": 13004,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1207669172,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1851076781
+      },
+      {
+        "_ID": 7,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 1389970461,
+            "_ActionNo": 13002,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 3433399797,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3741815314
+      },
+      {
+        "_ID": 8,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3932496760,
+            "_ActionNo": 13003,
+            "_motSeqFilterHashKey": 0,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 1,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 3066459641,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 5
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2394328142
+      },
+      {
+        "_ID": 9,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2654284875,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 9.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 6
+          },
+          {
+            "_Condition": {
+              "v0_ID": 2229601006,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 14.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 7
+          },
+          {
+            "_Condition": {
+              "v0_ID": 2875373984,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 8
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 3946920229
+      },
+      {
+        "_ID": 10,
+        "_ActionList": [],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 1598438772,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 9.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 11
+          },
+          {
+            "_Condition": {
+              "v0_ID": 1006362980,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true,
+              "_checkDistance": 14.0,
+              "_DistanceType": 0
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 12
+          },
+          {
+            "_Condition": {
+              "v0_ID": 28982705,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 13
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 4026961501
+      },
+      {
+        "_ID": 11,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 3714752464,
+            "_ActionNo": 13007,
+            "_motSeqFilterHashKey": 1010841204,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 2,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2737949051,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 2865534395
+      },
+      {
+        "_ID": 12,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2239116361,
+            "_ActionNo": 13005,
+            "_motSeqFilterHashKey": 1010841204,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 2,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 2371480374,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 864370529
+      },
+      {
+        "_ID": 13,
+        "_ActionList": [
+          {
+            "v0_Enabled": true,
+            "v1_ID": 2784360741,
+            "_ActionNo": 13006,
+            "_motSeqFilterHashKey": 1010841204,
+            "_MotSeqUniqueFilter00": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter01": {
+              "_hash": 139421919
+            },
+            "_MotSeqUniqueFilter02": {
+              "_hash": 139421919
+            },
+            "_ActionOverWriteUniqueId": 2,
+            "_ActionTuneVariationDataID": 1,
+            "_setting1ApplyTiming": 0,
+            "_setting1Type": 0,
+            "_setting1SneakPeekType": -1,
+            "_setting2ApplyTiming": 0,
+            "_setting2Type": 0,
+            "_setting2SneakPeekType": -1,
+            "_setting3ApplyTiming": 0,
+            "_setting3Type": 0,
+            "_setting3SneakPeekType": -1,
+            "_buffStealType": -1
+          }
+        ],
+        "_ConditionList": [
+          {
+            "_Condition": {
+              "v0_ID": 4120622307,
+              "v1_GUID": "00000000-0000-0000-0000-000000000000",
+              "v2_Condition": true
+            },
+            "_IsUnderLayerEnd": false,
+            "_IsActionEnd": false,
+            "_NextStateID": 1
+          }
+        ],
+        "_ReferenceThinkData": {},
+        "_TreeNodeID": 1023254715
+      }
+    ]
+  }
+}

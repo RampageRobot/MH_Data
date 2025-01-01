@@ -1,0 +1,29 @@
+{
+  "app.user_data.NpcAITableActionData": {
+    "_ConditionParams": [
+      {
+        "_Param": {
+          "_IsCompare": false,
+          "_SpeedLv": "WALK"
+        },
+        "_Inverse": false,
+        "_IsContinue": true
+      }
+    ],
+    "_ActionSetting": {
+      "_ForceInterrupt": false,
+      "_TableEnd": false
+    },
+    "_Param": {
+      "_Param": {
+        "_EffectHolder": {
+          "_Param": {
+            "_SpeedLv": "WALK",
+            "_UseExternalSpeed": true,
+            "_StickDir": 0
+          }
+        }
+      }
+    }
+  }
+}

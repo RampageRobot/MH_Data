@@ -1,0 +1,333 @@
+{
+  "ace.user_data.ShellMainParam": {
+    "_ShellMiniParams": [
+      {
+        "MiniParamName": "Common\u0000",
+        "MiniParamtype": 1,
+        "_IsDependedOn": false,
+        "UpdateOrder": 0,
+        "LateUpdateOrder": 0,
+        "_LifeSec": 1.0,
+        "_HitOnSec": 0.0
+      },
+      {
+        "MiniParamName": "AppColHit\u0000",
+        "MiniParamtype": 3,
+        "_IsDependedOn": false,
+        "UpdateOrder": 100,
+        "LateUpdateOrder": 100,
+        "_ColHitFlag": 0,
+        "_SubCollisionIDList": [],
+        "_IsHitOwner": false,
+        "_IsHitOwnerOhterShell": false,
+        "_IsHitAnimalCollision": false,
+        "_IsDisableNearestHit": false,
+        "_IsNoHitAttackerShell": false,
+        "_IsDamageShellNoSort": false,
+        "_IsDamageDestory": false,
+        "_IsEnableDynamicShape": false,
+        "_AppHitTerrainSetting": {
+          "_FirstTerrainHitType": 0,
+          "_ShellHitWaterBehavior": 2,
+          "_ShellHitGroundBehavior": 0,
+          "STRUCT__ShellHitWallBehavior__HasValue": false,
+          "STRUCT__ShellHitWallBehavior__Value": 0,
+          "STRUCT__ShellHitCeilingBehavior__HasValue": false,
+          "STRUCT__ShellHitCeilingBehavior__Value": 0,
+          "_IsFirstTerrainCheck": true,
+          "_FirstTerrainCheckJoint": {
+            "_Hash": 0
+          },
+          "STRUCT__FirstTerrainCheckOffset__HasValue": false,
+          "STRUCT__FirstTerrainCheckOffset__Value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_FirstTerrainCheckGoalJoint": {
+            "_Hash": 0
+          },
+          "_TimeNotHitInTerrain": -1.0,
+          "_IsShellHitTerrainCorrect": true,
+          "STRUCT__HitTerrainLimitDeg__HasValue": false,
+          "STRUCT__HitTerrainLimitDeg__Value": 0.0,
+          "_ShellAttackColLifeSec": -1.0,
+          "_ShowRailgunHit": false
+        }
+      },
+      {
+        "MiniParamName": "MoveAccel\u0000",
+        "MiniParamtype": 2,
+        "_IsDependedOn": false,
+        "UpdateOrder": 200,
+        "LateUpdateOrder": 200,
+        "_MoveSpeed": 40.0,
+        "_TargetOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RotationType": 2,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__HasValue": false,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__Value": 0,
+        "_IsUseTargetRotOffset": false,
+        "_TargetRotOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IsDisableTarget": false,
+        "_IsTargetDirLimit": false,
+        "_TargetDirLimitDeg_X": 0,
+        "_TargetDirLimitDeg_Y": 0,
+        "_IsUseDistanceTargetDirLimitDegX": false,
+        "_IsUseDistanceParentRoot": false,
+        "_TargetDirMaxDistance": 0.0,
+        "_TargetDirMinDistance": 0.0,
+        "_IsUseNoTargetAdjustYaw": false,
+        "_NoTargetAdjustYaw_Deg": 90.0,
+        "_Range_Distance": 20.0,
+        "_Acceleration": [
+          0.0,
+          -7.0,
+          0.0
+        ],
+        "_AccelBeginTime": 0.0,
+        "_AccelBeginDist": 15.0,
+        "_SpeedFix": false
+      },
+      {
+        "MiniParamName": "PlWp11Arrow\u0000",
+        "MiniParamtype": 6,
+        "_IsDependedOn": false,
+        "UpdateOrder": 500,
+        "LateUpdateOrder": 500,
+        "_ArrowType": 2,
+        "_ArrowLv": 1,
+        "_Critical_Begin_Dist": 0.0,
+        "_Critical_End_Dist": 15.0,
+        "_Critical_AttackRate": 1.0,
+        "_Before_Critical_AttackRate": 0.8,
+        "_After_Critical_AttackRate": 0.2,
+        "_SpecialShot_HitSlowSpeedRate": 0.15,
+        "_SpecialShot_HitSlowTime": 0.3,
+        "_HomingSpecialShot_Speed": 150.0,
+        "_HomingStartDistRate": 0.2,
+        "_HomingMoveSpeed": 30.0,
+        "_HomingMoveAccTime": 0.1,
+        "_HomingTurnMaxSpeed": 80.0,
+        "_HomingTurnAcc": 30.0,
+        "_HomingTurnAccDistanceRate": {
+          "v0": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              128,
+              83,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "v1": [
+            0,
+            0,
+            48,
+            193
+          ],
+          "v2": [
+            0,
+            0,
+            48,
+            65
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            112,
+            66
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_HomingTurnAccAngelRate": {
+          "v0": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              160,
+              89,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "v1": [
+            0,
+            0,
+            48,
+            193
+          ],
+          "v2": [
+            0,
+            0,
+            48,
+            65
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            52,
+            67
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_HomingTurnMaxDeg": 120.0,
+        "_MultiLockonAcc": 40.0,
+        "_MultiLockonScatterDistRate": 0.1,
+        "_MultiLockonTurnAccStartDistRate": {
+          "v0": [],
+          "v1": [
+            0,
+            0,
+            32,
+            65
+          ],
+          "v2": [
+            0,
+            0,
+            32,
+            193
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            200,
+            66
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_MultiLockonImmediatelyHomingDist": 3.0,
+        "_TsugiyaAtkRate": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "_CommonParam": {
+      "MiniParamName": "Common\u0000",
+      "MiniParamtype": 1,
+      "_IsDependedOn": false,
+      "UpdateOrder": 0,
+      "LateUpdateOrder": 0,
+      "_LifeSec": 1.0,
+      "_HitOnSec": 0.0
+    }
+  }
+}

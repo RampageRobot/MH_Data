@@ -1,0 +1,888 @@
+{
+  "app.user_data.ActionOperationGuideData_Wp05": {
+    "_Values": [
+      {
+        "_Index": 0,
+        "_Action": "WP05_NOT_PLAYING_CONDITION",
+        "_TransitionAction": "WP05_FAST_PLAYING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "DODGE",
+          "ATTACK_SP",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "DODGE",
+          "ATTACK_SP",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 1,
+        "_Action": "WP05_PLAYING_CONDITION",
+        "_TransitionAction": "WP05_HIT_PLAYING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": true,
+        "_LastMusicAction": "WP05_ADD_M_LAST",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 2,
+        "_Action": "WP05_PLAYING_CONDITION",
+        "_TransitionAction": "WP05_ADD_M",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_01",
+          "ATTACK_00",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 3,
+        "_Action": "WP05_HIT_PLAYING",
+        "_TransitionAction": "WP05_HIT_PLAYING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": true,
+        "_LastMusicAction": "WP05_ADD_M_LAST",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 4,
+        "_Action": "WP05_HIT_PLAYING",
+        "_TransitionAction": "WP05_ADD_M",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_01",
+          "ATTACK_00",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 5,
+        "_Action": "WP05_ADD_M",
+        "_TransitionAction": "WP05_HIT_PLAYING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": true,
+        "_LastMusicAction": "WP05_ADD_M_LAST",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 6,
+        "_Action": "WP05_ADD_M",
+        "_TransitionAction": "WP05_ADD_M",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_01",
+          "ATTACK_00",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 7,
+        "_Action": "WP05_ADD_M_LAST",
+        "_TransitionAction": "WP05_HIT_PLAYING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": true,
+        "_LastMusicAction": "WP05_ADD_M_LAST",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 8,
+        "_Action": "WP05_ADD_M_LAST",
+        "_TransitionAction": "WP05_ADD_M",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "ATTACK_01",
+          "ATTACK_00",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 9,
+        "_Action": "WP05_JUMP",
+        "_TransitionAction": "WP05_JUMP_SWING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 10,
+        "_Action": "WP05_JUMP",
+        "_TransitionAction": "WP05_JUMP_M_START",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 11,
+        "_Action": "WP05_STEP_JUMP",
+        "_TransitionAction": "WP05_WALL_DASH_TO_ATTACK_START",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 12,
+        "_Action": "WP05_STEP_JUMP",
+        "_TransitionAction": "WP05_WALL_JUMP",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "DOWN",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 13,
+        "_Action": "WP05_WALL_JUMP",
+        "_TransitionAction": "WP05_JUMP_SWING",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 14,
+        "_Action": "WP05_WALL_JUMP",
+        "_TransitionAction": "WP05_JUMP_M_START",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 15,
+        "_Action": "WP05_FAST_PLAYING",
+        "_TransitionAction": "WP05_FAST_PLAYING_WHITE",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 16,
+        "_Action": "WP05_FAST_PLAYING",
+        "_TransitionAction": "WP05_FAST_PLAYING_RED",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_01",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 17,
+        "_Action": "WP05_FAST_PLAYING",
+        "_TransitionAction": "WP05_FAST_PLAYING_BLUE",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 18,
+        "_Action": "WP05_AIM_HIT_LIVE",
+        "_TransitionAction": "WP05_AIM_JUST_WHITE",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 19,
+        "_Action": "WP05_AIM_HIT_LIVE",
+        "_TransitionAction": "WP05_AIM_JUST_RED",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_01",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 20,
+        "_Action": "WP05_AIM_HIT_LIVE",
+        "_TransitionAction": "WP05_AIM_JUST_BLUE",
+        "_IsProgramCall": false,
+        "_IsLastMusicChange": false,
+        "_LastMusicAction": "INVALID",
+        "_ViewType": "ALL",
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      }
+    ]
+  }
+}

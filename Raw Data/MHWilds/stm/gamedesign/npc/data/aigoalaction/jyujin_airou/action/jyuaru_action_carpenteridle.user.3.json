@@ -1,0 +1,77 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "b94ec5fc-503b-4afa-a410-c76b7c2d6943",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "b94ec5fc-503b-4afa-a410-c76b7c2d6943",
+                "_GoalNameHash": {
+                  "_Hash": 2763829319
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2763829319
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "GOAL_ACITON",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": 2,
+                "_ActionID": 22079,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          },
+          {
+            "_Param": {
+              "_SetTiming": "LIKE_ACTION_MAINSTRAEM"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

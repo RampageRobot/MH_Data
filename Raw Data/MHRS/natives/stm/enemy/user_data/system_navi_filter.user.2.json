@@ -1,0 +1,69 @@
+{
+  "snow.enemy.EnemyNaviFilterSetting": {
+    "_FilterGroups": [
+      {
+        "_InitFlag": false,
+        "_SnowFilter": [
+          {
+            "_Enable": true,
+            "_Attr0": 0,
+            "_Type": 0,
+            "_Cost": 5.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 1,
+            "_Type": 0,
+            "_Cost": 5.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 2,
+            "_Type": 0,
+            "_Cost": 5.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 3,
+            "_Type": 0,
+            "_Cost": 10.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 4,
+            "_Type": 0,
+            "_Cost": 15.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 5,
+            "_Type": 0,
+            "_Cost": 20.0
+          },
+          {
+            "_Enable": true,
+            "_Attr0": 6,
+            "_Type": 0,
+            "_Cost": 2.0
+          }
+        ]
+      },
+      {
+        "_InitFlag": false,
+        "_SnowFilter": []
+      }
+    ],
+    "GroundParam": {
+      "LineOptimizeTiming": 0,
+      "UnderSearchLength": 10.0,
+      "DetectBase": 1,
+      "AgentDetectHeight": 5.0
+    },
+    "FlyParam": {
+      "LineOptimizeTiming": 0,
+      "UnderSearchLength": 20.0,
+      "DetectBase": 1,
+      "AgentDetectHeight": 20.0
+    }
+  }
+}

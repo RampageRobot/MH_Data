@@ -1,0 +1,104 @@
+{
+  "snow.enemy.EnemyBindWireData": {
+    "_WireStrengthUseDataType": 0,
+    "_wireStrengthParam": [],
+    "_WireTimeUseDataType": 0,
+    "_marioWireTimeParamList": [],
+    "_dogWireTimeParamList": [],
+    "_otomoWireTotalNumParam": {
+      "_wireIndex": 0,
+      "_wireTimer": 20.0
+    },
+    "_PlToEmWireInfoList": [
+      {
+        "_PlJointNameHash": 3569198553,
+        "_EmJointNameHash": 2665514682,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3569198553,
+        "_EmJointNameHash": 601891426,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3125427915,
+        "_EmJointNameHash": 486311911,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3125427915,
+        "_EmJointNameHash": 2029249321,
+        "_WireLength": 2.0
+      }
+    ],
+    "_TwinPlToEmWireInfoList": [],
+    "_BindWireInfoList": [
+      {
+        "_PinPosOffset": [
+          -5.5,
+          0.0,
+          -5.5
+        ],
+        "_wireIndex": 1
+      },
+      {
+        "_PinPosOffset": [
+          -5.5,
+          0.0,
+          5.5
+        ],
+        "_wireIndex": 2
+      },
+      {
+        "_PinPosOffset": [
+          5.5,
+          0.0,
+          5.5
+        ],
+        "_wireIndex": 3
+      },
+      {
+        "_PinPosOffset": [
+          5.5,
+          0.0,
+          -5.5
+        ],
+        "_wireIndex": 4
+      }
+    ],
+    "_IsUseFlyDodge": false,
+    "_IsUseFlyControl": false,
+    "_FlyAcceptCommandBit": 56,
+    "_ShootWallHitPartsGroup": 0,
+    "_IsUseFreeRunDash": true,
+    "_IsStrongCharacter": false,
+    "_RideOnPopRadiusUseDataType": 0,
+    "_RideOnPopRadius": 0.0,
+    "_AttackAdjustUseDataType": 0,
+    "_attackAdjustInfo": {
+      "_WeakAttackInfo": {
+        "_Front": 1.0,
+        "_Back": 1.0,
+        "_Left": 1.0,
+        "_Right": 1.0,
+        "_Neutral": 1.0
+      },
+      "_StrongAttackInfo": {
+        "_Front": 1.0,
+        "_Back": 1.0,
+        "_Left": 1.0,
+        "_Right": 1.0,
+        "_Neutral": 1.0
+      },
+      "_FinalAttackRate": 1.0
+    },
+    "_PowerFinalAttackRateUseDataType": 0,
+    "_powerFinalAttackRate": 1.0,
+    "_TwinMarionetteStartCameraScale": 1.0,
+    "_TwinMarionetteStartCameraOffset": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

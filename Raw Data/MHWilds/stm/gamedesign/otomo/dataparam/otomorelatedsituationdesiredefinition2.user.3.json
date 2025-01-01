@@ -1,0 +1,1556 @@
+{
+  "app.user_data.RelatedSituationDesireDefinition2": {
+    "_RelatedSituationHolder": [
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLの体力が満タンではない_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 0,
+        "_SituationParam": {
+          "_CheckIntervalSec": 30.0,
+          "_HealthRateProbabilityArray": [
+            {
+              "_HealthRate": 0.4,
+              "_SuccessProbability": 100
+            },
+            {
+              "_HealthRate": 0.5,
+              "_SuccessProbability": 80
+            },
+            {
+              "_HealthRate": 0.6,
+              "_SuccessProbability": 50
+            }
+          ],
+          "_IsAdaptStoryParam": true,
+          "_CheckIntervalSec_Story": 20.0,
+          "_HealthRateProbabilityArray_Story": [
+            {
+              "_HealthRate": 0.3,
+              "_SuccessProbability": 100
+            },
+            {
+              "_HealthRate": 0.6,
+              "_SuccessProbability": 70
+            },
+            {
+              "_HealthRate": 0.8,
+              "_SuccessProbability": 50
+            }
+          ]
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLが敵の攻撃の避け方が分からない_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1,
+        "_SituationParam": {
+          "_CountSec": 50.0,
+          "_EnableCount": 3,
+          "_IsAdaptStoryParam": true,
+          "_CountSec_Story": 30.0,
+          "_EnableCount_Story": 3
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵が動けない状態になった（ダウン）_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 2,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "怒っている敵にチャンスが作れていない_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 3,
+        "_SituationParam": {
+          "_CheckRageSec": 10.0
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "モンスターの咆哮を防ぎたい_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 4,
+        "_SituationParam": {
+          "_CheckRageRate": 80,
+          "_EarDamageCount": 2
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "【オトモ】PLが硬直状態(麻痺、気絶、眠り)かつ、オトモが回復できない(距離とか)_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 5,
+        "_SituationParam": {
+          "_CheckPlDist": 5.0
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "敵が動けない状態になった（罠、疲労）_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 6,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "頻繁にダメージを受けている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 7,
+        "_SituationParam": {
+          "_DamageCount": 4,
+          "_CheckHealthRate": 70
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "敵が傷ついている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 8,
+        "_SituationParam": {
+          "_CheckScarCount": 3
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】PLが罠を設置した_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 9,
+        "_SituationParam": {
+          "_SetTrapSec": 30.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】PLをサポートする範囲外にいる_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 10,
+        "_SituationParam": {
+          "_SupportRange": {
+            "_HorizontalRange": 40.0,
+            "_UpRange": 6.0,
+            "_DownRange": 6.0
+          }
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】PLが爆弾を設置した_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 11,
+        "_SituationParam": {
+          "_SetBombSec": 30.0,
+          "_CheckEnemyDist": 8.0
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "【オトモ】PLが短時間で複数回ピンチを迎えている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 13,
+        "_SituationParam": {
+          "_DamageCount": 2,
+          "_CheckHealthRate": 20,
+          "_DamageCountSec": 60.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLが短時間で複数回ダメージを受けている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 14,
+        "_SituationParam": {
+          "_DamageCount": 3,
+          "_CheckHealthRate": 50,
+          "_DamageCountSec": 60.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵が傷ついている_2\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 15,
+        "_SituationParam": {
+          "_CheckScarCount": 3
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "PLが短時間で複数回ダメージを受けている_2\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 16,
+        "_SituationParam": {
+          "_DamageCount": 4,
+          "_CheckHealthRate": 70,
+          "_DamageCountSec": 90.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】武器の切れ味が落ちている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 17,
+        "_SituationParam": {
+          "_CheckReduceKireajiCount": 500,
+          "_CheckReduceKireajiTypeCount": 2
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】スタミナゲージの最大値が初期値(スキル込み)から2段階以上落ちている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 18,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "【オトモ】体力の最大値が最大になっていない_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 19,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "【オトモ】PLが回復アイテムを消費しすぎている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 20,
+        "_SituationParam": {
+          "_SetBombSec": 600.0,
+          "_ManyUseItemCount": 4
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "体力70％以下かつヘイトが向いていない\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -97305856,
+        "_SituationParam": {
+          "_HealthRate": 70.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "体力60％以下かつヘイトが向いていない\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1150729872,
+        "_SituationParam": {
+          "_HealthRate": 60.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "体力30％以下かつヘイトが向いていない\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1153446112,
+        "_SituationParam": {
+          "_HealthRate": 30.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】近くに採取ポイントがある_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1022482640,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーが近くで採取している_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -356423568,
+        "_SituationParam": {
+          "_CheckRange": {
+            "_HorizontalRange": 16.0,
+            "_UpRange": 3.0,
+            "_DownRange": 3.0
+          }
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーがラプトルで一定時間ダッシュしている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -441630352,
+        "_SituationParam": {
+          "_Time": 10.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーがラプトルから降りている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1415813264,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーがボスとの戦闘状態か_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 585060960,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLの体力が満タンではない_2\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1678313744,
+        "_SituationParam": {
+          "_CheckIntervalSec": 60.0,
+          "_HealthRateProbabilityArray": [
+            {
+              "_HealthRate": 0.65,
+              "_SuccessProbability": 50
+            },
+            {
+              "_HealthRate": 0.5,
+              "_SuccessProbability": 70
+            },
+            {
+              "_HealthRate": 0.4,
+              "_SuccessProbability": 100
+            }
+          ],
+          "_IsAdaptStoryParam": false,
+          "_CheckIntervalSec_Story": 60.0,
+          "_HealthRateProbabilityArray_Story": []
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵が動けない状態になった（罠）\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 924414496,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵が動けない状態になった（麻痺）\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1103879328,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵の体力が一定以下_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 305848048,
+        "_SituationParam": {
+          "_CheckIntervalSec": 10.0,
+          "_HealthRateProbabilityArray": [
+            {
+              "_HealthRate": 0.3,
+              "_SuccessProbability": 100
+            },
+            {
+              "_HealthRate": 0.4,
+              "_SuccessProbability": 70
+            },
+            {
+              "_HealthRate": 0.5,
+              "_SuccessProbability": 50
+            }
+          ],
+          "_IsAdaptStoryParam": true,
+          "_CheckIntervalSec_Story": 60.0,
+          "_HealthRateProbabilityArray_Story": [
+            {
+              "_HealthRate": 0.3,
+              "_SuccessProbability": 100
+            },
+            {
+              "_HealthRate": 0.5,
+              "_SuccessProbability": 70
+            },
+            {
+              "_HealthRate": 0.7,
+              "_SuccessProbability": 0
+            }
+          ]
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーが状態異常回復を行う状態異常中か_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1337588656,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵の体力が一定以下_2\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 2094442560,
+        "_SituationParam": {
+          "_CheckIntervalSec": 10.0,
+          "_HealthRateProbabilityArray": [
+            {
+              "_HealthRate": 0.6,
+              "_SuccessProbability": 100
+            }
+          ],
+          "_IsAdaptStoryParam": false,
+          "_CheckIntervalSec_Story": 60.0,
+          "_HealthRateProbabilityArray_Story": []
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "敵が怒り状態_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 2089192016,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】戦闘中のモンスターが浮遊しすぎている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1388032240,
+        "_SituationParam": {
+          "_CheckStartFlySec": 3.0,
+          "_CheckFlySec": 50.0,
+          "_CheckFlyCount": 3
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】【回復ミツムシ設置】戦闘中一定時間ごと_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -896874432,
+        "_SituationParam": {
+          "_Time": 90.0,
+          "_Probability": 20,
+          "_ToolType": "SET_INSECT_HEAL"
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】地形ギミックや罠へと誘導したい_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -896906672,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】戦闘中一定時間ごと_2\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -368009616,
+        "_SituationParam": {
+          "_Time": 20.0,
+          "_Probability": 100,
+          "_ToolType": "MULTI_HIT_BOOMERANG"
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLの体力が大きく削られた_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1021518624,
+        "_SituationParam": {
+          "_CheckReduceHealth": 50,
+          "_SatisfyTime": 30.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】モンスターが乱入、複数戦闘になった_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1077370656,
+        "_SituationParam": {}
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "罠戦闘中一定時間ごと\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -944222528,
+        "_SituationParam": {
+          "_Time": 120.0,
+          "_Probability": 30,
+          "_ToolType": "NONE"
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】クエストターゲットのザコと一定時間戦っている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1077169888,
+        "_SituationParam": {
+          "_Time": 20.0,
+          "_Probability": 40
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "綻び状態の傷が一定数以下_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -989383296,
+        "_SituationParam": {
+          "_CheckScarCount": 2
+        }
+      },
+      {
+        "_IsEnable": false,
+        "_SituationName": "【オトモ】近くに睡眠中の敵がいる_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1018293904,
+        "_SituationParam": {
+          "_CheckEnemyDist": 30.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーがラプトルに一定時間乗っている_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -944747376,
+        "_SituationParam": {
+          "_Time": 30.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】プレイヤーがラプトルで一定時間移動している_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1067125696,
+        "_SituationParam": {
+          "_Time": 10.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】戦闘中一定時間ごと(敵のHP割合チェックあり)_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1084058144,
+        "_SituationParam": {
+          "_Time": 10.0,
+          "_Probability": 100,
+          "_ToolType": "STEAL_BOOMERANG",
+          "_CheckHealthRate": 0.5
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "PLの体力が満タンではない_3\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1011932608,
+        "_SituationParam": {
+          "_CheckIntervalSec": 40.0,
+          "_HealthRateProbabilityArray": [
+            {
+              "_HealthRate": 0.6,
+              "_SuccessProbability": 20
+            },
+            {
+              "_HealthRate": 0.5,
+              "_SuccessProbability": 20
+            }
+          ],
+          "_IsAdaptStoryParam": false,
+          "_CheckIntervalSec_Story": 60.0,
+          "_HealthRateProbabilityArray_Story": []
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】火やられが一定時間続いているか_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1832724816,
+        "_SituationParam": {
+          "_FireDebuffTime": 6.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】狂竜症でPLが一定以上浸食されたら_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1505121808,
+        "_SituationParam": {
+          "_CheckFrenzyRate": 55.0
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】戦闘中一定時間ごと_4\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1570093200,
+        "_SituationParam": {
+          "_Time": 240.0,
+          "_Probability": 40,
+          "_ToolType": "SLINGER"
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "【オトモ】先行時にラプトルに乗っているPLが近づいた_1\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 1197292176,
+        "_SituationParam": {
+          "_PLRange": {
+            "_HorizontalRange": 8.0,
+            "_UpRange": 3.0,
+            "_DownRange": 3.0
+          }
+        }
+      }
+    ],
+    "_RelatedDesireHolder": [
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_InsectHealDelivery\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": true,
+              "_BaseAddValue_Story": 60.0,
+              "_BaseSubValue_Story": 30.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 0
+          },
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1021518624
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 25,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_ShieldProvoke\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 5.0,
+              "_IsAdaptStoryParam": true,
+              "_BaseAddValue_Story": 30.0,
+              "_BaseSubValue_Story": 5.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 5.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 17
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 2.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 1.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1678313744
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 20,
+          "_DisableActiveProbabilityTimer": 90.0,
+          "_AddActiveProbability": 15
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_SetParalyzeTrap\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 10.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.1,
+                "_MaxValue": 2.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 3
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": true,
+              "_BaseAddValue_Story": 30.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 305848048
+          },
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1077370656
+          },
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -944222528
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 12.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 585060960
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 30,
+          "_DisableActiveProbabilityTimer": 30.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_SetFlashTrap\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1388032240
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 2089192016
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1077370656
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1077169888
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_Slinger\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 10.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 1.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 585060960
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -989383296
+          },
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 25.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1570093200
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 20,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_SetInsectHeal\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -896874432
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1011932608
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_MoveNearPL\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 2.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 1.0,
+                "_MinValue": 1.0
+              },
+              "_AdjustType": 1,
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AdjustType_Story": 0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 9
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 2.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 10
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_SetBomb\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AdjustType": 0,
+              "_AddValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_SubValueRateFromPlDist_Story": {
+                "_AdjustValue": 0.2,
+                "_MaxValue": 5.0,
+                "_MinValue": 1.0
+              },
+              "_AdjustType_Story": 0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 11
+          },
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1018293904
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_MoveNearFieldGimmick\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 60.0,
+              "_BaseSubValue": 2.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -896906672
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 20,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_SelfHeal_Short\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 4.0,
+              "_BaseSubValue": 2.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -97305856
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 10.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1150729872
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 10.0,
+              "_BaseSubValue": 0.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1153446112
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 30.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_Gathring\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 10.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_AddValueGatheringNum": {
+                "_AdjustValue": 2.0,
+                "_MaxValue": 10.0,
+                "_MinValue": 0.0
+              }
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1022482640
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -356423568
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 80,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_RidePorter\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 0.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -441630352
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 6.0,
+              "_BaseSubValue": 0.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1067125696
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 6.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -944747376
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 38.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1197292176
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_RideOffPorter\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 12.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1415813264
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0,
+              "_BonusVal": 10.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 585060960
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 60,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_Horn_AtkUp\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 5.0,
+              "_IsAdaptStoryParam": true,
+              "_BaseAddValue_Story": 10.0,
+              "_BaseSubValue_Story": 2.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 2
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 5.0,
+              "_IsAdaptStoryParam": true,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 924414496
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 5.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1103879328
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 70,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_BadConditionHeal\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 10.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 1337588656
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 50.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1832724816
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 12.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1505121808
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 60,
+          "_DisableActiveProbabilityTimer": 20.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_StealBoomerang\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 2094442560
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 30,
+          "_DisableActiveProbabilityTimer": 40.0,
+          "_AddActiveProbability": 10
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_DragAirShip\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 2089192016
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": true,
+          "_ActiveProbability": 40,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cOtomoSituationDesireData_MultiHitBoomerang\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": false,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 30.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -368009616
+          },
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 10.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 585060960
+          }
+        ]
+      }
+    ]
+  }
+}

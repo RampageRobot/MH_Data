@@ -1,0 +1,97 @@
+{
+  "app.user_data.EmParamEscape": {
+    "_IsUseDefaultTarget": false,
+    "_Feel": {
+      "_IsEnabled": true,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 1000.0,
+      "_SaftyTime": 60.0,
+      "_PlayerTargetInfo": {
+        "_Enabled": true,
+        "_EscapeRange": 8.0
+      },
+      "_BossTargetInfo": {
+        "_Enabled": false,
+        "_EscapeRange": 0.0
+      },
+      "_ZakoTargetInfo": {
+        "_Enabled": false,
+        "_EscapeRange": 0.0
+      }
+    },
+    "_Range": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 1000.0,
+      "_SaftyTime": 2.0,
+      "_PlayerTargetInfo": {
+        "_IsDetect": false,
+        "_DetectionRange": 8.0
+      },
+      "_NpcTargetInfo": {
+        "_IsDetect": false,
+        "_DetectionRange": 0.0
+      },
+      "_BossTargetInfo": {
+        "_IsDetect": false,
+        "_DetectionRange": 0.0
+      },
+      "_ZakoTargetInfo": {
+        "_IsDetect": false,
+        "_DetectionRange": 0.0
+      }
+    },
+    "_Damage": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 1000.0,
+      "_SaftyTime": 60.0
+    },
+    "_Sight": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 8.0,
+      "_SaftyTime": 60.0
+    },
+    "_FriendDie": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 8.0,
+      "_SaftyTime": 60.0,
+      "_IsEscapeAllDie": true,
+      "_IsEscapePl": true,
+      "_IsEscapeBoss": true,
+      "_IsEscapeZako": true,
+      "_IsEscapeGM": true,
+      "_IsEscapeOther": true
+    },
+    "_BurningGrass": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 8.0,
+      "_SaftyTime": 60.0
+    },
+    "_UniqueEscape": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 8.0,
+      "_SaftyTime": 60.0
+    },
+    "_PanicEscape": {
+      "_IsEnabled": false,
+      "_IsEnabledCombat": false,
+      "_IsEnableAreaMove": false,
+      "_DengerTime": 8.0,
+      "_SaftyTime": 60.0,
+      "_SearchPointDistance": 30.0,
+      "_SearchPointAngle": 90.0
+    }
+  }
+}

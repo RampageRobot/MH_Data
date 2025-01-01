@@ -1,0 +1,3071 @@
+{
+  "snow.ai.ServantSupportBattleData": {
+    "_CmnHelpAttack": {
+      "_Param": {
+        "_CoolTime": [
+          5.0,
+          10.0
+        ],
+        "_SubCoolTime": [
+          1.0,
+          3.0
+        ],
+        "_FastTime": 0.0,
+        "_CancelTime": 0.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      "_EnableOtomoHelpTime": 10.0
+    },
+    "_CmnBuffItem": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          20.0,
+          40.0
+        ],
+        "_FastTime": 15.0,
+        "_CancelTime": 30.0,
+        "_LimitNum": 99,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "_CmnSelfHealItem": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 2.5,
+        "_CancelTime": 15.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4,
+          5,
+          2,
+          0
+        ]
+      }
+    },
+    "_CmnAreaHealItem": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 2.0,
+        "_CancelTime": 15.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "_CmnObstructItem": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 10.0,
+        "_CancelTime": 30.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "_CmnDebuffRecovery": {
+      "_Param": {
+        "_CoolTime": [
+          15.0,
+          30.0
+        ],
+        "_SubCoolTime": [
+          10.0,
+          20.0
+        ],
+        "_FastTime": 2.5,
+        "_CancelTime": 15.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4,
+          5,
+          2,
+          0
+        ]
+      },
+      "_DebuffRecoveryParam": [
+        {
+          "_Debuff": 1,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 1
+        },
+        {
+          "_Debuff": 2,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 3,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 4,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 5,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 6,
+          "_ItemHigh": 68157569,
+          "_ItemLow": 68157569,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 7,
+          "_ItemHigh": 68157454,
+          "_ItemLow": 68157454,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 8,
+          "_ItemHigh": 68157455,
+          "_ItemLow": 68157455,
+          "_Action": 3
+        },
+        {
+          "_Debuff": 9,
+          "_ItemHigh": 68157455,
+          "_ItemLow": 68157455,
+          "_Action": 1
+        },
+        {
+          "_Debuff": 10,
+          "_ItemHigh": 68157915,
+          "_ItemLow": 68157453,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 12,
+          "_ItemHigh": 68157455,
+          "_ItemLow": 68157455,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 13,
+          "_ItemHigh": 68157911,
+          "_ItemLow": 68157448,
+          "_Action": 2
+        },
+        {
+          "_Debuff": 14,
+          "_ItemHigh": 68157923,
+          "_ItemLow": 68157924,
+          "_Action": 0
+        },
+        {
+          "_Debuff": 11,
+          "_ItemHigh": 68157577,
+          "_ItemLow": 68157577,
+          "_Action": 0
+        }
+      ]
+    },
+    "_CmnTrap": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 10.0,
+        "_CancelTime": 30.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      },
+      "_EmAreaMoveSec": 30.0
+    },
+    "_CmnBomb": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 60.0,
+        "_CancelTime": 120.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          5,
+          1
+        ]
+      },
+      "_EnableDist": 20.0,
+      "_EnableBombDist": 10.0
+    },
+    "_CmnEnvCreature": {
+      "_Param": {
+        "_CoolTime": [
+          0.0,
+          0.0
+        ],
+        "_SubCoolTime": [
+          0.0,
+          0.0
+        ],
+        "_FastTime": 15.0,
+        "_CancelTime": 30.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      },
+      "_HealCreatureVitalPer": 0.5
+    },
+    "_CmnBringEnemy": {
+      "_Param": {
+        "_CoolTime": [
+          300.0,
+          600.0
+        ],
+        "_SubCoolTime": [
+          30.0,
+          60.0
+        ],
+        "_FastTime": 1.0,
+        "_CancelTime": 60.0,
+        "_LimitNum": 0,
+        "_TimeEnableStates": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "_ServantSet": [
+      {
+        "_ServantId": 1,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 2
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              20.0,
+              40.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.75,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              120.0,
+              160.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.6,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157449,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              180.0,
+              240.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              1.0,
+              3.0
+            ],
+            "_DuplicatePriority": 2,
+            "_LimitNum": 5
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157603
+            },
+            {
+              "_ItemId": 68157933
+            }
+          ]
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              240.0,
+              300.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicateCoolTime": [
+              60.0,
+              90.0
+            ],
+            "_DuplicatePriority": 3,
+            "_LimitNum": 1
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157563,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 1,
+          "_SetType": 2
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              180.0,
+              260.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206029,
+              "_Weight": 0,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 60
+        }
+      },
+      {
+        "_ServantId": 2,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              240.0,
+              300.0
+            ],
+            "_SubCoolTime": [
+              20.0,
+              40.0
+            ],
+            "_DuplicateCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicatePriority": 2,
+            "_LimitNum": 999
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157920,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              20.0,
+              40.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.65,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              120.0,
+              180.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 4,
+            "_LimitNum": 5
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157933
+            }
+          ]
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [],
+          "_Num": 0,
+          "_SetType": 0
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              90.0
+            ],
+            "_SubCoolTime": [
+              20.0,
+              40.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 68157911,
+              "_Weight": 1,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 68157913,
+              "_Weight": 1,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 68157919,
+              "_Weight": 1,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 68157924,
+              "_Weight": 1,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 5
+        }
+      },
+      {
+        "_ServantId": 3,
+        "_HelpAttack": {
+          "_DamageType": 2,
+          "_DamageTypeSkill": 2
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              3600.0,
+              3600.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              5.0,
+              10.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 2,
+          "_SetType": 1
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_EnvCreatureWeight": []
+        },
+        "_BringEnemy": {
+          "_Priority": 10
+        }
+      },
+      {
+        "_ServantId": 4,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              240.0,
+              300.0
+            ],
+            "_SubCoolTime": [
+              20.0,
+              40.0
+            ],
+            "_DuplicateCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicatePriority": 2,
+            "_LimitNum": 999
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157925,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              15.0,
+              25.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              15.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.65,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157909,
+              "_Weight": 5
+            },
+            {
+              "_ItemId": 68157447,
+              "_Weight": 5
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              180.0,
+              240.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.25,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157908,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 1,
+          "_SetType": 2
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              120.0,
+              180.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206026,
+              "_Weight": 0,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 10
+        }
+      },
+      {
+        "_ServantId": 5,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              20.0,
+              40.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.45,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157445,
+              "_Weight": 10
+            },
+            {
+              "_ItemId": 68157447,
+              "_Weight": 90
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              330.0,
+              400.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicateCoolTime": [
+              60.0,
+              90.0
+            ],
+            "_DuplicatePriority": 2,
+            "_LimitNum": 1
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157444,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [],
+          "_Num": 0,
+          "_SetType": 0
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              180.0,
+              260.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 1
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206022,
+              "_Weight": 0,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 40
+        }
+      },
+      {
+        "_ServantId": 6,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              120.0,
+              200.0
+            ],
+            "_SubCoolTime": [
+              20.0,
+              40.0
+            ],
+            "_DuplicateCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicatePriority": 1,
+            "_LimitNum": 999
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157920,
+              "_Weight": 1
+            },
+            {
+              "_ItemId": 68157925,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              5.0,
+              15.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.85,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              140.0,
+              160.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.25,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157449,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              90.0,
+              150.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              1.0,
+              3.0
+            ],
+            "_DuplicatePriority": 1,
+            "_LimitNum": 999
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157933
+            },
+            {
+              "_ItemId": 68157603
+            }
+          ]
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              150.0,
+              220.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicateCoolTime": [
+              60.0,
+              90.0
+            ],
+            "_DuplicatePriority": 1,
+            "_LimitNum": 2
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157444,
+              "_Weight": 1
+            },
+            {
+              "_ItemId": 68157563,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 2,
+          "_SetType": 2
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_EnvCreatureWeight": []
+        },
+        "_BringEnemy": {
+          "_Priority": 10
+        }
+      },
+      {
+        "_ServantId": 7,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              20.0,
+              40.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.65,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 2,
+          "_SetType": 2
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              130.0,
+              180.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206017,
+              "_Weight": 25,
+              "_Times": 1
+            },
+            {
+              "_ItemId": 69206030,
+              "_Weight": 25,
+              "_Times": 1
+            },
+            {
+              "_ItemId": 69206032,
+              "_Weight": 25,
+              "_Times": 99
+            },
+            {
+              "_ItemId": 69206031,
+              "_Weight": 25,
+              "_Times": 5
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 5
+        }
+      },
+      {
+        "_ServantId": 8,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 2
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              40.0,
+              50.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.65,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              90.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.6,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157908,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [],
+          "_Num": 0,
+          "_SetType": 0
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              180.0,
+              260.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206019,
+              "_Weight": 0,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 10
+        }
+      },
+      {
+        "_ServantId": 9,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              240.0,
+              300.0
+            ],
+            "_SubCoolTime": [
+              20.0,
+              40.0
+            ],
+            "_DuplicateCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicatePriority": 3,
+            "_LimitNum": 999
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157925,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              5.0,
+              15.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.85,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157447,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              120.0,
+              160.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.25,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157449,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 10,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [],
+          "_Num": 0,
+          "_SetType": 0
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              150.0,
+              180.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206021,
+              "_Weight": 0,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 35
+        }
+      },
+      {
+        "_ServantId": 10,
+        "_HelpAttack": {
+          "_DamageType": 1,
+          "_DamageTypeSkill": 0
+        },
+        "_BuffItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": []
+        },
+        "_SelfHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              20.0,
+              40.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_VitalPer": 0.45,
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157445,
+              "_Weight": 10
+            },
+            {
+              "_ItemId": 68157447,
+              "_Weight": 90
+            }
+          ]
+        },
+        "_AreaHealItem": {
+          "_Param": {
+            "_CoolTime": [
+              0.0,
+              0.0
+            ],
+            "_SubCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_VitalPer": 0.0,
+          "_ItemWeight": []
+        },
+        "_ObstructItem": {
+          "_Param": {
+            "_CoolTime": [
+              240.0,
+              500.0
+            ],
+            "_SubCoolTime": [
+              10.0,
+              20.0
+            ],
+            "_DuplicateCoolTime": [
+              1.0,
+              3.0
+            ],
+            "_DuplicatePriority": 3,
+            "_LimitNum": 5
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157603
+            },
+            {
+              "_ItemId": 68157933
+            }
+          ]
+        },
+        "_DebuffRecovery": {
+          "_DebuffRecoveryWeight": [
+            {
+              "_Debuff": 1,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 2,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 3,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 4,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 5,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 6,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 7,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 8,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 9,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 10,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 12,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 13,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 0,
+              "_WeightAction": 10,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 14,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            },
+            {
+              "_Debuff": 11,
+              "_WeightItemUseHigh": 0,
+              "_WeightItemUseLow": 10,
+              "_WeightAction": 0,
+              "_WeightDontAct": 0
+            }
+          ]
+        },
+        "_Trap": {
+          "_Param": {
+            "_CoolTime": [
+              420.0,
+              500.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              60.0
+            ],
+            "_DuplicateCoolTime": [
+              60.0,
+              90.0
+            ],
+            "_DuplicatePriority": 4,
+            "_LimitNum": 1
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157563,
+              "_Weight": 1
+            }
+          ]
+        },
+        "_Bomb": {
+          "_Param": {
+            "_CoolTime": [
+              60.0,
+              80.0
+            ],
+            "_SubCoolTime": [
+              5.0,
+              10.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 0
+          },
+          "_ItemWeight": [
+            {
+              "_ItemId": 68157927,
+              "_Weight": 1
+            }
+          ],
+          "_Num": 1,
+          "_SetType": 2
+        },
+        "_EnvCreature": {
+          "_Param": {
+            "_CoolTime": [
+              360.0,
+              500.0
+            ],
+            "_SubCoolTime": [
+              30.0,
+              45.0
+            ],
+            "_DuplicateCoolTime": [
+              0.0,
+              0.0
+            ],
+            "_DuplicatePriority": 0,
+            "_LimitNum": 999
+          },
+          "_EnvCreatureWeight": [
+            {
+              "_ItemId": 69206016,
+              "_Weight": 5,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 69206023,
+              "_Weight": 5,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 69206024,
+              "_Weight": 1,
+              "_Times": 0
+            },
+            {
+              "_ItemId": 69206025,
+              "_Weight": 1,
+              "_Times": 0
+            }
+          ]
+        },
+        "_BringEnemy": {
+          "_Priority": 40
+        }
+      }
+    ]
+  }
+}

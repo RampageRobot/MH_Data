@@ -1,0 +1,74 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi321_009/Combi321_009_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            -749.875,
+            57.141815,
+            744.21
+          ],
+          "_DegY": -60
+        },
+        "_Range": 1.25,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -749.0981,
+                  57.17118,
+                  743.76636
+                ],
+                "_DegY": -70
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": 1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "INVALID"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -750.5306,
+                  57.1213,
+                  744.7917
+                ],
+                "_DegY": 135
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "JYUJIN_ARU",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 2,
+                  "_ModelKindFixedID": -541126656
+                },
+                "_ID": "INVALID"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true
+      }
+    }
+  }
+}

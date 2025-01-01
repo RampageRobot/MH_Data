@@ -1,0 +1,392 @@
+{
+  "ace.btable.user_data.BTableOrderList": {
+    "_OperatorFactories": [],
+    "_CommandFactories": [
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cActionSwitch\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cActionSwitchCase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsAction\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsActionEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsActionCancel\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPorterStandState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cIsPtStandStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cJudgeToRequestAction\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cRequestNavigation\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSelectNavigationDestinationArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckNavigating\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsNavigationPorterNG\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsStopByNavigationPorterNG\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsManualMoving\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetMoveSpeed\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSetMoveSpeedArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetGestureAction\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsMoveSpeed\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSetMoveSpeedArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPrevMoveSpeed\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cSetMoveSpeedArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsCheckArea\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cCommandArgumentCheckAreaArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsGoToWaitPointBase\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsGoToWaitPointTent\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPtAdjustedWaitPointGimmickPos\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cWaitPointPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPtWaitPointPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cWaitPointPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetPtWaitPointPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cWaitPointPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPtChangeWaitPointPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cWaitPointPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSelectPtWaitPointGesture\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsOwnerState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cIsOwnerStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsOwnerPlayerCombat\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsOwnerPlayerHide\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsWeaponChangeCall\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPorterState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cIsPorterStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPtContinueFlag\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cIsPtContinueFlagArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsItemReplenishCall\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsRequestDamage\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cRequestDamageAction\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPtAutoAreaPatrolPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cPtAutoAreaPatrolPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetPtAutoAreaPatrolPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cPtAutoAreaPatrolPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsCheckAreaPatrolAction\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cJudgeToRequestAreaPatrolAction\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsFollowStoryTarget\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsNpcPtJackAction\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cNpcPtJackActionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cNpcPtJackActionInit\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsEnemyClimbing\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsOwnerInAreaEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsTransitionPtAutoAreaPatrolPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cPtAutoAreaPatrolPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cInitializePtAutoAreaPatrolPhase\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cPtAutoAreaPatrolPhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsApproachingStateAfterPlayerDied\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsStartEscapeStateAroundEnemyNoCombat\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsFinishEscapeStateAroundEnemyNoCombat\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsEscapeStateAroundEnemyNoCombat\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cExistsSingleEnemyAround\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cExistsMultipleEnemiesAround\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetFollowStateNoCombat\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cFollowStateNoCombatArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cUpdateFollowStateNoCombat\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckOwnerStandState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cOwnerStandStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsNearQuicksandL\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsInQuicksandL\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsInQuicksandLOwnerSamePorter\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsQuicksandLDragBottomNearDestination\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckEmoteCallState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cEmoteCallStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsChangeMoveSpeedStopWhenFollowOwner\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsNeedTurnWhenEmote\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsEmoteCallFlow\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cSetEmoteCallState\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cEmoteCallStateArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cClearEmoteCallInfo\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsEmoteCallCancelRequestedByPlayer\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckEmoteCallCancelTypeByPlayer\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cEmoteCallCancelTypeByPlayerArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsEmoteCallCancelRequestedByPorter\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckEmoteCallCancelTypeByPorter\u0000",
+        "_ArgumentType": "app.btable.PorterCommonCommand.cEmoteCallCancelTypeByPorterArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsInArena\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsInArenaDifferentAreaFromRideOwner\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPlayerBonfire\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsMoveRequiredBonfire\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cClearBonfireDestPos\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cCheckEmoteRideEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cClearEmoteRideInfo\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsPlayerFishing\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsFishingRequired\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PorterCommonCommand.cIsRideOwnerOnAnimalTrail\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      }
+    ]
+  }
+}

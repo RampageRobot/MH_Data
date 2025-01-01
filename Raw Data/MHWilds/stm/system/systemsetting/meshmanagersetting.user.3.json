@@ -1,0 +1,58 @@
+{
+  "app.user_data.MeshManagerSetting": {
+    "_Base": {
+      "_MeshSettingNum": 60000,
+      "_MeshSettingControllerNum": 2000,
+      "_CameraWarpThreshold": 5.0,
+      "_CameraWarpThresholdSq": 25.0
+    },
+    "_PassThrough": {
+      "_Num": 32000,
+      "_Sleep": 4,
+      "_SleepUpLength": 10.0,
+      "_SleepUpBias": 4.0,
+      "_DivExecuteNum": 8
+    },
+    "_Culling": {
+      "_Num": 1000,
+      "_Sleep": 16,
+      "_SleepRandom": 16
+    },
+    "_Wind": {
+      "_Num": 1000,
+      "_SleepStartLength": 30.0,
+      "_SleepUpLength": 30.0,
+      "_SleepUpBias": 4.0,
+      "_DivExecuteNum": 0
+    },
+    "_JointConstraints": {
+      "_Num": 100
+    },
+    "_Visible": {
+      "_Num": 100,
+      "_FlagNum": 256
+    },
+    "_AOGeometry": {
+      "_Num": 256,
+      "_CullingLength": 50.0,
+      "_DispOffset": 2.0
+    },
+    "_ShellFur": {
+      "_Num": 32,
+      "_CullingRangeStart": 10.0,
+      "_CullingRangeEnd": 60.0,
+      "_CountScaleAlpha": 0.0
+    },
+    "_BlendShape": {
+      "_CullingLength": 120.0,
+      "_DispOffset": 2.0
+    },
+    "_SandCover": {
+      "_UpdateNum": 32
+    },
+    "_WetCover": {
+      "_UpdateNum": 32
+    },
+    "_BaseFOV": 40.0
+  }
+}

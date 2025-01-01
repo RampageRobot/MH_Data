@@ -1,0 +1,47 @@
+{
+  "snow.stage.Fg028SettingUserData": {
+    "_DelayTime": 0.0,
+    "_ActiveTime": 360.0,
+    "_CreateEcInterval": [
+      1084227584,
+      1084227584
+    ],
+    "_CreateTargetEcInterval": [
+      1056964608,
+      1056964608
+    ],
+    "_CreateTargetEcSettings": [
+      {
+        "_Voltage": 0,
+        "_CountStopTime": 0.0,
+        "_CreateCount": [
+          1065353216,
+          1073741824
+        ],
+        "_CoolTime": 2.5
+      },
+      {
+        "_Voltage": 5,
+        "_CountStopTime": 15.0,
+        "_CreateCount": [
+          1073741824,
+          1065353216
+        ],
+        "_CoolTime": 1.5
+      },
+      {
+        "_Voltage": 15,
+        "_CountStopTime": 30.0,
+        "_CreateCount": [
+          1077936128,
+          1065353216
+        ],
+        "_CoolTime": 0.5
+      }
+    ],
+    "_VoltageSubtraction": 0.5,
+    "_VoltageSubtractionWaitTime": 5.0,
+    "_VoltageLimit": 20.0,
+    "_CoolTime": 600.0
+  }
+}

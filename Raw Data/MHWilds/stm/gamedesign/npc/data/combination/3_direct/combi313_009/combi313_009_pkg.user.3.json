@@ -1,0 +1,77 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi313_009/Combi313_009_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            1116.0083,
+            -110.05749,
+            -109.38467
+          ],
+          "_DegY": -40
+        },
+        "_Range": 1.0,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  1116.1362,
+                  -110.01808,
+                  -109.70471
+                ],
+                "_DegY": -20
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC111_13_035"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  1115.7056,
+                  -109.98521,
+                  -108.998
+                ],
+                "_DegY": 145
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC112_13_041"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true,
+        "_DialogueID": "Dia_NpcGossip_Oil_002_000",
+        "_StartDist": -1.0,
+        "_CheckRayCast": true
+      }
+    }
+  }
+}

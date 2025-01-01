@@ -1,0 +1,110 @@
+{
+  "app.user_data.NpcTaskData": {
+    "_UpstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_IsLoopMainstream": true,
+    "_MainstreamActionParam": {
+      "_ActionParamList": [
+        {
+          "_PointSelectType": 4,
+          "_PointSearcher": {
+            "_TargetType": 0,
+            "_DestList": [
+              {
+                "_Pos": [
+                  -814.58215,
+                  16.171015,
+                  1040.197
+                ],
+                "_DegY": -165
+              },
+              {
+                "_Pos": [
+                  -832.4088,
+                  19.710106,
+                  1067.3569
+                ],
+                "_DegY": -135
+              },
+              {
+                "_Pos": [
+                  -796.34357,
+                  18.100054,
+                  1037.8094
+                ],
+                "_DegY": 75
+              },
+              {
+                "_Pos": [
+                  -838.6418,
+                  12.961189,
+                  1042.0032
+                ],
+                "_DegY": 140
+              }
+            ],
+            "_PointSelector": {
+              "_Category": 1,
+              "_PointType": 0
+            },
+            "STRUCT__IsOnOff__HasValue": false,
+            "STRUCT__IsOnOff__Value": false,
+            "_Pos": [
+              -768.0,
+              0.0,
+              896.0
+            ],
+            "_Range": 5.0,
+            "_GroupAIType": "INVALID",
+            "_FieldUnitType": "INVALID"
+          },
+          "_GoalActionSelector": {
+            "_Category": 1114761984,
+            "_MoveID": 901482432,
+            "_ActionID": 987298944,
+            "_HoldMotionPackID": 79015984,
+            "_Variation": -663541696
+          },
+          "_InfiniteActionTime": false,
+          "_ActionTime": [
+            1084227584,
+            1084227584
+          ],
+          "_InterruptTime": [
+            1106247680,
+            1106247680
+          ],
+          "_InterruptProbability": 100,
+          "_InterruptActionParamList": [],
+          "_TaskColliderID": "INVALID",
+          "_TaskDialogueID": "INVALID",
+          "_DisableStreet": false
+        }
+      ]
+    },
+    "_DownstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_VariousData": {
+      "_SkeletonType": "ANIMAL_CHK",
+      "_OnlyDefaultBodyScale": false,
+      "_Gender": -1,
+      "_VisualType": {
+        "_Species": 3,
+        "_ModelKindFixedID": -1
+      },
+      "_NeedRunTimerByMove": true,
+      "_CanInterrupt_Rest": true,
+      "_CanInterrupt_Combi": true,
+      "_NotSkipUpstream": false,
+      "_PtJackVisualChecker": {
+        "_ScaleType": "NOT_SUPPORTED"
+      },
+      "_EmJackVisualChecker": {
+        "STRUCT__IsChild__HasValue": false,
+        "STRUCT__IsChild__Value": false
+      }
+    }
+  }
+}

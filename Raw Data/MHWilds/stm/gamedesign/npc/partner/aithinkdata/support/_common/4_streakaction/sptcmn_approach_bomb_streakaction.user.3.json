@@ -1,0 +1,42 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 1,
+    "_ActionEffectParam": {
+      "_Param": {}
+    },
+    "_LStickEffectParam": {
+      "_Param": {
+        "_Reach": 1.5,
+        "_ContinueMove": false,
+        "_StopWhenReached": false,
+        "_MoveType": "FOLLOW",
+        "_UseAIMoveEnd": false,
+        "_IsNotRidePorter": true,
+        "_FixedSpeedLv": "DASH",
+        "_IsMoveStopTurn": false,
+        "_StopTurnDir": 0,
+        "_DegRange": [
+          0,
+          1127481344
+        ],
+        "_AdjustParam": {
+          "_AheadDist": 1.0,
+          "_DetectDist": 15.0,
+          "_AvoidRate": 10.0,
+          "_IsAvoidPlayer": true,
+          "_IsAvoidNpc": true,
+          "_IsAvoidPoint": true,
+          "_IsAvoidPorter": true,
+          "_IsAvoidOtomo": true,
+          "_IsAvoidEmZako": true,
+          "_IsAvoidEmBoss": true,
+          "_IsAvoidGimmick": true
+        }
+      }
+    },
+    "_AimEffectParam": {
+      "_Param": {}
+    },
+    "_EvaluatorParams": []
+  }
+}

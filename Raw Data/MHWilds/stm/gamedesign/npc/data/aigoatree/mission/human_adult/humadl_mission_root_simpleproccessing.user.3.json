@@ -1,0 +1,106 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "51b65a0c-f531-04af-01b6-4dd6c25a9702",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "51b65a0c-f531-04af-01b6-4dd6c25a9702",
+                "_GoalNameHash": {
+                  "_Hash": 2763829319
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 0.5,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": 1231541760
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2763829319
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_FacilityID": "PROCESSING_SHOP_SIMPLE"
+            }
+          },
+          {
+            "_Param": {
+              "_TargetDestination": "AI",
+              "_IsContinueWarp": false,
+              "_CheckGround": true,
+              "_ResetHunterAction": true
+            }
+          },
+          {
+            "_Param": {
+              "_TargetDestination": "AI",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": -46611132,
+                "_ActionID": 294083872,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,473 @@
+warning: unused imports: `libdeflate_alloc_gdeflate_compressor`, `libdeflate_free_gdeflate_compressor`, `libdeflate_gdeflate_compress_bound`, `libdeflate_gdeflate_compress`, `libdeflate_gdeflate_compressor`, and `libdeflate_gdeflate_out_page`
+  --> /home/nikola/programming/libdeflater/src/lib.rs:67:5
+   |
+67 |     libdeflate_alloc_gdeflate_compressor, libdeflate_alloc_gdeflate_decompressor,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+70 |     libdeflate_free_decompressor, libdeflate_free_gdeflate_compressor,
+   |                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+71 |     libdeflate_free_gdeflate_decompressor, libdeflate_gdeflate_compress,
+   |                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+72 |     libdeflate_gdeflate_compress_bound, libdeflate_gdeflate_compressor,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+73 |     libdeflate_gdeflate_decompress, libdeflate_gdeflate_decompressor, libdeflate_gdeflate_in_page,
+74 |     libdeflate_gdeflate_out_page, libdeflate_gzip_compress, libdeflate_gzip_compress_bound,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `SeekFrom`
+  --> /home/nikola/programming/libdeflater/src/lib.rs:80:35
+   |
+80 | use std::io::{Cursor, Read, Seek, SeekFrom};
+   |                                   ^^^^^^^^
+
+warning: unused import: `std::ptr::null`
+  --> /home/nikola/programming/libdeflater/src/lib.rs:81:5
+   |
+81 | use std::ptr::null;
+   |     ^^^^^^^^^^^^^^
+
+warning: unused import: `Write`
+  --> /home/nikola/programming/libdeflater/src/lib.rs:79:22
+   |
+79 | use std::fmt::{self, Write};
+   |                      ^^^^^
+
+warning: unused import: `Seek`
+  --> /home/nikola/programming/libdeflater/src/lib.rs:80:29
+   |
+80 | use std::io::{Cursor, Read, Seek, SeekFrom};
+   |                             ^^^^
+
+warning: constant `MINIMUM_COMPRESSION_LEVEL` is never used
+  --> /home/nikola/programming/libdeflater/src/lib.rs:94:7
+   |
+94 | const MINIMUM_COMPRESSION_LEVEL: u32 = 1;
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: constant `MAXIMUM_COMPRESSION_LEVEL` is never used
+  --> /home/nikola/programming/libdeflater/src/lib.rs:95:7
+   |
+95 | const MAXIMUM_COMPRESSION_LEVEL: u32 = 32;
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: enum `Flags` is never used
+  --> /home/nikola/programming/libdeflater/src/lib.rs:97:6
+   |
+97 | enum Flags {
+   |      ^^^^^
+
+warning: fields `tile_size_idx` and `reserv1` are never read
+   --> /home/nikola/programming/libdeflater/src/lib.rs:163:5
+    |
+159 | pub struct TileStream {
+    |            ---------- fields in this struct
+...
+163 |     tile_size_idx: u32,  //u8,
+    |     ^^^^^^^^^^^^^
+164 |     last_tile_size: u32, //u32,
+165 |     reserv1: u32,
+    |     ^^^^^^^
+    |
+    = note: `TileStream` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: constant in pattern `libdeflate_result_LIBDEFLATE_SUCCESS` should have an upper case name
+   --> /home/nikola/programming/libdeflater/src/lib.rs:287:21
+    |
+287 |                     libdeflate_result_LIBDEFLATE_SUCCESS => bytes_read += out_nbytes,
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert the identifier to upper case: `LIBDEFLATE_RESULT_LIBDEFLATE_SUCCESS`
+    |
+    = note: `#[warn(non_upper_case_globals)]` on by default
+
+warning: constant in pattern `libdeflate_result_LIBDEFLATE_BAD_DATA` should have an upper case name
+   --> /home/nikola/programming/libdeflater/src/lib.rs:288:21
+    |
+288 |                     libdeflate_result_LIBDEFLATE_BAD_DATA => {
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert the identifier to upper case: `LIBDEFLATE_RESULT_LIBDEFLATE_BAD_DATA`
+
+warning: constant in pattern `libdeflate_result_LIBDEFLATE_INSUFFICIENT_SPACE` should have an upper case name
+   --> /home/nikola/programming/libdeflater/src/lib.rs:291:21
+    |
+291 |                     libdeflate_result_LIBDEFLATE_INSUFFICIENT_SPACE => {
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: convert the identifier to upper case: `LIBDEFLATE_RESULT_LIBDEFLATE_INSUFFICIENT_SPACE`
+
+warning: `libdeflater` (lib) generated 12 warnings (run `cargo fix --lib -p libdeflater` to apply 3 suggestions)
+   Compiling mhwsgen v0.1.0 (/home/nikola/programming/mhwstuff)
+warning: field `tex_count` is never read
+  --> src/tex.rs:30:5
+   |
+23 | pub struct Tex {
+   |            --- field in this struct
+...
+30 |     tex_count: usize,
+   |     ^^^^^^^^^
+   |
+   = note: `Tex` has derived impls for the traits `Clone` and `Debug`, but these are intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` on by default
+
+warning: fields `hash` and `name` are never read
+ --> src/user.rs:8:9
+  |
+7 | pub struct UserChild {
+  |            --------- fields in this struct
+8 |     pub hash: u32,
+  |         ^^^^
+9 |     pub name: String,
+  |         ^^^^
+  |
+  = note: `UserChild` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: fields `resource_names` and `children` are never read
+  --> src/user.rs:14:9
+   |
+13 | pub struct User {
+   |            ---- fields in this struct
+14 |     pub resource_names: Vec<String>,
+   |         ^^^^^^^^^^^^^^
+15 |     pub children: Vec<UserChild>,
+   |         ^^^^^^^^
+   |
+   = note: `User` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: `mhwsgen` (bin "mhwsgen") generated 3 warnings
+    Finished `release` profile [optimized] target(s) in 2.01s
+     Running `target/release/mhwsgen --root-dir /home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives --list misc/user_file_list.txt -o outputs/wilds/dump`
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/camera/posteffect/posteffectcommonscenebank.user.3" Reason: Type "GameObjectRef" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/camera/posteffect/posteffectcommonscenebank.user.3"
+	"outputs/wilds/dump/stm/gamedesign/camera/posteffect/posteffectcommonscenebank.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/camera/posteffect/posteffecttentscenebank.user.3" Reason: Type "GameObjectRef" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/camera/posteffect/posteffecttentscenebank.user.3"
+	"outputs/wilds/dump/stm/gamedesign/camera/posteffect/posteffecttentscenebank.user.3"
+Object(RszStruct { name: "app.user_data.ColorPresetListCatalogue.cEntry[]", crc: 58605515, hash: 1688269263, fields: [] }, 83, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/catalog/00_00/data/colorpresetlistcatalogue.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/catalog/00_00/data/colorpresetlistcatalogue.user.3"
+	"outputs/wilds/dump/stm/gamedesign/catalog/00_00/data/colorpresetlistcatalogue.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/common/option/optiondisplaydata.user.3" Reason: Type "Size" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/common/option/optiondisplaydata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/common/option/optiondisplaydata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathdashremainmainparam.user.3" Reason: Non-zero padding with pos:00000211, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathdashremainmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathdashremainmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpspreadmainparam.user.3" Reason: Non-zero padding with pos:00000171, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpspreadmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpspreadmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisongrappleshellmainparam.user.3" Reason: Non-zero padding with pos:00000221, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisongrappleshellmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisongrappleshellmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathremainmainparam.user.3" Reason: Non-zero padding with pos:00000221, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathremainmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathremainmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathsloperemainmainparam.user.3" Reason: Non-zero padding with pos:00000221, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathsloperemainmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathsloperemainmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalldashmainparam.user.3" Reason: Non-zero padding with pos:00000121, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalldashmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalldashmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpmainparam.user.3" Reason: Non-zero padding with pos:00000121, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpmainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0009/00/shell/em0009_00_poisonbreathwalljumpmainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0156/00/shell/em0156_00_railgunflymainparam.user.3" Reason: Non-zero padding with pos:00000211, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0156/00/shell/em0156_00_railgunflymainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0156/00/shell/em0156_00_railgunflymainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0156/00/shell/em0156_00_sparkreadymainparam.user.3" Reason: Non-zero padding with pos:00000091, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/enemy/em0156/00/shell/em0156_00_sparkreadymainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/enemy/em0156/00/shell/em0156_00_sparkreadymainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_crp.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_crp.user.3"
+	"outputs/wilds/dump/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_crp.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_guide.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_guide.user.3"
+	"outputs/wilds/dump/stm/gamedesign/event/eventrailcamera/erc9002/rail9002_guide.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam00.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam00.user.3"
+	"outputs/wilds/dump/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam00.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam01.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam01.user.3"
+	"outputs/wilds/dump/stm/gamedesign/mission/mission001030/_camera/ms001030_camerarailparam01.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_cameraworkdata.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/mission/mission001030/_camera/ms001030_cameraworkdata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/mission/mission001030/_camera/ms001030_cameraworkdata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_fullswing_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_fullswing_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_fullswing_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_sswing_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_sswing_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_sswing_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing1_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing1_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing1_streakaction.user.3"
+Object(RszStruct { name: "app.cNpcStreakEvaluatorParam", crc: 456937803, hash: 4251652421, fields: [] }, 1068708659, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing2_streakaction.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_vswing2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_wponswing2_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_wponswing2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_wponswing2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_bounceattack_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_bounceattack_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_bounceattack_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargelv1swing2_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargelv1swing2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargelv1swing2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv1_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv1_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv1_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv3_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv3_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp04/4_streakaction/cbtwp04_chargereleaselv3_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtochargestab_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtochargestab_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtochargestab_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtostrongstab_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtostrongstab_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_powerguardtostrongstab_streakaction.user.3"
+Object(RszStruct { name: "app.cNpcStreakEvaluatorParam", crc: 456937803, hash: 4251652421, fields: [] }, 1082549862, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstingerstrong_streakaction.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstingerstrong_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstingerstrong_streakaction.user.3"
+Object(RszStruct { name: "app.cNpcStreakEvaluatorParam", crc: 456937803, hash: 4251652421, fields: [] }, 1077097267, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstinger_streakaction.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstinger_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_rushstinger_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldbash_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldbash_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldbash_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldstrongstab_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldstrongstab_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_shieldstrongstab_streakaction.user.3"
+Object(RszStruct { name: "app.cNpcStreakEvaluatorParam", crc: 456937803, hash: 4251652421, fields: [] }, 1077936128, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinishcharge_streakaction.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinishcharge_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinishcharge_streakaction.user.3"
+Object(RszStruct { name: "app.cNpcStreakEvaluatorParam", crc: 456937803, hash: 4251652421, fields: [] }, 1081291571, None)
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinish_streakaction.user.3" Reason: Could not find Object pointer in data 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinish_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfinish_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattackstrong_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattackstrong_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattackstrong_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattack_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattack_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_counterattack_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing2_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing3_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing3_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_fullswing3_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront3_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront3_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront3_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup2_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup3_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup3_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabup3_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_strongstab1_streakaction.user.3" Reason: Non-zero padding with pos:000000A1, align:00000004 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_strongstab1_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_strongstab1_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront2_streakaction.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront2_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp06/4_streakaction/cbtwp06_stabfront2_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp12/4_streakaction/cbtwp12_dragonshot_streakaction.user.3" Reason: Type "Sphere" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/npc/partner/aithinkdata/combat/wp12/4_streakaction/cbtwp12_dragonshot_streakaction.user.3"
+	"outputs/wilds/dump/stm/gamedesign/npc/partner/aithinkdata/combat/wp12/4_streakaction/cbtwp12_dragonshot_streakaction.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/otomo/shell/00/sh200_011/sh200_011_mainparam.user.3" Reason: Non-zero padding with pos:00000091, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/otomo/shell/00/sh200_011/sh200_011_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/otomo/shell/00/sh200_011/sh200_011_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/accessory/hunteraccessory.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/accessory/hunteraccessory.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/accessory/hunteraccessory.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/posteffect/posteffecthunteractionbank.user.3" Reason: Type "GameObjectRef" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/posteffect/posteffecthunteractionbank.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/camera/posteffect/posteffecthunteractionbank.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/workdata/cameracommonworkdata.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/workdata/cameracommonworkdata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/camera/workdata/cameracommonworkdata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/workdata/camerafacilityworkdata.user.3" Reason: Type "Position" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/camera/workdata/camerafacilityworkdata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/camera/workdata/camerafacilityworkdata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash2_v4.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash2_v4.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash2_v4.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash_v4.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash_v4.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_dash_v4.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_default.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_default.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_default.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_run_v3.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_run_v3.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_run_v3.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_walk_v2.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_walk_v2.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_walk_v2.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_wpon.user.3" Reason: Non-zero padding with pos:000000D8, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_wpon.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/globalparam/part/fbik/pt00riderfbik_wpon.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/gesturefireworklaunch_mainparam.user.3" Reason: Non-zero padding with pos:00000121, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/gesturefireworklaunch_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/gesturefireworklaunch_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_capturesmoke.user.3" Reason: Non-zero padding with pos:00000281, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_capturesmoke.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_capturesmoke.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_cleansmoke.user.3" Reason: Non-zero padding with pos:00000281, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_cleansmoke.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_cleansmoke.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_modoridama.user.3" Reason: Non-zero padding with pos:00000281, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_modoridama.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_modoridama.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_poisonsmoke.user.3" Reason: Non-zero padding with pos:00000281, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_poisonsmoke.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_poisonsmoke.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_smoke.user.3" Reason: Non-zero padding with pos:00000184, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_smoke.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/itemthrow_smoke.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerice_mainparam.user.3" Reason: Invalid value 3 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerice_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerice_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerlead_mainparam.user.3" Reason: Invalid value 108 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerlead_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerlead_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerpaint_mainparam.user.3" Reason: Non-zero padding with pos:00000151, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerpaint_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerpaint_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatterice_mainparam.user.3" Reason: Non-zero padding with pos:000001D1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatterice_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatterice_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatter_mainparam.user.3" Reason: Non-zero padding with pos:000002D1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatter_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerscatter_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongbomb_mainparam.user.3" Reason: Non-zero padding with pos:000001E1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongbomb_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongbomb_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerfire_mainparam.user.3" Reason: Non-zero padding with pos:000001D1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerfire_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerfire_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongrangedung.user.3" Reason: Non-zero padding with pos:000001B1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongrangedung.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongrangedung.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerbombhit_mainparam.user.3" Reason: Non-zero padding with pos:000001F1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerbombhit_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerbombhit_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerdragon_mainparam.user.3" Reason: Invalid value 3 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerdragon_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerdragon_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongstun_mainparam.user.3" Reason: Non-zero padding with pos:00000151, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongstun_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerstrongstun_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerthunder_mainparam.user.3" Reason: Invalid value 3 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerthunder_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerthunder_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerwater_mainparam.user.3" Reason: Invalid value 3 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerwater_mainparam.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/common/shell/mainparam/slingerwater_mainparam.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp01/shell/mainparam/wp01_finishslash.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp01/shell/mainparam/wp01_finishslash.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp01/shell/mainparam/wp01_finishslash.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp05/shell/mainparam/wp05_hibiki.user.3" Reason: Non-zero padding with pos:000000C1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp05/shell/mainparam/wp05_hibiki.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp05/shell/mainparam/wp05_hibiki.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_battleridepileshot.user.3" Reason: Non-zero padding with pos:000001A1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_battleridepileshot.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_battleridepileshot.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_rbf_pileshot.user.3" Reason: Non-zero padding with pos:000001A1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_rbf_pileshot.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp07/shell/mainparam/wp07_rbf_pileshot.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst1.user.3" Reason: Non-zero padding with pos:00000181, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst1.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst1.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst2.user.3" Reason: Non-zero padding with pos:00000181, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst2.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchchargeslashconst2.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchslashconst.user.3" Reason: Non-zero padding with pos:00000181, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchslashconst.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_dischargeswitchslashconst.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordadditionalconst.user.3" Reason: Non-zero padding with pos:00000181, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordadditionalconst.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordadditionalconst.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordparryslashconst.user.3" Reason: Non-zero padding with pos:00000181, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordparryslashconst.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp08/shell/mainparam/wp08_swordparryslashconst.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_axedischarge2bin_const.user.3" Reason: Invalid value 2 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_axedischarge2bin_const.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_axedischarge2bin_const.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_shieldstabbin_const.user.3" Reason: Non-zero padding with pos:00000191, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_shieldstabbin_const.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_shieldstabbin_const.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_superdischarge.user.3" Reason: Invalid value 5 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_superdischarge.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp09/shell/mainparam/wp09_superdischarge.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11emridetsugiyaattach.user.3" Reason: Non-zero padding with pos:000002C1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11emridetsugiyaattach.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11emridetsugiyaattach.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11normaltsugiya.user.3" Reason: Non-zero padding with pos:00000301, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11normaltsugiya.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11normaltsugiya.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11tsugiyaattach.user.3" Reason: Non-zero padding with pos:00000241, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11tsugiyaattach.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11tsugiyaattach.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv1.user.3" Reason: Invalid value 2 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv1.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv1.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv2.user.3" Reason: Invalid value 3 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv2.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv2.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv3.user.3" Reason: Invalid value 4 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv3.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv3.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv4.user.3" Reason: Invalid value 5 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv4.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushachildlv4.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiya.user.3" Reason: Invalid value 108 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiya.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiya.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiyaattach.user.3" Reason: Non-zero padding with pos:00000241, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiyaattach.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp11/shell/mainparam/wp11kyokushatsugiyaattach.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp12/accessory/wp12accessorylist.user.3" Reason: Non-zero padding with pos:00000174, align:00000008 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp12/accessory/wp12accessorylist.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp12/accessory/wp12accessorylist.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/accessory/wp13accessorylist.user.3" Reason: Non-zero padding with pos:00000174, align:00000008 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/accessory/wp13accessorylist.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp13/accessory/wp13accessorylist.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13emrideweakpoint.user.3" Reason: Non-zero padding with pos:000004C1, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13emrideweakpoint.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13emrideweakpoint.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13setbomb.user.3" Reason: Invalid value 5 for bool 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13setbomb.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13setbomb.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13weakpointlv1.user.3" Reason: Non-zero padding with pos:00000244, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13weakpointlv1.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wp13/shell/mainparam/wp13weakpointlv1.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wpguncommon/shell/mainparam/wpgunkijin.user.3" Reason: Non-zero padding with pos:00000201, align:00000010 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/player/actiondata/wpguncommon/shell/mainparam/wpgunkijin.user.3"
+	"outputs/wilds/dump/stm/gamedesign/player/actiondata/wpguncommon/shell/mainparam/wpgunkijin.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st002_a00/zone/data/sts002_a00_posteffectscenebank.user.3" Reason: Type "GameObjectRef" is not implemented 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st002_a00/zone/data/sts002_a00_posteffectscenebank.user.3"
+	"outputs/wilds/dump/stm/gamedesign/stage/st002_a00/zone/data/sts002_a00_posteffectscenebank.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st101/voxeldata/st101_appvoxeldata.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st101/voxeldata/st101_appvoxeldata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/stage/st101/voxeldata/st101_appvoxeldata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st201/voxeldata/st201_appvoxeldata.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st201/voxeldata/st201_appvoxeldata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/stage/st201/voxeldata/st201_appvoxeldata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st503/voxeldata/st503_appvoxeldata.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st503/voxeldata/st503_appvoxeldata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/stage/st503/voxeldata/st503_appvoxeldata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st603/voxeldata/st603_appvoxeldata.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/gamedesign/stage/st603/voxeldata/st603_appvoxeldata.user.3"
+	"outputs/wilds/dump/stm/gamedesign/stage/st603/voxeldata/st603_appvoxeldata.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/motion/npc/decorate/animationlod/animationlod_common/npcfacialmotionlayerlodconfigparameter.user.3" Reason: Non-zero padding with pos:00000009, align:00000004 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/motion/npc/decorate/animationlod/animationlod_common/npcfacialmotionlayerlodconfigparameter.user.3"
+	"outputs/wilds/dump/stm/motion/npc/decorate/animationlod/animationlod_common/npcfacialmotionlayerlodconfigparameter.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/motion/npc/decorate/animationlod/animationlod_common/npcmotionlayerlodconfigparameter.user.3" Reason: Non-zero padding with pos:00000011, align:00000004 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/motion/npc/decorate/animationlod/animationlod_common/npcmotionlayerlodconfigparameter.user.3"
+	"outputs/wilds/dump/stm/motion/npc/decorate/animationlod/animationlod_common/npcmotionlayerlodconfigparameter.user.3"
+[ERROR] Error dumping file File: "/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/system/ground/st101_groundsplatregionsetting.user.3" Reason: failed to fill whole buffer 
+	"/home/nikola/Documents/mh/retool/wilds/re_chunk_000/natives/stm/system/ground/st101_groundsplatregionsetting.user.3"
+	"outputs/wilds/dump/stm/system/ground/st101_groundsplatregionsetting.user.3"

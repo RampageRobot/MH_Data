@@ -1,0 +1,354 @@
+{
+  "snow.enemy.EnemyRange": {
+    "_CombatRangeInfoList": [
+      {
+        "_RangeDistance": [
+          5.5,
+          12.0,
+          19.0,
+          26.0
+        ],
+        "_UpHeight": 20.0,
+        "_DownHeight": 20.0,
+        "_UpHeightSq": 400.0,
+        "_DownHeightSq": 400.0,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "_SensorKehaiRangeInfo": {
+      "_CombatRangeInfo": {
+        "_RangeDistance": [
+          10.0,
+          20.0,
+          35.0,
+          50.0
+        ],
+        "_UpHeight": 40.0,
+        "_DownHeight": 40.0,
+        "_UpHeightSq": 1600.0,
+        "_DownHeightSq": 1600.0,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "_NonCombatRangeInfo": {
+        "_RangeDistance": [
+          12.0,
+          25.0,
+          40.0,
+          60.0
+        ],
+        "_UpHeight": 40.0,
+        "_DownHeight": 40.0,
+        "_UpHeightSq": 1600.0,
+        "_DownHeightSq": 1600.0,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "_KehaiDataInfo": {
+      "_RangeKehaiAdd": [
+        25,
+        10,
+        3,
+        1
+      ],
+      "_OutRangeKehaiAdd": -5,
+      "_OtherBlockKehaiDownValue": -15
+    },
+    "playerHateDataInfo": {
+      "_attackHateRate": 10.0,
+      "_damageHateRate": 20.0,
+      "_range_hate_add_data": [
+        8,
+        5,
+        3,
+        1
+      ],
+      "_out_range_hate_add_data": -10,
+      "_targetHate": -30,
+      "_HateBlockCorrectionData": {
+        "_BlockMainRate": 1.2,
+        "_FixedHeightRate": 0.8,
+        "_BlockMainOutRate": 0.6,
+        "_BlockOutRate": 0.4,
+        "_SafeZoneRate": 0.0
+      }
+    },
+    "airouHateDataInfo": {
+      "_attackHateRate": 40.0,
+      "_damageHateRate": 10.0,
+      "_range_hate_add_data": [
+        1,
+        0,
+        0,
+        -2
+      ],
+      "_out_range_hate_add_data": -10,
+      "_targetHate": -100,
+      "_HateBlockCorrectionData": {
+        "_BlockMainRate": 1.0,
+        "_FixedHeightRate": 0.0,
+        "_BlockMainOutRate": 0.5,
+        "_BlockOutRate": 0.0,
+        "_SafeZoneRate": 0.0
+      }
+    },
+    "dogHateDataInfo": {
+      "_attackHateRate": 40.0,
+      "_damageHateRate": 10.0,
+      "_range_hate_add_data": [
+        0,
+        0,
+        -1,
+        -2
+      ],
+      "_out_range_hate_add_data": -10,
+      "_targetHate": -100,
+      "_HateBlockCorrectionData": {
+        "_BlockMainRate": 1.0,
+        "_FixedHeightRate": 0.0,
+        "_BlockMainOutRate": 0.5,
+        "_BlockOutRate": 0.0,
+        "_SafeZoneRate": 0.0
+      }
+    },
+    "servantHateDataInfo": {
+      "_attackHateRate": 40.0,
+      "_damageHateRate": 10.0,
+      "_range_hate_add_data": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "_out_range_hate_add_data": -10,
+      "_targetHate": -50,
+      "_HateBlockCorrectionData": {
+        "_BlockMainRate": 1.0,
+        "_FixedHeightRate": 0.3,
+        "_BlockMainOutRate": 0.5,
+        "_BlockOutRate": 0.1,
+        "_SafeZoneRate": 0.0
+      }
+    },
+    "_AllTargetHateDataInfo": {
+      "_attackHateRate": 10.0,
+      "_damageHateRate": 20.0
+    },
+    "_ConditionHateAllDataInfo": {
+      "_TriggerHateAddInfoList": [
+        {
+          "_IsEnable": true,
+          "_AddHate": 1000
+        },
+        {
+          "_IsEnable": true,
+          "_AddHate": 20000
+        },
+        {
+          "_IsEnable": true,
+          "_AddHate": 500
+        }
+      ],
+      "_MonitorHateAddInfoList": [
+        {
+          "_IsEnable": false,
+          "_AddHate": 50
+        },
+        {
+          "_IsEnable": false,
+          "_AddHate": 50
+        },
+        {
+          "_IsEnable": true,
+          "_AddHate": 10
+        }
+      ],
+      "_PlayerDamageConditionData": {
+        "_DamageConditionHateAddInfoList": [
+          {
+            "_IsEnable": false,
+            "_Type": 0
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 1
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 2
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 3
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 4
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 5
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 6
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 7
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 8
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 9
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 10
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 11
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 12
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 13
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 14
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 15
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 16
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 17
+          }
+        ],
+        "_DamageConditionHate": 10
+      },
+      "_OtomoDamageConditionData": {
+        "_DamageConditionHateAddInfoList": [
+          {
+            "_IsEnable": false,
+            "_Type": 0
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 1
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 2
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 3
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 4
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 6
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 7
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 8
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 14
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 15
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 17
+          }
+        ],
+        "_DamageConditionHate": 0
+      },
+      "_OtomoDogDamageConditionData": {
+        "_DamageConditionHateAddInfoList": [
+          {
+            "_IsEnable": false,
+            "_Type": 0
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 1
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 2
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 3
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 4
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 6
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 7
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 8
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 14
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 15
+          },
+          {
+            "_IsEnable": false,
+            "_Type": 17
+          }
+        ],
+        "_DamageConditionHate": 0
+      }
+    }
+  }
+}

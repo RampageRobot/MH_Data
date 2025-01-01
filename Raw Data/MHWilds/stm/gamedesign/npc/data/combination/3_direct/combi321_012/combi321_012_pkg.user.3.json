@@ -1,0 +1,77 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi321_012/Combi321_012_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            -753.6289,
+            57.549583,
+            732.1347
+          ],
+          "_DegY": 0
+        },
+        "_Range": 1.5,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -753.1355,
+                  57.47672,
+                  732.5933
+                ],
+                "_DegY": -130
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC102_00_007"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -754.0952,
+                  57.5795,
+                  731.7839
+                ],
+                "_DegY": 45
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC101_00_009"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true,
+        "_DialogueID": "Dia_NpcGossip_AllStage_001_01",
+        "_StartDist": -1.0,
+        "_CheckRayCast": true
+      }
+    }
+  }
+}

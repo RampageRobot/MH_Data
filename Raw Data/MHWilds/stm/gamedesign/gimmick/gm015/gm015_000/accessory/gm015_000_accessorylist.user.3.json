@@ -1,0 +1,74 @@
+{
+  "app.user_data.AccessoryList": {
+    "_Accessories": [
+      {
+        "_Prefab": {
+          "v0": [
+            1
+          ],
+          "v1": "GameDesign/Accessory/_Prefab/Player/Acc001_092.pfb\u0000"
+        },
+        "_Offset": {
+          "UseOffset": false,
+          "OffsetOrder": 1,
+          "STRUCT_Coord_Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "STRUCT_Coord_Rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "PositionOffsetCtrl": 0,
+          "RotationOffsetCtrl": 0
+        },
+        "_States": [
+          {
+            "_Guid": "a715ba71-13f9-4934-9c93-9a5997504f9d",
+            "_Tag": "VISIBLE",
+            "_Actions": [
+              {
+                "_Visibility": 0
+              }
+            ],
+            "_StandAloneActions": []
+          },
+          {
+            "_Guid": "874edbae-23ca-4f8f-97b6-7ad27852a73c",
+            "_Tag": "HIDE",
+            "_Actions": [
+              {
+                "_Visibility": 1
+              }
+            ],
+            "_StandAloneActions": []
+          }
+        ]
+      }
+    ],
+    "_JointConsts": [
+      {
+        "_Guid": "a9068f98-9bf1-4e70-90d2-41f9b135ced1",
+        "_Data": {
+          "_JointName": {
+            "_Hash": 0
+          },
+          "_OffsetPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_IgnoreJointRotation": false,
+          "_OffsetRotationDegree": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
+}

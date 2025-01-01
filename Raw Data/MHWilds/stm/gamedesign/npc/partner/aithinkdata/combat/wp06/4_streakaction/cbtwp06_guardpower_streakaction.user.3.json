@@ -1,0 +1,60 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 0,
+    "_ActionEffectParam": {
+      "_Param": {
+        "_ContinueType": 1,
+        "_KeepTimeSec": 2.0
+      }
+    },
+    "_LStickEffectParam": {
+      "_Param": {
+        "_Reach": 0.1,
+        "_ContinueMove": false,
+        "_StopWhenReached": false,
+        "_MoveType": "COMBAT",
+        "_UseAIMoveEnd": false,
+        "_IsNotRidePorter": false,
+        "_FixedSpeedLv": "RUN",
+        "_IsMoveStopTurn": false,
+        "_StopTurnDir": 0,
+        "_DegRange": [
+          0,
+          1127481344
+        ],
+        "_DegThreshold": 30.0
+      }
+    },
+    "_AimEffectParam": {
+      "_Param": {
+        "_StartType": 0,
+        "_EndType": 0,
+        "_CanAimWpOff": false,
+        "_UseParabora": 0,
+        "_StartActionSelector": {
+          "_Category": 773579456,
+          "_Action": 0
+        },
+        "_UseAxisXZ": true,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "_EvaluatorParams": [
+      {
+        "_Param": {
+          "_Immediate": false,
+          "_Strict": false,
+          "_ActionSelector": {
+            "_Category": -1675163520,
+            "_Action": 48
+          }
+        },
+        "_Inverse": false
+      }
+    ]
+  }
+}

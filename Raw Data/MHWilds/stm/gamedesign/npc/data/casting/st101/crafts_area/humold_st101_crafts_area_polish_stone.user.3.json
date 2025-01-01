@@ -1,0 +1,86 @@
+{
+  "app.user_data.NpcTaskData": {
+    "_UpstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_IsLoopMainstream": false,
+    "_MainstreamActionParam": {
+      "_ActionParamList": [
+        {
+          "_PointSelectType": 0,
+          "_PointSearcher": {
+            "_TargetType": 1,
+            "_DestList": [
+              {
+                "_Pos": [
+                  -842.215,
+                  11.7154,
+                  1018.205
+                ],
+                "_DegY": 36
+              }
+            ],
+            "_PointSelector": {
+              "_Category": 1,
+              "_PointType": -1468440576
+            },
+            "STRUCT__IsOnOff__HasValue": false,
+            "STRUCT__IsOnOff__Value": false,
+            "_Pos": [
+              -841.862,
+              11.70605,
+              1018.764
+            ],
+            "_Range": 2.0,
+            "_GroupAIType": "INVALID",
+            "_FieldUnitType": "INVALID"
+          },
+          "_GoalActionSelector": {
+            "_Category": -1528925056,
+            "_MoveID": -442093600,
+            "_ActionID": 1095364480,
+            "_HoldMotionPackID": 139599872,
+            "_Variation": -663541696
+          },
+          "_InfiniteActionTime": true,
+          "_ActionTime": [
+            0,
+            0
+          ],
+          "_InterruptTime": [
+            1114636288,
+            1114636288
+          ],
+          "_InterruptProbability": 50,
+          "_InterruptActionParamList": [],
+          "_TaskColliderID": "INVALID",
+          "_TaskDialogueID": "INVALID",
+          "_DisableStreet": false
+        }
+      ]
+    },
+    "_DownstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_VariousData": {
+      "_SkeletonType": "HUMAN_OLD",
+      "_OnlyDefaultBodyScale": false,
+      "_Gender": 0,
+      "_VisualType": {
+        "_Species": 3,
+        "_ModelKindFixedID": -1
+      },
+      "_NeedRunTimerByMove": false,
+      "_CanInterrupt_Rest": true,
+      "_CanInterrupt_Combi": true,
+      "_NotSkipUpstream": false,
+      "_PtJackVisualChecker": {
+        "_ScaleType": "NOT_SUPPORTED"
+      },
+      "_EmJackVisualChecker": {
+        "STRUCT__IsChild__HasValue": false,
+        "STRUCT__IsChild__Value": false
+      }
+    }
+  }
+}

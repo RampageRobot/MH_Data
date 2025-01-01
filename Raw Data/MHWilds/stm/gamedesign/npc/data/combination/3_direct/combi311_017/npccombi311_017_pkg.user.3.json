@@ -1,0 +1,77 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi311_017/Combi311_017_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_DegY": 0
+        },
+        "_Range": -1.0,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -768.0,
+                  0.0,
+                  896.0
+                ],
+                "_DegY": 0
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 3101409
+                },
+                "_ID": "INVALID"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -768.0,
+                  0.0,
+                  896.0
+                ],
+                "_DegY": 0
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 3101409
+                },
+                "_ID": "INVALID"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true,
+        "_DialogueID": "INVALID",
+        "_StartDist": -1.0,
+        "_CheckRayCast": true
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "snow.enemy.em025.Em025_UniqueData": {
+    "_headBreakableHpVitalPercentage": 50.0,
+    "_poisonFogSpawnMaxNum": 5,
+    "_poisonFogMoveParam": [
+      {
+        "Type": 0,
+        "MoveSeconds": 1.5,
+        "MoveSpeed": 15.0,
+        "MoveAcceleration": -10.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 15.0
+      },
+      {
+        "Type": 1,
+        "MoveSeconds": 1.5,
+        "MoveSpeed": 5.0,
+        "MoveAcceleration": -3.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 10.0
+      },
+      {
+        "Type": 2,
+        "MoveSeconds": 0.5,
+        "MoveSpeed": 15.0,
+        "MoveAcceleration": -10.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 15.0
+      }
+    ],
+    "_spawnGoStraightPoisonShellIDs": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_spawnGoStraightPoisonInterval": 0.5,
+    "_spawnGoStraightPoisonDistance": 3.0,
+    "_sneakPeekParam": [
+      {
+        "Type": 0,
+        "StealthTimeMin": 0.7,
+        "StealthTimeMax": 0.7,
+        "ShowTimeMin": 0.7,
+        "ShowTimeMax": 0.7
+      },
+      {
+        "Type": 1,
+        "StealthTimeMin": 2.0,
+        "StealthTimeMax": 2.0,
+        "ShowTimeMin": 1.0,
+        "ShowTimeMax": 1.0
+      },
+      {
+        "Type": 2,
+        "StealthTimeMin": 3.0,
+        "StealthTimeMax": 3.0,
+        "ShowTimeMin": 1.0,
+        "ShowTimeMax": 1.0
+      }
+    ],
+    "_stealthCounter": {
+      "ValueMax": [
+        300.0,
+        600.0,
+        1200.0
+      ],
+      "DeltaValueWhenMaxLevel": 50.0,
+      "MaxLevel": 99,
+      "MaxOfValueMax": 9999.0,
+      "UnstorableMoveAction": [
+        2,
+        8,
+        10
+      ],
+      "UncouterattackableMoveAction": [
+        2,
+        7,
+        8,
+        10
+      ],
+      "UncounterAttackableAttackAction": [
+        15,
+        16,
+        20,
+        17,
+        18,
+        23
+      ]
+    },
+    "_fogOnOffTimeImmediately": 1.5,
+    "_fogOnTimeAnger": 2.3,
+    "_fogOnOffTime": 5.0,
+    "_fogOffTimeWhenReturnCamp": 0.1,
+    "_fogEnableDistance": 100.0,
+    "_buff": {
+      "VitalBuffRecoveryAmount": 100.0,
+      "StaminaBuffTime": 60.0,
+      "StaminaBuffSpeedRate": 1.05,
+      "AttackBuffTime": 60.0,
+      "AttackBuffRate": 1.2,
+      "DefenceBuffTime": 60.0,
+      "TakenDamageRate": 0.8,
+      "AngerPointIncreaseWhenFailed": 10.0
+    },
+    "_checkShellSpawnableJoint": {
+      "_JointHash": 4175418299,
+      "_Offset": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "_JointName": "Root\u0000"
+    },
+    "_checkShellSpawnableRayLength": 10.0,
+    "_rayCastYOffset": 4.0,
+    "_VFXContainerID": 150,
+    "_VFXVitalBuffElementID": 0,
+    "_VFXStaminaBuffElementID": 1,
+    "_VFXAttackBuffElementID": 2,
+    "_VFXDefenceBuffElementID": 3,
+    "_VFXStaminaBuffLoopElementID": 11,
+    "_VFXAttackBuffLoopElementID": 12,
+    "_VFXDefenceBuffLoopElementID": 13
+  }
+}

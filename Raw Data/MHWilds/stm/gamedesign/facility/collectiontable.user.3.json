@@ -1,0 +1,295 @@
+{
+  "app.user_data.CollectionTable": {
+    "_NumTypeData": [
+      {
+        "_NumType": "FEW",
+        "_Table": [
+          {
+            "_Level": "LEVEL_00",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 100
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_01",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 50
+              },
+              {
+                "_Num": 1,
+                "_Probability": 50
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_02",
+            "_Data": [
+              {
+                "_Num": 1,
+                "_Probability": 50
+              },
+              {
+                "_Num": 2,
+                "_Probability": 50
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_03",
+            "_Data": [
+              {
+                "_Num": 2,
+                "_Probability": 50
+              },
+              {
+                "_Num": 3,
+                "_Probability": 50
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_04",
+            "_Data": [
+              {
+                "_Num": 3,
+                "_Probability": 50
+              },
+              {
+                "_Num": 4,
+                "_Probability": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_NumType": "NORMAL",
+        "_Table": [
+          {
+            "_Level": "LEVEL_00",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 100
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_01",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 30
+              },
+              {
+                "_Num": 1,
+                "_Probability": 40
+              },
+              {
+                "_Num": 2,
+                "_Probability": 30
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_02",
+            "_Data": [
+              {
+                "_Num": 2,
+                "_Probability": 30
+              },
+              {
+                "_Num": 3,
+                "_Probability": 40
+              },
+              {
+                "_Num": 4,
+                "_Probability": 30
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_03",
+            "_Data": [
+              {
+                "_Num": 4,
+                "_Probability": 30
+              },
+              {
+                "_Num": 5,
+                "_Probability": 40
+              },
+              {
+                "_Num": 6,
+                "_Probability": 30
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_04",
+            "_Data": [
+              {
+                "_Num": 6,
+                "_Probability": 40
+              },
+              {
+                "_Num": 7,
+                "_Probability": 60
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_NumType": "MANY",
+        "_Table": [
+          {
+            "_Level": "LEVEL_00",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 100
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_01",
+            "_Data": [
+              {
+                "_Num": 0,
+                "_Probability": 20
+              },
+              {
+                "_Num": 1,
+                "_Probability": 30
+              },
+              {
+                "_Num": 2,
+                "_Probability": 30
+              },
+              {
+                "_Num": 3,
+                "_Probability": 20
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_02",
+            "_Data": [
+              {
+                "_Num": 4,
+                "_Probability": 20
+              },
+              {
+                "_Num": 5,
+                "_Probability": 30
+              },
+              {
+                "_Num": 6,
+                "_Probability": 30
+              },
+              {
+                "_Num": 7,
+                "_Probability": 20
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_03",
+            "_Data": [
+              {
+                "_Num": 8,
+                "_Probability": 30
+              },
+              {
+                "_Num": 9,
+                "_Probability": 40
+              },
+              {
+                "_Num": 10,
+                "_Probability": 30
+              }
+            ]
+          },
+          {
+            "_Level": "LEVEL_04",
+            "_Data": [
+              {
+                "_Num": 11,
+                "_Probability": 30
+              },
+              {
+                "_Num": 12,
+                "_Probability": 40
+              },
+              {
+                "_Num": 13,
+                "_Probability": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_BonusLevelData": {
+      "_Table": [
+        {
+          "_FacilityLevel": 0,
+          "_Data": [
+            {
+              "_Table": "LOSING",
+              "_Probability": 55
+            },
+            {
+              "_Table": "NORMAL",
+              "_Probability": 35
+            },
+            {
+              "_Table": "WINNING",
+              "_Probability": 10
+            }
+          ]
+        },
+        {
+          "_FacilityLevel": 1,
+          "_Data": [
+            {
+              "_Table": "LOSING",
+              "_Probability": 30
+            },
+            {
+              "_Table": "NORMAL",
+              "_Probability": 50
+            },
+            {
+              "_Table": "WINNING",
+              "_Probability": 20
+            }
+          ]
+        },
+        {
+          "_FacilityLevel": 2,
+          "_Data": [
+            {
+              "_Table": "LOSING",
+              "_Probability": 0
+            },
+            {
+              "_Table": "NORMAL",
+              "_Probability": 40
+            },
+            {
+              "_Table": "WINNING",
+              "_Probability": 60
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

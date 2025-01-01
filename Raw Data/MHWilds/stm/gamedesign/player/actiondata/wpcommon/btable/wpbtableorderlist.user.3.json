@@ -1,0 +1,167 @@
+{
+  "ace.btable.user_data.BTableOrderList": {
+    "_OperatorFactories": [],
+    "_CommandFactories": [
+      {
+        "_OrderType": "app.btable.PlCommand.cBorderWpCommon\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpMove\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpTurn\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodge4\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodge4Case\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpDodge4JudgeCaseArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodgeToMove\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodgeToMoveCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpDodgeToMoveJudgeArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpStepUpJudge\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cDir4Arg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpStepUpJudgeCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpStepUpJudgeArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpStepUpCancelToRequestAction\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAirStepUpJudge\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAirStepUpJudgeCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpAirStepUpJudgeArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodgeToStepUpJudge\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cDir4Arg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpDodgeToStepUpJudgeCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpDodgeToStepUpJudgeArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpSliding\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpCancelSliding\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpSlidingToMove\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpUseItemJudge\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpUseItemJudgeCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cUseItemJudgeCaseArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAttackHitEnemy\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpRecoil\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpGuard\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cSomethingEnumAndRequestActionArg`1<app.btable.PlCommand.cWpGuard.EXCECUTE_TYPE>\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpGuardLaserContine\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpGuardLaserMoveJudge\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpGuardLaserMoveJudgeCase\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpGuardLaserMoveJudgeCaseArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAimAttackHitWeakPoint\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAimMoveStopTurn\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAimDodge4\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cOptionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpAimDodge4Case\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpAimDodge4JudgeCaseArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cWpParryResultCheck\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cWpParryResultCheckArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cPorterRideWpOff\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.PlCommand.cBlockFinish\u0000",
+        "_ArgumentType": "app.btable.PlCommand.cRequestActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      }
+    ]
+  }
+}

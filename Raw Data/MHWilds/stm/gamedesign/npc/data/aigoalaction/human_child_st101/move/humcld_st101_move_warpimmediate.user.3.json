@@ -1,0 +1,118 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "e88599fc-9aa6-48bf-8b64-8dcd1a145eee",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "SEQUENTIAL",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "e88599fc-9aa6-48bf-8b64-8dcd1a145eee",
+                "_GoalNameHash": {
+                  "_Hash": 3276604309
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "e88599fc-9aa6-48bf-8b64-8dcd1a145eee",
+                "_GoalNameHash": {
+                  "_Hash": 364950498
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 3276604309
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          },
+          "_IsTerminated": true,
+          "_IsMainStreamEnd": false
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_Layer": 0,
+              "_ForceTerminate": true,
+              "_TerminationOrder": "MAINSTREAM"
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 364950498
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "GOAL_ACITON",
+              "_IsContinueWarp": false,
+              "_CheckGround": true,
+              "_ResetHunterAction": true
+            }
+          },
+          {
+            "_Param": {
+              "_TargetDestination": "GOAL_ACITON",
+              "_ImmediateActionSet": true,
+              "_ActionSelector": {
+                "_Category": 0,
+                "_ActionID": -2007694848,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

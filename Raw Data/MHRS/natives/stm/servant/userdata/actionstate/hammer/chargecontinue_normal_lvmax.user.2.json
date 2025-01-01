@@ -1,0 +1,31 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_ChargeType": 0
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_ChargeType": 3,
+        "_ChargeMode": 0,
+        "_UseHateAction": false,
+        "_BestPositionTypeKeep": 12,
+        "_BestPositionTypeAvoidance": 12
+      },
+      {
+        "_SpecifiedComboId": -1,
+        "_IsDerivedNG": false,
+        "_IsComboInterruptToFailed": false,
+        "_DisableComboInterruptFlag": false
+      }
+    ]
+  }
+}

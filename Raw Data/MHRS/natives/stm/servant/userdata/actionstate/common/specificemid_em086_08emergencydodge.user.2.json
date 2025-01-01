@@ -1,0 +1,39 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_TakeOffRo": false,
+        "_ShootRo": false,
+        "_WaitRo": false,
+        "_LandingRo": true
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 29
+      },
+      {
+        "IsNot": false,
+        "_Distance": 200.0
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": false,
+        "_TakeOffRo": false,
+        "_ShootRo": false,
+        "_WaitRo": false,
+        "_LandingRo": true
+      },
+      {
+        "IsNot": false,
+        "_Distance": 200.0
+      }
+    ],
+    "_Tasks": [
+      {}
+    ]
+  }
+}

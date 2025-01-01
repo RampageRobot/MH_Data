@@ -1,0 +1,40 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 2,
+    "_ActionEffectParam": {
+      "_Param": {
+        "STRUCT__ActionTime__HasValue": false,
+        "STRUCT__ActionTime__Value": 0.0,
+        "_ImmediateActionSet": false,
+        "_UseVariation": false,
+        "_VariIntervalTime": [
+          1101004800,
+          1101004800
+        ],
+        "_VariProbability": [
+          1112014848,
+          0
+        ],
+        "_IsContinue": true,
+        "_DisableGesture": false,
+        "_DisableIdleStanceChange": false
+      }
+    },
+    "_LStickEffectParam": {
+      "_Param": {}
+    },
+    "_AimEffectParam": {
+      "_Param": {
+        "_ImmediateActionSet": false,
+        "_ActionSelector": {
+          "_Category": 0,
+          "_ActionID": -2022217856,
+          "_UseVariation": false,
+          "_Variation": "-565011136 // Could not find enum value in map app.NpcDef.FSM_LIKE_ACTION_VARIATION_SUB_Fixed"
+        },
+        "_NotifyType": -1
+      }
+    },
+    "_EvaluatorParams": []
+  }
+}

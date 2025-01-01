@@ -1,0 +1,344 @@
+{
+  "app.user_data.ObjectiveListData": {
+    "_DataList": [
+      {
+        "_ObjectiveID": 0,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective00/Ms001030_Ob00.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "STORY_FLAG_PROLOGUE_ITEMCHANGE"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.617656,
+            -9.326346e-8,
+            -0.7864484,
+            0.0,
+            -3.22454e-8,
+            1.0,
+            -9.326346e-8,
+            0.0,
+            0.7864484,
+            -3.22454e-8,
+            -0.617656,
+            0.0,
+            -1270.989,
+            25.90324,
+            1521.423,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [
+          "egm0004",
+          "evc0101",
+          "egm0005",
+          "egm0003",
+          "evc0002",
+          "egm0006"
+        ],
+        "_ManualEventListData": [
+          "egm0002",
+          "egm0003",
+          "egm0004",
+          "egm0005",
+          "egm0006"
+        ],
+        "_EmThinkOffIDSets": [],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 1,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective01/Ms001030_Ob01.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          0
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "STORY_FLAG_PROLOGUE_ITEMCHANGE",
+          "Ms001030_02",
+          "Ms001030_02"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.617656,
+            -9.326346e-8,
+            -0.7864484,
+            0.0,
+            -3.22454e-8,
+            1.0,
+            -9.326346e-8,
+            0.0,
+            0.7864484,
+            -3.22454e-8,
+            -0.617656,
+            0.0,
+            -1270.989,
+            25.90324,
+            1521.423,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [
+          "egm0002",
+          "evc0003"
+        ],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 2,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective02/Ms001030_Ob02.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          1
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "Ms001030_03",
+          "Ms001030_03",
+          "Ms001030_13"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.9478381,
+            1.4311958e-7,
+            0.31875205,
+            0.0,
+            1.02865584e-7,
+            1.0,
+            -1.4311958e-7,
+            0.0,
+            -0.31875205,
+            -1.02865584e-7,
+            -0.9478381,
+            0.0,
+            -963.67926,
+            5.4015126,
+            1359.7559,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [
+          {
+            "_ID": "EM5002_00_0",
+            "_RoleID": 0,
+            "_StoryTargetIDs": []
+          },
+          {
+            "_ID": "EM5009_00_0",
+            "_RoleID": 0,
+            "_StoryTargetIDs": []
+          }
+        ],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 3,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective03/Ms001030_Ob03.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          2
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.8539648,
+            1.289451e-7,
+            -0.5203308,
+            0.0,
+            7.242804e-8,
+            1.0,
+            1.289451e-7,
+            0.0,
+            0.5203308,
+            7.242804e-8,
+            -0.8539648,
+            0.0,
+            -961.5729,
+            20.883417,
+            1084.2795,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [
+          "evc0004"
+        ],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [
+          {
+            "_ID": "EM5003_00_0",
+            "_RoleID": 0,
+            "_StoryTargetIDs": []
+          }
+        ],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 4,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective04/Ms001030_Ob04.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          3
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "Ms001030_14"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.9987829,
+            -1.50812e-7,
+            0.04932351,
+            0.0,
+            -1.584434e-7,
+            1.0,
+            -1.50812e-7,
+            0.0,
+            -0.04932351,
+            -1.584434e-7,
+            -0.9987829,
+            0.0,
+            -950.5642,
+            -10.0452,
+            1054.732,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [
+          {
+            "_ID": "EM5003_00_0",
+            "_RoleID": 0,
+            "_StoryTargetIDs": []
+          }
+        ],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 5,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective05/Ms001030_Ob05.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          4
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "Ms001030_03"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            -0.9478381,
+            1.4311958e-7,
+            0.31875205,
+            0.0,
+            1.02865584e-7,
+            1.0,
+            -1.4311958e-7,
+            0.0,
+            -0.31875205,
+            -1.02865584e-7,
+            -0.9478381,
+            0.0,
+            -963.67926,
+            5.4015126,
+            1359.7559,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [],
+        "_IsSideMissionAccept": false
+      },
+      {
+        "_ObjectiveID": 6,
+        "_ObjectivePrefab": {
+          "v0": [
+            0
+          ],
+          "v1": "GameDesign/Mission/Mission001030/Objective06/Ms001030_Ob06.pfb\u0000"
+        },
+        "_PreClearObjectiveIDList": [
+          5
+        ],
+        "_SkipConditionObjectiveIDList": [],
+        "_RewindStoryFlagList": [
+          "Ms001030_04"
+        ],
+        "_PlStartPosData": {
+          "EnableWarp": true,
+          "PlStartPos": [
+            0.5935724,
+            8.487175e-8,
+            -0.8047806,
+            0.0,
+            -1.588231e-8,
+            1.0,
+            9.374537e-8,
+            0.0,
+            0.8047806,
+            -4.286289e-8,
+            0.5935724,
+            0.0,
+            -945.7028,
+            -9.245025,
+            1054.133,
+            1.0
+          ]
+        },
+        "_SetGameOverMsgID": "00000000-0000-0000-0000-000000000000",
+        "_EventListData": [
+          "evc0005",
+          "evc0005"
+        ],
+        "_ManualEventListData": [],
+        "_EmThinkOffIDSets": [],
+        "_IsSideMissionAccept": false
+      }
+    ]
+  }
+}

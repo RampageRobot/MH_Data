@@ -1,0 +1,37 @@
+{
+  "snow.PlayerFsmActionData": {
+    "_NodeTree": [
+      {
+        "_Transitions": [
+          {
+            "_ClassKey": "snow.player.fsm.PlayerFsm2Command\u0000",
+            "_CmdType": "WireTarget\u0000",
+            "_ToID": 874343819,
+            "_FrameInfo": 0,
+            "_TransitionNo": 0
+          }
+        ],
+        "_ID": 1624752541,
+        "_ParentID": 0,
+        "_IsBranch": false,
+        "_IsHavingSubLayer": false
+      },
+      {
+        "_Transitions": [
+          {
+            "_ClassKey": "snow.player.fsm.PlayerFsm2Command\u0000",
+            "_CmdType": "WireEscape\u0000",
+            "_ToID": 613562891,
+            "_FrameInfo": 0,
+            "_TransitionNo": 0
+          }
+        ],
+        "_ID": -1434852705,
+        "_ParentID": 0,
+        "_IsBranch": false,
+        "_IsHavingSubLayer": false
+      }
+    ],
+    "_WarpTree": []
+  }
+}

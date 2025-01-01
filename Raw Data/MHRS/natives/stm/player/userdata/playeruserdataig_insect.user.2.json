@@ -1,0 +1,190 @@
+{
+  "snow.player.PlayerUserDataIG_Insect": {
+    "_BaseAttack": 120.0,
+    "_BaseSpeed": 7.0,
+    "_BaseStaminaRecoverly": 10.0,
+    "_StaminaReduse": 7.0,
+    "_ArriveDistance": 0.1,
+    "_AttackTime": 3.0,
+    "_WanderingSpeed": 8.0,
+    "_HoverAmp": 0.5,
+    "_HoverFreq": 3.5,
+    "_NoMarkingAttackLength": 40.0,
+    "_AttackEndMotLength": 10.0,
+    "_HitToFollowTime": 0.8,
+    "_HitToAutoAttackDelay": 1.5,
+    "_HitHoverTime": 100.0,
+    "_KnockBackSpeed": 0.4,
+    "_HoverDecelTime": 0.2,
+    "_AttackStartMinStamina": 2.0,
+    "_StaminaRecover": 10.0,
+    "_ChargeSpeed": 20.0,
+    "_HoverChargeSpeed": 56.0,
+    "_HoverChargeAutoSpeed": 35.0,
+    "_ExtractShellMaxHitCount": 36,
+    "_ExtractShellSuccessHitCount": 3,
+    "_ExtractShellMissHitCount": 1,
+    "_AbsorbStaminaReduse": 12.0,
+    "_HoverChargeMaxHit": 5,
+    "_HoverChargePeriodicUpdateHitIdFrame": 10.0,
+    "_HoverChargeRecoveryValue": 56.0,
+    "_TargetPosYOffSet": 2.0,
+    "_InsectThrowAttackLength": 12.0,
+    "_InsectThrowBackSpeed": 0.5,
+    "_InsectThrowAttackSpeed": 0.75,
+    "_InsectThrowNormalInsect": {
+      "Level0": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 50
+      },
+      "Level1": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 58
+      },
+      "Level2": {
+        "_MaxHit": 3,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 66
+      },
+      "Level3": {
+        "_MaxHit": 3,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 74
+      }
+    },
+    "_InsectThrowQuickInsect": {
+      "Level0": {
+        "_MaxHit": 2,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 52
+      },
+      "Level1": {
+        "_MaxHit": 3,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 60
+      },
+      "Level2": {
+        "_MaxHit": 4,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 68
+      },
+      "Level3": {
+        "_MaxHit": 6,
+        "_PeriodicUpdateHitIdFrame": 2.0,
+        "_HitIndex": 76
+      }
+    },
+    "_InsectThrowDustInsect": {
+      "Level0": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 3.0,
+        "_HitIndex": 54
+      },
+      "Level1": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 3.0,
+        "_HitIndex": 62
+      },
+      "Level2": {
+        "_MaxHit": 3,
+        "_PeriodicUpdateHitIdFrame": 3.0,
+        "_HitIndex": 70
+      },
+      "Level3": {
+        "_MaxHit": 5,
+        "_PeriodicUpdateHitIdFrame": 3.0,
+        "_HitIndex": 78
+      }
+    },
+    "_InsectThrowJointStruggleInsect": {
+      "Level0": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 1.0,
+        "_HitIndex": 56
+      },
+      "Level1": {
+        "_MaxHit": 1,
+        "_PeriodicUpdateHitIdFrame": 1.0,
+        "_HitIndex": 64
+      },
+      "Level2": {
+        "_MaxHit": 2,
+        "_PeriodicUpdateHitIdFrame": 1.0,
+        "_HitIndex": 72
+      },
+      "Level3": {
+        "_MaxHit": 3,
+        "_PeriodicUpdateHitIdFrame": 1.0,
+        "_HitIndex": 80
+      }
+    },
+    "_InsectDashAttackLength": 13.0,
+    "_InsectDashAttackDawnLength": 2.0,
+    "_InsectDashAttackSpeed": 0.65,
+    "_BaseColor_Green": [
+      0,
+      48,
+      0,
+      255
+    ],
+    "_BaseColor_Orange": [
+      117,
+      50,
+      0,
+      255
+    ],
+    "_BaseColor_White": [
+      54,
+      54,
+      54,
+      255
+    ],
+    "_BaseColor_Red": [
+      77,
+      0,
+      0,
+      255
+    ],
+    "_BaseColor_Poison": [
+      69,
+      0,
+      58,
+      255
+    ],
+    "_BaseColor_Paralyze": [
+      59,
+      54,
+      0,
+      255
+    ],
+    "_BaseColor_Bomb": [
+      77,
+      0,
+      0,
+      255
+    ],
+    "_BaseColor_Heal": [
+      0,
+      48,
+      0,
+      255
+    ],
+    "_FullChargeColor": [
+      0,
+      0,
+      50,
+      255
+    ],
+    "_WireEscapeHeal": 55,
+    "_InsectHealSkillHealValue": 30,
+    "_WireEscapeStaminaBuffRate": 0.5,
+    "_WireEscapeStaminaBuffTimer": 30.0,
+    "_WireEscapeVibrationData": 0,
+    "_InsectThrowVibrationData": {
+      "_CameraType": -1,
+      "_PadType": 18
+    }
+  }
+}

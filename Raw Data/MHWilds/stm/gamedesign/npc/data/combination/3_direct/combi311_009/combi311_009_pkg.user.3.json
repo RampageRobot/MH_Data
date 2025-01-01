@@ -1,0 +1,77 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi311_009/Combi311_009_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            -835.32605,
+            10.237774,
+            1009.0989
+          ],
+          "_DegY": 75
+        },
+        "_Range": 1.5,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -834.65344,
+                  10.345487,
+                  1009.1908
+                ],
+                "_DegY": -110
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC112_11_028"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -835.8968,
+                  10.176653,
+                  1009.04333
+                ],
+                "_DegY": 85
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "INVALID",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "NPC112_11_039"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true,
+        "_DialogueID": "Dia_NpcGossip_Desert_008_01",
+        "_StartDist": -1.0,
+        "_CheckRayCast": true
+      }
+    }
+  }
+}

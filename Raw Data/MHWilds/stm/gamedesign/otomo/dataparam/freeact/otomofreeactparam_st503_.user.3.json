@@ -1,0 +1,517 @@
+{
+  "app.user_data.OtomoFreeActParam": {
+    "_SpaceID": "ST503",
+    "_CoolTime": 40.0,
+    "_BaseCampParam": {
+      "_ActStartIntervalSec": 10.0,
+      "_SelectionDistanceLimit": 15.0,
+      "_LocationForSideQuestOrder": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "_ActPoints": []
+    },
+    "_VillageParam": {
+      "_ActPointsDaytime": [
+        {
+          "_PointID": 0,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": false,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.52979,
+            520.94305
+          ],
+          "_ActLocationForGuest": [
+            -1114.4457,
+            57.36155,
+            523.4637
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "11f6af47-6c85-464c-aa6d-1f56ff427cd3",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.54486,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": []
+          },
+          "_MinLoopCount": 1,
+          "_SelectionProbability": 20,
+          "_ActEndProbability": 10,
+          "_ActEndAdditionalProbability": 10
+        },
+        {
+          "_PointID": 1,
+          "_IsDefaultActPoint": true,
+          "_IsOnTheSpotAct": false,
+          "_ActLocationForHost": [
+            -1086.7421,
+            60.3676,
+            516.9962
+          ],
+          "_ActLocationForGuest": [
+            -1117.3013,
+            57.927353,
+            531.41
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "eb755fce-679a-460d-bafd-9079de580a51",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1099.1053,
+              59.98005,
+              517.66876
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": []
+          },
+          "_MinLoopCount": 3,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 20,
+          "_ActEndAdditionalProbability": 10
+        },
+        {
+          "_PointID": 2,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": true,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.5298,
+            520.9431
+          ],
+          "_ActLocationForGuest": [
+            -1087.8925,
+            66.8291,
+            526.1535
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "777376db-488e-4b0a-aa44-86d787bc14f2",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.5449,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": [
+              {
+                "_Param": {
+                  "_ActPointIDs": [
+                    0,
+                    3
+                  ]
+                }
+              }
+            ]
+          },
+          "_MinLoopCount": 2,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 30,
+          "_ActEndAdditionalProbability": 10
+        },
+        {
+          "_PointID": 3,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": true,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.5298,
+            520.9431
+          ],
+          "_ActLocationForGuest": [
+            -1108.4653,
+            57.778824,
+            513.1816
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "dc1cec39-7f74-437b-ab67-bcba98d950d7",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.5449,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": [
+              {
+                "_Param": {
+                  "_ActPointIDs": [
+                    0,
+                    2
+                  ]
+                }
+              }
+            ]
+          },
+          "_MinLoopCount": 2,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 30,
+          "_ActEndAdditionalProbability": 10
+        }
+      ],
+      "_ActPointsNight": [
+        {
+          "_PointID": 0,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": false,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.52979,
+            520.94305
+          ],
+          "_ActLocationForGuest": [
+            -1114.4457,
+            57.36155,
+            523.4637
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "11f6af47-6c85-464c-aa6d-1f56ff427cd3",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.54486,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": []
+          },
+          "_MinLoopCount": 1,
+          "_SelectionProbability": 20,
+          "_ActEndProbability": 10,
+          "_ActEndAdditionalProbability": 10
+        },
+        {
+          "_PointID": 1,
+          "_IsDefaultActPoint": true,
+          "_IsOnTheSpotAct": false,
+          "_ActLocationForHost": [
+            -1112.7135,
+            57.602745,
+            521.756
+          ],
+          "_ActLocationForGuest": [
+            -1117.3013,
+            57.927353,
+            531.41
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "eb755fce-679a-460d-bafd-9079de580a51",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1099.1053,
+              59.98005,
+              517.66876
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": []
+          },
+          "_MinLoopCount": 3,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 20,
+          "_ActEndAdditionalProbability": 5
+        },
+        {
+          "_PointID": 2,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": true,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.5298,
+            520.9431
+          ],
+          "_ActLocationForGuest": [
+            -1087.8925,
+            66.8291,
+            526.1535
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "777376db-488e-4b0a-aa44-86d787bc14f2",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.5449,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": [
+              {
+                "_Param": {
+                  "_ActPointIDs": [
+                    0
+                  ]
+                }
+              }
+            ]
+          },
+          "_MinLoopCount": 2,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 10,
+          "_ActEndAdditionalProbability": 10
+        },
+        {
+          "_PointID": 3,
+          "_IsDefaultActPoint": false,
+          "_IsOnTheSpotAct": true,
+          "_ActLocationForHost": [
+            -1115.848,
+            71.5298,
+            520.9431
+          ],
+          "_ActLocationForGuest": [
+            -1108.4653,
+            57.778824,
+            513.1816
+          ],
+          "_SecondaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_SecondaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForHost": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TertiaryActLocationForGuest": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_ActionID": "dc1cec39-7f74-437b-ab67-bcba98d950d7",
+          "_AppendDataType": 0,
+          "_FreeActTarget": "BACKGROUND",
+          "_TargetNpcIDs": [],
+          "_TargetPorterParams": [],
+          "_TargetAnimalIDs": [],
+          "_TargetOtomoParams": [],
+          "_TargetBackgroundPositions": [
+            [
+              -1115.2532,
+              71.5449,
+              521.6298
+            ]
+          ],
+          "_ConditionPack": {
+            "_ConditionHolders": [
+              {
+                "_Param": {
+                  "_ActPointIDs": [
+                    0
+                  ]
+                }
+              }
+            ]
+          },
+          "_MinLoopCount": 2,
+          "_SelectionProbability": 60,
+          "_ActEndProbability": 30,
+          "_ActEndAdditionalProbability": 10
+        }
+      ]
+    }
+  }
+}

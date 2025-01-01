@@ -1,0 +1,40 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_ComboList": [
+          92514231
+        ]
+      },
+      {
+        "IsNot": false,
+        "_NodeIDList": [
+          4092244120,
+          2636031599
+        ]
+      },
+      {
+        "IsNot": false,
+        "_Min": 1.5,
+        "_Max": 4.0
+      },
+      {
+        "IsNot": false,
+        "_Min": 230.0,
+        "_Max": 330.0
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_SpecifiedComboId": 49,
+        "_IsDerivedNG": false,
+        "_IsComboInterruptToFailed": true,
+        "_DisableComboInterruptFlag": true
+      }
+    ]
+  }
+}

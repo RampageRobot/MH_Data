@@ -1,0 +1,86 @@
+{
+  "app.user_data.RelatedSituationDesireDefinition2": {
+    "_RelatedSituationHolder": [
+      {
+        "_IsEnable": true,
+        "_SituationName": "砂_採石隊が稼働していない\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": -1581017488,
+        "_SituationParam": {
+          "_UnitType": "UT101_01",
+          "_EnvParam": {
+            "_StartEnvRate": 0,
+            "_EndEnvRate": 90,
+            "_StartTime": 700,
+            "_EndTime": 900
+          }
+        }
+      },
+      {
+        "_IsEnable": true,
+        "_SituationName": "砂_水汲隊が稼働していない\u0000",
+        "STRUCT__SituationHash__HasValue": true,
+        "STRUCT__SituationHash__Value": 795750080,
+        "_SituationParam": {
+          "_UnitType": "UT101_02",
+          "_EnvParam": {
+            "_StartEnvRate": 0,
+            "_EndEnvRate": 90,
+            "_StartTime": 700,
+            "_EndTime": 900
+          }
+        }
+      }
+    ],
+    "_RelatedDesireHolder": [
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cNpcGroupSituationDesireData_ut101_01\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": -1581017488
+          }
+        ]
+      },
+      {
+        "_IsEnable": true,
+        "_DesireParam": {
+          "_IsActiveProbabilityEnable": false,
+          "_ActiveProbability": 50,
+          "_DisableActiveProbabilityTimer": 10.0,
+          "_AddActiveProbability": 5
+        },
+        "_DesireClassType": "app.cNpcGroupSituationDesireData_ut101_02\u0000",
+        "_SituationDesireParamList": [
+          {
+            "_IsEnable": true,
+            "_SituationDesireParam": {
+              "_BaseAddValue": 100.0,
+              "_BaseSubValue": 1.0,
+              "_IsAdaptStoryParam": false,
+              "_BaseAddValue_Story": 1.0,
+              "_BaseSubValue_Story": 1.0
+            },
+            "STRUCT__RelatedSituationHash__HasValue": true,
+            "STRUCT__RelatedSituationHash__Value": 795750080
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "snow.enemy.EnemyStaminaData": {
+    "_motRate": 0.9,
+    "_tiredSec": 50.0,
+    "_hyakuryuTiredSec": 0.0,
+    "_mapNikuEatSec": 10.0,
+    "_MouthToNullDistance": 8.0,
+    "_InCombatMapMeatEatFlag": false,
+    "_dataInfo": [
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 50,
+            "_point": 400
+          },
+          {
+            "_percent": 50,
+            "_point": 600
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 50,
+            "_point": 600
+          },
+          {
+            "_percent": 50,
+            "_point": 800
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 100,
+            "_point": 600
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 100,
+            "_point": 1200
+          }
+        ]
+      }
+    ],
+    "_MapNikuList": [
+      {
+        "_Stamina": 0.0,
+        "_Probability": 30.0
+      }
+    ],
+    "_IsEnableSetMeatEat": false,
+    "_SetMeatEatSec": 15.0,
+    "_SetMeatConditionSec": 5.0,
+    "_SetMeatRecovStartPoint": 30.0,
+    "_SetMeatRecovEndPoint": 70.0,
+    "_SetMeatNormalList": [
+      {
+        "_StaminaRate": 0.0,
+        "_CheckTime": 15.0,
+        "_Distance": 60.0,
+        "_Rate": 100.0,
+        "_IsAnySameBlockCheck": false
+      }
+    ],
+    "_SetMeatCombatList": [
+      {
+        "_StaminaRate": 0.0,
+        "_CheckTime": 30.0,
+        "_Distance": 30.0,
+        "_Rate": 30.0,
+        "_IsAnySameBlockCheck": true
+      }
+    ],
+    "_PredatorDataInfo": {
+      "_IsPredator": 0,
+      "_ActionStance": 0,
+      "_EnableRadius": 400.0,
+      "_EmTypes": []
+    }
+  }
+}

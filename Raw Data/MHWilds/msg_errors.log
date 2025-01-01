@@ -1,0 +1,37 @@
+   Compiling mhwsgen v0.1.0 (/home/nikola/programming/mhwstuff)
+warning: unused import: `anyhow::anyhow`
+ --> src/msg.rs:4:5
+  |
+4 | use anyhow::anyhow;
+  |     ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: fields `hash` and `name` are never read
+   --> src/user.rs:103:9
+    |
+102 | pub struct UserChild {
+    |            --------- fields in this struct
+103 |     pub hash: u32,
+    |         ^^^^
+104 |     pub name: String,
+    |         ^^^^
+    |
+    = note: `UserChild` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+    = note: `#[warn(dead_code)]` on by default
+
+warning: fields `resource_names` and `children` are never read
+   --> src/user.rs:109:9
+    |
+108 | pub struct User {
+    |            ---- fields in this struct
+109 |     pub resource_names: Vec<String>,
+    |         ^^^^^^^^^^^^^^
+110 |     pub children: Vec<UserChild>,
+    |         ^^^^^^^^
+    |
+    = note: `User` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: `mhwsgen` (bin "mhwsgen") generated 3 warnings (run `cargo fix --bin "mhwsgen"` to apply 1 suggestion)
+    Finished `release` profile [optimized] target(s) in 1.39s
+     Running `target/release/mhwsgen --root-dir /mnt/windows/Users/nikol/programming/REtool/re_chunk_000/natives/ --list misc/msg_file_list.txt`

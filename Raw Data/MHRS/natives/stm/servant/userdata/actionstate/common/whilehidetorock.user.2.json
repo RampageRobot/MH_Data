@@ -1,0 +1,32 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": true,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": true
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": true
+      }
+    ],
+    "_Tasks": [
+      {
+        "_ChatActionList": [
+          41,
+          46
+        ],
+        "_TargetWireDistance": 20.0,
+        "_ArriveRangeDistance": 1.5
+      }
+    ]
+  }
+}

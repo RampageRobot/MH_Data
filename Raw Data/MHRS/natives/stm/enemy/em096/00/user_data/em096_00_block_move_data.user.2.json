@@ -1,0 +1,381 @@
+{
+  "snow.enemy.EnemyBlockMoveData": {
+    "_DefaultMovePattern": 0,
+    "_isEnableFlyStanceToFlyMove": false,
+    "_StageInfoList": [
+      {
+        "_MapType": 6,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 220.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 60.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 60.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 0,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 7,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 220.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 180.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 60.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 60.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 0,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 10,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 10000.0,
+            "_CombatStaySecTime": 10000.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 0.0,
+            "_CombatStaySecTime": 0.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 0.0,
+            "_CombatStaySecTime": 0.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": []
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "BreakGateEarlyRate": 10.0,
+    "TargetEnemyBlockMoveEarlyRate": 2.0,
+    "MainOutTargetPlayerEarlyRate": 2.0,
+    "DamagFromMainOutPlayerEarlyRate": 20.0,
+    "CalcRotSpeedList": [],
+    "_blockMoveRotateAbilityUpFlag": false,
+    "_blockMoveRotateAbilityUpmagnification": 1.5
+  }
+}

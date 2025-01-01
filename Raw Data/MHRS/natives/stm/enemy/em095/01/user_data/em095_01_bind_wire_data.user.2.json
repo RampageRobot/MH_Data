@@ -1,0 +1,129 @@
+{
+  "snow.enemy.EnemyBindWireData": {
+    "_WireStrengthUseDataType": 0,
+    "_wireStrengthParam": [
+      {
+        "_wireIndex": 1,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 12.0,
+        "_baseLengthMax": 18.0
+      },
+      {
+        "_wireIndex": 2,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 10.0,
+        "_baseLengthMax": 16.0
+      },
+      {
+        "_wireIndex": 3,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      },
+      {
+        "_wireIndex": 4,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      }
+    ],
+    "_WireTimeUseDataType": 0,
+    "_marioWireTimeParamList": [],
+    "_dogWireTimeParamList": [],
+    "_otomoWireTotalNumParam": {
+      "_wireIndex": 0,
+      "_wireTimer": 20.0
+    },
+    "_PlToEmWireInfoList": [
+      {
+        "_PlJointNameHash": 3569198553,
+        "_EmJointNameHash": 44804614,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3569198553,
+        "_EmJointNameHash": 1817782392,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3125427915,
+        "_EmJointNameHash": 1282000133,
+        "_WireLength": 2.0
+      },
+      {
+        "_PlJointNameHash": 3125427915,
+        "_EmJointNameHash": 896651803,
+        "_WireLength": 2.0
+      }
+    ],
+    "_TwinPlToEmWireInfoList": [],
+    "_BindWireInfoList": [
+      {
+        "_PinPosOffset": [
+          -5.5,
+          0.0,
+          -5.5
+        ],
+        "_wireIndex": 1
+      },
+      {
+        "_PinPosOffset": [
+          -5.5,
+          0.0,
+          5.5
+        ],
+        "_wireIndex": 2
+      },
+      {
+        "_PinPosOffset": [
+          5.5,
+          0.0,
+          5.5
+        ],
+        "_wireIndex": 3
+      },
+      {
+        "_PinPosOffset": [
+          5.5,
+          0.0,
+          -5.5
+        ],
+        "_wireIndex": 4
+      }
+    ],
+    "_IsUseFlyDodge": false,
+    "_IsUseFlyControl": false,
+    "_FlyAcceptCommandBit": 0,
+    "_ShootWallHitPartsGroup": 0,
+    "_IsUseFreeRunDash": true,
+    "_IsStrongCharacter": false,
+    "_RideOnPopRadiusUseDataType": 0,
+    "_RideOnPopRadius": 0.0,
+    "_AttackAdjustUseDataType": 0,
+    "_attackAdjustInfo": {
+      "_WeakAttackInfo": {
+        "_Front": 1.1,
+        "_Back": 1.3,
+        "_Left": 1.3,
+        "_Right": 1.3,
+        "_Neutral": 1.1
+      },
+      "_StrongAttackInfo": {
+        "_Front": 3.0,
+        "_Back": 1.9,
+        "_Left": 1.9,
+        "_Right": 1.9,
+        "_Neutral": 3.0
+      },
+      "_FinalAttackRate": 1.0
+    },
+    "_PowerFinalAttackRateUseDataType": 0,
+    "_powerFinalAttackRate": 2.1,
+    "_TwinMarionetteStartCameraScale": 1.0,
+    "_TwinMarionetteStartCameraOffset": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

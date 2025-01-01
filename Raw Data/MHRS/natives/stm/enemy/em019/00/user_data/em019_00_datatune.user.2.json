@@ -1,0 +1,355 @@
+{
+  "snow.enemy.EnemyDataTune": {
+    "_baseHpVital": 3300,
+    "_masterHpVital": 3300,
+    "_enemyPartsData": [
+      {
+        "_Vital": 300,
+        "_MasterVital": -1,
+        "_ExtractiveType": 2
+      },
+      {
+        "_Vital": 350,
+        "_MasterVital": -1,
+        "_ExtractiveType": 2
+      },
+      {
+        "_Vital": 220,
+        "_MasterVital": -1,
+        "_ExtractiveType": 2
+      },
+      {
+        "_Vital": 180,
+        "_MasterVital": -1,
+        "_ExtractiveType": 1
+      },
+      {
+        "_Vital": 180,
+        "_MasterVital": -1,
+        "_ExtractiveType": 1
+      },
+      {
+        "_Vital": 240,
+        "_MasterVital": -1,
+        "_ExtractiveType": 0
+      },
+      {
+        "_Vital": 240,
+        "_MasterVital": -1,
+        "_ExtractiveType": 0
+      },
+      {
+        "_Vital": 150,
+        "_MasterVital": -1,
+        "_ExtractiveType": 0
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      },
+      {
+        "_Vital": -1,
+        "_MasterVital": -1,
+        "_ExtractiveType": 3
+      }
+    ],
+    "_enemyPartsBreakDataList": [
+      {
+        "_PartsGroup": 2,
+        "_PartsBreakDataList": [
+          {
+            "_BreakLevel": 1,
+            "_Vital": 250,
+            "_MasterVital": -1,
+            "_IgnoreCondition": 2,
+            "_IgnoreCheckCount": 1,
+            "_RewardData": 0
+          },
+          {
+            "_BreakLevel": 2,
+            "_Vital": 365,
+            "_MasterVital": -1,
+            "_IgnoreCondition": 2,
+            "_IgnoreCheckCount": 2,
+            "_RewardData": 0
+          }
+        ]
+      },
+      {
+        "_PartsGroup": 5,
+        "_PartsBreakDataList": [
+          {
+            "_BreakLevel": 1,
+            "_Vital": 250,
+            "_MasterVital": -1,
+            "_IgnoreCondition": 2,
+            "_IgnoreCheckCount": 1,
+            "_RewardData": 0
+          }
+        ]
+      },
+      {
+        "_PartsGroup": 6,
+        "_PartsBreakDataList": [
+          {
+            "_BreakLevel": 1,
+            "_Vital": 250,
+            "_MasterVital": -1,
+            "_IgnoreCondition": 2,
+            "_IgnoreCheckCount": 1,
+            "_RewardData": 0
+          }
+        ]
+      }
+    ],
+    "_enemyPartsLossDataList": [],
+    "_enemyMultiPartsVitalSystemData": [
+      {
+        "_UseType": 1,
+        "_Priority": 2,
+        "_EnablePartsData": [
+          {
+            "_EnableParts": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "_EnableLastAttackParts": [],
+        "_IsEnableHyakuryu": false,
+        "_IsEnableOverwriteDown": false,
+        "_IsPrioDamageCustomize": false,
+        "_PrioDamageCategoryFlag": 0,
+        "_IsNotUseDifficultyRate": false,
+        "_IsUseMultiRateEx": false,
+        "_MultiPartsVitalData": [],
+        "EnablePartsNames": [],
+        "EnablePartsValues": []
+      },
+      {
+        "_UseType": 1,
+        "_Priority": 4,
+        "_EnablePartsData": [
+          {
+            "_EnableParts": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          }
+        ],
+        "_EnableLastAttackParts": [],
+        "_IsEnableHyakuryu": true,
+        "_IsEnableOverwriteDown": false,
+        "_IsPrioDamageCustomize": false,
+        "_PrioDamageCategoryFlag": 0,
+        "_IsNotUseDifficultyRate": false,
+        "_IsUseMultiRateEx": true,
+        "_MultiPartsVitalData": [
+          {
+            "_Vital": 1,
+            "_MasterVital": -1
+          },
+          {
+            "_Vital": 150,
+            "_MasterVital": -1
+          },
+          {
+            "_Vital": 700,
+            "_MasterVital": -1
+          }
+        ],
+        "EnablePartsNames": [],
+        "EnablePartsValues": []
+      },
+      {
+        "_UseType": 1,
+        "_Priority": 2,
+        "_EnablePartsData": [
+          {
+            "_EnableParts": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "_EnableLastAttackParts": [],
+        "_IsEnableHyakuryu": false,
+        "_IsEnableOverwriteDown": false,
+        "_IsPrioDamageCustomize": false,
+        "_PrioDamageCategoryFlag": 0,
+        "_IsNotUseDifficultyRate": false,
+        "_IsUseMultiRateEx": false,
+        "_MultiPartsVitalData": [],
+        "EnablePartsNames": [],
+        "EnablePartsValues": []
+      }
+    ],
+    "_enemyMultiPartsVitalDataList": [
+      {
+        "_UseType": 1,
+        "_Priority": 2,
+        "_EnablePartsData": [
+          {
+            "_EnableParts": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "_EnableLastAttackParts": [],
+        "_IsEnableHyakuryu": false,
+        "_IsEnableOverwriteDown": false,
+        "_IsPrioDamageCustomize": false,
+        "_PrioDamageCategoryFlag": 0,
+        "_IsNotUseDifficultyRate": true,
+        "_IsUseMultiRateEx": false,
+        "_MultiPartsVitalData": [
+          {
+            "_Vital": 1,
+            "_MasterVital": 1
+          }
+        ],
+        "EnablePartsNames": [
+          "部位00\u0000"
+        ],
+        "EnablePartsValues": [
+          0
+        ]
+      }
+    ],
+    "_gimmickVitalData": {
+      "_VitalS": 100,
+      "_VitalM": 100,
+      "_VitalL": 100,
+      "_VitalKnockBack": -1
+    },
+    "_marionetteVitalData": {
+      "_VitalS": 100,
+      "_VitalM": 100,
+      "_VitalL": 100
+    },
+    "_TerrainActionCheckDist": 10.0,
+    "_AdjustWallPointOffset": 0.0,
+    "_CharacterControllerTuneData": [
+      {
+        "_Radius": 3.5,
+        "_OffsetY": 0.0
+      },
+      {
+        "_Radius": 2.5,
+        "_OffsetY": 0.0
+      },
+      {
+        "_Radius": 10.0,
+        "_OffsetY": 0.0
+      },
+      {
+        "_Radius": 10.0,
+        "_OffsetY": 0.0
+      }
+    ],
+    "_Weight": 8,
+    "_DyingVillageHpVitalRate": 20.0,
+    "_DyingLowLevelHpVitalRate": 20.0,
+    "_DyingHighLevelHpVitalRate": 18.0,
+    "_DyingMasterClassHpVitalRate": 12.0,
+    "_CaptureVillageHpVitalRate": 23.0,
+    "_CaptureLowLevelHpVitalRate": 23.0,
+    "_CaptureHighLevelHpVitalRate": 21.0,
+    "_CaptureMasterLevelHpVitalRate": 14.0,
+    "_SelfSleepRecoverHpVitalRate": 5.0,
+    "_SelfSleepTime": 90.0,
+    "_InCombatSelfSleepFlag": true,
+    "_DummyShadowScale": 1.0,
+    "_MaxNumForNormalQuest": 10,
+    "_MaxNumForHyakuryuQuest": 10,
+    "_MaxSoundDamageCount": -1
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1133903872,
+          1123024896
+        ],
+        "_Cancel": [
+          1084227584,
+          1084227584
+        ],
+        "_Group": [
+          0,
+          1127481344
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": true
+        },
+        {
+          "_Param": {
+            "_ItemID": "ITEM_0007"
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1106247680
+            ]
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1106247680
+            ]
+          },
+          "_Inverse": true
+        },
+        {
+          "_Param": {
+            "AI_STATE": 1
+          },
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {
+            "_ItemID": "ITEM_0007"
+          },
+          "_Inverse": false
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

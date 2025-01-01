@@ -1,0 +1,690 @@
+{
+  "ace.user_data.EnumMaker": {
+    "_DataList": [
+      {
+        "_EnumName": "DISAPPEAR_IN_MULTIPLAY\u0000",
+        "_EnumValue": 0,
+        "_FixedID": 0
+      },
+      {
+        "_EnumName": "APPEAR_IN_MULTIPLAY\u0000",
+        "_EnumValue": 1,
+        "_FixedID": 1
+      },
+      {
+        "_EnumName": "AISTATE_HIDE\u0000",
+        "_EnumValue": 2,
+        "_FixedID": 2
+      },
+      {
+        "_EnumName": "AISTATE_CAUTION_FIRST_TIMING\u0000",
+        "_EnumValue": 3,
+        "_FixedID": 3
+      },
+      {
+        "_EnumName": "AISTATE_CAUTION\u0000",
+        "_EnumValue": 4,
+        "_FixedID": 4
+      },
+      {
+        "_EnumName": "AISTATE_BATTLE_QUEST_TARGET\u0000",
+        "_EnumValue": 5,
+        "_FixedID": 5
+      },
+      {
+        "_EnumName": "AISTATE_BATTLE_NON_GUEST_TARGET\u0000",
+        "_EnumValue": 6,
+        "_FixedID": 6
+      },
+      {
+        "_EnumName": "SELF_HEAL\u0000",
+        "_EnumValue": 7,
+        "_FixedID": 7
+      },
+      {
+        "_EnumName": "ZERO_HEALTH\u0000",
+        "_EnumValue": 8,
+        "_FixedID": 8
+      },
+      {
+        "_EnumName": "USE_INSECT_HEAL\u0000",
+        "_EnumValue": 9,
+        "_FixedID": 9
+      },
+      {
+        "_EnumName": "USE_INSECT_HEAL_QUEST\u0000",
+        "_EnumValue": 10,
+        "_FixedID": 135
+      },
+      {
+        "_EnumName": "USE_SHIELD_PROVOKE\u0000",
+        "_EnumValue": 11,
+        "_FixedID": 10
+      },
+      {
+        "_EnumName": "GUIDE_NEAR_FIELD_GIMMICK\u0000",
+        "_EnumValue": 12,
+        "_FixedID": 11
+      },
+      {
+        "_EnumName": "USE_TRAP\u0000",
+        "_EnumValue": 13,
+        "_FixedID": 12
+      },
+      {
+        "_EnumName": "COLLECT_TRAP\u0000",
+        "_EnumValue": 14,
+        "_FixedID": 13
+      },
+      {
+        "_EnumName": "USE_SLINGER\u0000",
+        "_EnumValue": 15,
+        "_FixedID": 14
+      },
+      {
+        "_EnumName": "USE_ATKUP\u0000",
+        "_EnumValue": 16,
+        "_FixedID": 15
+      },
+      {
+        "_EnumName": "USE_DEFUP\u0000",
+        "_EnumValue": 17,
+        "_FixedID": 16
+      },
+      {
+        "_EnumName": "USE_BAD_CONDITIONS_HEAL\u0000",
+        "_EnumValue": 18,
+        "_FixedID": 17
+      },
+      {
+        "_EnumName": "USE_SET_INSECT_HEAL\u0000",
+        "_EnumValue": 19,
+        "_FixedID": 18
+      },
+      {
+        "_EnumName": "USE_TRAP_FLASH\u0000",
+        "_EnumValue": 20,
+        "_FixedID": 19
+      },
+      {
+        "_EnumName": "USE_TRAP_FLASH_FLY\u0000",
+        "_EnumValue": 21,
+        "_FixedID": 20
+      },
+      {
+        "_EnumName": "USE_INSECT_HEAL_REVIVE\u0000",
+        "_EnumValue": 22,
+        "_FixedID": 21
+      },
+      {
+        "_EnumName": "PL_RAISE\u0000",
+        "_EnumValue": 23,
+        "_FixedID": 22
+      },
+      {
+        "_EnumName": "USE_SET_BOMB_AFTER_SET_PL\u0000",
+        "_EnumValue": 24,
+        "_FixedID": 23
+      },
+      {
+        "_EnumName": "USE_SET_BOMB\u0000",
+        "_EnumValue": 25,
+        "_FixedID": 24
+      },
+      {
+        "_EnumName": "QUEST_START_BOSSHUNT\u0000",
+        "_EnumValue": 26,
+        "_FixedID": 25
+      },
+      {
+        "_EnumName": "QUEST_ACCEPT_SIDEQUEST\u0000",
+        "_EnumValue": 27,
+        "_FixedID": 26
+      },
+      {
+        "_EnumName": "QUEST_START_ZAKOHUNT\u0000",
+        "_EnumValue": 28,
+        "_FixedID": 27
+      },
+      {
+        "_EnumName": "QUEST_START_CAPTURE\u0000",
+        "_EnumValue": 29,
+        "_FixedID": 28
+      },
+      {
+        "_EnumName": "QUEST_START_OTHER\u0000",
+        "_EnumValue": 30,
+        "_FixedID": 29
+      },
+      {
+        "_EnumName": "QUEST_ACCEPT_TASK\u0000",
+        "_EnumValue": 31,
+        "_FixedID": 30
+      },
+      {
+        "_EnumName": "JOIN_OTHER_ENEMY\u0000",
+        "_EnumValue": 32,
+        "_FixedID": 31
+      },
+      {
+        "_EnumName": "FIRSTCONTACT_QUEST_TARGET\u0000",
+        "_EnumValue": 33,
+        "_FixedID": 32
+      },
+      {
+        "_EnumName": "FIND_FIELD_GIMMICK\u0000",
+        "_EnumValue": 34,
+        "_FixedID": 33
+      },
+      {
+        "_EnumName": "DAMAGE_STUN\u0000",
+        "_EnumValue": 35,
+        "_FixedID": 34
+      },
+      {
+        "_EnumName": "DAMAGE_FLASH\u0000",
+        "_EnumValue": 36,
+        "_FixedID": 35
+      },
+      {
+        "_EnumName": "DAMAGE_PARALYZE\u0000",
+        "_EnumValue": 37,
+        "_FixedID": 36
+      },
+      {
+        "_EnumName": "BAD_CONDITION\u0000",
+        "_EnumValue": 38,
+        "_FixedID": 37
+      },
+      {
+        "_EnumName": "PL_RIDE_EM\u0000",
+        "_EnumValue": 39,
+        "_FixedID": 38
+      },
+      {
+        "_EnumName": "PL_WIN_CLOSE_FIGHT\u0000",
+        "_EnumValue": 40,
+        "_FixedID": 39
+      },
+      {
+        "_EnumName": "PL_PINCH\u0000",
+        "_EnumValue": 41,
+        "_FixedID": 40
+      },
+      {
+        "_EnumName": "EM_DAMAGE_STUN\u0000",
+        "_EnumValue": 42,
+        "_FixedID": 41
+      },
+      {
+        "_EnumName": "EM_DAMAGE_FLASH\u0000",
+        "_EnumValue": 43,
+        "_FixedID": 42
+      },
+      {
+        "_EnumName": "EM_DAMAGE_PARALYZE\u0000",
+        "_EnumValue": 44,
+        "_FixedID": 43
+      },
+      {
+        "_EnumName": "ENEMY_SLEEP\u0000",
+        "_EnumValue": 45,
+        "_FixedID": 44
+      },
+      {
+        "_EnumName": "EM_BAD_CONDITION\u0000",
+        "_EnumValue": 46,
+        "_FixedID": 45
+      },
+      {
+        "_EnumName": "EM_IS_CAPTURE\u0000",
+        "_EnumValue": 47,
+        "_FixedID": 46
+      },
+      {
+        "_EnumName": "EM_TIRED\u0000",
+        "_EnumValue": 48,
+        "_FixedID": 47
+      },
+      {
+        "_EnumName": "EM_ANGRY\u0000",
+        "_EnumValue": 49,
+        "_FixedID": 48
+      },
+      {
+        "_EnumName": "EM_DOWN\u0000",
+        "_EnumValue": 50,
+        "_FixedID": 49
+      },
+      {
+        "_EnumName": "EM_AREA_CHANGE\u0000",
+        "_EnumValue": 51,
+        "_FixedID": 50
+      },
+      {
+        "_EnumName": "EM_TAIL_CUTTING\u0000",
+        "_EnumValue": 52,
+        "_FixedID": 51
+      },
+      {
+        "_EnumName": "EM_GRAPPLING\u0000",
+        "_EnumValue": 53,
+        "_FixedID": 52
+      },
+      {
+        "_EnumName": "QUEST_SUCCESS\u0000",
+        "_EnumValue": 54,
+        "_FixedID": 134
+      },
+      {
+        "_EnumName": "KEEP_QUEST_SUCCESS\u0000",
+        "_EnumValue": 55,
+        "_FixedID": 53
+      },
+      {
+        "_EnumName": "STREAM_TASK_CLEAR\u0000",
+        "_EnumValue": 56,
+        "_FixedID": 54
+      },
+      {
+        "_EnumName": "CIRCLE_TASK_CLEAR\u0000",
+        "_EnumValue": 57,
+        "_FixedID": 55
+      },
+      {
+        "_EnumName": "SEAMLESS_QUEST_CLEAR\u0000",
+        "_EnumValue": 58,
+        "_FixedID": 56
+      },
+      {
+        "_EnumName": "SUCCESS_FIELD_TRAP\u0000",
+        "_EnumValue": 59,
+        "_FixedID": 57
+      },
+      {
+        "_EnumName": "SUCCESS_TRAP_PURPOSELY\u0000",
+        "_EnumValue": 60,
+        "_FixedID": 136
+      },
+      {
+        "_EnumName": "PL_HEAL_OTOMO\u0000",
+        "_EnumValue": 61,
+        "_FixedID": 58
+      },
+      {
+        "_EnumName": "PL_BUFF_OTOMO\u0000",
+        "_EnumValue": 62,
+        "_FixedID": 59
+      },
+      {
+        "_EnumName": "PL_DEAD\u0000",
+        "_EnumValue": 63,
+        "_FixedID": 60
+      },
+      {
+        "_EnumName": "USE_DRAGAIRSHIP\u0000",
+        "_EnumValue": 64,
+        "_FixedID": 61
+      },
+      {
+        "_EnumName": "USE_STEAL_BOOMERANG\u0000",
+        "_EnumValue": 65,
+        "_FixedID": 62
+      },
+      {
+        "_EnumName": "USE_NOTSTEAL_BOOMERANG\u0000",
+        "_EnumValue": 66,
+        "_FixedID": 63
+      },
+      {
+        "_EnumName": "USE_HEAL_AFTER_REVIVE\u0000",
+        "_EnumValue": 67,
+        "_FixedID": 64
+      },
+      {
+        "_EnumName": "SET_GIMMICK_BATTLE_START\u0000",
+        "_EnumValue": 68,
+        "_FixedID": 65
+      },
+      {
+        "_EnumName": "INSECT_HEAL_CANCEL\u0000",
+        "_EnumValue": 69,
+        "_FixedID": 66
+      },
+      {
+        "_EnumName": "COLLECT_TOOL\u0000",
+        "_EnumValue": 70,
+        "_FixedID": 67
+      },
+      {
+        "_EnumName": "PL_SNEAK_ATTACK_SUCCESS\u0000",
+        "_EnumValue": 71,
+        "_FixedID": 122
+      },
+      {
+        "_EnumName": "SUCCESS_STEAL\u0000",
+        "_EnumValue": 72,
+        "_FixedID": 124
+      },
+      {
+        "_EnumName": "FOLLOW_TO_PL_FARAWAY\u0000",
+        "_EnumValue": 73,
+        "_FixedID": 68
+      },
+      {
+        "_EnumName": "CHANGE_FIELD_TARGET_QUEST_TARGET_OFF\u0000",
+        "_EnumValue": 74,
+        "_FixedID": 69
+      },
+      {
+        "_EnumName": "CHANGE_FIELD_TARGET_QUEST_TARGET\u0000",
+        "_EnumValue": 75,
+        "_FixedID": 70
+      },
+      {
+        "_EnumName": "CHANGE_FIELD_TARGET_OTHER\u0000",
+        "_EnumValue": 76,
+        "_FixedID": 71
+      },
+      {
+        "_EnumName": "CHANGE_FIELD_TARGET_EVENT_NPC\u0000",
+        "_EnumValue": 77,
+        "_FixedID": 72
+      },
+      {
+        "_EnumName": "GO_AHEAD\u0000",
+        "_EnumValue": 78,
+        "_FixedID": 73
+      },
+      {
+        "_EnumName": "MOVE_TO_DESTINATION_WAIT\u0000",
+        "_EnumValue": 79,
+        "_FixedID": 74
+      },
+      {
+        "_EnumName": "ARRIVE_NEAR_EM\u0000",
+        "_EnumValue": 80,
+        "_FixedID": 75
+      },
+      {
+        "_EnumName": "ARRIVE\u0000",
+        "_EnumValue": 81,
+        "_FixedID": 76
+      },
+      {
+        "_EnumName": "MOVE_TO_DESTINATION_JOIN_PL\u0000",
+        "_EnumValue": 82,
+        "_FixedID": 77
+      },
+      {
+        "_EnumName": "RIDE_PORTER\u0000",
+        "_EnumValue": 83,
+        "_FixedID": 78
+      },
+      {
+        "_EnumName": "RIDE_PORTER_WARP_TO_ADVISOR\u0000",
+        "_EnumValue": 84,
+        "_FixedID": 79
+      },
+      {
+        "_EnumName": "NO_ACCOMPANY_TENT_ASK_TOGETHER\u0000",
+        "_EnumValue": 85,
+        "_FixedID": 80
+      },
+      {
+        "_EnumName": "RIDE_OFF_PORTER_NEAREST_TARGET_EXCEPT_EM\u0000",
+        "_EnumValue": 86,
+        "_FixedID": 81
+      },
+      {
+        "_EnumName": "RIDE_PORTER_OFF\u0000",
+        "_EnumValue": 87,
+        "_FixedID": 82
+      },
+      {
+        "_EnumName": "RIDING_PORTER\u0000",
+        "_EnumValue": 88,
+        "_FixedID": 83
+      },
+      {
+        "_EnumName": "WAIT_MOVE_TO_TARGET_EM\u0000",
+        "_EnumValue": 89,
+        "_FixedID": 84
+      },
+      {
+        "_EnumName": "WAIT_MOVE_TO_TARGET_IGNORE_EM\u0000",
+        "_EnumValue": 90,
+        "_FixedID": 85
+      },
+      {
+        "_EnumName": "GATHERING_GRASS\u0000",
+        "_EnumValue": 91,
+        "_FixedID": 86
+      },
+      {
+        "_EnumName": "GATHERING_GRASS_RARE\u0000",
+        "_EnumValue": 92,
+        "_FixedID": 87
+      },
+      {
+        "_EnumName": "MINING\u0000",
+        "_EnumValue": 93,
+        "_FixedID": 88
+      },
+      {
+        "_EnumName": "MINING_ENABLE_SLINGER_CATCH\u0000",
+        "_EnumValue": 94,
+        "_FixedID": 89
+      },
+      {
+        "_EnumName": "FISHING\u0000",
+        "_EnumValue": 95,
+        "_FixedID": 90
+      },
+      {
+        "_EnumName": "WEATHER_GOING_TO_CHANGE\u0000",
+        "_EnumValue": 96,
+        "_FixedID": 91
+      },
+      {
+        "_EnumName": "ABNORMAL_DESERT\u0000",
+        "_EnumValue": 97,
+        "_FixedID": 92
+      },
+      {
+        "_EnumName": "ABNORMAL_FOREST\u0000",
+        "_EnumValue": 98,
+        "_FixedID": 93
+      },
+      {
+        "_EnumName": "ABNORMAL_OIL\u0000",
+        "_EnumValue": 99,
+        "_FixedID": 94
+      },
+      {
+        "_EnumName": "ABNORMAL_WALL\u0000",
+        "_EnumValue": 100,
+        "_FixedID": 95
+      },
+      {
+        "_EnumName": "ABNORMAL_CORE\u0000",
+        "_EnumValue": 101,
+        "_FixedID": 96
+      },
+      {
+        "_EnumName": "HEAT_GRASS\u0000",
+        "_EnumValue": 102,
+        "_FixedID": 97
+      },
+      {
+        "_EnumName": "APPEAR_SAND_PIT\u0000",
+        "_EnumValue": 103,
+        "_FixedID": 98
+      },
+      {
+        "_EnumName": "SAND_PIT_WARP\u0000",
+        "_EnumValue": 104,
+        "_FixedID": 99
+      },
+      {
+        "_EnumName": "MUDDY_STREAM\u0000",
+        "_EnumValue": 105,
+        "_FixedID": 100
+      },
+      {
+        "_EnumName": "FIND_FIELD_GIMMICK_NORMAL\u0000",
+        "_EnumValue": 106,
+        "_FixedID": 101
+      },
+      {
+        "_EnumName": "GRILL_PARFECT\u0000",
+        "_EnumValue": 107,
+        "_FixedID": 102
+      },
+      {
+        "_EnumName": "GRILL_SUCCESS\u0000",
+        "_EnumValue": 108,
+        "_FixedID": 103
+      },
+      {
+        "_EnumName": "GRILL_FAILED\u0000",
+        "_EnumValue": 109,
+        "_FixedID": 104
+      },
+      {
+        "_EnumName": "FISHING_SUCCESS\u0000",
+        "_EnumValue": 110,
+        "_FixedID": 105
+      },
+      {
+        "_EnumName": "FISHING_FAILED\u0000",
+        "_EnumValue": 111,
+        "_FixedID": 106
+      },
+      {
+        "_EnumName": "FIND_TRACE\u0000",
+        "_EnumValue": 112,
+        "_FixedID": 107
+      },
+      {
+        "_EnumName": "FREE_WALK_GATHERING\u0000",
+        "_EnumValue": 113,
+        "_FixedID": 108
+      },
+      {
+        "_EnumName": "FIND_ANCIENT_COIN\u0000",
+        "_EnumValue": 114,
+        "_FixedID": 109
+      },
+      {
+        "_EnumName": "BEAUTIFUL_AREA\u0000",
+        "_EnumValue": 115,
+        "_FixedID": 110
+      },
+      {
+        "_EnumName": "FERTILITY\u0000",
+        "_EnumValue": 116,
+        "_FixedID": 111
+      },
+      {
+        "_EnumName": "FIND_ZAKO_GROUP\u0000",
+        "_EnumValue": 117,
+        "_FixedID": 112
+      },
+      {
+        "_EnumName": "AFTER_FAST_TRAVEL\u0000",
+        "_EnumValue": 118,
+        "_FixedID": 113
+      },
+      {
+        "_EnumName": "AFTER_FAST_TRAVEL_NEAREST_TARGET\u0000",
+        "_EnumValue": 119,
+        "_FixedID": 114
+      },
+      {
+        "_EnumName": "DEACTIVATE_MEAL_EFFECT\u0000",
+        "_EnumValue": 120,
+        "_FixedID": 131
+      },
+      {
+        "_EnumName": "STAMINA_VERY_LOW\u0000",
+        "_EnumValue": 121,
+        "_FixedID": 130
+      },
+      {
+        "_EnumName": "SUCCESS_CAPTURE_ANIMAL\u0000",
+        "_EnumValue": 122,
+        "_FixedID": 129
+      },
+      {
+        "_EnumName": "FIND_INSECT_HEAL\u0000",
+        "_EnumValue": 123,
+        "_FixedID": 128
+      },
+      {
+        "_EnumName": "FIND_FISH\u0000",
+        "_EnumValue": 124,
+        "_FixedID": 127
+      },
+      {
+        "_EnumName": "FIND_ELECBUG\u0000",
+        "_EnumValue": 125,
+        "_FixedID": 126
+      },
+      {
+        "_EnumName": "FIND_FLOTING_ROCK\u0000",
+        "_EnumValue": 126,
+        "_FixedID": 125
+      },
+      {
+        "_EnumName": "FIND_ICE_NEEDLE\u0000",
+        "_EnumValue": 127,
+        "_FixedID": 132
+      },
+      {
+        "_EnumName": "SELECT_WAIT_CAMP\u0000",
+        "_EnumValue": 128,
+        "_FixedID": 115
+      },
+      {
+        "_EnumName": "RETURN_TO_BASE\u0000",
+        "_EnumValue": 129,
+        "_FixedID": 116
+      },
+      {
+        "_EnumName": "TRANING\u0000",
+        "_EnumValue": 130,
+        "_FixedID": 117
+      },
+      {
+        "_EnumName": "FREE_WALK_VILLAGE\u0000",
+        "_EnumValue": 131,
+        "_FixedID": 118
+      },
+      {
+        "_EnumName": "SIDE_QUEST_ORDER\u0000",
+        "_EnumValue": 132,
+        "_FixedID": 133
+      },
+      {
+        "_EnumName": "WANT_NEW_EQUIP\u0000",
+        "_EnumValue": 133,
+        "_FixedID": 119
+      },
+      {
+        "_EnumName": "THANKS_NEW_EQUIP\u0000",
+        "_EnumValue": 134,
+        "_FixedID": 120
+      },
+      {
+        "_EnumName": "MAX\u0000",
+        "_EnumValue": 135,
+        "_FixedID": 121
+      }
+    ],
+    "_ExportNamespaceName": "app\u0000",
+    "_ExportClassName": "OtomoDef\u0000",
+    "_ExportEnumName": "SPEECH_SITUATION\u0000",
+    "_EnumNameOfMaxElementCount": "MAX\u0000"
+  }
+}

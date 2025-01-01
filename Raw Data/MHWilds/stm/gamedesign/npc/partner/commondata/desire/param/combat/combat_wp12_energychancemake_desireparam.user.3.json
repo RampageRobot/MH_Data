@@ -1,0 +1,44 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          0,
+          0
+        ],
+        "_Cancel": [
+          0,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "_Compare": 1,
+            "_CompareValue": 70.0
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {},
+          "_Inverse": true
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {
+            "_Compare": 0,
+            "_CompareValue": 30.0
+          },
+          "_Inverse": false
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

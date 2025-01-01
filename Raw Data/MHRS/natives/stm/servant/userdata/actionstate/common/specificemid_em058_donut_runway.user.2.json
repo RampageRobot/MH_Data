@@ -1,0 +1,39 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_Type": 58,
+        "_ActionCategory": 4,
+        "_ActionIDList": [
+          5003
+        ]
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": false,
+        "_Type": 58,
+        "_ActionCategory": 4,
+        "_ActionIDList": [
+          5003
+        ]
+      }
+    ],
+    "_Tasks": [
+      {
+        "_OrderPostionType": 17,
+        "_ArriveRange": 3.0,
+        "_MoveType": 4,
+        "_MoveContinueTimes": 5,
+        "_EnableDashForGunnerWeaponOn": true,
+        "_AppraochCareEnable": false,
+        "_AvoidNaviObstaclePerformanceUp": false,
+        "_TakeRouteCloserToCircle": false,
+        "_UseNaviTarget": false
+      }
+    ]
+  }
+}

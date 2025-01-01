@@ -1,0 +1,74 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi321_008/Combi321_008_fsm_Confluence.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            1040.7406,
+            -88.11166,
+            -124.613045
+          ],
+          "_DegY": -115
+        },
+        "_Range": 1.0,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -109.68878,
+                  43.683723,
+                  492.60175
+                ],
+                "_DegY": 180
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": 0,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 1897164032
+                },
+                "_ID": "INVALID"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  -109.04563,
+                  43.685604,
+                  491.67035
+                ],
+                "_DegY": -35
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "JYUJIN_ARU",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 2,
+                  "_ModelKindFixedID": -541126656
+                },
+                "_ID": "INVALID"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true
+      }
+    }
+  }
+}

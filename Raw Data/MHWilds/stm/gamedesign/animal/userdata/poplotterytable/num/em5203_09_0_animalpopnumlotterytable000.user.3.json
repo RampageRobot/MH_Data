@@ -1,0 +1,40 @@
+{
+  "app.user_data.AnimalPopNumLotteryTable": {
+    "_LotteryTable": {
+      "_IsConfigureEachEnvironment": true,
+      "_IsConfigureEachTimeZone": false,
+      "_LotteryTables": [
+        {
+          "_EnvironmentType": "RUIN",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": false,
+          "STRUCT__OtherTableReferenceFixedId__Value": 0
+        },
+        {
+          "_EnvironmentType": "ABNORMAL",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": false,
+          "STRUCT__OtherTableReferenceFixedId__Value": 0
+        },
+        {
+          "_EnvironmentType": "FERTILITY",
+          "_TimeZoneType": "INVALID",
+          "_Infos": [
+            {
+              "_Probability": 20,
+              "_PopNum": 1
+            },
+            {
+              "_Probability": 80,
+              "_PopNum": 0
+            }
+          ],
+          "STRUCT__OtherTableReferenceFixedId__HasValue": false,
+          "STRUCT__OtherTableReferenceFixedId__Value": 0
+        }
+      ]
+    }
+  }
+}

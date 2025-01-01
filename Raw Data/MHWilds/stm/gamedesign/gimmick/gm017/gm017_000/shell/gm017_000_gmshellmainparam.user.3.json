@@ -1,0 +1,69 @@
+{
+  "ace.user_data.ShellMainParam": {
+    "_ShellMiniParams": [
+      {
+        "MiniParamName": "Common\u0000",
+        "MiniParamtype": 1,
+        "_IsDependedOn": false,
+        "UpdateOrder": 0,
+        "LateUpdateOrder": 0,
+        "_LifeSec": 2.5,
+        "_HitOnSec": 2.0
+      },
+      {
+        "MiniParamName": "AppColHit\u0000",
+        "MiniParamtype": 3,
+        "_IsDependedOn": false,
+        "UpdateOrder": 100,
+        "LateUpdateOrder": 100,
+        "_ColHitFlag": 3,
+        "_SubCollisionIDList": [],
+        "_IsHitOwner": false,
+        "_IsHitOwnerOhterShell": false,
+        "_IsHitAnimalCollision": false,
+        "_IsDisableNearestHit": false,
+        "_IsNoHitAttackerShell": false,
+        "_IsDamageShellNoSort": false,
+        "_IsDamageDestory": false,
+        "_IsEnableDynamicShape": false,
+        "_AppHitTerrainSetting": {
+          "_FirstTerrainHitType": 0,
+          "_ShellHitWaterBehavior": 3,
+          "_ShellHitGroundBehavior": 0,
+          "STRUCT__ShellHitWallBehavior__HasValue": false,
+          "STRUCT__ShellHitWallBehavior__Value": 0,
+          "STRUCT__ShellHitCeilingBehavior__HasValue": false,
+          "STRUCT__ShellHitCeilingBehavior__Value": 0,
+          "_IsFirstTerrainCheck": true,
+          "_FirstTerrainCheckJoint": {
+            "_Hash": 0
+          },
+          "STRUCT__FirstTerrainCheckOffset__HasValue": false,
+          "STRUCT__FirstTerrainCheckOffset__Value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_FirstTerrainCheckGoalJoint": {
+            "_Hash": 0
+          },
+          "_TimeNotHitInTerrain": -1.0,
+          "_IsShellHitTerrainCorrect": true,
+          "STRUCT__HitTerrainLimitDeg__HasValue": false,
+          "STRUCT__HitTerrainLimitDeg__Value": 0.0,
+          "_ShellAttackColLifeSec": -1.0,
+          "_ShowRailgunHit": false
+        }
+      }
+    ],
+    "_CommonParam": {
+      "MiniParamName": "Common\u0000",
+      "MiniParamtype": 1,
+      "_IsDependedOn": false,
+      "UpdateOrder": 0,
+      "LateUpdateOrder": 0,
+      "_LifeSec": 2.5,
+      "_HitOnSec": 2.0
+    }
+  }
+}

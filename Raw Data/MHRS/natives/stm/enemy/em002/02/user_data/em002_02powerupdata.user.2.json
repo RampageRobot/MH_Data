@@ -1,0 +1,784 @@
+{
+  "snow.enemy.Em001_02PowerUpData": {
+    "PowerUpCountChangeDatas": [
+      {
+        "RatioMax": 1.0,
+        "RatioMin": 0.8,
+        "count": 110
+      },
+      {
+        "RatioMax": 0.8,
+        "RatioMin": 0.5,
+        "count": 150
+      },
+      {
+        "RatioMax": 0.5,
+        "RatioMin": 0.3,
+        "count": 100
+      },
+      {
+        "RatioMax": 0.3,
+        "RatioMin": 0.0,
+        "count": 80
+      }
+    ],
+    "_PowerUpCountAddMoitonDatas": [
+      {
+        "_EnumName": "None\u0000",
+        "_Name": "なし\u0000",
+        "_ActNo": 0,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RollingTailL\u0000",
+        "_Name": "回転尻尾攻撃（時計回り）\u0000",
+        "_ActNo": 1,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RollingTailR\u0000",
+        "_Name": "回転尻尾攻撃（反時計回り）\u0000",
+        "_ActNo": 2,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "NormalBreathStart\u0000",
+        "_Name": "地上ブレス開始\u0000",
+        "_ActNo": 3,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "NormalBreathShot\u0000",
+        "_Name": "地上ブレス発射\u0000",
+        "_ActNo": 4,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BackJumpBreathToAir\u0000",
+        "_Name": "バックジャンプブレスto離陸\u0000",
+        "_ActNo": 5,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BackJumpBreathToGround\u0000",
+        "_Name": "バックジャンプブレスto着地\u0000",
+        "_ActNo": 6,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "Bite\u0000",
+        "_Name": "噛みつき\u0000",
+        "_ActNo": 7,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "NoBlendBite\u0000",
+        "_Name": "ブレンドなし噛みつき\u0000",
+        "_ActNo": 8,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "DashBite\u0000",
+        "_Name": "ダッシュ噛みつき\u0000",
+        "_ActNo": 9,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "TiredDashBite\u0000",
+        "_Name": "疲れダッシュ噛みつき\u0000",
+        "_ActNo": 10,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "VerticalKick\u0000",
+        "_Name": "真下ジャンプ踏みつけ\u0000",
+        "_ActNo": 11,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyScrach\u0000",
+        "_Name": "空中ひっかき\u0000",
+        "_ActNo": 12,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyBreath\u0000",
+        "_Name": "空中ブレス\u0000",
+        "_ActNo": 13,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FlyBreathRepeat\u0000",
+        "_Name": "連続用空中ブレス\u0000",
+        "_ActNo": 14,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FlyNagiharaiBreath\u0000",
+        "_Name": "空中薙ぎ払いブレス\u0000",
+        "_ActNo": 15,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FlyBackStepBreath\u0000",
+        "_Name": "空中バックステップブレス前半\u0000",
+        "_ActNo": 16,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FlyBackStepBreathAfter\u0000",
+        "_Name": "空中バックステップブレス後半\u0000",
+        "_ActNo": 17,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FlyFrontBite\u0000",
+        "_Name": "空中前噛みつき\u0000",
+        "_ActNo": 19,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyFrontBiteAfter\u0000",
+        "_Name": "空中前噛みつき後半\u0000",
+        "_ActNo": 20,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyTailAttackL\u0000",
+        "_Name": "空中尻尾薙ぎ攻撃左\u0000",
+        "_ActNo": 21,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyTailAttackR\u0000",
+        "_Name": "空中尻尾薙ぎ攻撃右\u0000",
+        "_ActNo": 22,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "Fly2KickToLand\u0000",
+        "_Name": "空中２連続キック着地\u0000",
+        "_ActNo": 23,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyKickProgressL\u0000",
+        "_Name": "中距離けん制キック左開始\u0000",
+        "_ActNo": 24,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyKickProgressR\u0000",
+        "_Name": "中距離けん制キック右開始\u0000",
+        "_ActNo": 25,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyNearEndKickProgressL\u0000",
+        "_Name": "近くで終わる中距離けん制キック左開始\u0000",
+        "_ActNo": 26,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyNearEndKickProgressR\u0000",
+        "_Name": "近くで終わる中距離けん制キック右開始\u0000",
+        "_ActNo": 27,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyKickProgressEndL\u0000",
+        "_Name": "中距離けん制キック左\u0000",
+        "_ActNo": 28,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyKickProgressEndR\u0000",
+        "_Name": "中距離けん制キック右\u0000",
+        "_ActNo": 29,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyVerticalKick\u0000",
+        "_Name": "空中真下ジャンプ踏みつけ\u0000",
+        "_ActNo": 32,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "GlideCharge\u0000",
+        "_Name": "滑空攻撃\u0000",
+        "_ActNo": 33,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteTurnL_BiteL\u0000",
+        "_Name": "連続噛みつき開始左回転：左噛み\u0000",
+        "_ActNo": 34,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteTurnR_BiteL\u0000",
+        "_Name": "連続噛みつき開始右回転：左噛み\u0000",
+        "_ActNo": 35,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteTurnL_BiteR\u0000",
+        "_Name": "連続噛みつき開始左回転：右噛み\u0000",
+        "_ActNo": 36,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteTurnR_BiteR\u0000",
+        "_Name": "連続噛みつき開始右回転：右噛み\u0000",
+        "_ActNo": 37,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteLoopL_R\u0000",
+        "_Name": "連続噛みつきループ左噛み→右噛み切り返し\u0000",
+        "_ActNo": 38,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteLoopR_L\u0000",
+        "_Name": "連続噛みつきループ右噛み→左噛み切り返し\u0000",
+        "_ActNo": 39,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RushBiteEndL\u0000",
+        "_Name": "連続噛みつき終了左噛み\u0000",
+        "_ActNo": 40,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RushBiteEndR\u0000",
+        "_Name": "連続噛みつき終了右噛み\u0000",
+        "_ActNo": 41,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RushBiteLandingConnectStartL\u0000",
+        "_Name": "連続噛みつき着地繋ぎ開始左\u0000",
+        "_ActNo": 42,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RushBiteLandingConnectStartR\u0000",
+        "_Name": "連続噛みつき着地繋ぎ開始右\u0000",
+        "_ActNo": 43,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "LauesKickStart\u0000",
+        "_Name": "レウスキック開始\u0000",
+        "_ActNo": 44,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ShortRangeLauesKickStart\u0000",
+        "_Name": "近距離レウスキック開始\u0000",
+        "_ActNo": 45,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "LauesKickLoop\u0000",
+        "_Name": "レウスキックループ\u0000",
+        "_ActNo": 46,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ShortRangeLauesKickLoop\u0000",
+        "_Name": "近距離レウスキックループ\u0000",
+        "_ActNo": 47,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "LauesKickRepeatTurn\u0000",
+        "_Name": "連続レウスキック用切り返し\u0000",
+        "_ActNo": 48,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "LauesKickEnd\u0000",
+        "_Name": "レウスキック空中終了\u0000",
+        "_ActNo": 49,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "LauesKickLandingEnd\u0000",
+        "_Name": "レウスキック着地終了\u0000",
+        "_ActNo": 50,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "GlideBreath\u0000",
+        "_Name": "滑空ブレス\u0000",
+        "_ActNo": 51,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FireBurner\u0000",
+        "_Name": "ファイアーバーナー\u0000",
+        "_ActNo": 55,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "FireBurnerFlyEnd\u0000",
+        "_Name": "ファイアーバーナー空中で終わる版\u0000",
+        "_ActNo": 56,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "CatchAttack\u0000",
+        "_Name": "拘束開始攻撃\u0000",
+        "_ActNo": 58,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "CatchAttackMatchPosition\u0000",
+        "_Name": "拘束位置合わせ\u0000",
+        "_ActNo": 59,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "CatchThrow\u0000",
+        "_Name": "拘束攻撃\u0000",
+        "_ActNo": 60,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "CatchAttackFailed\u0000",
+        "_Name": "拘束失敗\u0000",
+        "_ActNo": 61,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "GroundStartFireBurner\u0000",
+        "_Name": "地上開始ファイアーバーナー\u0000",
+        "_ActNo": 62,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "GroundStartFireBurnerFlyEnd\u0000",
+        "_Name": "地上開始ファイアーバーナー空中終わり\u0000",
+        "_ActNo": 63,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BigThreatStand\u0000",
+        "_Name": "【ヌシ】大咆哮(地上)\u0000",
+        "_ActNo": 64,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigThreatFly\u0000",
+        "_Name": "【ヌシ】大咆哮(空中)\u0000",
+        "_ActNo": 65,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillReady\u0000",
+        "_Name": "【ヌシ】ヌシの大技(予兆)\u0000",
+        "_ActNo": 66,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillTakeOff\u0000",
+        "_Name": "【ヌシ】ヌシの大技(離陸)\u0000",
+        "_ActNo": 67,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillGlideMove\u0000",
+        "_Name": "【ヌシ】ヌシの大技(滑空移動)\u0000",
+        "_ActNo": 68,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillGlideBrake\u0000",
+        "_Name": "【ヌシ】ヌシの大技(滑空ブレーキ)\u0000",
+        "_ActNo": 69,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillBreathAttack\u0000",
+        "_Name": "【ヌシ】ヌシの大技(攻撃部分のみ)\u0000",
+        "_ActNo": 70,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillBreathAttackEnd\u0000",
+        "_Name": "【ヌシ】ヌシの大技(攻撃と終了部分)\u0000",
+        "_ActNo": 71,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "WrapAroundRadiationBreathGroundStartLeft\u0000",
+        "_Name": "【ヌシ】回り込み放射ブレス(地上開始・左)\u0000",
+        "_ActNo": 97,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "WrapAroundRadiationBreathGroundStartRight\u0000",
+        "_Name": "【ヌシ】回り込み放射ブレス(地上開始・右)\u0000",
+        "_ActNo": 96,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "WrapAroundRadiationBreathFlyStartLeft\u0000",
+        "_Name": "【ヌシ】回り込み放射ブレス(空中開始・左)\u0000",
+        "_ActNo": 74,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "WrapAroundRadiationBreathFlyStartRight\u0000",
+        "_Name": "【ヌシ】回り込み放射ブレス(空中開始・右)\u0000",
+        "_ActNo": 75,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ChargeBiteAttackFirstHalf\u0000",
+        "_Name": "【ヌシ】チャージ噛みつき攻撃(前半)\u0000",
+        "_ActNo": 76,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ChargeBiteAttackSecondHalfFromLeft\u0000",
+        "_Name": "【ヌシ】チャージ噛みつき攻撃(後半・左繋ぎ)\u0000",
+        "_ActNo": 77,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ChargeBiteAttackSecondHalfFromRight\u0000",
+        "_Name": "【ヌシ】チャージ噛みつき攻撃(後半・右繋ぎ)\u0000",
+        "_ActNo": 78,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "ChargeBiteAttackSingleEndFromFirstHalf\u0000",
+        "_Name": "【ヌシ】チャージ噛みつき攻撃(前半から単発終了)\u0000",
+        "_ActNo": 95,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackJumpBreathStart\u0000",
+        "_Name": "【ヌシ】空中高出力バックジャンプブレス開始部分(共通)\u0000",
+        "_ActNo": 100,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackJumpBreathAttackGroundToGroundFromLeft\u0000",
+        "_Name": "【ヌシ】空中高出力バックジャンプブレス攻撃部分(地上→地上・左繋ぎ)\u0000",
+        "_ActNo": 80,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackJumpBreathAttackGroundToGroundFromRight\u0000",
+        "_Name": "【ヌシ】空中高出力バックジャンプブレス攻撃部分(地上→地上・右繋ぎ)\u0000",
+        "_ActNo": 102,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackJumpBreathAttackGroundToFlyFromLeft\u0000",
+        "_Name": "【ヌシ】空中高出力バックジャンプブレス攻撃部分(地上→空中・左繋ぎ)\u0000",
+        "_ActNo": 79,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackJumpBreathAttackGroundToFlyFromRight\u0000",
+        "_Name": "【ヌシ】空中高出力バックジャンプブレス攻撃部分(地上→空中・右繋ぎ)\u0000",
+        "_ActNo": 101,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBackStepBreath\u0000",
+        "_Name": "【ヌシ】空中高出力バックステップブレス\u0000",
+        "_ActNo": 81,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FireBurnerComboFirstStartGround\u0000",
+        "_Name": "【ヌシ】連続ファイアーバーナー(1回目・地上開始)\u0000",
+        "_ActNo": 82,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FireBurnerComboFirstStartFly\u0000",
+        "_Name": "【ヌシ】連続ファイアーバーナー(1回目・空中開始)\u0000",
+        "_ActNo": 83,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FireBurnerComboSecondEndGround\u0000",
+        "_Name": "【ヌシ】連続ファイアーバーナー(2回目・地上終了)\u0000",
+        "_ActNo": 84,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FireBurnerComboSecondEndFly\u0000",
+        "_Name": "【ヌシ】連続ファイアーバーナー(2回目・空中終了)\u0000",
+        "_ActNo": 85,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathStartGround\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス開始(地上・共通)\u0000",
+        "_ActNo": 98,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathStartFly\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス開始(空中・共通)\u0000",
+        "_ActNo": 86,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathSingle\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス(単発)\u0000",
+        "_ActNo": 87,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboFirstMoveLeft\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス1発目→移動(左)\u0000",
+        "_ActNo": 88,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboSecondLeft\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス2発目(左)\u0000",
+        "_ActNo": 89,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboFirstMoveLeftEnd\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス1発目→移動失敗終了(左)\u0000",
+        "_ActNo": 90,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboFirstMoveRight\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス1発目→移動(右)\u0000",
+        "_ActNo": 91,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboSecondRight\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス2発目(右)\u0000",
+        "_ActNo": 92,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "FlyHighPowerBreathComboFirstMoveRightEnd\u0000",
+        "_Name": "【ヌシ】空中高出力ブレス1発目→移動失敗終了(右)\u0000",
+        "_ActNo": 93,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "IntroRoar\u0000",
+        "_Name": "【ヌシ】百竜イントロ咆哮\u0000",
+        "_ActNo": 94,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftStart\u0000",
+        "_Name": "【MR】旋回ブレス左旋回地上開始\u0000",
+        "_ActNo": 5000,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRightStart\u0000",
+        "_Name": "【MR】旋回ブレス右旋回地上開始\u0000",
+        "_ActNo": 5009,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftFlyTurn\u0000",
+        "_Name": "【MR】旋回ブレス左旋回地上開始(空中向き合わせ)\u0000",
+        "_ActNo": 5010,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRightFlyTurn\u0000",
+        "_Name": "【MR】旋回ブレス右旋回地上開始(空中向き合わせ)\u0000",
+        "_ActNo": 5011,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftFlyStart\u0000",
+        "_Name": "【MR】旋回ブレス左旋回空中開始\u0000",
+        "_ActNo": 5012,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRightFlyStart\u0000",
+        "_Name": "【MR】旋回ブレス右旋回空中開始\u0000",
+        "_ActNo": 5013,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftShort\u0000",
+        "_Name": "【MR】旋回ブレス左旋回攻撃部分(近距離)\u0000",
+        "_ActNo": 5014,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftMiddle\u0000",
+        "_Name": "【MR】旋回ブレス左旋回攻撃部分(中距離)\u0000",
+        "_ActNo": 5015,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathLeftLong\u0000",
+        "_Name": "【MR】旋回ブレス左旋回攻撃部分(遠距離)\u0000",
+        "_ActNo": 5001,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRightShort\u0000",
+        "_Name": "【MR】旋回ブレス右旋回攻撃部分(近距離)\u0000",
+        "_ActNo": 5016,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRightMiddle\u0000",
+        "_Name": "【MR】旋回ブレス右旋回攻撃部分(中距離)\u0000",
+        "_ActNo": 5017,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathRight\u0000",
+        "_Name": "【MR】旋回ブレス右旋回攻撃部分(遠距離)\u0000",
+        "_ActNo": 5002,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedLeftFireBallShot\u0000",
+        "_Name": "【MR】旋回ブレス左旋回後火球ブレス\u0000",
+        "_ActNo": 5003,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedRightFireBallShot\u0000",
+        "_Name": "【MR】旋回ブレス右旋回後火球ブレス\u0000",
+        "_ActNo": 5004,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedLeftPoisonClaw\u0000",
+        "_Name": "【MR】旋回ブレス左旋回後毒爪攻撃部分\u0000",
+        "_ActNo": 5005,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedRightPoisonClaw\u0000",
+        "_Name": "【MR】旋回ブレス右旋回後毒爪攻撃部分\u0000",
+        "_ActNo": 5006,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedLeftPoisonClawEnd\u0000",
+        "_Name": "【MR】旋回ブレス左旋回後毒爪着地部分\u0000",
+        "_ActNo": 5007,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TurningBreathedRightPoisonClawEnd\u0000",
+        "_Name": "【MR】旋回ブレス右旋回後毒爪着地部分\u0000",
+        "_ActNo": 5008,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareJumpSlash3BreathStart\u0000",
+        "_Name": "【希少種】とびかかり3連火球_開始\u0000",
+        "_ActNo": 7000,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_ClawAttack\u0000",
+        "_Name": "【希少種】とびかかり3連火球_爪攻撃\u0000",
+        "_ActNo": 7001,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_BreathLeft\u0000",
+        "_Name": "【希少種】とびかかり3連火球_ブレス左から\u0000",
+        "_ActNo": 7002,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_BreathRight\u0000",
+        "_Name": "【希少種】とびかかり3連火球_ブレス右から\u0000",
+        "_ActNo": 7003,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_AirEndLeft\u0000",
+        "_Name": "【希少種】とびかかり3連火球_空中終了_左\u0000",
+        "_ActNo": 7004,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_AirEndRight\u0000",
+        "_Name": "【希少種】とびかかり3連火球_空中終了_右\u0000",
+        "_ActNo": 7005,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_LandingLeft\u0000",
+        "_Name": "【希少種】とびかかり3連火球_着地_左\u0000",
+        "_ActNo": 7006,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareJumpSlash3Breath_LandingRight\u0000",
+        "_Name": "【希少種】とびかかり3連火球_着地_左\u0000",
+        "_ActNo": 7007,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareTurnTailAttack\u0000",
+        "_Name": "【希少種】旋回攻撃尻尾\u0000",
+        "_ActNo": 7008,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_GroundStart1Attack\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_地上開始から1発目\u0000",
+        "_ActNo": 7009,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_AirStart1Attack\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_空中開始から1発目\u0000",
+        "_ActNo": 7010,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_Turn2AttackLeft\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_回り込み2発目_左\u0000",
+        "_ActNo": 7011,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_Turn2AttackRight\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_回り込み2発目_右\u0000",
+        "_ActNo": 7012,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_LandingLeft\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_着地_左\u0000",
+        "_ActNo": 7013,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RareTurnFireBurner_LandingRight\u0000",
+        "_Name": "【希少種】回り込み連続ファイアバーナー_着地_右\u0000",
+        "_ActNo": 7014,
+        "_AddCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1117782016,
+          1117782016
+        ],
+        "_Cancel": [
+          1084227584,
+          1084227584
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": true
+        },
+        {
+          "_Param": {},
+          "_Inverse": false
+        },
+        {
+          "_Param": {},
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1106247680
+            ]
+          },
+          "_Inverse": true
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1108082688
+            ]
+          },
+          "_Inverse": true
+        },
+        {
+          "_Param": {
+            "AI_STATE": 1
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "AttackCount": 3,
+            "CheckType": 1
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1106247680
+            ]
+          },
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {
+            "AttackCount": 0,
+            "CheckType": 0
+          },
+          "_Inverse": false
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

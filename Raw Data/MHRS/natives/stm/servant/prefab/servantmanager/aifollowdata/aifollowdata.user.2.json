@@ -1,0 +1,5282 @@
+{
+  "snow.player.AIFollowData": {
+    "_FollowConditionList": [
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29,
+          31
+        ],
+        "_ConditionListFalse": [
+          16,
+          39
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          6.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29,
+          13,
+          36
+        ],
+        "_ConditionListFalse": [
+          14,
+          16,
+          39
+        ],
+        "_FollowTask": 25,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.3,
+          0.8
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29,
+          14
+        ],
+        "_ConditionListFalse": [
+          36,
+          16,
+          39
+        ],
+        "_FollowTask": 19,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29,
+          14
+        ],
+        "_ConditionListFalse": [
+          16,
+          39
+        ],
+        "_FollowTask": 25,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.3,
+          0.8
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          15.0,
+          25.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29,
+          14
+        ],
+        "_ConditionListFalse": [
+          16,
+          39
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          6.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29
+        ],
+        "_ConditionListFalse": [
+          14,
+          16,
+          39
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          6.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29
+        ],
+        "_ConditionListFalse": [
+          14,
+          16,
+          39
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          10.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29
+        ],
+        "_ConditionListFalse": [
+          14,
+          16,
+          39
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          15.0,
+          25.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          29
+        ],
+        "_ConditionListFalse": [
+          14,
+          16,
+          39
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          20.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          20.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          20.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          19,
+          20,
+          21,
+          29,
+          15,
+          16,
+          17,
+          9
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          25
+        ],
+        "_ConditionListFalse": [
+          9
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 17,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 18,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 1,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 17,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 17,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 19,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          80.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          17
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 16,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          33
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          10.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          33
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 1,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          8.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          33
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 3,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          33
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22,
+          33
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22
+        ],
+        "_ConditionListFalse": [
+          33
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22
+        ],
+        "_ConditionListFalse": [
+          33
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22
+        ],
+        "_ConditionListFalse": [
+          33
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19,
+          22
+        ],
+        "_ConditionListFalse": [
+          33
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          3.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 1,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          3.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 10,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          3.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          3.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22,
+          0
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 14,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          3.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          3.0,
+          15.0
+        ],
+        "_ConditionList": [
+          19,
+          0
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 10,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 13,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          60.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          19
+        ],
+        "_ConditionListFalse": [
+          22
+        ],
+        "_FollowTask": 16,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          3.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          3.0,
+          15.0
+        ],
+        "_ConditionList": [
+          23,
+          20
+        ],
+        "_ConditionListFalse": [
+          10,
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          23,
+          20
+        ],
+        "_ConditionListFalse": [
+          10,
+          17
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          8.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          23,
+          20
+        ],
+        "_ConditionListFalse": [
+          10,
+          17
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          23,
+          20
+        ],
+        "_ConditionListFalse": [
+          10,
+          17
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          23,
+          20
+        ],
+        "_ConditionListFalse": [
+          10,
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          39
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 24,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          16
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 14,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          15,
+          14
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 9,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          3.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          15
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          3.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          10.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          15
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          38
+        ],
+        "_ConditionListFalse": [
+          14
+        ],
+        "_FollowTask": 9,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.2,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          38,
+          14
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 9,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.2,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          14
+        ],
+        "_ConditionListFalse": [
+          38
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          5.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          38
+        ],
+        "_ConditionListFalse": [
+          14
+        ],
+        "_FollowTask": 9,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.2,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          5.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          38,
+          14
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 9,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.2,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          5.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          38
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          5.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          4.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13,
+          14
+        ],
+        "_ConditionListFalse": [
+          38
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13
+        ],
+        "_ConditionListFalse": [
+          14
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          13
+        ],
+        "_ConditionListFalse": [
+          14
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          1.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          35
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          34
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          25
+        ],
+        "_ConditionListFalse": [
+          9
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          30.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          30.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          25
+        ],
+        "_ConditionListFalse": [
+          9
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          9
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          30.0,
+          60.0
+        ],
+        "_TargetDistance": [
+          30.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          9
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 7,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          60.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          60.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          9
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 17,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [
+          12
+        ],
+        "_FollowTask": 19,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          3.0,
+          15.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          1.5
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          3.5,
+          5.5
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0,
+          26,
+          27,
+          28
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 12,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          4.0
+        ],
+        "_TargetDistance": [
+          1.5,
+          2.5
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0,
+          26,
+          27,
+          28
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 11,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          1.0,
+          6.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 10,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          6.0,
+          11.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          11.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          20.0,
+          50.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          50.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [
+          10
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          45.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          0
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          2.0,
+          4.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          4.5,
+          8.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          2.0,
+          8.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          12.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          12.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          10.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          12.0,
+          21.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          50.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          50.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          21.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          50.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          50.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          50.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          50.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          2.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          30
+        ],
+        "_ConditionListFalse": [
+          18
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          2.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          18
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          5.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          18
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          5.0,
+          9.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          18
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          9.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          18
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 18,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          18
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 19,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          45.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17,
+          25
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          8.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          15.0
+        ],
+        "_TargetDistance": [
+          2.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 23,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          8.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 23,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          12.0
+        ],
+        "_PlayerMovement": [
+          2.0,
+          4.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 17,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          15.0
+        ],
+        "_PlayerMovement": [
+          4.5,
+          8.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          5.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          12.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 18,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          2.0,
+          8.5
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [
+          18,
+          25
+        ],
+        "_FollowTask": 19,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          100.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          80.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          21.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 19,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          10.0,
+          100.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          80.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.05
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12,
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 19,
+        "_TargetType": 5,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          100.0,
+          999.0
+        ],
+        "_TargetDistance": [
+          80.0,
+          999.0
+        ],
+        "_PlayerMovement": [
+          0.05,
+          21.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          17
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          80.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          8.5,
+          21.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 22,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          100.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          12
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          8.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          3.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          5.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          2
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.3,
+          0.6
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          8.0
+        ],
+        "_TargetDistance": [
+          3.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          5.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          2
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 3,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.3,
+          0.8
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          2
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 3,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          5.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          2
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          10.0,
+          16.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          2
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          4.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          2.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          4
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          4.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          4
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          10.0,
+          16.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          4
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          2.5
+        ],
+        "_TargetDistance": [
+          0.0,
+          4.0
+        ],
+        "_PlayerMovement": [
+          4.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          6
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          5.0
+        ],
+        "_PlayerMovement": [
+          4.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          6
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          5.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          4.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          6
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          13.0,
+          16.0
+        ],
+        "_PlayerMovement": [
+          4.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          6
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.0,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          5.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          8.0,
+          23.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          8
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 6,
+        "_TargetType": 7,
+        "_DelayTime": [
+          0.2,
+          0.8
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          3.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          8
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.2
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          10.0,
+          50.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          8
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.2,
+          0.7
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          4.0
+        ],
+        "_PlayerMovement": [
+          1.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          11
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 4,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          4.0,
+          20.0
+        ],
+        "_PlayerMovement": [
+          1.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          11
+        ],
+        "_ConditionListFalse": [],
+        "_FollowTask": 5,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          10
+        ],
+        "_ConditionListFalse": [
+          0
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          30.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          7.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          10
+        ],
+        "_ConditionListFalse": [
+          0
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          50.0
+        ],
+        "_PlayerMovement": [
+          7.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          10
+        ],
+        "_ConditionListFalse": [
+          0
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          15.0,
+          100.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          100.0
+        ],
+        "_PlayerMovement": [
+          7.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [
+          10
+        ],
+        "_ConditionListFalse": [
+          0
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.3
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          10.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          1.0
+        ],
+        "_PlayerDistanceY": [
+          3.0,
+          7.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          1.5
+        ],
+        "_PlayerMovement": [
+          0.0,
+          2.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 0,
+        "_TargetType": 1,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": true
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          1.5
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 10,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          10.0
+        ],
+        "_TargetDistance": [
+          1.5,
+          5.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 10,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          20.0
+        ],
+        "_TargetDistance": [
+          2.0,
+          6.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 4,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.2
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          30.0
+        ],
+        "_TargetDistance": [
+          5.0,
+          18.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          18.0,
+          25.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          13,
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          25.0,
+          60.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 6,
+        "_TargetType": 8,
+        "_DelayTime": [
+          0.1,
+          0.5
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          60.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          17
+        ],
+        "_FollowTask": 22,
+        "_TargetType": 4,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          17,
+          14
+        ],
+        "_FollowTask": 5,
+        "_TargetType": 2,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          0.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          0.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          0.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          0.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [],
+        "_FollowTask": 0,
+        "_TargetType": 0,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      },
+      {
+        "_PlayerDistance": [
+          0.0,
+          9999.0
+        ],
+        "_TargetDistance": [
+          0.0,
+          9999.0
+        ],
+        "_PlayerMovement": [
+          0.0,
+          999.0
+        ],
+        "_PlayerDistanceY": [
+          0.0,
+          999.0
+        ],
+        "_ConditionList": [],
+        "_ConditionListFalse": [
+          22,
+          19,
+          17
+        ],
+        "_FollowTask": 3,
+        "_TargetType": 3,
+        "_DelayTime": [
+          0.0,
+          0.0
+        ],
+        "_LookAtPlayer": false
+      }
+    ],
+    "_PlayerOffsetTypeA": [
+      0.0,
+      2.0,
+      0.0
+    ],
+    "_PlayerOffsetTypeB": [
+      0.0,
+      5.0,
+      0.0
+    ],
+    "_PlayerOffsetTypeC": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_PlayerOffsetTypeD": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_PlayerOffsetTypeE": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_PlayerOffsetTypeF": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_DogDashSpeedVariable": [
+      1.0,
+      1.5
+    ],
+    "_DogDashSpeedRelatedPlayerDistance": [
+      3.0,
+      15.0
+    ],
+    "_NaviTargetViewingAngle": [
+      -55.0,
+      55.0
+    ],
+    "_NaviTargetDistanceY": [
+      0.0,
+      1.0
+    ],
+    "_MasterNaviTargetDistanceXZ": [
+      2.0,
+      5.0
+    ],
+    "_NeedleTimespan": 0.1,
+    "_NeedleLifeTime": 2.0,
+    "_NeedleStopInfo": {
+      "_CheckNeedleRange_Dash": 1.0,
+      "_NeedleNum_Dash": 10,
+      "_CheckNeedleRange_Run": 1.0,
+      "_NeedleNum_Run": 13,
+      "_CheckNeedleRange_ArriveWalk": 1.0,
+      "_NeedleNumArriveWalk": 15,
+      "_CheckNeedleRange_WalkAround": 0.5,
+      "_NeedleNum_WalkAround": 20,
+      "_CheckNeedleRange_RideWalk": 1.5,
+      "_NeedleNum_RideWalk": 18
+    },
+    "_AirEscapeDistance": [
+      8.0,
+      999.0
+    ],
+    "_AirEscapeTime": 0.85,
+    "_AirEscapeHeight": 2.0,
+    "_NoNaviFailureWarpDistance": 15.0,
+    "_MasterFormedAngle": 20.0,
+    "_TargetFormedAngle": 20.0,
+    "_TargetDistanceY": [
+      0.0,
+      1.0
+    ]
+  }
+}

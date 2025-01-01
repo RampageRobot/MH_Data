@@ -1,0 +1,3205 @@
+{
+  "snow.enemy.EnemyBlockMoveData": {
+    "_DefaultMovePattern": 3,
+    "_isEnableFlyStanceToFlyMove": false,
+    "_StageInfoList": [
+      {
+        "_MapType": 3,
+        "_SleepPointList": [
+          {
+            "_BlockNo": 3,
+            "_UniqueID": 1001,
+            "_Unique2ndID": 1002,
+            "_Unique3rdID": 1003,
+            "_Flag": false
+          }
+        ],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [
+          {
+            "_BlockNo": 1,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 7,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 10,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          }
+        ],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 150.0,
+            "_CombatStaySecTime": 240.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 5,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 6,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 7,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 8,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 9,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 10,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 13,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 14,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 1,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 14
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 14,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 11
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 12
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 13
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 13,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 14,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 14
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 14,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 11
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 12
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 13
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 13,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 14,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 1,
+        "_SleepPointList": [
+          {
+            "_BlockNo": 11,
+            "_UniqueID": 1057,
+            "_Unique2ndID": 1058,
+            "_Unique3rdID": 1059,
+            "_Flag": false
+          }
+        ],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [
+          {
+            "_BlockNo": 1,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 8,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 11,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          }
+        ],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 5,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 6,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 7,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 8,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 9,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 10,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 13,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 1,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 3
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 50,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 50,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 4
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 13,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 3
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 50,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 50,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 4
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 13,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 10,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 10000.0,
+            "_CombatStaySecTime": 10000.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 0.0,
+            "_CombatStaySecTime": 0.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 0.0,
+            "_CombatStaySecTime": 0.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": []
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 9,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 10000.0,
+            "_CombatStaySecTime": 10000.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 12,
+        "_SleepPointList": [
+          {
+            "_BlockNo": 10,
+            "_UniqueID": 1000,
+            "_Unique2ndID": 1001,
+            "_Unique3rdID": 1002,
+            "_Flag": false
+          }
+        ],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [
+          {
+            "_BlockNo": 2,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 4,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 6,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          }
+        ],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 5,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 6,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 7,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 8,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 9,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 10,
+            "_NonCombatStaySecTime": 150.0,
+            "_CombatStaySecTime": 240.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 1,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 3
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 3
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 3
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 11
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 11
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 7
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 9
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 9,
+                        "_LotValue": 60,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 40,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 3,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 7,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 4
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 13,
+        "_SleepPointList": [
+          {
+            "_BlockNo": 7,
+            "_UniqueID": 1000,
+            "_Unique2ndID": 1001,
+            "_Unique3rdID": 1002,
+            "_Flag": false
+          }
+        ],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [
+          {
+            "_BlockNo": 3,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 6,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          },
+          {
+            "_BlockNo": 10,
+            "_UniqueID": 0,
+            "_Unique2ndID": 99999999,
+            "_Unique3rdID": 99999999,
+            "_Flag": false
+          }
+        ],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 2,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 200.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 3,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 4,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 5,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 6,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 7,
+            "_NonCombatStaySecTime": 150.0,
+            "_CombatStaySecTime": 240.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 8,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 9,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 10,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 200.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 11,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 12,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 13,
+            "_NonCombatStaySecTime": 120.0,
+            "_CombatStaySecTime": 180.0,
+            "_MoveDisableArea": false
+          },
+          {
+            "_BlockNo": 14,
+            "_NonCombatStaySecTime": 90.0,
+            "_CombatStaySecTime": 120.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 2,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 4
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 12
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 3,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 4,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 5
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 5,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 6
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 6,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 5,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 8
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 7,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 8,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 6,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 9,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 8,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 10
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 10,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 11
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 12
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 12,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 13
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 13,
+                        "_LotValue": 70,
+                        "_MovePattern": 0
+                      },
+                      {
+                        "_NextBlockNo": 11,
+                        "_LotValue": 30,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 11,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 12,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 2
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 2,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 13,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 10,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 1
+                  },
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              },
+              {
+                "_BlockNo": 14,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 4,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_MapType": 14,
+        "_SleepPointList": [],
+        "_MapMeetEatPointList": [],
+        "_MapEscapePointList": [],
+        "_EcologicalPointList": [],
+        "_ActiveAreaLand": false,
+        "_ActiveAreaWater": false,
+        "_ActiveAreaSpecial01": false,
+        "_ActiveAreaSpecial02": false,
+        "_BlockBasicInfoList": [
+          {
+            "_BlockNo": 1,
+            "_NonCombatStaySecTime": 10000.0,
+            "_CombatStaySecTime": 10000.0,
+            "_MoveDisableArea": false
+          }
+        ],
+        "_RouteInfoList": [
+          {
+            "_RouteNo": 10,
+            "_BlockInfoList": [
+              {
+                "_BlockNo": 1,
+                "_LotPrevBlockInfo": [
+                  {
+                    "_LotInfoList": [
+                      {
+                        "_NextBlockNo": 1,
+                        "_LotValue": 100,
+                        "_MovePattern": 0
+                      }
+                    ],
+                    "_MoveStatus": 0,
+                    "_PrevBlockNo": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "BreakGateEarlyRate": 10.0,
+    "TargetEnemyBlockMoveEarlyRate": 2.0,
+    "MainOutTargetPlayerEarlyRate": 2.0,
+    "DamagFromMainOutPlayerEarlyRate": 20.0,
+    "CalcRotSpeedList": [],
+    "_blockMoveRotateAbilityUpFlag": false,
+    "_blockMoveRotateAbilityUpmagnification": 1.5
+  }
+}

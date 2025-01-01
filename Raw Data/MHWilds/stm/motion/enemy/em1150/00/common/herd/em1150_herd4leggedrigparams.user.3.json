@@ -1,0 +1,66 @@
+{
+  "app.herdclusteraction.Herd4LeggedRigParams": {
+    "headJointName": "Head\u0000",
+    "hipJointName": "Hip\u0000",
+    "frontSpine": {
+      "endJointName": "Head\u0000",
+      "jointParams": [
+        {
+          "ratio": 0.02
+        },
+        {
+          "ratio": 0.02
+        },
+        {
+          "ratio": 0.1
+        },
+        {
+          "ratio": 0.0
+        },
+        {
+          "ratio": -0.1
+        }
+      ]
+    },
+    "backSpine": {
+      "endJointName": "Tail3\u0000",
+      "jointParams": [
+        {
+          "ratio": 0.06
+        },
+        {
+          "ratio": 0.05
+        },
+        {
+          "ratio": 0.05
+        },
+        {
+          "ratio": 0.05
+        },
+        {
+          "ratio": 0.0
+        }
+      ]
+    },
+    "frontLeftLeg": {
+      "endJointName": "L_Hand0\u0000",
+      "jointCount": 4,
+      "disableEndEffector": false
+    },
+    "frontRightLeg": {
+      "endJointName": "R_Hand0\u0000",
+      "jointCount": 4,
+      "disableEndEffector": false
+    },
+    "backLeftLeg": {
+      "endJointName": "L_Foot0\u0000",
+      "jointCount": 4,
+      "disableEndEffector": false
+    },
+    "backRightLeg": {
+      "endJointName": "R_Foot0\u0000",
+      "jointCount": 4,
+      "disableEndEffector": false
+    }
+  }
+}

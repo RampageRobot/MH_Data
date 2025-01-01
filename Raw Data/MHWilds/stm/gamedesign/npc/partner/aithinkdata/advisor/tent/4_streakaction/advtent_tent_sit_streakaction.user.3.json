@@ -1,0 +1,69 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 0,
+    "_ActionEffectParam": {
+      "_Param": {
+        "STRUCT__ActionTime__HasValue": false,
+        "STRUCT__ActionTime__Value": 0.0,
+        "_ImmediateActionSet": false,
+        "_UseVariation": true,
+        "_VariIntervalTime": [
+          1101004800,
+          1101004800
+        ],
+        "_VariProbability": [
+          1112014848,
+          0
+        ],
+        "_ActionSelector": {
+          "_Category": 3,
+          "_ActionID": 1001329152,
+          "_UseVariation": false,
+          "_Variation": -663541696
+        },
+        "_VariData": [
+          {
+            "_ActionSelector": {
+              "_Category": 3,
+              "_ActionID": 599261504,
+              "_UseVariation": false,
+              "_Variation": -663541696
+            },
+            "_RandomWeight": 50
+          },
+          {
+            "_ActionSelector": {
+              "_Category": 3,
+              "_ActionID": -107211168,
+              "_UseVariation": false,
+              "_Variation": -663541696
+            },
+            "_RandomWeight": 50
+          },
+          {
+            "_ActionSelector": {
+              "_Category": 3,
+              "_ActionID": 11958,
+              "_UseVariation": false,
+              "_Variation": -663541696
+            },
+            "_RandomWeight": 50
+          }
+        ],
+        "_CampPointType": "TENT_IN"
+      }
+    },
+    "_LStickEffectParam": {
+      "_Param": {}
+    },
+    "_AimEffectParam": {
+      "_Param": {}
+    },
+    "_EvaluatorParams": [
+      {
+        "_Param": {},
+        "_Inverse": false
+      }
+    ]
+  }
+}

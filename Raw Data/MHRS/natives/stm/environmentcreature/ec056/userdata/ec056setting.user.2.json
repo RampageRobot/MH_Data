@@ -1,0 +1,131 @@
+{
+  "snow.envCreature.Ec056Setting": {
+    "_LeaveEffectSetting": [
+      {
+        "_MarionetteModeType": 0,
+        "_EffectIDs": []
+      },
+      {
+        "_MarionetteModeType": 1,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 1,
+            "_IsTargetPlayer": false
+          },
+          {
+            "_ContainerID": 150,
+            "_ElementID": 2,
+            "_IsTargetPlayer": true
+          }
+        ]
+      },
+      {
+        "_MarionetteModeType": 2,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 3,
+            "_IsTargetPlayer": false
+          },
+          {
+            "_ContainerID": 150,
+            "_ElementID": 4,
+            "_IsTargetPlayer": true
+          }
+        ]
+      }
+    ],
+    "_EnterEffectSetting": [
+      {
+        "_MarionetteModeType": 0,
+        "_EffectIDs": []
+      },
+      {
+        "_MarionetteModeType": 1,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 7,
+            "_IsTargetPlayer": true
+          },
+          {
+            "_ContainerID": 150,
+            "_ElementID": 2,
+            "_IsTargetPlayer": false
+          }
+        ]
+      },
+      {
+        "_MarionetteModeType": 2,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 8,
+            "_IsTargetPlayer": true
+          },
+          {
+            "_ContainerID": 150,
+            "_ElementID": 4,
+            "_IsTargetPlayer": false
+          }
+        ]
+      }
+    ],
+    "_DetectEffectSetting": [
+      {
+        "_MarionetteModeType": 0,
+        "_EffectIDs": []
+      },
+      {
+        "_MarionetteModeType": 1,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 10,
+            "_IsTargetPlayer": false
+          }
+        ]
+      },
+      {
+        "_MarionetteModeType": 2,
+        "_EffectIDs": [
+          {
+            "_ContainerID": 150,
+            "_ElementID": 11,
+            "_IsTargetPlayer": false
+          }
+        ]
+      }
+    ],
+    "_MaterialSetting": [
+      {
+        "_MarionetteModeType": 0,
+        "_Index": [
+          6,
+          7
+        ]
+      },
+      {
+        "_MarionetteModeType": 1,
+        "_Index": [
+          0,
+          1
+        ]
+      },
+      {
+        "_MarionetteModeType": 2,
+        "_Index": [
+          4,
+          5
+        ]
+      }
+    ],
+    "_DefaultMaterialCurveIndex": [
+      6,
+      7
+    ],
+    "_MaterialSwitchDelay": 1.5,
+    "_DetectEffectDistance": 60.0
+  }
+}

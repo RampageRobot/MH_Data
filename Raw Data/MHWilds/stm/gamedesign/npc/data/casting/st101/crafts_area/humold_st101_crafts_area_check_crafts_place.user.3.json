@@ -1,0 +1,150 @@
+{
+  "app.user_data.NpcTaskData": {
+    "_UpstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_IsLoopMainstream": true,
+    "_MainstreamActionParam": {
+      "_ActionParamList": [
+        {
+          "_PointSelectType": 0,
+          "_PointSearcher": {
+            "_TargetType": 0,
+            "_DestList": [
+              {
+                "_Pos": [
+                  -826.6124,
+                  11.8013,
+                  1018.703
+                ],
+                "_DegY": -115
+              }
+            ],
+            "_PointSelector": {
+              "_Category": 1,
+              "_PointType": 0
+            },
+            "STRUCT__IsOnOff__HasValue": false,
+            "STRUCT__IsOnOff__Value": false,
+            "_Pos": [
+              -768.0,
+              0.0,
+              896.0
+            ],
+            "_Range": 5.0,
+            "_GroupAIType": "INVALID",
+            "_FieldUnitType": "INVALID"
+          },
+          "_GoalActionSelector": {
+            "_Category": -1528925056,
+            "_MoveID": -442093600,
+            "_ActionID": -1150992000,
+            "_HoldMotionPackID": 139599872,
+            "_Variation": -663541696
+          },
+          "_InfiniteActionTime": true,
+          "_ActionTime": [
+            0,
+            0
+          ],
+          "_InterruptTime": [
+            1128792064,
+            1120403456
+          ],
+          "_InterruptProbability": 50,
+          "_InterruptActionParamList": [
+            {
+              "_DestData": {
+                "_Pos": [
+                  -838.939,
+                  11.69685,
+                  1016.093
+                ],
+                "_DegY": -20
+              },
+              "_GoalActionSelector": {
+                "_Category": -1528925056,
+                "_MoveID": -442093600,
+                "_ActionID": -597232768,
+                "_HoldMotionPackID": 139599872,
+                "_Variation": -663541696
+              },
+              "_ActionTime": [
+                1092616192,
+                1101004800
+              ]
+            },
+            {
+              "_DestData": {
+                "_Pos": [
+                  -836.7878,
+                  11.87246,
+                  1024.842
+                ],
+                "_DegY": -25
+              },
+              "_GoalActionSelector": {
+                "_Category": -1528925056,
+                "_MoveID": -442093600,
+                "_ActionID": -597232768,
+                "_HoldMotionPackID": 139599872,
+                "_Variation": -663541696
+              },
+              "_ActionTime": [
+                1092616192,
+                1101004800
+              ]
+            },
+            {
+              "_DestData": {
+                "_Pos": [
+                  -817.3007,
+                  7.500969,
+                  974.2819
+                ],
+                "_DegY": 65
+              },
+              "_GoalActionSelector": {
+                "_Category": -1528925056,
+                "_MoveID": -442093600,
+                "_ActionID": -597232768,
+                "_HoldMotionPackID": 139599872,
+                "_Variation": -663541696
+              },
+              "_ActionTime": [
+                1092616192,
+                1101004800
+              ]
+            }
+          ],
+          "_TaskColliderID": "INVALID",
+          "_TaskDialogueID": "INVALID",
+          "_DisableStreet": false
+        }
+      ]
+    },
+    "_DownstreamActionParam": {
+      "_ActionParamList": []
+    },
+    "_VariousData": {
+      "_SkeletonType": "HUMAN_OLD",
+      "_OnlyDefaultBodyScale": false,
+      "_Gender": 0,
+      "_VisualType": {
+        "_Species": 3,
+        "_ModelKindFixedID": -1
+      },
+      "_NeedRunTimerByMove": false,
+      "_CanInterrupt_Rest": true,
+      "_CanInterrupt_Combi": true,
+      "_NotSkipUpstream": false,
+      "_PtJackVisualChecker": {
+        "_ScaleType": "NOT_SUPPORTED"
+      },
+      "_EmJackVisualChecker": {
+        "STRUCT__IsChild__HasValue": false,
+        "STRUCT__IsChild__Value": false
+      }
+    }
+  }
+}

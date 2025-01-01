@@ -1,0 +1,1782 @@
+{
+  "snow.enemy.Em086UniqueData": {
+    "_MultiPartsIntakeHealRate": 0.0,
+    "_IntakeActionLoopTimeDataList": {
+      "_IntakeActionLoopTimeList": [
+        {
+          "_IntakeActionLoopTime": 2.0
+        },
+        {
+          "_IntakeActionLoopTime": 4.0
+        },
+        {
+          "_IntakeActionLoopTime": 8.0
+        }
+      ]
+    },
+    "_DamageDownBreathingHoleRoUniqueDamageRate": 3.0,
+    "_DamageDownBreathingHoleRoUniqueDamageJointName": "Neck_00\u0000",
+    "_DamageDownBreathingHoleRoUniqueDamageOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_DamageDownBreathingHoleRoUniqueDamageEndure1": true,
+    "_IntakeTime": 40.0,
+    "_SuperModeTime": 120.0,
+    "_IntakeTimeMR": 10.0,
+    "_SuperModeTimeMR": 180.0,
+    "_AttackRateSuperModeNoAngry": 1.0,
+    "_AttackRateSuperModeAngry": 1.0,
+    "_SuperModeEndActionDataList": {
+      "_SuperModeEndActionList": [
+        {
+          "_SuperModeEndAction": 5
+        },
+        {
+          "_SuperModeEndAction": 24
+        },
+        {
+          "_SuperModeEndAction": 6
+        },
+        {
+          "_SuperModeEndAction": 25
+        },
+        {
+          "_SuperModeEndAction": 7
+        },
+        {
+          "_SuperModeEndAction": 8
+        },
+        {
+          "_SuperModeEndAction": 16
+        },
+        {
+          "_SuperModeEndAction": 19
+        },
+        {
+          "_SuperModeEndAction": 21
+        },
+        {
+          "_SuperModeEndAction": 22
+        }
+      ],
+      "_SuperModeEndMarionetteActionList": [
+        {
+          "_SuperModeEndMarionetteAction": 17
+        },
+        {
+          "_SuperModeEndMarionetteAction": 18
+        }
+      ]
+    },
+    "_SuperModeTimerStopHpRate": 40.0,
+    "_RushAttackRayCheckYStart": 0.5,
+    "_RushAttackRayCheckYEnd": -3.0,
+    "_RushAttackAdjustHeightScale1": 3.5,
+    "_RushAttackMaxChangeHeightSpeed": 30.0,
+    "_SpearAttackArmOffsetDeg": 45.0,
+    "_CometAttackActionTimeMax": {
+      "_CometAttackTakeOffRoTimeMax": 20.0,
+      "_ToCometAttackTurningRoTimeMax": 20.0,
+      "_ToCometAttackTurningForBossEnemyRoTimeMax": 25.0,
+      "_ToCometAttackLandingRoTimeMax": 15.0,
+      "_CometAttackAfterAreaMoveRoTimeMax": 15.0
+    },
+    "_CometAttackTargetPosOffsetData": {
+      "_CometAttackTargetOffsetPosLength": 5.0,
+      "_CometAttackTargetOffsetPosRayCheckStartHeight": 2.5,
+      "_CometAttackTargetOffsetPosRayCheckEndHeight": -2.5
+    },
+    "_CometAttackCheckPossibleStart": {
+      "_CometAttackGoToStartPosRadiusOffset": 3.0,
+      "_CometAttackGoToStartPosAdjustlength": 1.0,
+      "_CometAttackGoToLandingPosRadiusOffset": 1.0,
+      "_CometAttackGoToLandingPosAdjustlength": 1.0
+    },
+    "_CometAttackTurningActionData": {
+      "_CometAttackTurningAngularVelocity": 60.0,
+      "_CometAttackTurningAngularVelocityForBossEnemy": 60.0,
+      "_CometAttackTurningCreateShellList": []
+    },
+    "_CometAttackLandingActionData": {
+      "_CometAttackLandingSpeed": 700.0
+    },
+    "_CometAttackData": {
+      "_CometAttackStartList": [
+        {
+          "_MapNo": 0,
+          "_BlockNo": 1,
+          "_StartPos": [
+            150.0,
+            150.0,
+            0.0
+          ],
+          "_CenterPos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 0,
+          "_BlockNo": 1,
+          "_StartPos": [
+            -150.0,
+            150.0,
+            0.0
+          ],
+          "_CenterPos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 1,
+          "_StartPos": [
+            100.0,
+            250.0,
+            -30.0
+          ],
+          "_CenterPos": [
+            210.0,
+            250.0,
+            -10.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 1,
+          "_StartPos": [
+            320.0,
+            250.0,
+            10.0
+          ],
+          "_CenterPos": [
+            210.0,
+            250.0,
+            -10.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 2,
+          "_StartPos": [
+            50.0,
+            250.0,
+            -160.0
+          ],
+          "_CenterPos": [
+            30.0,
+            250.0,
+            -80.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 2,
+          "_StartPos": [
+            10.0,
+            250.0,
+            0.0
+          ],
+          "_CenterPos": [
+            30.0,
+            250.0,
+            -80.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 5,
+          "_StartPos": [
+            30.0,
+            350.0,
+            -220.0
+          ],
+          "_CenterPos": [
+            120.0,
+            350.0,
+            -160.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 5,
+          "_StartPos": [
+            210.0,
+            350.0,
+            -100.0
+          ],
+          "_CenterPos": [
+            120.0,
+            350.0,
+            -160.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 6,
+          "_StartPos": [
+            70.0,
+            250.0,
+            -205.0
+          ],
+          "_CenterPos": [
+            57.0,
+            189.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 6,
+          "_StartPos": [
+            113.0,
+            250.0,
+            -378.0
+          ],
+          "_CenterPos": [
+            57.0,
+            189.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 9,
+          "_StartPos": [
+            230.0,
+            250.0,
+            -470.0
+          ],
+          "_CenterPos": [
+            331.0,
+            250.0,
+            -464.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 9,
+          "_StartPos": [
+            430.0,
+            250.0,
+            -450.0
+          ],
+          "_CenterPos": [
+            331.0,
+            250.0,
+            -464.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 10,
+          "_StartPos": [
+            100.0,
+            250.0,
+            -400.0
+          ],
+          "_CenterPos": [
+            200.0,
+            250.0,
+            -430.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 10,
+          "_StartPos": [
+            296.0,
+            250.0,
+            -470.0
+          ],
+          "_CenterPos": [
+            200.0,
+            250.0,
+            -430.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 11,
+          "_StartPos": [
+            396.0,
+            300.0,
+            -600.0
+          ],
+          "_CenterPos": [
+            364.0,
+            300.0,
+            -514.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 11,
+          "_StartPos": [
+            455.0,
+            300.0,
+            -524.0
+          ],
+          "_CenterPos": [
+            364.0,
+            300.0,
+            -514.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 12,
+          "_StartPos": [
+            352.0,
+            300.0,
+            -558.0
+          ],
+          "_CenterPos": [
+            263.0,
+            300.0,
+            -586.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 1,
+          "_BlockNo": 12,
+          "_StartPos": [
+            174.0,
+            300.0,
+            -613.0
+          ],
+          "_CenterPos": [
+            263.0,
+            300.0,
+            -586.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 1,
+          "_StartPos": [
+            25.0,
+            200.0,
+            145.0
+          ],
+          "_CenterPos": [
+            81.0,
+            200.0,
+            260.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 1,
+          "_StartPos": [
+            140.0,
+            200.0,
+            374.0
+          ],
+          "_CenterPos": [
+            81.0,
+            200.0,
+            260.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 2,
+          "_StartPos": [
+            220.0,
+            200.0,
+            242.0
+          ],
+          "_CenterPos": [
+            240.0,
+            200.0,
+            350.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 2,
+          "_StartPos": [
+            300.0,
+            200.0,
+            445.0
+          ],
+          "_CenterPos": [
+            240.0,
+            200.0,
+            350.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 3,
+          "_StartPos": [
+            255.0,
+            250.0,
+            230.0
+          ],
+          "_CenterPos": [
+            430.0,
+            250.0,
+            224.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 3,
+          "_StartPos": [
+            605.0,
+            250.0,
+            230.0
+          ],
+          "_CenterPos": [
+            430.0,
+            250.0,
+            224.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 6,
+          "_StartPos": [
+            390.0,
+            200.0,
+            -55.0
+          ],
+          "_CenterPos": [
+            300.0,
+            200.0,
+            50.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 6,
+          "_StartPos": [
+            210.0,
+            200.0,
+            155.0
+          ],
+          "_CenterPos": [
+            300.0,
+            200.0,
+            50.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 7,
+          "_StartPos": [
+            260.0,
+            200.0,
+            24.0
+          ],
+          "_CenterPos": [
+            180.0,
+            200.0,
+            -70.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 7,
+          "_StartPos": [
+            58.0,
+            200.0,
+            -90.0
+          ],
+          "_CenterPos": [
+            180.0,
+            200.0,
+            -70.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 8,
+          "_StartPos": [
+            100.0,
+            250.0,
+            145.0
+          ],
+          "_CenterPos": [
+            150.0,
+            250.0,
+            260.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 8,
+          "_StartPos": [
+            200.0,
+            250.0,
+            374.0
+          ],
+          "_CenterPos": [
+            150.0,
+            250.0,
+            260.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 9,
+          "_StartPos": [
+            160.0,
+            250.0,
+            40.0
+          ],
+          "_CenterPos": [
+            240.0,
+            250.0,
+            145.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 9,
+          "_StartPos": [
+            320.0,
+            250.0,
+            250.0
+          ],
+          "_CenterPos": [
+            240.0,
+            250.0,
+            145.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 10,
+          "_StartPos": [
+            120.0,
+            250.0,
+            250.0
+          ],
+          "_CenterPos": [
+            90.0,
+            250.0,
+            120.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 10,
+          "_StartPos": [
+            118.0,
+            250.0,
+            -10.0
+          ],
+          "_CenterPos": [
+            90.0,
+            250.0,
+            120.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 11,
+          "_StartPos": [
+            50.0,
+            250.0,
+            100.0
+          ],
+          "_CenterPos": [
+            155.0,
+            250.0,
+            25.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 3,
+          "_BlockNo": 11,
+          "_StartPos": [
+            270.0,
+            250.0,
+            -35.0
+          ],
+          "_CenterPos": [
+            155.0,
+            250.0,
+            25.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 3,
+          "_StartPos": [
+            120.0,
+            200.0,
+            -120.0
+          ],
+          "_CenterPos": [
+            -15.0,
+            200.0,
+            -230.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 3,
+          "_StartPos": [
+            -10.0,
+            200.0,
+            -400.0
+          ],
+          "_CenterPos": [
+            -15.0,
+            200.0,
+            -230.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 5,
+          "_StartPos": [
+            200.0,
+            200.0,
+            -180.0
+          ],
+          "_CenterPos": [
+            150.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 5,
+          "_StartPos": [
+            200.0,
+            200.0,
+            -420.0
+          ],
+          "_CenterPos": [
+            150.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 5,
+          "_StartPos": [
+            50.0,
+            200.0,
+            -383.0
+          ],
+          "_CenterPos": [
+            150.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 6,
+          "_StartPos": [
+            -150.0,
+            200.0,
+            -142.0
+          ],
+          "_CenterPos": [
+            -130.0,
+            200.0,
+            -318.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 6,
+          "_StartPos": [
+            -180.0,
+            200.0,
+            -488.0
+          ],
+          "_CenterPos": [
+            -130.0,
+            200.0,
+            -318.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 7,
+          "_StartPos": [
+            -65.0,
+            200.0,
+            -580.0
+          ],
+          "_CenterPos": [
+            -20.0,
+            200.0,
+            -420.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 7,
+          "_StartPos": [
+            -150.0,
+            200.0,
+            -300.0
+          ],
+          "_CenterPos": [
+            -10.0,
+            200.0,
+            -356.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 8,
+          "_StartPos": [
+            82.0,
+            200.0,
+            -460.0
+          ],
+          "_CenterPos": [
+            185.0,
+            200.0,
+            -486.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 8,
+          "_StartPos": [
+            290.0,
+            200.0,
+            -500.0
+          ],
+          "_CenterPos": [
+            185.0,
+            200.0,
+            -486.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 9,
+          "_StartPos": [
+            -70.0,
+            200.0,
+            -660.0
+          ],
+          "_CenterPos": [
+            -135.0,
+            200.0,
+            -540.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 10,
+          "_StartPos": [
+            -113.0,
+            200.0,
+            -520.0
+          ],
+          "_CenterPos": [
+            25.0,
+            200.0,
+            -550.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 4,
+          "_BlockNo": 10,
+          "_StartPos": [
+            163.0,
+            200.0,
+            -580.0
+          ],
+          "_CenterPos": [
+            25.0,
+            200.0,
+            -550.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 1,
+          "_StartPos": [
+            100.0,
+            200.0,
+            -20.0
+          ],
+          "_CenterPos": [
+            120.0,
+            200.0,
+            -155.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 2,
+          "_StartPos": [
+            50.0,
+            200.0,
+            -90.0
+          ],
+          "_CenterPos": [
+            -65.0,
+            200.0,
+            -150.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 2,
+          "_StartPos": [
+            -120.0,
+            200.0,
+            -265.0
+          ],
+          "_CenterPos": [
+            -65.0,
+            200.0,
+            -150.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 3,
+          "_StartPos": [
+            -120.0,
+            200.0,
+            -265.0
+          ],
+          "_CenterPos": [
+            -35.0,
+            200.0,
+            -180.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 3,
+          "_StartPos": [
+            45.0,
+            200.0,
+            -90.0
+          ],
+          "_CenterPos": [
+            -35.0,
+            200.0,
+            -180.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 5,
+          "_StartPos": [
+            140.0,
+            200.0,
+            -150.0
+          ],
+          "_CenterPos": [
+            175.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 5,
+          "_StartPos": [
+            190.0,
+            200.0,
+            -450.0
+          ],
+          "_CenterPos": [
+            175.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 6,
+          "_StartPos": [
+            100.0,
+            200.0,
+            -450.0
+          ],
+          "_CenterPos": [
+            35.0,
+            200.0,
+            -310.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 6,
+          "_StartPos": [
+            -44.0,
+            200.0,
+            -178.0
+          ],
+          "_CenterPos": [
+            35.0,
+            200.0,
+            -310.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 7,
+          "_StartPos": [
+            -300.0,
+            200.0,
+            -300.0
+          ],
+          "_CenterPos": [
+            -150.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 7,
+          "_StartPos": [
+            0.0,
+            200.0,
+            -300.0
+          ],
+          "_CenterPos": [
+            -150.0,
+            200.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 8,
+          "_StartPos": [
+            0.0,
+            200.0,
+            -280.0
+          ],
+          "_CenterPos": [
+            40.0,
+            200.0,
+            -425.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 8,
+          "_StartPos": [
+            80.0,
+            200.0,
+            -570.0
+          ],
+          "_CenterPos": [
+            40.0,
+            200.0,
+            -425.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 9,
+          "_StartPos": [
+            -40.0,
+            200.0,
+            -580.0
+          ],
+          "_CenterPos": [
+            125.0,
+            200.0,
+            -530.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 9,
+          "_StartPos": [
+            290.0,
+            200.0,
+            -490.0
+          ],
+          "_CenterPos": [
+            125.0,
+            200.0,
+            -530.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 10,
+          "_StartPos": [
+            -235.0,
+            200.0,
+            -420.0
+          ],
+          "_CenterPos": [
+            -130.0,
+            200.0,
+            -530.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 2,
+          "_BlockNo": 10,
+          "_StartPos": [
+            -25.0,
+            200.0,
+            -640.0
+          ],
+          "_CenterPos": [
+            -130.0,
+            200.0,
+            -530.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 1,
+          "_StartPos": [
+            180.0,
+            200.0,
+            -20.0
+          ],
+          "_CenterPos": [
+            20.0,
+            200.0,
+            -100.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 1,
+          "_StartPos": [
+            -130.0,
+            200.0,
+            -200.0
+          ],
+          "_CenterPos": [
+            20.0,
+            200.0,
+            -100.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 2,
+          "_StartPos": [
+            -20.0,
+            200.0,
+            -78.0
+          ],
+          "_CenterPos": [
+            -100.0,
+            200.0,
+            -230.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 2,
+          "_StartPos": [
+            -150.0,
+            200.0,
+            -395.0
+          ],
+          "_CenterPos": [
+            -100.0,
+            200.0,
+            -230.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 3,
+          "_StartPos": [
+            -130.0,
+            200.0,
+            -220.0
+          ],
+          "_CenterPos": [
+            -150.0,
+            200.0,
+            -400.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 3,
+          "_StartPos": [
+            -140.0,
+            200.0,
+            -580.0
+          ],
+          "_CenterPos": [
+            -150.0,
+            200.0,
+            -400.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 4,
+          "_StartPos": [
+            200.0,
+            200.0,
+            -220.0
+          ],
+          "_CenterPos": [
+            150.0,
+            200.0,
+            -75.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 4,
+          "_StartPos": [
+            -3.0,
+            200.0,
+            -80.0
+          ],
+          "_CenterPos": [
+            150.0,
+            200.0,
+            -75.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 5,
+          "_StartPos": [
+            320.0,
+            200.0,
+            -290.0
+          ],
+          "_CenterPos": [
+            250.0,
+            200.0,
+            -170.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 5,
+          "_StartPos": [
+            112.0,
+            200.0,
+            -190.0
+          ],
+          "_CenterPos": [
+            250.0,
+            200.0,
+            -170.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 12,
+          "_StartPos": [
+            130.0,
+            300.0,
+            -400.0
+          ],
+          "_CenterPos": [
+            260.0,
+            300.0,
+            -330.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 5,
+          "_BlockNo": 12,
+          "_StartPos": [
+            390.0,
+            300.0,
+            -400.0
+          ],
+          "_CenterPos": [
+            260.0,
+            300.0,
+            -330.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 9,
+          "_BlockNo": 1,
+          "_StartPos": [
+            -90.0,
+            300.0,
+            50.0
+          ],
+          "_CenterPos": [
+            25.0,
+            300.0,
+            60.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 9,
+          "_BlockNo": 1,
+          "_StartPos": [
+            140.0,
+            300.0,
+            70.0
+          ],
+          "_CenterPos": [
+            25.0,
+            300.0,
+            60.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 1,
+          "_StartPos": [
+            30.0,
+            150.0,
+            -70.0
+          ],
+          "_CenterPos": [
+            140.0,
+            150.0,
+            -20.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 2,
+          "_StartPos": [
+            130.0,
+            150.0,
+            -70.0
+          ],
+          "_CenterPos": [
+            145.0,
+            150.0,
+            -170.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 3,
+          "_StartPos": [
+            200.0,
+            150.0,
+            -250.0
+          ],
+          "_CenterPos": [
+            20.0,
+            150.0,
+            -300.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 4,
+          "_StartPos": [
+            -100.0,
+            150.0,
+            -350.0
+          ],
+          "_CenterPos": [
+            -115.0,
+            150.0,
+            -165.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 11,
+          "_StartPos": [
+            -200.0,
+            150.0,
+            -200.0
+          ],
+          "_CenterPos": [
+            -100.0,
+            150.0,
+            -30.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 12,
+          "_BlockNo": 5,
+          "_StartPos": [
+            150.0,
+            150.0,
+            -10.0
+          ],
+          "_CenterPos": [
+            5.0,
+            150.0,
+            -10.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 1,
+          "_StartPos": [
+            -65.0,
+            150.0,
+            100.0
+          ],
+          "_CenterPos": [
+            60.0,
+            150.0,
+            125.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 2,
+          "_StartPos": [
+            -150.0,
+            150.0,
+            45.0
+          ],
+          "_CenterPos": [
+            20.0,
+            150.0,
+            0.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 4,
+          "_StartPos": [
+            0.0,
+            150.0,
+            -70.0
+          ],
+          "_CenterPos": [
+            90.0,
+            150.0,
+            -110.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 5,
+          "_StartPos": [
+            40.0,
+            200.0,
+            -100.0
+          ],
+          "_CenterPos": [
+            -25.0,
+            200.0,
+            -160.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 6,
+          "_StartPos": [
+            20.0,
+            200.0,
+            -260.0
+          ],
+          "_CenterPos": [
+            -60.0,
+            200.0,
+            -270.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 7,
+          "_StartPos": [
+            -150.0,
+            200.0,
+            -280.0
+          ],
+          "_CenterPos": [
+            -70.0,
+            200.0,
+            -360.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 8,
+          "_StartPos": [
+            -50.0,
+            200.0,
+            -170.0
+          ],
+          "_CenterPos": [
+            -130.0,
+            200.0,
+            -155.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 11,
+          "_StartPos": [
+            -450.0,
+            150.0,
+            -170.0
+          ],
+          "_CenterPos": [
+            -330.0,
+            150.0,
+            -70.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 13,
+          "_BlockNo": 13,
+          "_StartPos": [
+            -262.0,
+            150.0,
+            50.0
+          ],
+          "_CenterPos": [
+            -115.0,
+            150.0,
+            100.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        },
+        {
+          "_MapNo": 14,
+          "_BlockNo": 1,
+          "_StartPos": [
+            -40.0,
+            150.0,
+            50.0
+          ],
+          "_CenterPos": [
+            -10.0,
+            150.0,
+            -140.0
+          ],
+          "_TurnType": 0,
+          "_TurnAngle": 180.0,
+          "_TurnAngleForBossEnemy": 540.0
+        }
+      ]
+    },
+    "_CometAttackBossEnemyData": {
+      "_IsForceFirstCometAttackBossEnemy": true,
+      "_CometAttackBossEnemyRate": 80,
+      "_CometAttackBossEnemyTime": 900.0
+    },
+    "ClearningBurnerAttack": {
+      "BurnNumRows": 5,
+      "BurnShellSpacing": [
+        4.0,
+        0.0,
+        3.0
+      ],
+      "BurnSpreadDelay": 0.07
+    },
+    "DragonLaser": {
+      "_DragonLaserShellCheckLen": [
+        13.0,
+        7.5,
+        8.0,
+        9.0,
+        10.0
+      ]
+    }
+  }
+}

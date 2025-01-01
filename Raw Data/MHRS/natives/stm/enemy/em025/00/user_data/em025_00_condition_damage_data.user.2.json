@@ -1,0 +1,558 @@
+{
+  "snow.enemy.EnemyConditionDamageData": {
+    "_ParalyzeData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 130.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 700.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 130.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 700.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 4
+    },
+    "_SleepData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 2
+    },
+    "_StunData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 3
+    },
+    "_StaminaData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_SubStamina": 0.0,
+      "_PresetType": 2
+    },
+    "_FlashData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 4.0,
+      "_MinActiveTime": 5.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_DamageLvData": [
+        {
+          "_ActivateCnt": 0,
+          "_ActiveTime": 0.0
+        },
+        {
+          "_ActivateCnt": 0,
+          "_ActiveTime": 0.0
+        }
+      ],
+      "_IgnoreRefreshStance": 0,
+      "_MaxDistance": 20.0,
+      "_MinDistance": 5.0,
+      "_Angle": 90.0,
+      "_PresetType": 3
+    },
+    "_PoisonData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 40.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 2.0,
+      "_Damage": 5.0,
+      "_PresetType": 4
+    },
+    "_BlastData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_BlastDamage": 80.0,
+      "_PresetType": 0
+    },
+    "_MarionetteStartData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_UseData": 0,
+      "_NoraFirstLimit": 0.0
+    },
+    "_WaterData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_SlashStrikeAdjustData": {
+        "_HardMeatAdjustValue": 25.0,
+        "_SoftMeatAdjustValue": 3.0,
+        "_JudgeMeatValue": 60.0
+      },
+      "_ShellAdjustData": {
+        "_HardMeatAdjustValue": 25.0,
+        "_SoftMeatAdjustValue": 3.0,
+        "_JudgeMeatValue": 60.0
+      },
+      "_PresetType": 0
+    },
+    "_FireData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 30.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 15.0,
+      "_Damage": 2.0,
+      "_HitDamageRate": 1.5,
+      "_PresetType": 1
+    },
+    "_IceData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_MotionSpeedRate": 0.9,
+      "_PresetType": 0
+    },
+    "_ThunderData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 200.0,
+        "_AddLimit": 100.0,
+        "_MaxLimit": 600.0,
+        "_SubValue": 5.0,
+        "_SubInterval": 10.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 20.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_StunMeatAdjustData": {
+        "_HitDamageToStunRate": 1.0,
+        "_HitDamageToStunMax": 0.0,
+        "_HitDamageToStunMin": 0.0,
+        "_DefaultStunDamageRate": 1.0
+      },
+      "_NormalMeatAdjustData": {
+        "_HitDamageToStunRate": 1.0,
+        "_HitDamageToStunMax": 0.0,
+        "_HitDamageToStunMin": 0.0,
+        "_DefaultStunDamageRate": 1.0
+      },
+      "_StunActivateLimit": 0,
+      "_PresetType": 0
+    },
+    "_FallTrapData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 10.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 3.0,
+      "_AddTiredTime": 5.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_RenderOffsetY": 0.0,
+      "_RenderOffsetSpeed": 0.0,
+      "_RenderOffsetResetTime": 0.0,
+      "_PresetType": 0
+    },
+    "_FallQuickSandData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_RenderOffsetY": 0.0,
+      "_RenderOffsetSpeed": 0.0,
+      "_RenderOffsetResetTime": 0.0,
+      "_PresetType": 0
+    },
+    "_FallOtomoTrapData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_AlreadyPoisonStockValue": 0.0,
+      "_PresetType": 1
+    },
+    "_ShockTrapData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 10.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 3.0,
+      "_AddTiredTime": 5.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 0
+    },
+    "_ShockOtomoTrapData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 1
+    },
+    "_CaptureData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 3.402823e38,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 0
+    },
+    "_KoyashiData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_PresetType": 0
+    },
+    "_SteelFangData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 0.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_ActiveLimitCount": 0,
+      "_PresetType": 1,
+      "_IsUseUniqueTargetParam": false,
+      "_MaxDistance": 0.0,
+      "_MinDistance": 0.0,
+      "_Angle": 0.0
+    },
+    "_UseParalyze": 0,
+    "_UseSleep": 0,
+    "_UseStun": 0,
+    "_UseStamina": 1,
+    "_UseFlash": 0,
+    "_UsePoison": 0,
+    "_UseBlast": 0,
+    "_UseMarionetteStart": 0,
+    "_UseWater": 0,
+    "_UseFire": 0,
+    "_UseIce": 0,
+    "_UseThunder": 0,
+    "_UseFallTrap": 1,
+    "_UseFallQuickSand": 1,
+    "_UseFallOtomoTrap": 1,
+    "_UseShockTrap": 1,
+    "_UseShockOtomoTrap": 1,
+    "_UseCapture": 1,
+    "_UseKoyashi": 0,
+    "_UseSteelFang": 0
+  }
+}

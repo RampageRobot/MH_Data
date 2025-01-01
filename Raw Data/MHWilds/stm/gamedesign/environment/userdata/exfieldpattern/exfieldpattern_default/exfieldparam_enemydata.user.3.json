@@ -1,0 +1,289 @@
+{
+  "app.user_data.ExFieldParam_EnemyData": {
+    "_IntervalMin": 2.5,
+    "_StayBufferMinute": 1.6,
+    "_StayMinute": 30,
+    "_BattlefieldBelongingStageStayMinute": 20,
+    "_AddQuestMinute": 20,
+    "_QuestTimeFraction": 5,
+    "_NotAllowQuestRemain": 0,
+    "_DisableQuestTargetGuaranteedMinute": 10,
+    "_BattlefieldQuestMinute": 50,
+    "_BattlefieldQuestAcceptableMinute": 30,
+    "_YummyInterval": 48,
+    "_YummyLotNum": 1,
+    "_SuitableEm_Min": 1,
+    "_EmBossDifficultyRange": 2,
+    "_EvaluationPoint_Rank": 2,
+    "_EvaluationPoint_VillageBoost": 10,
+    "_EvaluationPoint_SideMisison": 10,
+    "_NotifyRemainMinute": 3,
+    "_PopTypePriorityTbl": [
+      {
+        "_PopEmType": "OVERRIDE_SWARM",
+        "_Priority": 255,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "OVERRIDE",
+        "_Priority": 255,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "NUSHI",
+        "_Priority": 150,
+        "_EnvBits": "ABNORMAL"
+      },
+      {
+        "_PopEmType": "COCOON",
+        "_Priority": 140,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "BATTLEFIELD",
+        "_Priority": 125,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "BF_POP_BELONGING",
+        "_Priority": 120,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "POP_MANY_2",
+        "_Priority": 100,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "POP_MANY",
+        "_Priority": 90,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "SWARM",
+        "_Priority": 80,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "FRENZY",
+        "_Priority": 60,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "LEGENDARY",
+        "_Priority": 50,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "NUSHI",
+        "_Priority": 40,
+        "_EnvBits": "5 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      },
+      {
+        "_PopEmType": "NORMAL",
+        "_Priority": 0,
+        "_EnvBits": "7 // Could not find enum value in map app.EnvironmentType.ENVIRONMENTBit_Serializable"
+      }
+    ],
+    "_ExEnemies": [
+      {
+        "_EmID": "EM0152_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1091567616,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0150_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1101529088,
+          1092616192
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0150_00_0",
+        "_RoleID": 1,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1101529088,
+          1092616192
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0151_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1901,
+        "_SuitableHR": [
+          1098907648,
+          1082130432
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0153_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 401,
+        "_SuitableHR": [
+          1091567616,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0156_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1902,
+        "_SuitableHR": [
+          1106771968,
+          1092616192
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0009_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1901,
+        "_SuitableHR": [
+          1091567616,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "INVALID",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "EX",
+        "_GeneralRewardTblID": 1902,
+        "_SuitableHR": [
+          1109655552,
+          1091567616
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0152_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0150_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0150_00_0",
+        "_RoleID": 1,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 1900,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0151_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 1901,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0153_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 101,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      },
+      {
+        "_EmID": "EM0156_00_0",
+        "_RoleID": 0,
+        "_LegendaryID": 0,
+        "_Rank": "STORY",
+        "_GeneralRewardTblID": 1902,
+        "_SuitableHR": [
+          1065353216,
+          1088421888
+        ],
+        "_PremiseMission": "MISSION_850010",
+        "_OptionTagArray": []
+      }
+    ],
+    "_ZakoPopConditions": [
+      {
+        "_EmID": "EM1164_50_0",
+        "_Rank": "STORY",
+        "_PopableHR": 0,
+        "_PremiseMission": "MISSION_004310",
+        "_PremiseQuest": "INVALID"
+      },
+      {
+        "_EmID": "EM1023_00_0",
+        "_Rank": "EX",
+        "_PopableHR": 0,
+        "_PremiseMission": "INVALID",
+        "_PremiseQuest": "INVALID"
+      }
+    ]
+  }
+}

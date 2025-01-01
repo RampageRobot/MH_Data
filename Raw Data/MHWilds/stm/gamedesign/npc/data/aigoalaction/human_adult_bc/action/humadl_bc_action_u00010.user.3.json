@@ -1,0 +1,509 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "SEQUENTIAL",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 2408795325
+                },
+                "_JustOnce": true,
+                "_Inverse": false,
+                "_IgnoreInterrupt": true,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 721928911
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1761955904
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_ActionSelector": {
+                    "_Category": -46611132,
+                    "_ActionID": 1715833216,
+                    "_UseVariation": false,
+                    "_Variation": -663541696
+                  }
+                }
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1761955904
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_ActionSelector": {
+                    "_Category": -46611132,
+                    "_ActionID": 294083872,
+                    "_UseVariation": false,
+                    "_Variation": -663541696
+                  }
+                }
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 721928911
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1761955904
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": true,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 3497823227
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 3.0,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": 1200432256
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      -7.9497595,
+                      0.14856482,
+                      1.4541965
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1102204736
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 3.0,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": -997460672
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      -7.5694733,
+                      1.4185419,
+                      -0.69713306
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 721928911
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "SEQUENTIAL",
+        "_EndlessLoop": true,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1102204736
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 3.0,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": -997460672
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      -7.9497595,
+                      0.14856482,
+                      1.4541965
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              },
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 3497823227
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 3.0,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": 1200432256
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      -7.5694733,
+                      1.4185419,
+                      -0.69713306
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1102204736
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1102080738
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          },
+          "_TimeMin": 180.0,
+          "_TimeMax": 180.0
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1102080738
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "AI",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": -46611132,
+                "_ActionID": 465473664,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 3497823227
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1736421181
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          },
+          "_TimeMin": 180.0,
+          "_TimeMax": 180.0
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1736421181
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "AI",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": -46611132,
+                "_ActionID": -1403547648,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 402935249
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2408795325
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 1920273786
+                },
+                "_JustOnce": false,
+                "_Inverse": true,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetDestination": "AI",
+              "_ImmediateActionSet": false,
+              "_ActionSelector": {
+                "_Category": -46611132,
+                "_ActionID": 1715833216,
+                "_UseVariation": false,
+                "_Variation": -663541696
+              }
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1920273786
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "02262b8b-baed-461f-aa14-7fbbfe717690",
+                "_GoalNameHash": {
+                  "_Hash": 3497823227
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {
+                  "_IsSetDestination": true,
+                  "_IntervalTime": 3.0,
+                  "_PointSearcher": {
+                    "_TargetType": 1,
+                    "_DestList": [],
+                    "_PointSelector": {
+                      "_Category": 1,
+                      "_PointType": 1200432256
+                    },
+                    "STRUCT__IsOnOff__HasValue": false,
+                    "STRUCT__IsOnOff__Value": false,
+                    "_Pos": [
+                      -7.5694733,
+                      1.4185419,
+                      -0.69713306
+                    ],
+                    "_Range": -1.0,
+                    "_GroupAIType": "INVALID",
+                    "_FieldUnitType": "INVALID"
+                  }
+                }
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 2819453848
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      }
+    ]
+  }
+}

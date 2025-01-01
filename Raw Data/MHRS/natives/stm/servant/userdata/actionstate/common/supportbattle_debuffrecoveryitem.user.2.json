@@ -1,0 +1,39 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_OrderPostionType": 11,
+        "_ArriveRange": 3.0,
+        "_MoveType": 4,
+        "_ActionType": 15,
+        "_UseItemOnOccuringPushTimeSec": 1.5
+      },
+      {
+        "_OrderPostionType": 11,
+        "_ArriveRange": 3.0,
+        "_MoveContinueTimes": 3,
+        "_ActionType": 15
+      },
+      {
+        "_ShowServantId": false,
+        "_IsChat": 100,
+        "_ChatInfos": [
+          {
+            "_Text": "＊＊＊＊「状態」\u0000",
+            "_Rate": 100,
+            "_UseStamp": false,
+            "_StampID": 0
+          }
+        ]
+      }
+    ]
+  }
+}

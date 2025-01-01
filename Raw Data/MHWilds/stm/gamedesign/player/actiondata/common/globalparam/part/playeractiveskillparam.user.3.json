@@ -1,0 +1,90 @@
+{
+  "app.user_data.PlayerActiveSkillParam": {
+    "_ASkillParam": {
+      "_ParamList": [
+        {
+          "EnumValue": "A_SKILL_001",
+          "_CDTime": 300.0,
+          "_EffectiveTime": 120.0,
+          "_IsMoveingTime": false
+        },
+        {
+          "EnumValue": "A_SKILL_002",
+          "_CDTime": 600.0,
+          "_EffectiveTime": 90.0,
+          "_IsMoveingTime": false
+        },
+        {
+          "EnumValue": "A_SKILL_003",
+          "_CDTime": 600.0,
+          "_EffectiveTime": 60.0,
+          "_IsMoveingTime": true
+        },
+        {
+          "EnumValue": "A_SKILL_004",
+          "_CDTime": 600.0,
+          "_EffectiveTime": 90.0,
+          "_IsMoveingTime": true
+        },
+        {
+          "EnumValue": "A_SKILL_005",
+          "_CDTime": 600.0,
+          "_EffectiveTime": 120.0,
+          "_IsMoveingTime": false
+        }
+      ]
+    },
+    "_ASkill002_DamageCutRate": 0.3,
+    "_ASkill002_HitDefenseTime": 10.0,
+    "_ASkill003_HealValue": 3.0,
+    "_ASkill003_HealInterval": 5.0,
+    "_ASkill003_SuperHealTimer": 3.0,
+    "_SuperHealParam": {
+      "_StartHealValue": 0.0,
+      "_HealValue": 70.0,
+      "_Stage1Rate": 1.0,
+      "_Stage1Time": 5.0,
+      "_Stage2Time": 1.0
+    },
+    "_ASkill003_HitHealRate": 0.1,
+    "_ASkill003_AlphaRefParams": [
+      0.0,
+      0.3,
+      0.7,
+      0.95,
+      1.0
+    ],
+    "_ASkill004_BuffTime": 10.0,
+    "_ASkill004_AttackRate": 1.05,
+    "_ASkill005_Frenzy_Infect_Point": 30.0,
+    "_ASkill005_Frenzy_Infect_PointWpAttackRate": 0.1,
+    "_ASkill005_Frenzy_Infect_PointCommonAttackRate": 0.1,
+    "_ASkill005_Frenzy_Infect_PointInsectAttackRate": 0.05,
+    "_ASkill005_Frenzy_Infect_AddCritical": 10.0,
+    "_ASkill005_Frenzy_Overcome_AttackRate": 1.2,
+    "_ASkill005_Frenzy_Overcome_CriticalAdd": 30.0,
+    "_ASkill005_Wp00_ChargeTimeRate": 1.0,
+    "_ASkill005_Wp02_StaminaReduceRate": 0.5,
+    "_ASkill005_Wp02_BuffTimeRate": 2.0,
+    "_ASkill005_Wp03_RenkiRate": 1.3,
+    "_ASkill005_Wp03_GaugeTimeRate": 1.6,
+    "_ASkill005_Wp04_ChargeTimeRate": 30.0,
+    "_ASkill005_Wp05_HibikiCoolTimeRate": 2.5,
+    "_ASkill005_Wp06_SemeAttackRate": 1.3,
+    "_ASkill005_Wp07_ChargeTimeRate": 1.7,
+    "_ASkill005_Wp07_RyuugekiHealRate": 1.35,
+    "_ASkill005_Wp08_HealGauge": 50.0,
+    "_ASkill005_Wp08_GaugeRate": 1.5,
+    "_ASkill005_Wp08_AwakenTimeRate": 0.33,
+    "_ASkill005_Wp09_HealBinRate": 1.8,
+    "_ASkill005_Wp09_BuffTimeRate": 1.4,
+    "_ASkill005_Wp10_ChargeTimeRate": 1.5,
+    "_ASkill005_Wp10_InsectHealStaminaRate": 10.0,
+    "_ASkill005_Wp11_GaugeRate": 2.0,
+    "_ASkill005_Wp11_ChargeTimeRate": 1.3,
+    "_ASkill005_Wp12_HealEnGauge": 100.0,
+    "_ASkill005_Wp12_ChargeTimeRate": 3.0,
+    "_ASkill005_Wp13_HealEnGauge": 100.0,
+    "_ASkill005_Wp13_ChargeTimeRate": 3.0
+  }
+}

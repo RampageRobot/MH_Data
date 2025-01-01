@@ -1,0 +1,110 @@
+{
+  "ace.user_data.ActionID": {
+    "_ActionIDArray": {
+      "_DataArray": [
+        {
+          "_Class": "cSysIdle\u0000",
+          "_InstanceGuid": "8c052c77-7bad-40c4-8fca-f0ef52f9704a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+          "_LowerGuid": "eb7f29a7-f4fd-4740-bf1f-a58ea352acba"
+        },
+        {
+          "_Class": "cWait\u0000",
+          "_InstanceGuid": "eb7f29a7-f4fd-4740-bf1f-a58ea352acba",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8c052c77-7bad-40c4-8fca-f0ef52f9704a",
+          "_LowerGuid": "f2aefb02-cc5c-4901-9a81-b5ad67e08176"
+        },
+        {
+          "_Class": "cWait2\u0000",
+          "_InstanceGuid": "f2aefb02-cc5c-4901-9a81-b5ad67e08176",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "eb7f29a7-f4fd-4740-bf1f-a58ea352acba",
+          "_LowerGuid": "ef70ebf3-600e-4431-998e-8f61511c145e"
+        },
+        {
+          "_Class": "cGround_Die\u0000",
+          "_InstanceGuid": "ef70ebf3-600e-4431-998e-8f61511c145e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f2aefb02-cc5c-4901-9a81-b5ad67e08176",
+          "_LowerGuid": "00e0f1e0-ef11-4b52-a244-cc92e6f1e0c3"
+        },
+        {
+          "_Class": "cFallDown_Loop\u0000",
+          "_InstanceGuid": "00e0f1e0-ef11-4b52-a244-cc92e6f1e0c3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ef70ebf3-600e-4431-998e-8f61511c145e",
+          "_LowerGuid": "d896ff33-f17a-4602-9042-36007bfba982"
+        },
+        {
+          "_Class": "cFallDown_Die\u0000",
+          "_InstanceGuid": "d896ff33-f17a-4602-9042-36007bfba982",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00e0f1e0-ef11-4b52-a244-cc92e6f1e0c3",
+          "_LowerGuid": "9ed999be-e7d8-4751-bb33-2b9f97861370"
+        },
+        {
+          "_Class": "cWalk\u0000",
+          "_InstanceGuid": "9ed999be-e7d8-4751-bb33-2b9f97861370",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d896ff33-f17a-4602-9042-36007bfba982",
+          "_LowerGuid": "2256cd92-3c37-4a79-9605-1030f1c31082"
+        },
+        {
+          "_Class": "cWalkWall\u0000",
+          "_InstanceGuid": "2256cd92-3c37-4a79-9605-1030f1c31082",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9ed999be-e7d8-4751-bb33-2b9f97861370",
+          "_LowerGuid": "d0bfa4c7-cd9a-435d-99ee-e7be7b6abd0d"
+        },
+        {
+          "_Class": "cWalk_Repop\u0000",
+          "_InstanceGuid": "d0bfa4c7-cd9a-435d-99ee-e7be7b6abd0d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2256cd92-3c37-4a79-9605-1030f1c31082",
+          "_LowerGuid": "b28c3b99-37f7-4f90-a4f7-f110b7d1b607"
+        },
+        {
+          "_Class": "cWalk_Escape\u0000",
+          "_InstanceGuid": "b28c3b99-37f7-4f90-a4f7-f110b7d1b607",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d0bfa4c7-cd9a-435d-99ee-e7be7b6abd0d",
+          "_LowerGuid": "c4aece4a-d09b-4d58-ae7c-b7825427c478"
+        },
+        {
+          "_Class": "cPanic\u0000",
+          "_InstanceGuid": "c4aece4a-d09b-4d58-ae7c-b7825427c478",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b28c3b99-37f7-4f90-a4f7-f110b7d1b607",
+          "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    "_ExportSettingArray": {
+      "_DataArray": [
+        {
+          "_Guid": "d3c212cd-bf71-4a05-aed7-b6afe9961cac",
+          "_ClassName": "Em5202Action\u0000",
+          "_ActionCategory": 0
+        }
+      ]
+    },
+    "_BaseActionID": {
+      "_ActionID": {},
+      "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+    },
+    "_ConnectInheritGuidsDic": {}
+  }
+}

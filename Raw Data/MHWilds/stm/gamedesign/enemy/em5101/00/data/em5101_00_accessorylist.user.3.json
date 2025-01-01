@@ -1,0 +1,191 @@
+{
+  "app.user_data.AccessoryList": {
+    "_Accessories": [
+      {
+        "_Prefab": {
+          "v0": [
+            1
+          ],
+          "v1": "GameDesign/Accessory/_Prefab/Player/Acc001_071.pfb\u0000"
+        },
+        "_Offset": {
+          "UseOffset": false,
+          "OffsetOrder": 1,
+          "STRUCT_Coord_Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "STRUCT_Coord_Rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "PositionOffsetCtrl": 0,
+          "RotationOffsetCtrl": 0
+        },
+        "_States": [
+          {
+            "_Guid": "38b5c67d-310c-4732-b8c4-65908895ab31",
+            "_Tag": "VISIBLE",
+            "_Actions": [
+              {
+                "_Visibility": 0
+              },
+              {
+                "_Visibilities": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "_BankId": 0,
+                "_MotionId": 4,
+                "_LayerIndex": 0,
+                "_ImmediateSetup": false,
+                "_InterpolationFrame": 0.0,
+                "_InterpolationMode": 0,
+                "_InterpolationCurve": 0
+              },
+              {
+                "_TriggerId": 1972035121
+              }
+            ],
+            "_StandAloneActions": []
+          },
+          {
+            "_Guid": "981fab67-d72c-091d-19a8-e6356e89f9d9",
+            "_Tag": "HIDE",
+            "_Actions": [
+              {
+                "_Visibility": 1
+              }
+            ],
+            "_StandAloneActions": []
+          },
+          {
+            "_Guid": "5c8acb5c-c8a4-4f38-b343-6fa2d588e68e",
+            "_Tag": "PLAY_EFFECT",
+            "_Actions": [
+              {
+                "_ContainerId": 0,
+                "_ElementId": 0,
+                "_FollowTarget": "NONE",
+                "_FollowJoint": "\u0000"
+              }
+            ],
+            "_StandAloneActions": []
+          },
+          {
+            "_Guid": "a1872d7f-f7a8-4d85-8626-0ca940545e52",
+            "_Tag": "COLLECT_ANIMAL_HAND",
+            "_Actions": [
+              {
+                "_Motions": [
+                  {
+                    "_MotionType": "DEFAULT",
+                    "_BankId": 0,
+                    "_MotionId": 5
+                  },
+                  {
+                    "_MotionType": "MIRROR",
+                    "_BankId": 0,
+                    "_MotionId": 6
+                  }
+                ],
+                "_LayerIndex": 0
+              },
+              {
+                "_Visibilities": [
+                  0,
+                  0
+                ]
+              }
+            ],
+            "_StandAloneActions": [
+              {
+                "_TargetLayerIndex": 0
+              },
+              {
+                "_Pivot": 32,
+                "_TargetRotation": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "_Duration": 0.0,
+                "_EaseType": 0
+              }
+            ]
+          },
+          {
+            "_Guid": "3cfbbb7f-458c-4308-b44b-2f59f60b9236",
+            "_Tag": "COLLECT_ANIMAL_SLINGER",
+            "_Actions": [
+              {
+                "_Motions": [
+                  {
+                    "_MotionType": "DEFAULT",
+                    "_BankId": 0,
+                    "_MotionId": 5
+                  },
+                  {
+                    "_MotionType": "MIRROR",
+                    "_BankId": 0,
+                    "_MotionId": 6
+                  }
+                ],
+                "_LayerIndex": 0
+              },
+              {
+                "_Visibilities": [
+                  0,
+                  0
+                ]
+              }
+            ],
+            "_StandAloneActions": [
+              {
+                "_TargetLayerIndex": 0
+              },
+              {
+                "_Pivot": 32,
+                "_TargetRotation": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "_Duration": 0.0,
+                "_EaseType": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "_JointConsts": [
+      {
+        "_Guid": "99391eb4-6012-41b8-9a54-e8ccdbdf060f",
+        "_Data": {
+          "_JointName": {
+            "_Hash": 0
+          },
+          "_OffsetPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_IgnoreJointRotation": false,
+          "_OffsetRotationDegree": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
+}

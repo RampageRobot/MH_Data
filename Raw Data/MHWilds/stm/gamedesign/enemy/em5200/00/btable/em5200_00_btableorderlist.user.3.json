@@ -1,0 +1,242 @@
+{
+  "ace.btable.user_data.BTableOrderList": {
+    "_OperatorFactories": [],
+    "_CommandFactories": [
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cCheckEnvironment\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cCheckEnvironmentArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsLeader\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestWithLeader\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsArriveDest\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsArriveDest\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsNearLeader\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsAwayPoint\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestToLeader\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cChangeMonitor\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsMonitor\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsEatWait\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsEatWait\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetTurnDir\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cCheckTurnDir\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cCheckTurnDirArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsLeaderStop\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsEscapeDirectly\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsEscapeOnly\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsInVillage\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsReturnedInitPos\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cKillEscapeOnly\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetTargetExclusivePoint\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestEscapePoint\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetDestEscapePointArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetEscapeTargetPoint\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetEscapePointOrRouteArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestInitPos\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsAbnormalEscapeStart\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsAbnormalEscapeGroup\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestAbnormalStart\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestAbnormalEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestPlayer\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestOwnersDest\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsGoingEscapeStart\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsGoingEscapeStart\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsArriveEscapeStart\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsArriveEscapeStart\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsGoingEscapeGoal\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsGoingEscapeGoal\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsArriveEscapeGoal\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsArriveEscapeGoal\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsGoingPlayer\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsGoingPlayer\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsArrivePlayer\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsArrivePlayer\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsGoingStronghold\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetDestStronghold\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsInStronghold\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cSetIsInStronghold\u0000",
+        "_ArgumentType": "app.btable.Em5200_00BTableCommand.cSetBoolParamArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.Em5200_00BTableCommand.cIsStringholdTimerOver\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      }
+    ]
+  }
+}

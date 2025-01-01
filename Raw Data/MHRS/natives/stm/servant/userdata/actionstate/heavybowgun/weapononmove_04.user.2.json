@@ -1,0 +1,34 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_RangeType": 3
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 3
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_Type": 3,
+        "_PeriodTimeSec": -1.0,
+        "_Force": false,
+        "_CallOnly": true
+      },
+      {
+        "_Type": 22,
+        "_PeriodTimeSec": -1.0,
+        "_Force": false,
+        "_CallOnly": false
+      }
+    ]
+  }
+}

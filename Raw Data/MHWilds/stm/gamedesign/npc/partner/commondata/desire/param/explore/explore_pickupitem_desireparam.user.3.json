@@ -1,0 +1,37 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1106247680,
+          1106247680
+        ],
+        "_Cancel": [
+          1097859072,
+          1097859072
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "STRUCT__IsInCamera__HasValue": false,
+            "STRUCT__IsInCamera__Value": false,
+            "_IsCheckCraftMaterial": true
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {},
+          "_Inverse": true
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

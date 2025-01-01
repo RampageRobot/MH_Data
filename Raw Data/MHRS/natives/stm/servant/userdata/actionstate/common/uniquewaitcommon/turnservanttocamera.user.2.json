@@ -1,0 +1,41 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "isTargetMaster": false,
+        "_RangeDegreeR_LookAt": [
+          0.0,
+          30.0
+        ],
+        "_RangeDegreeR_Turn90": [
+          30.0,
+          110.0
+        ],
+        "_RangeDegreeR_Turn180": [
+          110.0,
+          180.0
+        ],
+        "_RangeDegreeL_LookAt": [
+          0.0,
+          -30.0
+        ],
+        "_RangeDegreeL_Turn90": [
+          -30.0,
+          -110.0
+        ],
+        "_RangeDegreeL_Turn180": [
+          -110.0,
+          -180.0
+        ]
+      }
+    ]
+  }
+}

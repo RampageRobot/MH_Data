@@ -1,0 +1,49 @@
+{
+  "snow.enemy.EnemyAngerData": {
+    "_dataInfo": [
+      {
+        "_val": 550
+      },
+      {
+        "_val": 800
+      },
+      {
+        "_val": 600
+      },
+      {
+        "_val": 1400
+      }
+    ],
+    "_timer": 60,
+    "_hyakuryuCoolTimer": 10,
+    "_motRate": 1.3,
+    "_atkRate": 1.3,
+    "_defRate": 0.9,
+    "_compensationRate": [
+      1.0,
+      1.0,
+      1.25,
+      1.25,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0,
+      8.0
+    ],
+    "_hyakuryuCompensationRate": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "_angerStayAddSec": 30.0,
+    "_lifeAreaTimerRate": 0.1
+  }
+}

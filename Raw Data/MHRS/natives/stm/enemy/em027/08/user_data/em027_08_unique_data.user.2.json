@@ -1,0 +1,44 @@
+{
+  "snow.enemy.em027.Em027UniqueData": {
+    "_energyMinValue": 0,
+    "_energyMaxValueLv1": 50,
+    "_energyMaxValueLv2": 100,
+    "_BarrierData": {
+      "LevelArray": [
+        {
+          "_Threshold": 30,
+          "_MotionSpeedRate": 0.95
+        },
+        {
+          "_Threshold": 70,
+          "_MotionSpeedRate": 1.0
+        }
+      ],
+      "_IncRateAngry": 2.0,
+      "_IncRatePoison": 1.0,
+      "_DecRateTired": 2.0,
+      "_RemainHpToCorrect": 0.5,
+      "_IncRateRemainHp": 1.5,
+      "_AdjustValueAngry": 0,
+      "InitValueLotData": [
+        {
+          "_Prob": 100,
+          "_Value": 50
+        }
+      ]
+    },
+    "_DecRateAngry": 1.0,
+    "_BlastShellDelayFrame": 3.0,
+    "_MarionetteExplosionShellLifeTime": 5.0,
+    "_HeadPartsBreakLifePercentage": 30.0,
+    "_vfxContainerID": 150,
+    "_vfxWrappingFlameLv1ElementID": 100,
+    "_vfxWrappingFlameLv2ElementID": 101,
+    "_vfxWrappingBlastLv1ElementID": 200,
+    "_vfxWrappingBlastLv2ElementID": 201,
+    "_vfxAngerFlameElementID": 900,
+    "_vfxAngerBlastElementID": 901,
+    "_vfxRemoveFlameElementID": 104,
+    "_vfxRemoveBlastElementID": 204
+  }
+}

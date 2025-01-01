@@ -1,0 +1,254 @@
+{
+  "snow.enemy.em025.Em025_08_UniqueData": {
+    "_headBreakableHpVitalPercentage": 25.0,
+    "_poisonFogSpawnMaxNum": 5,
+    "_poisonFogMoveParam": [
+      {
+        "Type": 0,
+        "MoveSeconds": 1.5,
+        "MoveSpeed": 15.0,
+        "MoveAcceleration": -10.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 15.0
+      },
+      {
+        "Type": 1,
+        "MoveSeconds": 1.5,
+        "MoveSpeed": 5.0,
+        "MoveAcceleration": -3.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 10.0
+      },
+      {
+        "Type": 2,
+        "MoveSeconds": 0.5,
+        "MoveSpeed": 15.0,
+        "MoveAcceleration": -10.0,
+        "MoveMinSpeed": 0.0,
+        "MoveMaxSpeed": 15.0
+      }
+    ],
+    "_spawnGoStraightPoisonShellIDs": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_spawnGoStraightPoisonInterval": 0.5,
+    "_spawnGoStraightPoisonDistance": 3.0,
+    "_sneakPeekParam": [
+      {
+        "Type": 0,
+        "StealthTimeMin": 0.7,
+        "StealthTimeMax": 0.7,
+        "ShowTimeMin": 0.7,
+        "ShowTimeMax": 0.7
+      },
+      {
+        "Type": 1,
+        "StealthTimeMin": 2.0,
+        "StealthTimeMax": 1.0,
+        "ShowTimeMin": 1.0,
+        "ShowTimeMax": 1.0
+      },
+      {
+        "Type": 2,
+        "StealthTimeMin": 3.0,
+        "StealthTimeMax": 1.0,
+        "ShowTimeMin": 1.0,
+        "ShowTimeMax": 1.0
+      }
+    ],
+    "_stealthCounter": {
+      "ValueMax": [
+        500.0,
+        800.0,
+        1200.0
+      ],
+      "DeltaValueWhenMaxLevel": 50.0,
+      "MaxLevel": 99,
+      "MaxOfValueMax": 9999.0,
+      "UnstorableMoveAction": [
+        2,
+        8,
+        10
+      ],
+      "UncouterattackableMoveAction": [
+        2,
+        7,
+        8,
+        10
+      ],
+      "UncounterAttackableAttackAction": [
+        15,
+        16,
+        20,
+        17,
+        18,
+        13008,
+        13011
+      ]
+    },
+    "_fogOnOffTimeImmediately": 1.5,
+    "_fogOnTimeAnger": 2.3,
+    "_fogOnOffTime": 5.0,
+    "_fogOffTimeWhenReturnCamp": 0.0001,
+    "_fogEnableDistance": 150.0,
+    "_buff": {
+      "VitalBuffRecoveryAmount": 100.0,
+      "StaminaBuffTime": 60.0,
+      "StaminaBuffSpeedRate": 1.05,
+      "AttackBuffTime": 60.0,
+      "AttackBuffRate": 1.2,
+      "DefenceBuffTime": 60.0,
+      "TakenDamageRate": 0.8,
+      "AngerPointIncreaseWhenFailed": 10.0
+    },
+    "_checkShellSpawnableJoint": {
+      "_JointHash": 4175418299,
+      "_Offset": [
+        0.0,
+        2.0,
+        0.0
+      ],
+      "_JointName": "Root\u0000"
+    },
+    "_checkShellSpawnableRayLength": 10.0,
+    "_rayCastYOffset": 4.0,
+    "_VFXContainerID": 150,
+    "_VFXVitalBuffElementID": 0,
+    "_VFXStaminaBuffElementID": 1,
+    "_VFXAttackBuffElementID": 2,
+    "_VFXDefenceBuffElementID": 3,
+    "_VFXStaminaBuffLoopElementID": 11,
+    "_VFXAttackBuffLoopElementID": 12,
+    "_VFXDefenceBuffLoopElementID": 13,
+    "_PoisonTailTrapCreateType": 2,
+    "_PoisonTailTrapCreateOffset": [
+      0.0,
+      0.0,
+      5.0
+    ],
+    "_CreateContinuousPoisonWaveDataList": [
+      {
+        "_LinkShellID": 8002,
+        "_CreateShellID": 8000,
+        "_CreateShellShootInfo": [
+          {
+            "_OffsetDegY": 0.0,
+            "_DelayFrame": 0
+          },
+          {
+            "_OffsetDegY": 90.0,
+            "_DelayFrame": 0
+          },
+          {
+            "_OffsetDegY": 180.0,
+            "_DelayFrame": 0
+          },
+          {
+            "_OffsetDegY": -90.0,
+            "_DelayFrame": 0
+          }
+        ]
+      },
+      {
+        "_LinkShellID": 8003,
+        "_CreateShellID": 8001,
+        "_CreateShellShootInfo": [
+          {
+            "_OffsetDegY": 0.0,
+            "_DelayFrame": 0
+          },
+          {
+            "_OffsetDegY": 40.0,
+            "_DelayFrame": 1
+          },
+          {
+            "_OffsetDegY": 90.0,
+            "_DelayFrame": 2
+          },
+          {
+            "_OffsetDegY": 140.0,
+            "_DelayFrame": 3
+          },
+          {
+            "_OffsetDegY": 180.0,
+            "_DelayFrame": 0
+          },
+          {
+            "_OffsetDegY": -40.0,
+            "_DelayFrame": 1
+          },
+          {
+            "_OffsetDegY": -90.0,
+            "_DelayFrame": 2
+          },
+          {
+            "_OffsetDegY": -140.0,
+            "_DelayFrame": 3
+          }
+        ]
+      },
+      {
+        "_LinkShellID": 8005,
+        "_CreateShellID": 8002,
+        "_CreateShellShootInfo": [
+          {
+            "_OffsetDegY": 180.0,
+            "_DelayFrame": 1
+          },
+          {
+            "_OffsetDegY": 140.0,
+            "_DelayFrame": 2
+          },
+          {
+            "_OffsetDegY": -140.0,
+            "_DelayFrame": 3
+          },
+          {
+            "_OffsetDegY": 100.0,
+            "_DelayFrame": 4
+          },
+          {
+            "_OffsetDegY": -100.0,
+            "_DelayFrame": 5
+          },
+          {
+            "_OffsetDegY": 60.0,
+            "_DelayFrame": 6
+          },
+          {
+            "_OffsetDegY": -60.0,
+            "_DelayFrame": 7
+          }
+        ]
+      }
+    ],
+    "_AccelLandingPoisonFogData": [
+      {
+        "_ShellID": 8000,
+        "_Distance": 2.5
+      },
+      {
+        "_ShellID": 8001,
+        "_Distance": 2.5
+      },
+      {
+        "_ShellID": 8002,
+        "_Distance": 1.6
+      },
+      {
+        "_ShellID": 8003,
+        "_Distance": 3.0
+      }
+    ],
+    "_AccelLandingPoisonFogCreateDelay": 0.2,
+    "_AccelLandingPoisonFogInterval": 0.6,
+    "_StealthCounterExValueMax": [
+      2500.0,
+      3000.0,
+      3500.0
+    ]
+  }
+}

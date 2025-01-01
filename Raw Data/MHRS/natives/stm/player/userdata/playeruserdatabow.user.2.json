@@ -1,0 +1,622 @@
+{
+  "snow.player.PlayerUserDataBow": {
+    "_ChargeTimeMax": 2000.0,
+    "_ChargingReduceStamina": 2.5,
+    "_ChargeAdjustAttackRate": [
+      0.65,
+      1.0,
+      1.25,
+      1.35
+    ],
+    "_ChargeAdjustElementRate": [
+      0.8,
+      1.0,
+      1.1,
+      1.2
+    ],
+    "_ChargeAdjustDebuffRate": [
+      0.85,
+      1.0,
+      1.125,
+      1.15
+    ],
+    "_ChargeAdjustPoisonBottle": [
+      0.8,
+      1.0,
+      1.35,
+      1.55
+    ],
+    "_ChargeAdjustParalyzeBottle": [
+      0.8,
+      1.0,
+      1.25,
+      1.35
+    ],
+    "_ChargeAdjustSleepBottle": [
+      0.8,
+      1.0,
+      1.25,
+      1.35
+    ],
+    "_ChargeAdjustBombBottle": [
+      0.8,
+      1.0,
+      1.25,
+      1.35
+    ],
+    "_ShortRangeBottleAttackRate": 1.2,
+    "_ShortRangeBottlePhysicalSharpnessRate": 1.32,
+    "_ShortRangeBuildUpBottlePhysicalSharpnessRate": 1.39,
+    "_ShortRangeBottleMaxRangeRate": 0.8,
+    "_ShortRangeBottleAfterRangeAttackRate": 0.1,
+    "_ShortRangeBottleGravityRate": 3.0,
+    "_PowerBottleAttackRate": 1.35,
+    "_DownStaminaBottleStun": 4.0,
+    "_DownStaminaBottleStamina": 8.0,
+    "_VerticalShotLevel1Angle": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "_VerticalShotLevel2Angle": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0
+      ]
+    ],
+    "_VerticalShotLevel3Angle": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ]
+    ],
+    "_VerticalShotLevel4Angle": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -2.0,
+        0.0
+      ]
+    ],
+    "_VerticalShotLevel5Angle": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        1.0
+      ],
+      [
+        -1.0,
+        -1.0
+      ],
+      [
+        -2.0,
+        0.0
+      ]
+    ],
+    "_HorizontalShotLevel1Angle": [
+      [
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "_HorizontalShotLevel2Angle": [
+      [
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ]
+    ],
+    "_HorizontalShotLevel3Angle": [
+      [
+        0.0,
+        -12.0
+      ],
+      [
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "_HorizontalShotLevel4Angle": [
+      [
+        0.0,
+        -12.0
+      ],
+      [
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "_HorizontalShotLevel5Angle": [
+      [
+        0.0,
+        -12.0
+      ],
+      [
+        0.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.0
+      ],
+      [
+        0.0,
+        12.0
+      ]
+    ],
+    "_PierceHitSlowRate": 1.0,
+    "_PierceHitSlowTime": 18.0,
+    "_PierceHitMax": 7,
+    "_DragonHitSlowRate": 1.0,
+    "_DragonHitSlowTime": 18.0,
+    "_DragonHitMax": 7,
+    "_PowerShotSpeedRate": 1.0,
+    "_PowerShotGravityRate": 1.0,
+    "_PowerStunShotAddStun": 4.0,
+    "_PowerStunShotAddStamina": 8.0,
+    "_HighAngleShotVerticalAimSpeed": 0.015,
+    "_HighAngleShotFallHeight": 15.0,
+    "_HighAngleShotHealRadius": 3.0,
+    "_HighAngleShotCriticalRadius": 2.0,
+    "_HighAngleShotSuperArmorRadius": 3.0,
+    "_NormalShotPos": {
+      "_High": [
+        -0.203995,
+        1.91901,
+        0.273338
+      ],
+      "_Middle": [
+        -0.201759,
+        1.3854,
+        0.7603
+      ],
+      "_Low": [
+        -0.20314,
+        0.658248,
+        0.584137
+      ]
+    },
+    "_PowerShotPos": {
+      "_High": [
+        -0.265015,
+        1.30085,
+        0.423218
+      ],
+      "_Middle": [
+        -0.26503,
+        0.683373,
+        0.740448
+      ],
+      "_Low": [
+        -0.26506,
+        0.0509771,
+        0.357147
+      ]
+    },
+    "_RapidPowerShotPos": {
+      "_High": [
+        -0.265015,
+        1.30087,
+        0.423172
+      ],
+      "_Middle": [
+        -0.26503,
+        0.683406,
+        0.740463
+      ],
+      "_Low": [
+        -0.264999,
+        0.0509845,
+        0.357178
+      ]
+    },
+    "_DragonShotPos": {
+      "_High": [
+        -0.0680542,
+        1.41967,
+        0.0837784
+      ],
+      "_Middle": [
+        -0.0680313,
+        0.917493,
+        0.587494
+      ],
+      "_Low": [
+        -0.0680389,
+        0.303925,
+        0.448616
+      ]
+    },
+    "_Below1stShotPos": {
+      "_High": [
+        0.00424194,
+        1.76984,
+        0.272079
+      ],
+      "_Middle": [
+        0.00424194,
+        1.24799,
+        1.0415
+      ],
+      "_Low": [
+        0.0043,
+        0.173579,
+        0.944542
+      ]
+    },
+    "_Below2ndShotPos": {
+      "_High": [
+        -0.0666656,
+        1.44016,
+        0.416313
+      ],
+      "_Middle": [
+        -0.0666504,
+        0.256353,
+        0.594864
+      ],
+      "_Low": [
+        -0.0666199,
+        0.0839272,
+        0.370804
+      ]
+    },
+    "_Below3rdShotPos": {
+      "_High": [
+        -0.0739899,
+        1.89286,
+        0.145935
+      ],
+      "_Middle": [
+        -0.0739822,
+        0.627148,
+        1.16255
+      ],
+      "_Low": [
+        -0.0739899,
+        0.365269,
+        1.05554
+      ]
+    },
+    "_FlyShotPos": {
+      "_High": [
+        -0.264248,
+        1.81552,
+        0.00408936
+      ],
+      "_Middle": [
+        -0.261555,
+        1.44613,
+        0.684692
+      ],
+      "_Low": [
+        -0.263323,
+        0.569529,
+        0.691452
+      ]
+    },
+    "_NormalShotRotation": [
+      -0.02617695,
+      0.0,
+      0.0,
+      0.9996573
+    ],
+    "_PowerShotRotation": [
+      -0.03925982,
+      0.0,
+      0.0,
+      0.999229
+    ],
+    "_RapidPowerShotRotation": [
+      -0.03925982,
+      0.0,
+      0.0,
+      0.999229
+    ],
+    "_DragonShotRotation": [
+      -0.008726536,
+      0.0,
+      0.0,
+      0.9999619
+    ],
+    "_Below1stShotRotation": [
+      0.551937,
+      0.0,
+      0.0,
+      0.8338858
+    ],
+    "_Below2ndShotRotation": [
+      0.551937,
+      0.0,
+      0.0,
+      0.8338858
+    ],
+    "_Below3rdShotRotation": [
+      0.601815,
+      0.0,
+      0.0,
+      0.7986355
+    ],
+    "_FlyShotRotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "_ChargeStepShotFrontRotationAdjust": [
+      -0.01919862,
+      0.003490659,
+      0.0
+    ],
+    "_ChargeStepShotBackRotationAdjust": [
+      -0.02443461,
+      -0.04537856,
+      0.0
+    ],
+    "_ChargeStepShotLeftRotationAdjust": [
+      -0.01919862,
+      0.01745329,
+      0.0
+    ],
+    "_ChargeStepShotRightRotationAdjust": [
+      -0.01919862,
+      -0.06981318,
+      0.0
+    ],
+    "_AimVerticalAngleLimit": [
+      0.9773844,
+      1.151917
+    ],
+    "_NormalShotAimRotAdjust": {
+      "_High": [
+        0.02194733,
+        -0.03585018,
+        0.0007875122,
+        0.9991159
+      ],
+      "_Middle": [
+        0.01836293,
+        -0.01984411,
+        0.0003645293,
+        0.9996344
+      ],
+      "_Low": [
+        0.02875994,
+        -0.04856814,
+        0.001399049,
+        0.9984047
+      ]
+    },
+    "_PowerShotAimRotAdjust": {
+      "_High": [
+        0.01552748,
+        -0.02617379,
+        0.0004066015,
+        0.9995368
+      ],
+      "_Middle": [
+        0.001044439,
+        -0.0163879,
+        0.00001711847,
+        0.9998652
+      ],
+      "_Low": [
+        0.01199154,
+        -0.03489698,
+        0.0004187539,
+        0.9993189
+      ]
+    },
+    "_RapidPowerShotAimRotAdjust": {
+      "_High": [
+        0.01527786,
+        -0.03055675,
+        0.0004671145,
+        0.9994162
+      ],
+      "_Middle": [
+        0.001056514,
+        -0.01644462,
+        0.00001737633,
+        0.9998642
+      ],
+      "_Low": [
+        0.01226907,
+        -0.03830644,
+        0.0004703651,
+        0.9991906
+      ]
+    },
+    "_DragonShotAimRotAdjust": {
+      "_High": [
+        0.002266961,
+        -0.04161397,
+        0.00009441928,
+        0.9991312
+      ],
+      "_Middle": [
+        -0.01060861,
+        -0.02294777,
+        -0.0002435218,
+        0.9996803
+      ],
+      "_Low": [
+        0.003485544,
+        -0.05407849,
+        0.0001887703,
+        0.9985306
+      ]
+    },
+    "_Below1stShotAimRotAdjust": {
+      "_High": [
+        -0.554426,
+        -0.03748172,
+        -0.02500665,
+        0.8310124
+      ],
+      "_Middle": [
+        -0.5556877,
+        -0.02072034,
+        -0.01385535,
+        0.8310173
+      ],
+      "_Low": [
+        -0.5428087,
+        -0.05382889,
+        -0.03489215,
+        0.837403
+      ]
+    },
+    "_Below2ndShotAimRotAdjust": {
+      "_High": [
+        -0.5569561,
+        -0.03512738,
+        -0.02358682,
+        0.8294634
+      ],
+      "_Middle": [
+        -0.5712783,
+        -0.01890478,
+        -0.01316364,
+        0.8204331
+      ],
+      "_Low": [
+        -0.5535896,
+        -0.04717952,
+        -0.0314351,
+        0.8308577
+      ]
+    },
+    "_Below3rdShotAimRotAdjust": {
+      "_High": [
+        -0.6005561,
+        -0.03278422,
+        -0.02465627,
+        0.7985297
+      ],
+      "_Middle": [
+        -0.6187945,
+        -0.01799051,
+        -0.01417748,
+        0.7852189
+      ],
+      "_Low": [
+        -0.5910931,
+        -0.04821173,
+        -0.035428,
+        0.8043814
+      ]
+    },
+    "_FlyShotAimRotAdjust": {
+      "_High": [
+        -0.01308162,
+        -0.03489651,
+        -0.0004568204,
+        0.9993052
+      ],
+      "_Middle": [
+        -0.02181122,
+        -0.01832057,
+        -0.0003997563,
+        0.9995942
+      ],
+      "_Low": [
+        0.0008716596,
+        -0.04797811,
+        0.00004186881,
+        0.998848
+      ]
+    },
+    "_RapidHealStaminaCoef": 3.0,
+    "_WireBuffAttackUpCoef": 1.1,
+    "_WireBuffAttackUpTime": 1800.0,
+    "_BelowShotAttackRate": 1.3,
+    "_BelowShotElementAttackRate": 1.3,
+    "_BelowShotWireAttackDamage": 1.0,
+    "_ArrowUpBufTime": 6300.0,
+    "_UpperCriticalAddPiyoValue": 2.0,
+    "_UpperCriticalAddStaminaValue": 4.0,
+    "_UpperCriticalCameraType": -1,
+    "_UpperCriticalPadType": 10,
+    "_ChangeSlashCameraType": -1,
+    "_ChangeSlashPadType": 7,
+    "_ChangeSlashWireAttackDamage": 1.5,
+    "_BottlePlusSwordArrowShortRangeBottleAttackRate": 1.25,
+    "_BottlePlusSwordArrowPowerBottleAttackRate": 1.38,
+    "_BottlePlusSwordArrowPoisonBottleDebuffRate": 3.5,
+    "_BottlePlusSwordArrowParalyzeBottleDebuffRate": 3.0,
+    "_BottlePlusSwordArrowSleepBottleDebuffRate": 3.0,
+    "_BottlePlusSwordArrowBlastBottleDebuffRate": 2.5,
+    "_BottlePlusSwordArrowDownStaminaBottleStunAddValue": 6.0,
+    "_BottlePlusSowrdArrowDownStaminaBottleStaminaAddValue": 8.0
+  }
+}

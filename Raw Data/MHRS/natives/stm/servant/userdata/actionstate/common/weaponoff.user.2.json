@@ -1,0 +1,52 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_RangeType": 4
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 23
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_Type": 24,
+        "_PeriodTimeSec": -1.0,
+        "_Force": false,
+        "_CallOnly": false
+      },
+      {
+        "_ShowServantId": false,
+        "_IsChat": 0,
+        "_ChatInfos": [
+          {
+            "_Text": "追いかけるぞ！\u0000",
+            "_Rate": 30,
+            "_UseStamp": false,
+            "_StampID": 0
+          },
+          {
+            "_Text": "気をゆるむな！\u0000",
+            "_Rate": 30,
+            "_UseStamp": false,
+            "_StampID": 0
+          },
+          {
+            "_Text": "逃がしはしない！\u0000",
+            "_Rate": 50,
+            "_UseStamp": false,
+            "_StampID": 0
+          }
+        ]
+      }
+    ]
+  }
+}

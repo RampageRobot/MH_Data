@@ -1,0 +1,48 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1127481344,
+          1123024896
+        ],
+        "_Cancel": [
+          1097859072,
+          1097859072
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "_HealthThreshold": 70.0,
+            "_CompareType": 5
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1110704128
+            ]
+          },
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {
+            "_ShellType": "HEAL"
+          },
+          "_Inverse": false
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

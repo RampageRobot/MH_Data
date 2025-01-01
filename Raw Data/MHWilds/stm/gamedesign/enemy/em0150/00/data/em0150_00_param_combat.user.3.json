@@ -1,0 +1,89 @@
+{
+  "app.user_data.EmParamCombat": {
+    "CombatValue": {
+      "IsEnableBeginSec": true,
+      "BeginSec": 2.0,
+      "IsEnableEndSec": true,
+      "EndSec": 20.0,
+      "PlayerRangeHateDatas": [
+        {
+          "Range": 10.0,
+          "AddValue": 0.8
+        },
+        {
+          "Range": 20.0,
+          "AddValue": 0.5
+        },
+        {
+          "Range": 30.0,
+          "AddValue": 0.3
+        },
+        {
+          "Range": 40.0,
+          "AddValue": 0.1
+        }
+      ],
+      "PlayerOutRangeHateValue": -1.0,
+      "PlayerOutAreaHateValue": -2.0,
+      "PlayerConditionHateData": {
+        "PlayerBadConditionHateDatas": [],
+        "CarryEggHateValue": 0.0
+      },
+      "PlayerHitAttackHateRate": 50.0,
+      "PlayerSoundActionRange": 50.0,
+      "PlayerSoundActionHateValue": 8.0,
+      "OtomoRangeHateDatas": [
+        {
+          "Range": 10.0,
+          "AddValue": 0.2
+        },
+        {
+          "Range": 20.0,
+          "AddValue": 0.1
+        },
+        {
+          "Range": 30.0,
+          "AddValue": 0.0
+        }
+      ],
+      "OtomoOutRangeHateValue": -1.0,
+      "OtomoOutAreaHateValue": -2.0,
+      "OtomoHitAttackHateRate": 50.0,
+      "NpcRangeHateDatas": [
+        {
+          "Range": 10.0,
+          "AddValue": 0.3
+        },
+        {
+          "Range": 20.0,
+          "AddValue": 0.2
+        },
+        {
+          "Range": 30.0,
+          "AddValue": 0.1
+        },
+        {
+          "Range": 40.0,
+          "AddValue": 0.0
+        }
+      ],
+      "NpcOutRangeHateValue": -1.0,
+      "NpcOutAreaHateValue": -2.0,
+      "NpcConditionHateData": {
+        "NpcBadConditionHateDatas": []
+      },
+      "NpcHitAttackHateRate": 75.0
+    },
+    "CombatOption": {
+      "IsEnableAttackStay": true,
+      "IsEnableAttackStayCombatEm": false,
+      "AttackableMaxNum": 2,
+      "AttackableSecQuestTargetMin": 15.0,
+      "AttackableSecQuestTargetMax": 25.0,
+      "AttackableSecMin": 5.0,
+      "AttackableSecMax": 8.0,
+      "AttackStayCoolDown": 5.0,
+      "IsAutoSendDetector": true
+    }
+  }
+}

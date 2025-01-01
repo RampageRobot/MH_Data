@@ -1,0 +1,52 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1120403456,
+          1120403456
+        ],
+        "_Cancel": [
+          1092616192,
+          0
+        ],
+        "_Group": [
+          1092616192,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "STRUCT__IsBrokenTent__HasValue": true,
+            "STRUCT__IsBrokenTent__Value": false,
+            "STRUCT__IsFindEnemy__HasValue": true,
+            "STRUCT__IsFindEnemy__Value": false,
+            "STRUCT__IsNearEnemy__HasValue": true,
+            "STRUCT__IsNearEnemy__Value": false
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": [
+        {
+          "_Param": {
+            "STRUCT__IsBrokenTent__HasValue": true,
+            "STRUCT__IsBrokenTent__Value": false,
+            "STRUCT__IsFindEnemy__HasValue": true,
+            "STRUCT__IsFindEnemy__Value": false,
+            "STRUCT__IsNearEnemy__HasValue": true,
+            "STRUCT__IsNearEnemy__Value": false
+          },
+          "_Inverse": false
+        }
+      ]
+    },
+    "_OverwriteKindParams": []
+  }
+}

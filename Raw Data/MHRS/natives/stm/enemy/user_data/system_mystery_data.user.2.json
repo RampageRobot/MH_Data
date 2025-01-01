@@ -1,0 +1,530 @@
+{
+  "snow.enemy.SystemMysteryUserData": {
+    "_MaximumActivityEndSignEffectStartTimeSec": 10.0,
+    "_AngerPoindAddRateMin": 0.4,
+    "_MaximumActivityBlockMoveDisableTimeSec": 20.0,
+    "_MysteryCoreRePopIntervalSec": 5.0,
+    "_MysteryCoreBreakDamageUIHeightOfs": -1.0,
+    "_MysteryCoreBreakDamageUIColor": 4,
+    "_MysteryCoreDyingVitalRate": 40.0,
+    "_SuperNovaShellFadeOutFrame": 30.0,
+    "_SuperNovaSpiralShellPresetList": [
+      {
+        "_ShellList": [
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 0.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 180.0
+          }
+        ]
+      },
+      {
+        "_ShellList": [
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": -60.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 60.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 180.0
+          }
+        ]
+      },
+      {
+        "_ShellList": [
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": -45.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 45.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": 135.0
+          },
+          {
+            "_ShellID": 0,
+            "_TurnDir": 1,
+            "_InitAngOfs": -135.0
+          }
+        ]
+      }
+    ],
+    "_SuperNovaSpiralShellDissolveFrame": 30.0,
+    "_SuperNovaSpiralShellCuriaModelScale": 1.0,
+    "_SuperNovaSpiralShellGroundSlopeMin": 2.5,
+    "_SuperNovaSpiralShellGroundSlopeMax": 25.0,
+    "_SuperNovaSpiralShellGroundSlopePercent": 80.0,
+    "_MaximumActivityEnableDamageReaction": 2147483647,
+    "_GreatActivityEnableDamageReaction": 1879048191,
+    "_ActivityEnableDamageReaction": 1879048191,
+    "_MaximumActivityEnableConditionDamage": 114687,
+    "_GreatActivityEnableConditionDamage": 114687,
+    "_ActivityEnableConditionDamage": 114687,
+    "_ReturnToGreatActivityTimeSecPresetDataList": [
+      {
+        "_TimeSec": 50.0
+      },
+      {
+        "_TimeSec": 75.0
+      },
+      {
+        "_TimeSec": 35.0
+      }
+    ],
+    "_MaximumActivityReleaseInfoPresetDataList": [
+      {
+        "_MaximumActivityReleaseInfoList": [
+          {
+            "_ReleaseDamageRate": 15.0,
+            "_CarryOverLimitRate": 9.0
+          },
+          {
+            "_ReleaseDamageRate": 20.0,
+            "_CarryOverLimitRate": 11.25
+          },
+          {
+            "_ReleaseDamageRate": 25.0,
+            "_CarryOverLimitRate": 13.5
+          }
+        ]
+      },
+      {
+        "_MaximumActivityReleaseInfoList": [
+          {
+            "_ReleaseDamageRate": 18.0,
+            "_CarryOverLimitRate": 10.5
+          },
+          {
+            "_ReleaseDamageRate": 23.0,
+            "_CarryOverLimitRate": 12.5
+          },
+          {
+            "_ReleaseDamageRate": 28.0,
+            "_CarryOverLimitRate": 14.0
+          }
+        ]
+      },
+      {
+        "_MaximumActivityReleaseInfoList": [
+          {
+            "_ReleaseDamageRate": 12.0,
+            "_CarryOverLimitRate": 7.2
+          },
+          {
+            "_ReleaseDamageRate": 15.0,
+            "_CarryOverLimitRate": 9.0
+          },
+          {
+            "_ReleaseDamageRate": 18.0,
+            "_CarryOverLimitRate": 10.8
+          }
+        ]
+      }
+    ],
+    "_MaximumToActivityNeedReleaseNumPresetDataList": [
+      {
+        "_NumList": [
+          1
+        ]
+      },
+      {
+        "_NumList": [
+          1,
+          2
+        ]
+      }
+    ],
+    "_MaxiimumActivityMinContinueTimeSecPresetDataList": [
+      {
+        "_TimeSec": 60.0
+      },
+      {
+        "_TimeSec": 75.0
+      }
+    ],
+    "_MaxiimumActivityFailedEndTimeSecPresetDataList": [
+      {
+        "_TimeSec": 90.0
+      },
+      {
+        "_TimeSec": 120.0
+      }
+    ],
+    "_AddAngerRatePresetDataList": [
+      {
+        "_Rate": 1.0
+      },
+      {
+        "_Rate": 1.5
+      },
+      {
+        "_Rate": 0.8
+      }
+    ],
+    "_MysteryCoreBreakDamageRatePresetDataList": [
+      {
+        "_Percentage": 1.2
+      },
+      {
+        "_Percentage": 1.4
+      },
+      {
+        "_Percentage": 1.0
+      }
+    ],
+    "_MysteryCoreBreakPartsDamageRatePresetDataList": [
+      {
+        "_Percentage": 100.0
+      },
+      {
+        "_Percentage": 80.0
+      }
+    ],
+    "_AttackRatePresetDataList": [
+      {
+        "_AttackRateList": [
+          {
+            "_MaximumActivity": 1.0,
+            "_GreatActivity": 1.0,
+            "_Activity": 1.0
+          }
+        ]
+      },
+      {
+        "_AttackRateList": [
+          {
+            "_MaximumActivity": 1.1,
+            "_GreatActivity": 1.0,
+            "_Activity": 1.0
+          }
+        ]
+      }
+    ],
+    "_MotSpeedRatePresetDataList": [
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.04,
+            "_GreatActivity": 1.02,
+            "_Activity": 1.0
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.08,
+            "_GreatActivity": 1.02,
+            "_Activity": 1.0
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.02,
+            "_GreatActivity": 1.0,
+            "_Activity": 1.0
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.12,
+            "_GreatActivity": 1.04,
+            "_Activity": 1.0
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.04,
+            "_GreatActivity": 1.02,
+            "_Activity": 0.97
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.08,
+            "_GreatActivity": 1.02,
+            "_Activity": 0.97
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.02,
+            "_GreatActivity": 1.0,
+            "_Activity": 0.97
+          }
+        ]
+      },
+      {
+        "_MotSpeedRateList": [
+          {
+            "_MaximumActivity": 1.12,
+            "_GreatActivity": 1.04,
+            "_Activity": 0.97
+          }
+        ]
+      }
+    ],
+    "_MysteryDebuffTimeRatePresetDataList": [
+      {
+        "_RateList": [
+          1.0
+        ]
+      },
+      {
+        "_RateList": [
+          1.5
+        ]
+      }
+    ],
+    "_FlashData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 0.0,
+        "_SubActiveTime": 0.0,
+        "_MinActiveTime": 0.0,
+        "_AddTiredTime": 0.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_DamageLvData": [
+          {
+            "_ActivateCnt": 3,
+            "_ActiveTime": 10.0
+          },
+          {
+            "_ActivateCnt": 2,
+            "_ActiveTime": 5.0
+          }
+        ],
+        "_IgnoreRefreshStance": 31,
+        "_MaxDistance": 8.0,
+        "_MinDistance": 3.0,
+        "_Angle": 120.0,
+        "_PresetType": 4
+      }
+    ],
+    "_FallTrapData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 8.0,
+        "_SubActiveTime": 2.0,
+        "_MinActiveTime": 3.0,
+        "_AddTiredTime": 5.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_RenderOffsetY": 0.0,
+        "_RenderOffsetSpeed": 0.0,
+        "_RenderOffsetResetTime": 0.0,
+        "_PresetType": 1
+      },
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 6.0,
+        "_SubActiveTime": 2.0,
+        "_MinActiveTime": 3.0,
+        "_AddTiredTime": 30.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_RenderOffsetY": 0.0,
+        "_RenderOffsetSpeed": 0.0,
+        "_RenderOffsetResetTime": 0.0,
+        "_PresetType": 1
+      }
+    ],
+    "_FallQuickSandData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 8.0,
+        "_SubActiveTime": 0.0,
+        "_MinActiveTime": 0.0,
+        "_AddTiredTime": 0.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_RenderOffsetY": 0.0,
+        "_RenderOffsetSpeed": 0.0,
+        "_RenderOffsetResetTime": 0.0,
+        "_PresetType": 1
+      }
+    ],
+    "_FallOtomoTrapData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 8.0,
+        "_SubActiveTime": 0.0,
+        "_MinActiveTime": 3.0,
+        "_AddTiredTime": 5.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_AlreadyPoisonStockValue": 300.0,
+        "_PresetType": 1
+      }
+    ],
+    "_ShockTrapData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 6.0,
+        "_SubActiveTime": 2.0,
+        "_MinActiveTime": 3.0,
+        "_AddTiredTime": 5.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_PresetType": 1
+      }
+    ],
+    "_ShockOtomoTrapData": [
+      {
+        "_DefaultStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_AttackByMarionetteStockData": {
+          "_DefaultLimit": 0.0,
+          "_AddLimit": 0.0,
+          "_MaxLimit": 0.0,
+          "_SubValue": 0.0,
+          "_SubInterval": 0.0
+        },
+        "_MaxStock": 0.0,
+        "_ActiveTime": 6.0,
+        "_SubActiveTime": 2.0,
+        "_MinActiveTime": 3.0,
+        "_AddTiredTime": 5.0,
+        "_DamageInterval": 0.0,
+        "_Damage": 0.0,
+        "_PresetType": 1
+      }
+    ],
+    "_CameraZoomRequestParam": {
+      "_ZoomKeepTime": 60.0,
+      "_ZoomCameraOffsetAdd": 7.5,
+      "_ZoomTime": 30.0,
+      "_ZoomCurve": 0,
+      "_ReturnToDefaultTime": 30.0,
+      "_ReturnToDefaultCurve": 0
+    },
+    "_CameraZoomEnableFar": 50.0,
+    "_MaterialInterpolationFrame": 90.0,
+    "_MysteryStunDamageResistData": {
+      "_DefaultAddRate": 3.0,
+      "_AttackByMarionetteAddRate": 3.0,
+      "_SubActiveTimeStartCount": 4,
+      "_SubActiveTime": 3.0,
+      "_MinActiveTime": 3.0
+    },
+    "_MysteryCoreDmgHitVfxWaitGameLoopTimer": 10
+  }
+}

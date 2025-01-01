@@ -1,0 +1,48 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": true,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 36
+      },
+      {
+        "IsNot": true,
+        "_ActionType": 36
+      },
+      {
+        "IsNot": true
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": true
+      }
+    ],
+    "_Tasks": [
+      {
+        "_SubType": 0,
+        "_DisableGroupFiter": false,
+        "_IsPrioryMysteryGroupTarget": false
+      },
+      {},
+      {
+        "_DoLookAt": true,
+        "_PreiodTimeSec": 0.5,
+        "_ActionEndWhenTaskEnd": true,
+        "_IsGuardMoveEnable": false,
+        "_GuardMoveEnableRange": 8.0
+      }
+    ]
+  }
+}

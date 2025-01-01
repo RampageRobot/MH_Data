@@ -1,0 +1,886 @@
+{
+  "app.user_data.ActionGuideData_Wp12Always": {
+    "_Values": [
+      {
+        "_Index": 0,
+        "_TransitionAction": "WP12_JUMPRELOAD",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_SP",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 1,
+        "_TransitionAction": "WP12_JUMP_SET_UP",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_SP",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 2,
+        "_TransitionAction": "WP12_JUMP_SET_UP_EMPTY",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_SP",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 3,
+        "_TransitionAction": "WP12_CHANGE_ENERGY_MODE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_01",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 4,
+        "_TransitionAction": "WP12_CHANGE_ENERGY_MODE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_01",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 5,
+        "_TransitionAction": "Wp12_BLOCK",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 6,
+        "_TransitionAction": "Wp12_BLOCK",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 7,
+        "_TransitionAction": "WP12_GUARD",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 8,
+        "_TransitionAction": "WP12_GUARD",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_00",
+          "ATTACK_01",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 9,
+        "_TransitionAction": "WP12_GUARD_LASER",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 10,
+        "_TransitionAction": "WP12_GUARD_LASER",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 11,
+        "_TransitionAction": "WP12_POINT_SNIPE_BULLET_CHARGE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "AIM",
+          "ATTACK_SP_B",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "ON",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "AIM_SHOOTING",
+          "ATTACK_SP_B",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "ON",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 12,
+        "_TransitionAction": "WP12_POINT_SNIPE_BULLET_CHARGE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "AIM",
+          "ATTACK_SP_B",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "ON",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "AIM_SHOOTING",
+          "ATTACK_SP_B",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "ON",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 13,
+        "_TransitionAction": "WP12_GUARD_SUCCESS_TECH",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 14,
+        "_TransitionAction": "WP12_GUARD_SUCCESS_TECH",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "AND"
+      },
+      {
+        "_Index": 15,
+        "_TransitionAction": "WP12_SHOOT",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 16,
+        "_TransitionAction": "WP12_SHOOT_CLUSTERBOMB",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 17,
+        "_TransitionAction": "WP12_SHOOT_RYUUGEKI",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": false,
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 18,
+        "_TransitionAction": "WP12_SHOOT_GATLING",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "ON",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 19,
+        "_TransitionAction": "WP12_SHOOT_LASER",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_SP",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 20,
+        "_TransitionAction": "WP12_PARRY_BULLET_CHARGE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "ON",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      },
+      {
+        "_Index": 21,
+        "_TransitionAction": "WP12_ENERGY_GRENADE_CHARGE",
+        "_IsProgramCall": false,
+        "_ViewType": "ALL",
+        "_IsEnergyMode": true,
+        "_Input": [
+          "ATTACK_00",
+          "INVALID",
+          "INVALID"
+        ],
+        "_InputType": [
+          "ON",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_LStickInput": "INVALID",
+        "_RStickInput": "INVALID",
+        "_MkbInput": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "_MkbInputType": [
+          "LAGGED",
+          "LAGGED",
+          "LAGGED"
+        ],
+        "_UIInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_UIMkbInputType": [
+          "DECIDE",
+          "DECIDE",
+          "DECIDE"
+        ],
+        "_MultiInputType": "OR"
+      }
+    ]
+  }
+}

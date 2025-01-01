@@ -1,0 +1,276 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          0,
+          0
+        ],
+        "_Cancel": [
+          0,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": [
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1139802112,
+              1119092736
+            ],
+            "_Cancel": [
+              1106247680,
+              1106247680
+            ],
+            "_Group": [
+              1138819072,
+              1114636288
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1077936128,
+                  1104674816
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1101004800,
+                  1123024896
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1116471296
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1112014848
+                ]
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_CheckStaySec": 50.0
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_IsDown": true,
+                "_IsPinch": false,
+                "_IsTired": false,
+                "_IsUniqueDown": false,
+                "_ActionIDList": []
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Condition": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  15,
+                  16
+                ]
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_WallNearRange": 5.0,
+                "_SetpNearRange": 3.0
+              },
+              "_Inverse": true
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "SET_TRAP"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "UTILITY_ITEM",
+        "_KindLv": "LV1"
+      },
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1136852992,
+              1106247680
+            ],
+            "_Cancel": [
+              1106247680,
+              0
+            ],
+            "_Group": [
+              1131413504,
+              1114636288
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1077936128,
+                  1104674816
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1101004800,
+                  1124859904
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1116471296
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1112014848
+                ]
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_CheckStaySec": 50.0
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_IsDown": true,
+                "_IsPinch": false,
+                "_IsTired": false,
+                "_IsUniqueDown": false,
+                "_ActionIDList": []
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_Condition": [
+                  5,
+                  6,
+                  7,
+                  8,
+                  15,
+                  16
+                ]
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {
+                "_WallNearRange": 5.0,
+                "_SetpNearRange": 3.0
+              },
+              "_Inverse": true
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "SET_TRAP"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "UTILITY_ITEM",
+        "_KindLv": "LV2"
+      }
+    ]
+  }
+}

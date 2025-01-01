@@ -1,0 +1,25 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": true,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_FollowTask": 25
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_SitWalkRange": [
+          6.0,
+          10.0
+        ],
+        "_SitRunRange": [
+          10.0,
+          999.0
+        ]
+      }
+    ]
+  }
+}

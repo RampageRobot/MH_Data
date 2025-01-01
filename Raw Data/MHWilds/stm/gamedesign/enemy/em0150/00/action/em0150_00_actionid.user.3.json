@@ -1,0 +1,1902 @@
+{
+  "ace.user_data.ActionID": {
+    "_ActionIDArray": {
+      "_DataArray": [
+        {
+          "_Class": "cSysIdle\u0000",
+          "_InstanceGuid": "84e2d408-1494-0253-3eb5-b9704e8404b5",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+          "_LowerGuid": "123a3840-71eb-40a7-a828-c7073bebb59e"
+        },
+        {
+          "_Class": "cWait\u0000",
+          "_InstanceGuid": "123a3840-71eb-40a7-a828-c7073bebb59e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "84e2d408-1494-0253-3eb5-b9704e8404b5",
+          "_LowerGuid": "85ccc3ac-753b-4762-9cef-ee56e2955e30"
+        },
+        {
+          "_Class": "cTired\u0000",
+          "_InstanceGuid": "85ccc3ac-753b-4762-9cef-ee56e2955e30",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "123a3840-71eb-40a7-a828-c7073bebb59e",
+          "_LowerGuid": "5b39f19c-5fac-42ce-9824-cc47efa5b7b8"
+        },
+        {
+          "_Class": "cToTiredTurn\u0000",
+          "_InstanceGuid": "5b39f19c-5fac-42ce-9824-cc47efa5b7b8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "85ccc3ac-753b-4762-9cef-ee56e2955e30",
+          "_LowerGuid": "e914c67c-87fc-42d1-9c22-52b64b847a8c"
+        },
+        {
+          "_Class": "cSearch\u0000",
+          "_InstanceGuid": "e914c67c-87fc-42d1-9c22-52b64b847a8c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5b39f19c-5fac-42ce-9824-cc47efa5b7b8",
+          "_LowerGuid": "64e1facb-dbb0-4860-b358-4edeb76c86ec"
+        },
+        {
+          "_Class": "cSearchCombat\u0000",
+          "_InstanceGuid": "64e1facb-dbb0-4860-b358-4edeb76c86ec",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e914c67c-87fc-42d1-9c22-52b64b847a8c",
+          "_LowerGuid": "763d3dfa-d91b-40fe-8bc2-5c43676f845f"
+        },
+        {
+          "_Class": "cCautionGrowl\u0000",
+          "_InstanceGuid": "763d3dfa-d91b-40fe-8bc2-5c43676f845f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "64e1facb-dbb0-4860-b358-4edeb76c86ec",
+          "_LowerGuid": "60d8b5a9-c89e-49be-b752-a1b01d3bab88"
+        },
+        {
+          "_Class": "cCautionNailSharp\u0000",
+          "_InstanceGuid": "60d8b5a9-c89e-49be-b752-a1b01d3bab88",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "763d3dfa-d91b-40fe-8bc2-5c43676f845f",
+          "_LowerGuid": "f9154c8c-4149-4ced-b9ca-6e9476cf1e96"
+        },
+        {
+          "_Class": "cSmellSearchMin\u0000",
+          "_InstanceGuid": "f9154c8c-4149-4ced-b9ca-6e9476cf1e96",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "60d8b5a9-c89e-49be-b752-a1b01d3bab88",
+          "_LowerGuid": "a2874dfe-d54d-453d-b73b-dbd47aabd78b"
+        },
+        {
+          "_Class": "cSmellSearchMax\u0000",
+          "_InstanceGuid": "a2874dfe-d54d-453d-b73b-dbd47aabd78b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f9154c8c-4149-4ced-b9ca-6e9476cf1e96",
+          "_LowerGuid": "de1040c2-f000-475f-87e6-968ec3e1b348"
+        },
+        {
+          "_Class": "cRoarDiscoverNew\u0000",
+          "_InstanceGuid": "de1040c2-f000-475f-87e6-968ec3e1b348",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a2874dfe-d54d-453d-b73b-dbd47aabd78b",
+          "_LowerGuid": "639193ea-375c-4eac-9045-4c2278affc83"
+        },
+        {
+          "_Class": "cRoarDiscover\u0000",
+          "_InstanceGuid": "639193ea-375c-4eac-9045-4c2278affc83",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "de1040c2-f000-475f-87e6-968ec3e1b348",
+          "_LowerGuid": "a3904fc6-fcee-49c5-b4e4-52215cdfc690"
+        },
+        {
+          "_Class": "cRoarAngry\u0000",
+          "_InstanceGuid": "a3904fc6-fcee-49c5-b4e4-52215cdfc690",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "639193ea-375c-4eac-9045-4c2278affc83",
+          "_LowerGuid": "40c0bbd8-4168-44f7-8611-f183fc3f28b5"
+        },
+        {
+          "_Class": "cRoarShort\u0000",
+          "_InstanceGuid": "40c0bbd8-4168-44f7-8611-f183fc3f28b5",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a3904fc6-fcee-49c5-b4e4-52215cdfc690",
+          "_LowerGuid": "627a1740-cbaa-4b24-ba77-861e0b76dd24"
+        },
+        {
+          "_Class": "cRoarPetit\u0000",
+          "_InstanceGuid": "627a1740-cbaa-4b24-ba77-861e0b76dd24",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "40c0bbd8-4168-44f7-8611-f183fc3f28b5",
+          "_LowerGuid": "2312402e-cd7e-484b-835c-e8e4e3a4f509"
+        },
+        {
+          "_Class": "cRoarSuperBurst\u0000",
+          "_InstanceGuid": "2312402e-cd7e-484b-835c-e8e4e3a4f509",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "627a1740-cbaa-4b24-ba77-861e0b76dd24",
+          "_LowerGuid": "f8a6e942-5aa8-4285-82b0-e1876e346894"
+        },
+        {
+          "_Class": "cToRoarSuperBurstEnd\u0000",
+          "_InstanceGuid": "f8a6e942-5aa8-4285-82b0-e1876e346894",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2312402e-cd7e-484b-835c-e8e4e3a4f509",
+          "_LowerGuid": "c31a0e13-d0d6-46b7-a8d7-11da3f372160"
+        },
+        {
+          "_Class": "cRefresh\u0000",
+          "_InstanceGuid": "c31a0e13-d0d6-46b7-a8d7-11da3f372160",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f8a6e942-5aa8-4285-82b0-e1876e346894",
+          "_LowerGuid": "48b6702c-47d3-46e8-9cda-b8ce99f4e1e1"
+        },
+        {
+          "_Class": "cRelax\u0000",
+          "_InstanceGuid": "48b6702c-47d3-46e8-9cda-b8ce99f4e1e1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c31a0e13-d0d6-46b7-a8d7-11da3f372160",
+          "_LowerGuid": "4edc128f-8eae-41d0-9d11-d37014ed7169"
+        },
+        {
+          "_Class": "cToRelaxEnd\u0000",
+          "_InstanceGuid": "4edc128f-8eae-41d0-9d11-d37014ed7169",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "48b6702c-47d3-46e8-9cda-b8ce99f4e1e1",
+          "_LowerGuid": "29fb923a-8bcf-4bd0-ba8f-b988f4f99696"
+        },
+        {
+          "_Class": "cSleep\u0000",
+          "_InstanceGuid": "29fb923a-8bcf-4bd0-ba8f-b988f4f99696",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4edc128f-8eae-41d0-9d11-d37014ed7169",
+          "_LowerGuid": "fb5733de-d642-4dc3-8cd8-9c9fc2f36b70"
+        },
+        {
+          "_Class": "cToSleepEnd\u0000",
+          "_InstanceGuid": "fb5733de-d642-4dc3-8cd8-9c9fc2f36b70",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "29fb923a-8bcf-4bd0-ba8f-b988f4f99696",
+          "_LowerGuid": "bc0c12fd-56d7-4b7d-b174-d9f147342c20"
+        },
+        {
+          "_Class": "cToSleepCancel\u0000",
+          "_InstanceGuid": "bc0c12fd-56d7-4b7d-b174-d9f147342c20",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fb5733de-d642-4dc3-8cd8-9c9fc2f36b70",
+          "_LowerGuid": "f294d458-4d00-4b2d-a189-9933be236ec4"
+        },
+        {
+          "_Class": "cDrink\u0000",
+          "_InstanceGuid": "f294d458-4d00-4b2d-a189-9933be236ec4",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "bc0c12fd-56d7-4b7d-b174-d9f147342c20",
+          "_LowerGuid": "609c4e5b-8bd2-4e7d-aaaa-055ec030401d"
+        },
+        {
+          "_Class": "cToDrinkEnd\u0000",
+          "_InstanceGuid": "609c4e5b-8bd2-4e7d-aaaa-055ec030401d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f294d458-4d00-4b2d-a189-9933be236ec4",
+          "_LowerGuid": "e30695c6-24fb-4b62-ad36-6aff1e2dd95f"
+        },
+        {
+          "_Class": "cMarking\u0000",
+          "_InstanceGuid": "e30695c6-24fb-4b62-ad36-6aff1e2dd95f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "609c4e5b-8bd2-4e7d-aaaa-055ec030401d",
+          "_LowerGuid": "303e69e8-03c9-4a1b-a925-073ad567d72f"
+        },
+        {
+          "_Class": "cMarkingDig\u0000",
+          "_InstanceGuid": "303e69e8-03c9-4a1b-a925-073ad567d72f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e30695c6-24fb-4b62-ad36-6aff1e2dd95f",
+          "_LowerGuid": "53153bb8-fe5b-4a96-8979-8617adb45d8c"
+        },
+        {
+          "_Class": "cMarkingDung\u0000",
+          "_InstanceGuid": "53153bb8-fe5b-4a96-8979-8617adb45d8c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "303e69e8-03c9-4a1b-a925-073ad567d72f",
+          "_LowerGuid": "797b2cba-fc8e-489e-92eb-85dea484e4fa"
+        },
+        {
+          "_Class": "cSunbathing\u0000",
+          "_InstanceGuid": "797b2cba-fc8e-489e-92eb-85dea484e4fa",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "53153bb8-fe5b-4a96-8979-8617adb45d8c",
+          "_LowerGuid": "42b1b33e-0f0c-4438-940e-21b5cb0ea41a"
+        },
+        {
+          "_Class": "cToSunbathingEnd\u0000",
+          "_InstanceGuid": "42b1b33e-0f0c-4438-940e-21b5cb0ea41a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "797b2cba-fc8e-489e-92eb-85dea484e4fa",
+          "_LowerGuid": "e9450d99-60a5-409d-8a95-d3fee8d6f080"
+        },
+        {
+          "_Class": "cToSunbathingCancel\u0000",
+          "_InstanceGuid": "e9450d99-60a5-409d-8a95-d3fee8d6f080",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "42b1b33e-0f0c-4438-940e-21b5cb0ea41a",
+          "_LowerGuid": "fe84de37-d6b3-4f2d-a878-2c7c0a0fb181"
+        },
+        {
+          "_Class": "cWalk\u0000",
+          "_InstanceGuid": "fe84de37-d6b3-4f2d-a878-2c7c0a0fb181",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e9450d99-60a5-409d-8a95-d3fee8d6f080",
+          "_LowerGuid": "93d27fdd-0631-42e9-8b1f-fd7aa8cd5c3a"
+        },
+        {
+          "_Class": "cTurn\u0000",
+          "_InstanceGuid": "93d27fdd-0631-42e9-8b1f-fd7aa8cd5c3a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fe84de37-d6b3-4f2d-a878-2c7c0a0fb181",
+          "_LowerGuid": "0488a28b-bf9b-41a1-a915-6bec600eef09"
+        },
+        {
+          "_Class": "cTurnAroundLeft\u0000",
+          "_InstanceGuid": "0488a28b-bf9b-41a1-a915-6bec600eef09",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "93d27fdd-0631-42e9-8b1f-fd7aa8cd5c3a",
+          "_LowerGuid": "27945a3a-4e6c-4fdb-a4c2-a8ad8bdd6377"
+        },
+        {
+          "_Class": "cTurnAroundRight\u0000",
+          "_InstanceGuid": "27945a3a-4e6c-4fdb-a4c2-a8ad8bdd6377",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0488a28b-bf9b-41a1-a915-6bec600eef09",
+          "_LowerGuid": "507625dc-8be4-4fa8-a56f-206063976010"
+        },
+        {
+          "_Class": "cDash\u0000",
+          "_InstanceGuid": "507625dc-8be4-4fa8-a56f-206063976010",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "27945a3a-4e6c-4fdb-a4c2-a8ad8bdd6377",
+          "_LowerGuid": "440da658-9175-4a82-a0df-4c23d2ab7c5e"
+        },
+        {
+          "_Class": "cDashStrict\u0000",
+          "_InstanceGuid": "440da658-9175-4a82-a0df-4c23d2ab7c5e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "507625dc-8be4-4fa8-a56f-206063976010",
+          "_LowerGuid": "53c9fb7b-f7ed-4e94-ad63-cb6ab9d69f03"
+        },
+        {
+          "_Class": "cAdaptiveMoveDash\u0000",
+          "_InstanceGuid": "53c9fb7b-f7ed-4e94-ad63-cb6ab9d69f03",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "440da658-9175-4a82-a0df-4c23d2ab7c5e",
+          "_LowerGuid": "91e5d2b0-d172-47e2-a5c4-cac225e336a8"
+        },
+        {
+          "_Class": "cAdaptiveMoveDash\u0000",
+          "_InstanceGuid": "91e5d2b0-d172-47e2-a5c4-cac225e336a8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "53c9fb7b-f7ed-4e94-ad63-cb6ab9d69f03",
+          "_LowerGuid": "6333e2b6-b728-4f80-8fe5-27c74ef0dafd"
+        },
+        {
+          "_Class": "cStoryAdaptiveMoveDash\u0000",
+          "_InstanceGuid": "6333e2b6-b728-4f80-8fe5-27c74ef0dafd",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "91e5d2b0-d172-47e2-a5c4-cac225e336a8",
+          "_LowerGuid": "446a0b6a-ca47-476d-82e8-380f53153642"
+        },
+        {
+          "_Class": "cAdaptiveMoveWalk\u0000",
+          "_InstanceGuid": "446a0b6a-ca47-476d-82e8-380f53153642",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6333e2b6-b728-4f80-8fe5-27c74ef0dafd",
+          "_LowerGuid": "93e68502-bcf0-4b52-9226-63e8a24e8f28"
+        },
+        {
+          "_Class": "cWalkDying\u0000",
+          "_InstanceGuid": "93e68502-bcf0-4b52-9226-63e8a24e8f28",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "446a0b6a-ca47-476d-82e8-380f53153642",
+          "_LowerGuid": "4ae3765c-d3b3-454e-9440-4705a0371538"
+        },
+        {
+          "_Class": "cDashDying\u0000",
+          "_InstanceGuid": "4ae3765c-d3b3-454e-9440-4705a0371538",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "93e68502-bcf0-4b52-9226-63e8a24e8f28",
+          "_LowerGuid": "619197d2-eb75-479b-add1-90487f70f820"
+        },
+        {
+          "_Class": "cToDashDying\u0000",
+          "_InstanceGuid": "619197d2-eb75-479b-add1-90487f70f820",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4ae3765c-d3b3-454e-9440-4705a0371538",
+          "_LowerGuid": "acf8a85e-2e9b-494d-a378-06329bd366da"
+        },
+        {
+          "_Class": "cDashToClimb\u0000",
+          "_InstanceGuid": "acf8a85e-2e9b-494d-a378-06329bd366da",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "619197d2-eb75-479b-add1-90487f70f820",
+          "_LowerGuid": "90ff2f68-9afc-4347-9774-768b172f4d35"
+        },
+        {
+          "_Class": "cQuickTurn\u0000",
+          "_InstanceGuid": "90ff2f68-9afc-4347-9774-768b172f4d35",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "acf8a85e-2e9b-494d-a378-06329bd366da",
+          "_LowerGuid": "9118ca0a-7fdc-4ba0-9f5e-d26777de4a53"
+        },
+        {
+          "_Class": "cDrift\u0000",
+          "_InstanceGuid": "9118ca0a-7fdc-4ba0-9f5e-d26777de4a53",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "90ff2f68-9afc-4347-9774-768b172f4d35",
+          "_LowerGuid": "95cc16ea-d3e5-4e3a-b8ce-da4e2bc45364"
+        },
+        {
+          "_Class": "cWalkSearch\u0000",
+          "_InstanceGuid": "95cc16ea-d3e5-4e3a-b8ce-da4e2bc45364",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9118ca0a-7fdc-4ba0-9f5e-d26777de4a53",
+          "_LowerGuid": "1181b516-dcce-4787-9575-51e794ed7198"
+        },
+        {
+          "_Class": "cSidleWalkLeft\u0000",
+          "_InstanceGuid": "1181b516-dcce-4787-9575-51e794ed7198",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "95cc16ea-d3e5-4e3a-b8ce-da4e2bc45364",
+          "_LowerGuid": "b4972431-033b-44f1-ace4-1986148cedd0"
+        },
+        {
+          "_Class": "cSidleWalkRight\u0000",
+          "_InstanceGuid": "b4972431-033b-44f1-ace4-1986148cedd0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1181b516-dcce-4787-9575-51e794ed7198",
+          "_LowerGuid": "bce27a7a-88e3-4ecd-9d62-3d4d108f9251"
+        },
+        {
+          "_Class": "cSideStepLeft\u0000",
+          "_InstanceGuid": "bce27a7a-88e3-4ecd-9d62-3d4d108f9251",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b4972431-033b-44f1-ace4-1986148cedd0",
+          "_LowerGuid": "50876529-65c8-4fed-a989-e8339f818d03"
+        },
+        {
+          "_Class": "cSideStepRight\u0000",
+          "_InstanceGuid": "50876529-65c8-4fed-a989-e8339f818d03",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "bce27a7a-88e3-4ecd-9d62-3d4d108f9251",
+          "_LowerGuid": "5404dfdf-285e-4798-8362-89fc12f052b1"
+        },
+        {
+          "_Class": "cToDashStop\u0000",
+          "_InstanceGuid": "5404dfdf-285e-4798-8362-89fc12f052b1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "50876529-65c8-4fed-a989-e8339f818d03",
+          "_LowerGuid": "cc0fb279-a16f-4db4-8bdc-9a161f3398c1"
+        },
+        {
+          "_Class": "cClimbWall\u0000",
+          "_InstanceGuid": "cc0fb279-a16f-4db4-8bdc-9a161f3398c1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5404dfdf-285e-4798-8362-89fc12f052b1",
+          "_LowerGuid": "9f462e73-1b3c-481a-8ef8-099e882f596b"
+        },
+        {
+          "_Class": "cClimbOver\u0000",
+          "_InstanceGuid": "9f462e73-1b3c-481a-8ef8-099e882f596b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cc0fb279-a16f-4db4-8bdc-9a161f3398c1",
+          "_LowerGuid": "fc5391e7-1b49-4850-b571-2a1b0b4d00ed"
+        },
+        {
+          "_Class": "cClimbWallPredictionPathStart\u0000",
+          "_InstanceGuid": "fc5391e7-1b49-4850-b571-2a1b0b4d00ed",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9f462e73-1b3c-481a-8ef8-099e882f596b",
+          "_LowerGuid": "d3b87b27-e7db-4bb7-9958-58ab4964d38d"
+        },
+        {
+          "_Class": "cClimbWallPredictionPath\u0000",
+          "_InstanceGuid": "d3b87b27-e7db-4bb7-9958-58ab4964d38d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fc5391e7-1b49-4850-b571-2a1b0b4d00ed",
+          "_LowerGuid": "9cab45e8-5c23-498f-a7ca-1529e7041be2"
+        },
+        {
+          "_Class": "cStepJumpUp\u0000",
+          "_InstanceGuid": "9cab45e8-5c23-498f-a7ca-1529e7041be2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d3b87b27-e7db-4bb7-9958-58ab4964d38d",
+          "_LowerGuid": "f133abbb-0617-41ef-a2a7-613188b9c7fd"
+        },
+        {
+          "_Class": "cStepJumpDown\u0000",
+          "_InstanceGuid": "f133abbb-0617-41ef-a2a7-613188b9c7fd",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9cab45e8-5c23-498f-a7ca-1529e7041be2",
+          "_LowerGuid": "cd67c278-1d61-4d7a-ba87-dfdf469c57be"
+        },
+        {
+          "_Class": "cGimmickDetour\u0000",
+          "_InstanceGuid": "cd67c278-1d61-4d7a-ba87-dfdf469c57be",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f133abbb-0617-41ef-a2a7-613188b9c7fd",
+          "_LowerGuid": "1ce9d568-4321-4e3c-9261-8b98be31e991"
+        },
+        {
+          "_Class": "cPredationPounce\u0000",
+          "_InstanceGuid": "1ce9d568-4321-4e3c-9261-8b98be31e991",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cd67c278-1d61-4d7a-ba87-dfdf469c57be",
+          "_LowerGuid": "6ca6d0fa-8211-4971-b42b-ebbc6485fb5d"
+        },
+        {
+          "_Class": "cToPredationPounceAttack\u0000",
+          "_InstanceGuid": "6ca6d0fa-8211-4971-b42b-ebbc6485fb5d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1ce9d568-4321-4e3c-9261-8b98be31e991",
+          "_LowerGuid": "866790e6-c17a-417b-84cf-55b99a45bd60"
+        },
+        {
+          "_Class": "cToPredationPounceSuccess\u0000",
+          "_InstanceGuid": "866790e6-c17a-417b-84cf-55b99a45bd60",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6ca6d0fa-8211-4971-b42b-ebbc6485fb5d",
+          "_LowerGuid": "6f4d8750-79c6-46ef-a013-7825ffa6df1c"
+        },
+        {
+          "_Class": "cToPredationPounceFailed\u0000",
+          "_InstanceGuid": "6f4d8750-79c6-46ef-a013-7825ffa6df1c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "866790e6-c17a-417b-84cf-55b99a45bd60",
+          "_LowerGuid": "3e2516de-bed2-4fbe-a7f3-4a18739da2cc"
+        },
+        {
+          "_Class": "cPredationFinishingBlow\u0000",
+          "_InstanceGuid": "3e2516de-bed2-4fbe-a7f3-4a18739da2cc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6f4d8750-79c6-46ef-a013-7825ffa6df1c",
+          "_LowerGuid": "8b054f57-5b46-43af-b34e-be60de932b63"
+        },
+        {
+          "_Class": "cPredationHoldWalk\u0000",
+          "_InstanceGuid": "8b054f57-5b46-43af-b34e-be60de932b63",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3e2516de-bed2-4fbe-a7f3-4a18739da2cc",
+          "_LowerGuid": "a401f5bd-3fec-4091-a2ec-2aaca7c247ab"
+        },
+        {
+          "_Class": "cPredationHoldEnd\u0000",
+          "_InstanceGuid": "a401f5bd-3fec-4091-a2ec-2aaca7c247ab",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8b054f57-5b46-43af-b34e-be60de932b63",
+          "_LowerGuid": "b569e66d-8384-4e32-aa54-79265c88ef39"
+        },
+        {
+          "_Class": "cPredationEat\u0000",
+          "_InstanceGuid": "b569e66d-8384-4e32-aa54-79265c88ef39",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a401f5bd-3fec-4091-a2ec-2aaca7c247ab",
+          "_LowerGuid": "cf6e9434-2675-4aac-a0ff-c100ded89099"
+        },
+        {
+          "_Class": "cPredationEatFromHold\u0000",
+          "_InstanceGuid": "cf6e9434-2675-4aac-a0ff-c100ded89099",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b569e66d-8384-4e32-aa54-79265c88ef39",
+          "_LowerGuid": "3da359cf-d475-47ec-a221-9cba40ca1089"
+        },
+        {
+          "_Class": "cToPredationEatEnd\u0000",
+          "_InstanceGuid": "3da359cf-d475-47ec-a221-9cba40ca1089",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cf6e9434-2675-4aac-a0ff-c100ded89099",
+          "_LowerGuid": "044b4119-7ea4-4d3f-b730-c4668244b3fc"
+        },
+        {
+          "_Class": "cPredationEatTrapMeat\u0000",
+          "_InstanceGuid": "044b4119-7ea4-4d3f-b730-c4668244b3fc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3da359cf-d475-47ec-a221-9cba40ca1089",
+          "_LowerGuid": "00802ff3-68a2-40ff-86ee-3f875f7c6f3a"
+        },
+        {
+          "_Class": "cToPredationEatTrapMeatEnd\u0000",
+          "_InstanceGuid": "00802ff3-68a2-40ff-86ee-3f875f7c6f3a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "044b4119-7ea4-4d3f-b730-c4668244b3fc",
+          "_LowerGuid": "9dcb0f44-314d-4e9d-bd99-86750451ba47"
+        },
+        {
+          "_Class": "cAnahoriAttack\u0000",
+          "_InstanceGuid": "9dcb0f44-314d-4e9d-bd99-86750451ba47",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00802ff3-68a2-40ff-86ee-3f875f7c6f3a",
+          "_LowerGuid": "5962d1a0-c83c-4214-823c-cfe1aee6994a"
+        },
+        {
+          "_Class": "cToAnahoriAttackDig\u0000",
+          "_InstanceGuid": "5962d1a0-c83c-4214-823c-cfe1aee6994a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9dcb0f44-314d-4e9d-bd99-86750451ba47",
+          "_LowerGuid": "4df6097c-4f5e-41b6-b903-443e0d507132"
+        },
+        {
+          "_Class": "cAnahoriAttackBurst\u0000",
+          "_InstanceGuid": "4df6097c-4f5e-41b6-b903-443e0d507132",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5962d1a0-c83c-4214-823c-cfe1aee6994a",
+          "_LowerGuid": "8ab13845-a919-41bb-b7df-c8a4901007a2"
+        },
+        {
+          "_Class": "cToAnahoriAttackBurstDig\u0000",
+          "_InstanceGuid": "8ab13845-a919-41bb-b7df-c8a4901007a2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4df6097c-4f5e-41b6-b903-443e0d507132",
+          "_LowerGuid": "b8a9b6e4-8ed3-4f7b-b8b2-900852c17d66"
+        },
+        {
+          "_Class": "cToAnahoriAttackBurstEnd\u0000",
+          "_InstanceGuid": "b8a9b6e4-8ed3-4f7b-b8b2-900852c17d66",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8ab13845-a919-41bb-b7df-c8a4901007a2",
+          "_LowerGuid": "1004a03f-b656-44ea-805b-2ab81dd91910"
+        },
+        {
+          "_Class": "cScrachDashRightHand\u0000",
+          "_InstanceGuid": "1004a03f-b656-44ea-805b-2ab81dd91910",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b8a9b6e4-8ed3-4f7b-b8b2-900852c17d66",
+          "_LowerGuid": "ea8e87ae-99e1-49ab-9646-eeb2277cacdf"
+        },
+        {
+          "_Class": "cScrachDashLeftHand\u0000",
+          "_InstanceGuid": "ea8e87ae-99e1-49ab-9646-eeb2277cacdf",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1004a03f-b656-44ea-805b-2ab81dd91910",
+          "_LowerGuid": "aa1fb319-f6ae-42bf-87c9-c83e41c37f8e"
+        },
+        {
+          "_Class": "cScrachSideRightHand\u0000",
+          "_InstanceGuid": "aa1fb319-f6ae-42bf-87c9-c83e41c37f8e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ea8e87ae-99e1-49ab-9646-eeb2277cacdf",
+          "_LowerGuid": "1e65657a-6821-4ee3-ba77-816e68730bb8"
+        },
+        {
+          "_Class": "cScrachSideLeftHand\u0000",
+          "_InstanceGuid": "1e65657a-6821-4ee3-ba77-816e68730bb8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "aa1fb319-f6ae-42bf-87c9-c83e41c37f8e",
+          "_LowerGuid": "ec770d89-ec29-490b-a4c1-821329fc8597"
+        },
+        {
+          "_Class": "cScrachFrontRightHand\u0000",
+          "_InstanceGuid": "ec770d89-ec29-490b-a4c1-821329fc8597",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1e65657a-6821-4ee3-ba77-816e68730bb8",
+          "_LowerGuid": "cffe6f54-8501-4b3e-a716-97514504e87f"
+        },
+        {
+          "_Class": "cScrachFrontLeftHand\u0000",
+          "_InstanceGuid": "cffe6f54-8501-4b3e-a716-97514504e87f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ec770d89-ec29-490b-a4c1-821329fc8597",
+          "_LowerGuid": "0d65324c-4b66-400f-b9e7-cf3627ff52f7"
+        },
+        {
+          "_Class": "cSideSweepAttack\u0000",
+          "_InstanceGuid": "0d65324c-4b66-400f-b9e7-cf3627ff52f7",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cffe6f54-8501-4b3e-a716-97514504e87f",
+          "_LowerGuid": "85c20cb8-9d82-4d27-bc38-6179cb80ebfe"
+        },
+        {
+          "_Class": "cPunchStrongRightHand\u0000",
+          "_InstanceGuid": "85c20cb8-9d82-4d27-bc38-6179cb80ebfe",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0d65324c-4b66-400f-b9e7-cf3627ff52f7",
+          "_LowerGuid": "db8f97ce-b056-49eb-a8af-a022d68727ef"
+        },
+        {
+          "_Class": "cPunchStrongLeftHand\u0000",
+          "_InstanceGuid": "db8f97ce-b056-49eb-a8af-a022d68727ef",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "85c20cb8-9d82-4d27-bc38-6179cb80ebfe",
+          "_LowerGuid": "edae65b2-f66c-4b6f-8c6b-ccd667d536af"
+        },
+        {
+          "_Class": "cPunchStrongRightHandDouble\u0000",
+          "_InstanceGuid": "edae65b2-f66c-4b6f-8c6b-ccd667d536af",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "db8f97ce-b056-49eb-a8af-a022d68727ef",
+          "_LowerGuid": "b4d71555-41bf-488e-9f6e-8ff9cb0a5759"
+        },
+        {
+          "_Class": "cToPunchStrongRightHandDoubleSecond\u0000",
+          "_InstanceGuid": "b4d71555-41bf-488e-9f6e-8ff9cb0a5759",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "edae65b2-f66c-4b6f-8c6b-ccd667d536af",
+          "_LowerGuid": "25ac5b92-f7c1-4d49-8d4a-37bc37920260"
+        },
+        {
+          "_Class": "cPunchStrongLeftHandDouble\u0000",
+          "_InstanceGuid": "25ac5b92-f7c1-4d49-8d4a-37bc37920260",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b4d71555-41bf-488e-9f6e-8ff9cb0a5759",
+          "_LowerGuid": "ca9856e0-ce2f-4b1c-a4ca-3bd3d7ff37ac"
+        },
+        {
+          "_Class": "cToPunchStrongLeftHandDoubleSecond\u0000",
+          "_InstanceGuid": "ca9856e0-ce2f-4b1c-a4ca-3bd3d7ff37ac",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "25ac5b92-f7c1-4d49-8d4a-37bc37920260",
+          "_LowerGuid": "f5a52016-15c9-43e0-b510-66a2873eca8a"
+        },
+        {
+          "_Class": "cPunchStrongRightHandTriple\u0000",
+          "_InstanceGuid": "f5a52016-15c9-43e0-b510-66a2873eca8a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ca9856e0-ce2f-4b1c-a4ca-3bd3d7ff37ac",
+          "_LowerGuid": "8b6c9689-adbe-45fa-b613-2f95f96c7488"
+        },
+        {
+          "_Class": "cToPunchStrongRightHandTripleSecond\u0000",
+          "_InstanceGuid": "8b6c9689-adbe-45fa-b613-2f95f96c7488",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f5a52016-15c9-43e0-b510-66a2873eca8a",
+          "_LowerGuid": "c800acc0-a0ae-4e41-9666-ee18a3e2f9be"
+        },
+        {
+          "_Class": "cToPunchStrongRightHandTripleThird\u0000",
+          "_InstanceGuid": "c800acc0-a0ae-4e41-9666-ee18a3e2f9be",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8b6c9689-adbe-45fa-b613-2f95f96c7488",
+          "_LowerGuid": "835daee1-89fa-47ad-b87b-ffb208ae2685"
+        },
+        {
+          "_Class": "cPunchStrongLeftHandTriple\u0000",
+          "_InstanceGuid": "835daee1-89fa-47ad-b87b-ffb208ae2685",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c800acc0-a0ae-4e41-9666-ee18a3e2f9be",
+          "_LowerGuid": "e806f517-f5d2-4a47-bb79-030af9014a6e"
+        },
+        {
+          "_Class": "cToPunchStrongLeftHandTripleSecond\u0000",
+          "_InstanceGuid": "e806f517-f5d2-4a47-bb79-030af9014a6e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "835daee1-89fa-47ad-b87b-ffb208ae2685",
+          "_LowerGuid": "0da3687d-6e95-48c0-84e0-c72e1375f925"
+        },
+        {
+          "_Class": "cToPunchStrongLeftHandTripleThird\u0000",
+          "_InstanceGuid": "0da3687d-6e95-48c0-84e0-c72e1375f925",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e806f517-f5d2-4a47-bb79-030af9014a6e",
+          "_LowerGuid": "685b5652-2553-4aef-9d2d-ba85f4b02d3f"
+        },
+        {
+          "_Class": "cBite\u0000",
+          "_InstanceGuid": "685b5652-2553-4aef-9d2d-ba85f4b02d3f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0da3687d-6e95-48c0-84e0-c72e1375f925",
+          "_LowerGuid": "9203ec85-7123-43b0-963e-b7dc95a74253"
+        },
+        {
+          "_Class": "cSideUpper\u0000",
+          "_InstanceGuid": "9203ec85-7123-43b0-963e-b7dc95a74253",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "685b5652-2553-4aef-9d2d-ba85f4b02d3f",
+          "_LowerGuid": "649a9131-4857-42b6-8b59-d1b630542a89"
+        },
+        {
+          "_Class": "cTackle\u0000",
+          "_InstanceGuid": "649a9131-4857-42b6-8b59-d1b630542a89",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9203ec85-7123-43b0-963e-b7dc95a74253",
+          "_LowerGuid": "0ad48345-46e5-4bf6-94a1-b4dfda573143"
+        },
+        {
+          "_Class": "cTackleTired\u0000",
+          "_InstanceGuid": "0ad48345-46e5-4bf6-94a1-b4dfda573143",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "649a9131-4857-42b6-8b59-d1b630542a89",
+          "_LowerGuid": "704f1cc9-2469-4334-b6b2-ea9ca57380c3"
+        },
+        {
+          "_Class": "cDoubleBiteLeft\u0000",
+          "_InstanceGuid": "704f1cc9-2469-4334-b6b2-ea9ca57380c3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0ad48345-46e5-4bf6-94a1-b4dfda573143",
+          "_LowerGuid": "8187e691-40c6-4129-9ace-02a39a403a76"
+        },
+        {
+          "_Class": "cToDoubleBiteLeftSecond\u0000",
+          "_InstanceGuid": "8187e691-40c6-4129-9ace-02a39a403a76",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "704f1cc9-2469-4334-b6b2-ea9ca57380c3",
+          "_LowerGuid": "06f066d1-97a3-4422-9b8f-87ee82935f42"
+        },
+        {
+          "_Class": "cToDoubleBiteLeftEnd\u0000",
+          "_InstanceGuid": "06f066d1-97a3-4422-9b8f-87ee82935f42",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8187e691-40c6-4129-9ace-02a39a403a76",
+          "_LowerGuid": "a4f23cc6-7d80-45a2-9cb4-c32d7045dcb8"
+        },
+        {
+          "_Class": "cDoubleBiteRight\u0000",
+          "_InstanceGuid": "a4f23cc6-7d80-45a2-9cb4-c32d7045dcb8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "06f066d1-97a3-4422-9b8f-87ee82935f42",
+          "_LowerGuid": "1bf9cfb4-f448-4b9c-a95e-21bf4cd0574d"
+        },
+        {
+          "_Class": "cToDoubleBiteRightSecond\u0000",
+          "_InstanceGuid": "1bf9cfb4-f448-4b9c-a95e-21bf4cd0574d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a4f23cc6-7d80-45a2-9cb4-c32d7045dcb8",
+          "_LowerGuid": "40481bf6-e902-46a6-8766-1fcd8a1c8ee8"
+        },
+        {
+          "_Class": "cToDoubleBiteRightEnd\u0000",
+          "_InstanceGuid": "40481bf6-e902-46a6-8766-1fcd8a1c8ee8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1bf9cfb4-f448-4b9c-a95e-21bf4cd0574d",
+          "_LowerGuid": "fd29ed26-db78-4fad-ad66-1ccb129e12f3"
+        },
+        {
+          "_Class": "cDeadlyAttack\u0000",
+          "_InstanceGuid": "fd29ed26-db78-4fad-ad66-1ccb129e12f3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "40481bf6-e902-46a6-8766-1fcd8a1c8ee8",
+          "_LowerGuid": "a0a6dab4-bbed-4782-9e94-762179a5b9ae"
+        },
+        {
+          "_Class": "cFinishingBlowReady\u0000",
+          "_InstanceGuid": "a0a6dab4-bbed-4782-9e94-762179a5b9ae",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fd29ed26-db78-4fad-ad66-1ccb129e12f3",
+          "_LowerGuid": "35b194ca-9262-4fc9-a54a-ca694374774b"
+        },
+        {
+          "_Class": "cFinishingBlowStart\u0000",
+          "_InstanceGuid": "35b194ca-9262-4fc9-a54a-ca694374774b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a0a6dab4-bbed-4782-9e94-762179a5b9ae",
+          "_LowerGuid": "12d7f107-7923-43c3-9583-2b780e847fc3"
+        },
+        {
+          "_Class": "cFinishingBlow\u0000",
+          "_InstanceGuid": "12d7f107-7923-43c3-9583-2b780e847fc3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "35b194ca-9262-4fc9-a54a-ca694374774b",
+          "_LowerGuid": "cdd6c64d-fbc4-413d-82a3-435cc141b226"
+        },
+        {
+          "_Class": "cCounterBite\u0000",
+          "_InstanceGuid": "cdd6c64d-fbc4-413d-82a3-435cc141b226",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "12d7f107-7923-43c3-9583-2b780e847fc3",
+          "_LowerGuid": "87da2b94-b0e7-42e3-9c52-3c195a26faa2"
+        },
+        {
+          "_Class": "cCounterBiteSide\u0000",
+          "_InstanceGuid": "87da2b94-b0e7-42e3-9c52-3c195a26faa2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cdd6c64d-fbc4-413d-82a3-435cc141b226",
+          "_LowerGuid": "84058962-2b1c-4157-9c9b-e6f6474f64bf"
+        },
+        {
+          "_Class": "cToCounterBiteSideAttack\u0000",
+          "_InstanceGuid": "84058962-2b1c-4157-9c9b-e6f6474f64bf",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "87da2b94-b0e7-42e3-9c52-3c195a26faa2",
+          "_LowerGuid": "e0077284-398f-4555-a85e-540d056750f0"
+        },
+        {
+          "_Class": "cDeathBlowUpper\u0000",
+          "_InstanceGuid": "e0077284-398f-4555-a85e-540d056750f0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "84058962-2b1c-4157-9c9b-e6f6474f64bf",
+          "_LowerGuid": "b3662c86-6290-4b77-a2de-b343f8e9903d"
+        },
+        {
+          "_Class": "cToDeathBlowUpperAttack\u0000",
+          "_InstanceGuid": "b3662c86-6290-4b77-a2de-b343f8e9903d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e0077284-398f-4555-a85e-540d056750f0",
+          "_LowerGuid": "051555da-298c-42dd-9015-01a6625c9feb"
+        },
+        {
+          "_Class": "cDeathPress\u0000",
+          "_InstanceGuid": "051555da-298c-42dd-9015-01a6625c9feb",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b3662c86-6290-4b77-a2de-b343f8e9903d",
+          "_LowerGuid": "1aef94fc-35ac-4ee4-9059-f560b9979984"
+        },
+        {
+          "_Class": "cSpinAttack\u0000",
+          "_InstanceGuid": "1aef94fc-35ac-4ee4-9059-f560b9979984",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "051555da-298c-42dd-9015-01a6625c9feb",
+          "_LowerGuid": "878bb913-9c19-41f0-9c2c-b5e67a86903f"
+        },
+        {
+          "_Class": "cToSpinAttackEnd\u0000",
+          "_InstanceGuid": "878bb913-9c19-41f0-9c2c-b5e67a86903f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1aef94fc-35ac-4ee4-9059-f560b9979984",
+          "_LowerGuid": "1f201450-b60a-46cc-97a1-49146b7ad29e"
+        },
+        {
+          "_Class": "cJumpingDriftAttack\u0000",
+          "_InstanceGuid": "1f201450-b60a-46cc-97a1-49146b7ad29e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "878bb913-9c19-41f0-9c2c-b5e67a86903f",
+          "_LowerGuid": "36680a54-e89d-4349-9b92-7c088651f133"
+        },
+        {
+          "_Class": "cZakoThrow\u0000",
+          "_InstanceGuid": "36680a54-e89d-4349-9b92-7c088651f133",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1f201450-b60a-46cc-97a1-49146b7ad29e",
+          "_LowerGuid": "7b721586-d3a2-4381-bae9-6fe544b737a4"
+        },
+        {
+          "_Class": "cToZakoThrowLeft\u0000",
+          "_InstanceGuid": "7b721586-d3a2-4381-bae9-6fe544b737a4",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "36680a54-e89d-4349-9b92-7c088651f133",
+          "_LowerGuid": "e6172840-f6b5-493c-9dc8-09975bb1cd0f"
+        },
+        {
+          "_Class": "cToZakoThrowRight\u0000",
+          "_InstanceGuid": "e6172840-f6b5-493c-9dc8-09975bb1cd0f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7b721586-d3a2-4381-bae9-6fe544b737a4",
+          "_LowerGuid": "07e42de6-ed1d-47f9-aeb4-edb8f6943030"
+        },
+        {
+          "_Class": "cToZakoThrowFailure\u0000",
+          "_InstanceGuid": "07e42de6-ed1d-47f9-aeb4-edb8f6943030",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e6172840-f6b5-493c-9dc8-09975bb1cd0f",
+          "_LowerGuid": "6e59b6a0-011c-495b-9e7a-47a9bd5cb1b8"
+        },
+        {
+          "_Class": "cToJumpingDriftAttackEnd\u0000",
+          "_InstanceGuid": "6e59b6a0-011c-495b-9e7a-47a9bd5cb1b8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "07e42de6-ed1d-47f9-aeb4-edb8f6943030",
+          "_LowerGuid": "d08bf321-9cc0-477e-a491-92be2cd1384c"
+        },
+        {
+          "_Class": "cGimmickWallVariety2\u0000",
+          "_InstanceGuid": "d08bf321-9cc0-477e-a491-92be2cd1384c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6e59b6a0-011c-495b-9e7a-47a9bd5cb1b8",
+          "_LowerGuid": "7e818c63-666a-4177-8a1f-83840a2bc416"
+        },
+        {
+          "_Class": "cGimmickWallContact\u0000",
+          "_InstanceGuid": "7e818c63-666a-4177-8a1f-83840a2bc416",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d08bf321-9cc0-477e-a491-92be2cd1384c",
+          "_LowerGuid": "1ead0035-95c2-4cec-a4cb-a3535fdea60d"
+        },
+        {
+          "_Class": "cGimmickWallBreaked\u0000",
+          "_InstanceGuid": "1ead0035-95c2-4cec-a4cb-a3535fdea60d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7e818c63-666a-4177-8a1f-83840a2bc416",
+          "_LowerGuid": "ea3df42b-c24e-4088-9ef9-9e79b94d11c2"
+        },
+        {
+          "_Class": "cGimmickBreak1\u0000",
+          "_InstanceGuid": "ea3df42b-c24e-4088-9ef9-9e79b94d11c2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1ead0035-95c2-4cec-a4cb-a3535fdea60d",
+          "_LowerGuid": "64420d78-77fe-4d61-a0f2-367beaa8bb96"
+        },
+        {
+          "_Class": "cGimmickBreak2\u0000",
+          "_InstanceGuid": "64420d78-77fe-4d61-a0f2-367beaa8bb96",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ea3df42b-c24e-4088-9ef9-9e79b94d11c2",
+          "_LowerGuid": "1a513592-c20f-4e54-a4d6-8c54794d296c"
+        },
+        {
+          "_Class": "cGimmickRummage\u0000",
+          "_InstanceGuid": "1a513592-c20f-4e54-a4d6-8c54794d296c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "64420d78-77fe-4d61-a0f2-367beaa8bb96",
+          "_LowerGuid": "ce7e691d-9d61-4c01-a75e-90b7d38c7e34"
+        },
+        {
+          "_Class": "cGimmickRockfallGesture\u0000",
+          "_InstanceGuid": "ce7e691d-9d61-4c01-a75e-90b7d38c7e34",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1a513592-c20f-4e54-a4d6-8c54794d296c",
+          "_LowerGuid": "abfe9212-654f-4b8c-a07a-544c28406a54"
+        },
+        {
+          "_Class": "cWallScratch\u0000",
+          "_InstanceGuid": "abfe9212-654f-4b8c-a07a-544c28406a54",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ce7e691d-9d61-4c01-a75e-90b7d38c7e34",
+          "_LowerGuid": "0124de78-5be2-49db-966a-d436f95d4ed4"
+        },
+        {
+          "_Class": "cRampage\u0000",
+          "_InstanceGuid": "0124de78-5be2-49db-966a-d436f95d4ed4",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "abfe9212-654f-4b8c-a07a-544c28406a54",
+          "_LowerGuid": "7e0c2996-3066-438f-acc8-95a15eff8ec5"
+        },
+        {
+          "_Class": "cCutSceneEnd\u0000",
+          "_InstanceGuid": "7e0c2996-3066-438f-acc8-95a15eff8ec5",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0124de78-5be2-49db-966a-d436f95d4ed4",
+          "_LowerGuid": "29670f8c-923a-41a2-aaab-3750dc538dcd"
+        },
+        {
+          "_Class": "cRideRampageHead\u0000",
+          "_InstanceGuid": "29670f8c-923a-41a2-aaab-3750dc538dcd",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7e0c2996-3066-438f-acc8-95a15eff8ec5",
+          "_LowerGuid": "4edfcf24-fd56-403f-a851-bdc307e5e684"
+        },
+        {
+          "_Class": "cRideRampageBody\u0000",
+          "_InstanceGuid": "4edfcf24-fd56-403f-a851-bdc307e5e684",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "29670f8c-923a-41a2-aaab-3750dc538dcd",
+          "_LowerGuid": "029ccedd-d617-483f-90de-45ab45b29d7c"
+        },
+        {
+          "_Class": "cRideRampageTail\u0000",
+          "_InstanceGuid": "029ccedd-d617-483f-90de-45ab45b29d7c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4edfcf24-fd56-403f-a851-bdc307e5e684",
+          "_LowerGuid": "0fc538dd-e333-4695-a3e4-e9a282bcceb9"
+        },
+        {
+          "_Class": "cRideBumpHead\u0000",
+          "_InstanceGuid": "0fc538dd-e333-4695-a3e4-e9a282bcceb9",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "029ccedd-d617-483f-90de-45ab45b29d7c",
+          "_LowerGuid": "1ed9657f-8a26-475c-8e05-a5d7e6a9df9d"
+        },
+        {
+          "_Class": "cRideFinishWaitScar\u0000",
+          "_InstanceGuid": "1ed9657f-8a26-475c-8e05-a5d7e6a9df9d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0fc538dd-e333-4695-a3e4-e9a282bcceb9",
+          "_LowerGuid": "9f11d5c6-1e8d-4685-ad8b-d7e163b61117"
+        },
+        {
+          "_Class": "cDamageParalyse\u0000",
+          "_InstanceGuid": "9f11d5c6-1e8d-4685-ad8b-d7e163b61117",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1ed9657f-8a26-475c-8e05-a5d7e6a9df9d",
+          "_LowerGuid": "303a3dfc-b44b-43e1-aff2-01224c86f286"
+        },
+        {
+          "_Class": "cDamageStun\u0000",
+          "_InstanceGuid": "303a3dfc-b44b-43e1-aff2-01224c86f286",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9f11d5c6-1e8d-4685-ad8b-d7e163b61117",
+          "_LowerGuid": "61042c31-9808-4d00-aebc-9aebe1b015d6"
+        },
+        {
+          "_Class": "cDamageSleep\u0000",
+          "_InstanceGuid": "61042c31-9808-4d00-aebc-9aebe1b015d6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "303a3dfc-b44b-43e1-aff2-01224c86f286",
+          "_LowerGuid": "6ac5d326-cecd-4937-919a-1f40bdb74b7e"
+        },
+        {
+          "_Class": "cToDamageSleepEnd\u0000",
+          "_InstanceGuid": "6ac5d326-cecd-4937-919a-1f40bdb74b7e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "61042c31-9808-4d00-aebc-9aebe1b015d6",
+          "_LowerGuid": "c0499a08-a404-45cc-b8c1-b70bf082f7b6"
+        },
+        {
+          "_Class": "cToDamageSleepCancel\u0000",
+          "_InstanceGuid": "c0499a08-a404-45cc-b8c1-b70bf082f7b6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "6ac5d326-cecd-4937-919a-1f40bdb74b7e",
+          "_LowerGuid": "94ccb0bb-b8e4-4ad3-8fe7-29946ef1d452"
+        },
+        {
+          "_Class": "cDamageScarDown\u0000",
+          "_InstanceGuid": "94ccb0bb-b8e4-4ad3-8fe7-29946ef1d452",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c0499a08-a404-45cc-b8c1-b70bf082f7b6",
+          "_LowerGuid": "8cea6f06-4b5d-44e4-80f7-54ed14c5997d"
+        },
+        {
+          "_Class": "cDamageParry\u0000",
+          "_InstanceGuid": "8cea6f06-4b5d-44e4-80f7-54ed14c5997d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "94ccb0bb-b8e4-4ad3-8fe7-29946ef1d452",
+          "_LowerGuid": "1f4a7f38-c753-4f8a-9512-9cfe35d03cf1"
+        },
+        {
+          "_Class": "cDamageParryFly\u0000",
+          "_InstanceGuid": "1f4a7f38-c753-4f8a-9512-9cfe35d03cf1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8cea6f06-4b5d-44e4-80f7-54ed14c5997d",
+          "_LowerGuid": "7c0daf48-7ce4-4a0a-b113-5d65afb60dfb"
+        },
+        {
+          "_Class": "cDamageBlock\u0000",
+          "_InstanceGuid": "7c0daf48-7ce4-4a0a-b113-5d65afb60dfb",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1f4a7f38-c753-4f8a-9512-9cfe35d03cf1",
+          "_LowerGuid": "4b65bca5-8bb1-4479-97f8-093e476918c8"
+        },
+        {
+          "_Class": "cToDamageBlockReturn\u0000",
+          "_InstanceGuid": "4b65bca5-8bb1-4479-97f8-093e476918c8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7c0daf48-7ce4-4a0a-b113-5d65afb60dfb",
+          "_LowerGuid": "22fcbbaf-a4c4-47a2-a25d-9629e22402be"
+        },
+        {
+          "_Class": "cToDamageBlockEnd\u0000",
+          "_InstanceGuid": "22fcbbaf-a4c4-47a2-a25d-9629e22402be",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4b65bca5-8bb1-4479-97f8-093e476918c8",
+          "_LowerGuid": "894e2c42-0dce-4402-86b5-857a187a7872"
+        },
+        {
+          "_Class": "cDamageSandDig\u0000",
+          "_InstanceGuid": "894e2c42-0dce-4402-86b5-857a187a7872",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "22fcbbaf-a4c4-47a2-a25d-9629e22402be",
+          "_LowerGuid": "5e107531-0342-4641-ac98-3f1d6afa048e"
+        },
+        {
+          "_Class": "cDamageTrapFall\u0000",
+          "_InstanceGuid": "5e107531-0342-4641-ac98-3f1d6afa048e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "894e2c42-0dce-4402-86b5-857a187a7872",
+          "_LowerGuid": "24c8ca0b-e879-4525-9204-321f5d58ec16"
+        },
+        {
+          "_Class": "cToDamageTrapFallEnd\u0000",
+          "_InstanceGuid": "24c8ca0b-e879-4525-9204-321f5d58ec16",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5e107531-0342-4641-ac98-3f1d6afa048e",
+          "_LowerGuid": "0c1b2923-adab-4019-8056-47b7b9d6357c"
+        },
+        {
+          "_Class": "cDamageTrapParalyse\u0000",
+          "_InstanceGuid": "0c1b2923-adab-4019-8056-47b7b9d6357c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "24c8ca0b-e879-4525-9204-321f5d58ec16",
+          "_LowerGuid": "3cc36422-1c18-486b-9e9d-04c5063f3eec"
+        },
+        {
+          "_Class": "cToDamageTrapParalyseEnd\u0000",
+          "_InstanceGuid": "3cc36422-1c18-486b-9e9d-04c5063f3eec",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0c1b2923-adab-4019-8056-47b7b9d6357c",
+          "_LowerGuid": "0496261c-696a-4820-9425-452f24f208fe"
+        },
+        {
+          "_Class": "cDamageTrapParalyseAnimal\u0000",
+          "_InstanceGuid": "0496261c-696a-4820-9425-452f24f208fe",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3cc36422-1c18-486b-9e9d-04c5063f3eec",
+          "_LowerGuid": "b59ff97f-3193-49d6-9062-28fcfcb7af46"
+        },
+        {
+          "_Class": "cDamageTrapParalyseOtomo\u0000",
+          "_InstanceGuid": "b59ff97f-3193-49d6-9062-28fcfcb7af46",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0496261c-696a-4820-9425-452f24f208fe",
+          "_LowerGuid": "13dfa692-b7ec-4949-a1a2-bb8f4d19669a"
+        },
+        {
+          "_Class": "cDamageTrapIvy\u0000",
+          "_InstanceGuid": "13dfa692-b7ec-4949-a1a2-bb8f4d19669a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b59ff97f-3193-49d6-9062-28fcfcb7af46",
+          "_LowerGuid": "7ac5db6f-30ec-4210-9e4b-d1bd168a93ff"
+        },
+        {
+          "_Class": "cToDamageTrapIvyEnd\u0000",
+          "_InstanceGuid": "7ac5db6f-30ec-4210-9e4b-d1bd168a93ff",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "13dfa692-b7ec-4949-a1a2-bb8f4d19669a",
+          "_LowerGuid": "1a8466a1-f3ca-4b1b-a201-5b28408514f4"
+        },
+        {
+          "_Class": "cDamageTrapBoundNPC\u0000",
+          "_InstanceGuid": "1a8466a1-f3ca-4b1b-a201-5b28408514f4",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7ac5db6f-30ec-4210-9e4b-d1bd168a93ff",
+          "_LowerGuid": "dcf1651b-03cb-44ad-a38a-7731024363f2"
+        },
+        {
+          "_Class": "cDamageTrapFallSleep\u0000",
+          "_InstanceGuid": "dcf1651b-03cb-44ad-a38a-7731024363f2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1a8466a1-f3ca-4b1b-a201-5b28408514f4",
+          "_LowerGuid": "07123714-5f9b-4554-bc02-f427ec173b5e"
+        },
+        {
+          "_Class": "cDamageTrapFallStun\u0000",
+          "_InstanceGuid": "07123714-5f9b-4554-bc02-f427ec173b5e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "dcf1651b-03cb-44ad-a38a-7731024363f2",
+          "_LowerGuid": "dc500d06-8b07-488a-aff5-c817473c4b72"
+        },
+        {
+          "_Class": "cDamageTrapFallParalyse\u0000",
+          "_InstanceGuid": "dc500d06-8b07-488a-aff5-c817473c4b72",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "07123714-5f9b-4554-bc02-f427ec173b5e",
+          "_LowerGuid": "2f1b67aa-6290-4735-ba4e-3c3004bf36d7"
+        },
+        {
+          "_Class": "cDamageQuicksand\u0000",
+          "_InstanceGuid": "2f1b67aa-6290-4735-ba4e-3c3004bf36d7",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "dc500d06-8b07-488a-aff5-c817473c4b72",
+          "_LowerGuid": "5ec29d98-a768-46ba-b562-c59b506accdc"
+        },
+        {
+          "_Class": "cDamageQuicksand\u0000",
+          "_InstanceGuid": "5ec29d98-a768-46ba-b562-c59b506accdc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2f1b67aa-6290-4735-ba4e-3c3004bf36d7",
+          "_LowerGuid": "f32569bd-eb30-40c3-89e3-840a76dab7dc"
+        },
+        {
+          "_Class": "cToDamageQuicksandEnd\u0000",
+          "_InstanceGuid": "f32569bd-eb30-40c3-89e3-840a76dab7dc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5ec29d98-a768-46ba-b562-c59b506accdc",
+          "_LowerGuid": "3f9026ef-339a-4344-9e2d-829cf7399ba3"
+        },
+        {
+          "_Class": "cDamageHighGround\u0000",
+          "_InstanceGuid": "3f9026ef-339a-4344-9e2d-829cf7399ba3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f32569bd-eb30-40c3-89e3-840a76dab7dc",
+          "_LowerGuid": "163e7ae4-2d25-4859-9c51-19639f3f01db"
+        },
+        {
+          "_Class": "cToDamageHighGroundFall\u0000",
+          "_InstanceGuid": "163e7ae4-2d25-4859-9c51-19639f3f01db",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3f9026ef-339a-4344-9e2d-829cf7399ba3",
+          "_LowerGuid": "e04728c8-848b-4b1f-9a60-3b8bcae6c6a0"
+        },
+        {
+          "_Class": "cToDamageHighGroundDown\u0000",
+          "_InstanceGuid": "e04728c8-848b-4b1f-9a60-3b8bcae6c6a0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "163e7ae4-2d25-4859-9c51-19639f3f01db",
+          "_LowerGuid": "909c3b3d-9f55-49d6-94db-09c40d494964"
+        },
+        {
+          "_Class": "cDamageFieldPitfall\u0000",
+          "_InstanceGuid": "909c3b3d-9f55-49d6-94db-09c40d494964",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e04728c8-848b-4b1f-9a60-3b8bcae6c6a0",
+          "_LowerGuid": "3eb2afea-6734-44bb-a95f-a6059d74bf24"
+        },
+        {
+          "_Class": "cToDamageFieldPitfallLoop\u0000",
+          "_InstanceGuid": "3eb2afea-6734-44bb-a95f-a6059d74bf24",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "909c3b3d-9f55-49d6-94db-09c40d494964",
+          "_LowerGuid": "f3fb7d8d-6a06-4dab-b8ee-21b98a7374c0"
+        },
+        {
+          "_Class": "cToDamageFieldPitfallEnd\u0000",
+          "_InstanceGuid": "f3fb7d8d-6a06-4dab-b8ee-21b98a7374c0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3eb2afea-6734-44bb-a95f-a6059d74bf24",
+          "_LowerGuid": "e599f1bf-bfe7-42ba-8a94-371422934ce8"
+        },
+        {
+          "_Class": "cDamageFieldPitfallParalyse\u0000",
+          "_InstanceGuid": "e599f1bf-bfe7-42ba-8a94-371422934ce8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f3fb7d8d-6a06-4dab-b8ee-21b98a7374c0",
+          "_LowerGuid": "a01147c9-7395-4c8b-8c0d-1b06fd471a56"
+        },
+        {
+          "_Class": "cDamageFieldPitfallSleep\u0000",
+          "_InstanceGuid": "a01147c9-7395-4c8b-8c0d-1b06fd471a56",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "e599f1bf-bfe7-42ba-8a94-371422934ce8",
+          "_LowerGuid": "774c67eb-04bf-48cb-919e-d6e0b72833bb"
+        },
+        {
+          "_Class": "cDamageFieldPitfallStun\u0000",
+          "_InstanceGuid": "774c67eb-04bf-48cb-919e-d6e0b72833bb",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a01147c9-7395-4c8b-8c0d-1b06fd471a56",
+          "_LowerGuid": "7168c1cd-a88d-48dc-b9c8-962340127aa2"
+        },
+        {
+          "_Class": "cDamageRideStart\u0000",
+          "_InstanceGuid": "7168c1cd-a88d-48dc-b9c8-962340127aa2",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "774c67eb-04bf-48cb-919e-d6e0b72833bb",
+          "_LowerGuid": "9a2c74ae-e353-4d0d-a503-6befef017588"
+        },
+        {
+          "_Class": "cDamageRideFinishScar\u0000",
+          "_InstanceGuid": "9a2c74ae-e353-4d0d-a503-6befef017588",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7168c1cd-a88d-48dc-b9c8-962340127aa2",
+          "_LowerGuid": "c8c2ca57-740c-41cb-8e30-2d362dbe5545"
+        },
+        {
+          "_Class": "cDamageRideFinish\u0000",
+          "_InstanceGuid": "c8c2ca57-740c-41cb-8e30-2d362dbe5545",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9a2c74ae-e353-4d0d-a503-6befef017588",
+          "_LowerGuid": "550c8198-4b76-4c74-bba2-aa6b18162fb1"
+        },
+        {
+          "_Class": "cDamageCriticalHit\u0000",
+          "_InstanceGuid": "550c8198-4b76-4c74-bba2-aa6b18162fb1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c8c2ca57-740c-41cb-8e30-2d362dbe5545",
+          "_LowerGuid": "12b9791a-4384-48e1-ba68-77cc4d98c604"
+        },
+        {
+          "_Class": "cDamagePrePointHit\u0000",
+          "_InstanceGuid": "12b9791a-4384-48e1-ba68-77cc4d98c604",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "550c8198-4b76-4c74-bba2-aa6b18162fb1",
+          "_LowerGuid": "b57c6d87-0b6a-4212-aed5-239d1e7bebe1"
+        },
+        {
+          "_Class": "cDamagePrePointHitStand\u0000",
+          "_InstanceGuid": "b57c6d87-0b6a-4212-aed5-239d1e7bebe1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "12b9791a-4384-48e1-ba68-77cc4d98c604",
+          "_LowerGuid": "f244e744-5908-4f41-b9db-8f67579fecbc"
+        },
+        {
+          "_Class": "cDamagePrePointHitFly\u0000",
+          "_InstanceGuid": "f244e744-5908-4f41-b9db-8f67579fecbc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "b57c6d87-0b6a-4212-aed5-239d1e7bebe1",
+          "_LowerGuid": "8c4bc9c6-d34e-45f7-b377-18f117ee765e"
+        },
+        {
+          "_Class": "cToDamagePrePointHitFly\u0000",
+          "_InstanceGuid": "8c4bc9c6-d34e-45f7-b377-18f117ee765e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f244e744-5908-4f41-b9db-8f67579fecbc",
+          "_LowerGuid": "5bfc7ada-fd70-4042-b196-04076499db07"
+        },
+        {
+          "_Class": "cDamageSound\u0000",
+          "_InstanceGuid": "5bfc7ada-fd70-4042-b196-04076499db07",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "8c4bc9c6-d34e-45f7-b377-18f117ee765e",
+          "_LowerGuid": "f760190c-f110-4001-abce-2935fc56f273"
+        },
+        {
+          "_Class": "cDamageStealth\u0000",
+          "_InstanceGuid": "f760190c-f110-4001-abce-2935fc56f273",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5bfc7ada-fd70-4042-b196-04076499db07",
+          "_LowerGuid": "9ead6721-1fa9-432b-bb7d-9815f582a2c6"
+        },
+        {
+          "_Class": "cDamagePetit\u0000",
+          "_InstanceGuid": "9ead6721-1fa9-432b-bb7d-9815f582a2c6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f760190c-f110-4001-abce-2935fc56f273",
+          "_LowerGuid": "c94d73d9-689f-4f9a-9369-e76fba361045"
+        },
+        {
+          "_Class": "cDamageMin\u0000",
+          "_InstanceGuid": "c94d73d9-689f-4f9a-9369-e76fba361045",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9ead6721-1fa9-432b-bb7d-9815f582a2c6",
+          "_LowerGuid": "2480e3d5-76bb-48a6-864e-48de754f7164"
+        },
+        {
+          "_Class": "cDamageMax\u0000",
+          "_InstanceGuid": "2480e3d5-76bb-48a6-864e-48de754f7164",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c94d73d9-689f-4f9a-9369-e76fba361045",
+          "_LowerGuid": "0bfd2d89-84f2-41ee-980f-37264e5b4910"
+        },
+        {
+          "_Class": "cDamageFlashMin\u0000",
+          "_InstanceGuid": "0bfd2d89-84f2-41ee-980f-37264e5b4910",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2480e3d5-76bb-48a6-864e-48de754f7164",
+          "_LowerGuid": "7ef1f640-9ec6-4632-8878-f31339a12b08"
+        },
+        {
+          "_Class": "cDamageFlashMax\u0000",
+          "_InstanceGuid": "7ef1f640-9ec6-4632-8878-f31339a12b08",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0bfd2d89-84f2-41ee-980f-37264e5b4910",
+          "_LowerGuid": "509c996d-f80e-4634-bd84-dd4c3ba1d4f6"
+        },
+        {
+          "_Class": "cDamageFriendHit\u0000",
+          "_InstanceGuid": "509c996d-f80e-4634-bd84-dd4c3ba1d4f6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7ef1f640-9ec6-4632-8878-f31339a12b08",
+          "_LowerGuid": "d4fea4ce-6840-4817-866a-110bdd51cc63"
+        },
+        {
+          "_Class": "cDamageFriendHitMove\u0000",
+          "_InstanceGuid": "d4fea4ce-6840-4817-866a-110bdd51cc63",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "509c996d-f80e-4634-bd84-dd4c3ba1d4f6",
+          "_LowerGuid": "f867ad70-cf81-438b-8351-af668568cb19"
+        },
+        {
+          "_Class": "cDamageDown\u0000",
+          "_InstanceGuid": "f867ad70-cf81-438b-8351-af668568cb19",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d4fea4ce-6840-4817-866a-110bdd51cc63",
+          "_LowerGuid": "aca5b8c1-4f77-415d-b695-7fe698df1d7e"
+        },
+        {
+          "_Class": "cDamageStepped\u0000",
+          "_InstanceGuid": "aca5b8c1-4f77-415d-b695-7fe698df1d7e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f867ad70-cf81-438b-8351-af668568cb19",
+          "_LowerGuid": "c7491435-5cc4-4388-8f7b-9afaa992c2fc"
+        },
+        {
+          "_Class": "cDamageRock\u0000",
+          "_InstanceGuid": "c7491435-5cc4-4388-8f7b-9afaa992c2fc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "aca5b8c1-4f77-415d-b695-7fe698df1d7e",
+          "_LowerGuid": "f034a27a-ea22-467e-949b-6ee2ce870f18"
+        },
+        {
+          "_Class": "cToDamageRockHang\u0000",
+          "_InstanceGuid": "f034a27a-ea22-467e-949b-6ee2ce870f18",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c7491435-5cc4-4388-8f7b-9afaa992c2fc",
+          "_LowerGuid": "26320ba4-e539-467e-a3c8-533c0397a711"
+        },
+        {
+          "_Class": "cToDamageRockFall\u0000",
+          "_InstanceGuid": "26320ba4-e539-467e-a3c8-533c0397a711",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f034a27a-ea22-467e-949b-6ee2ce870f18",
+          "_LowerGuid": "7c5ea440-98fe-407f-a376-853825210eb0"
+        },
+        {
+          "_Class": "cDamageWaterFlow\u0000",
+          "_InstanceGuid": "7c5ea440-98fe-407f-a376-853825210eb0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "26320ba4-e539-467e-a3c8-533c0397a711",
+          "_LowerGuid": "c34a0806-aecc-4b16-a072-198c125905bb"
+        },
+        {
+          "_Class": "cToDamageWaterFlowEnd\u0000",
+          "_InstanceGuid": "c34a0806-aecc-4b16-a072-198c125905bb",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7c5ea440-98fe-407f-a376-853825210eb0",
+          "_LowerGuid": "38d9d692-1096-4645-9f69-691a55f1f291"
+        },
+        {
+          "_Class": "cDamageFallDown\u0000",
+          "_InstanceGuid": "38d9d692-1096-4645-9f69-691a55f1f291",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c34a0806-aecc-4b16-a072-198c125905bb",
+          "_LowerGuid": "89df37b4-356b-47e0-907c-742ae0d95ebe"
+        },
+        {
+          "_Class": "cToDamageBlowFallDown\u0000",
+          "_InstanceGuid": "89df37b4-356b-47e0-907c-742ae0d95ebe",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "38d9d692-1096-4645-9f69-691a55f1f291",
+          "_LowerGuid": "cf833f56-d5a2-4033-bce7-a956f9d0da26"
+        },
+        {
+          "_Class": "cToDamageDieFallDown\u0000",
+          "_InstanceGuid": "cf833f56-d5a2-4033-bce7-a956f9d0da26",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "89df37b4-356b-47e0-907c-742ae0d95ebe",
+          "_LowerGuid": "2350c4fd-6af1-4bca-8efc-54dd70b698e8"
+        },
+        {
+          "_Class": "cToDamageParalyseFallDown\u0000",
+          "_InstanceGuid": "2350c4fd-6af1-4bca-8efc-54dd70b698e8",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "cf833f56-d5a2-4033-bce7-a956f9d0da26",
+          "_LowerGuid": "f4c499e7-5f1c-4f6a-b7c4-23040454a49f"
+        },
+        {
+          "_Class": "cToDamageSleepFallDown\u0000",
+          "_InstanceGuid": "f4c499e7-5f1c-4f6a-b7c4-23040454a49f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "2350c4fd-6af1-4bca-8efc-54dd70b698e8",
+          "_LowerGuid": "678441b3-7c71-4049-bd17-f6873fe30f9f"
+        },
+        {
+          "_Class": "cToDamageStunFallDown\u0000",
+          "_InstanceGuid": "678441b3-7c71-4049-bd17-f6873fe30f9f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f4c499e7-5f1c-4f6a-b7c4-23040454a49f",
+          "_LowerGuid": "f0e24911-6d08-41d3-a966-6e576b9bf63c"
+        },
+        {
+          "_Class": "cToDamageFieldPitfallFallDown\u0000",
+          "_InstanceGuid": "f0e24911-6d08-41d3-a966-6e576b9bf63c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "678441b3-7c71-4049-bd17-f6873fe30f9f",
+          "_LowerGuid": "5200f434-307c-4e09-974f-1cd740547ccc"
+        },
+        {
+          "_Class": "cToDamageTrapParalyseAnimalFall\u0000",
+          "_InstanceGuid": "5200f434-307c-4e09-974f-1cd740547ccc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f0e24911-6d08-41d3-a966-6e576b9bf63c",
+          "_LowerGuid": "887f0e6e-741e-420d-82d8-fc3852cf3c6d"
+        },
+        {
+          "_Class": "cCaptureTrapParalyse\u0000",
+          "_InstanceGuid": "887f0e6e-741e-420d-82d8-fc3852cf3c6d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "5200f434-307c-4e09-974f-1cd740547ccc",
+          "_LowerGuid": "02c83aff-c62f-47d1-b78a-1aeea1a3be81"
+        },
+        {
+          "_Class": "cCaptureTrapFall\u0000",
+          "_InstanceGuid": "02c83aff-c62f-47d1-b78a-1aeea1a3be81",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "887f0e6e-741e-420d-82d8-fc3852cf3c6d",
+          "_LowerGuid": "0336438a-ce7c-4f70-9bfa-f642a937f13a"
+        },
+        {
+          "_Class": "cDie\u0000",
+          "_InstanceGuid": "0336438a-ce7c-4f70-9bfa-f642a937f13a",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "02c83aff-c62f-47d1-b78a-1aeea1a3be81",
+          "_LowerGuid": "f88662ff-11b1-43c9-9713-704646f4c07c"
+        },
+        {
+          "_Class": "cDieDown\u0000",
+          "_InstanceGuid": "f88662ff-11b1-43c9-9713-704646f4c07c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0336438a-ce7c-4f70-9bfa-f642a937f13a",
+          "_LowerGuid": "9d33385e-5319-44b4-908c-f5fd969525e6"
+        },
+        {
+          "_Class": "cDieTrapFall\u0000",
+          "_InstanceGuid": "9d33385e-5319-44b4-908c-f5fd969525e6",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f88662ff-11b1-43c9-9713-704646f4c07c",
+          "_LowerGuid": "3f73fafc-9022-4a01-9a13-fe6c05d8ed05"
+        },
+        {
+          "_Class": "cDieFieldPitfall\u0000",
+          "_InstanceGuid": "3f73fafc-9022-4a01-9a13-fe6c05d8ed05",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "9d33385e-5319-44b4-908c-f5fd969525e6",
+          "_LowerGuid": "fec67f4b-d12d-4ccc-8aa0-cf823a5c85b3"
+        },
+        {
+          "_Class": "cGrappleVsLeviathanEx\u0000",
+          "_InstanceGuid": "fec67f4b-d12d-4ccc-8aa0-cf823a5c85b3",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3f73fafc-9022-4a01-9a13-fe6c05d8ed05",
+          "_LowerGuid": "7519bb5d-9957-4810-b886-7fe9b004d8cf"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase2Front\u0000",
+          "_InstanceGuid": "7519bb5d-9957-4810-b886-7fe9b004d8cf",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fec67f4b-d12d-4ccc-8aa0-cf823a5c85b3",
+          "_LowerGuid": "d0e586eb-9699-4477-b064-edd926cf91af"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase2Back\u0000",
+          "_InstanceGuid": "d0e586eb-9699-4477-b064-edd926cf91af",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7519bb5d-9957-4810-b886-7fe9b004d8cf",
+          "_LowerGuid": "fda3bc70-e113-4dbd-b4fe-3790b4f3ce85"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase3\u0000",
+          "_InstanceGuid": "fda3bc70-e113-4dbd-b4fe-3790b4f3ce85",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d0e586eb-9699-4477-b064-edd926cf91af",
+          "_LowerGuid": "4c30d9b3-0602-47dd-ab72-9bf1147f1040"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase4\u0000",
+          "_InstanceGuid": "4c30d9b3-0602-47dd-ab72-9bf1147f1040",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fda3bc70-e113-4dbd-b4fe-3790b4f3ce85",
+          "_LowerGuid": "fc11c2be-a368-490a-bf8d-3a6371ae1cda"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase5\u0000",
+          "_InstanceGuid": "fc11c2be-a368-490a-bf8d-3a6371ae1cda",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4c30d9b3-0602-47dd-ab72-9bf1147f1040",
+          "_LowerGuid": "4d75addd-f25e-4513-9eee-9da3fc268403"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase6\u0000",
+          "_InstanceGuid": "4d75addd-f25e-4513-9eee-9da3fc268403",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "fc11c2be-a368-490a-bf8d-3a6371ae1cda",
+          "_LowerGuid": "a3b6c6fe-5a28-46a6-9920-45dcc5f2e4de"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase7\u0000",
+          "_InstanceGuid": "a3b6c6fe-5a28-46a6-9920-45dcc5f2e4de",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4d75addd-f25e-4513-9eee-9da3fc268403",
+          "_LowerGuid": "d6a6ac2d-b5df-45ae-a065-0c921f8f4f30"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase8\u0000",
+          "_InstanceGuid": "d6a6ac2d-b5df-45ae-a065-0c921f8f4f30",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a3b6c6fe-5a28-46a6-9920-45dcc5f2e4de",
+          "_LowerGuid": "0b8c4f8a-2640-4314-9762-6ea6a8bdf8f1"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase9\u0000",
+          "_InstanceGuid": "0b8c4f8a-2640-4314-9762-6ea6a8bdf8f1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "d6a6ac2d-b5df-45ae-a065-0c921f8f4f30",
+          "_LowerGuid": "3bf77ae9-d721-4382-93a9-f06d701244a7"
+        },
+        {
+          "_Class": "cToGrappleVsLeviathanExPhase10\u0000",
+          "_InstanceGuid": "3bf77ae9-d721-4382-93a9-f06d701244a7",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "0b8c4f8a-2640-4314-9762-6ea6a8bdf8f1",
+          "_LowerGuid": "482a1de6-da86-4783-aba7-b0ae55459bc1"
+        },
+        {
+          "_Class": "cGrappleVsSpider\u0000",
+          "_InstanceGuid": "482a1de6-da86-4783-aba7-b0ae55459bc1",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "3bf77ae9-d721-4382-93a9-f06d701244a7",
+          "_LowerGuid": "ab2807d0-4222-43e8-8798-420b4080048b"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase2Front\u0000",
+          "_InstanceGuid": "ab2807d0-4222-43e8-8798-420b4080048b",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "482a1de6-da86-4783-aba7-b0ae55459bc1",
+          "_LowerGuid": "67c7650b-12f9-40e2-9755-e13c5e0f9b62"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase2Back\u0000",
+          "_InstanceGuid": "67c7650b-12f9-40e2-9755-e13c5e0f9b62",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "ab2807d0-4222-43e8-8798-420b4080048b",
+          "_LowerGuid": "96f378c5-e6f1-49d9-8e9b-60fc8a430d78"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase3\u0000",
+          "_InstanceGuid": "96f378c5-e6f1-49d9-8e9b-60fc8a430d78",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "67c7650b-12f9-40e2-9755-e13c5e0f9b62",
+          "_LowerGuid": "4912ede7-5e1c-44f7-a335-cf440e82ab97"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase4\u0000",
+          "_InstanceGuid": "4912ede7-5e1c-44f7-a335-cf440e82ab97",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "96f378c5-e6f1-49d9-8e9b-60fc8a430d78",
+          "_LowerGuid": "348e2461-c0c7-44cf-a2be-b8c77849c012"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase5\u0000",
+          "_InstanceGuid": "348e2461-c0c7-44cf-a2be-b8c77849c012",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "4912ede7-5e1c-44f7-a335-cf440e82ab97",
+          "_LowerGuid": "937d1cd0-0830-4ef2-bed3-4aaaef904203"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase6\u0000",
+          "_InstanceGuid": "937d1cd0-0830-4ef2-bed3-4aaaef904203",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "348e2461-c0c7-44cf-a2be-b8c77849c012",
+          "_LowerGuid": "778af2f7-8838-4b06-b845-6862babf2ac0"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase7\u0000",
+          "_InstanceGuid": "778af2f7-8838-4b06-b845-6862babf2ac0",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "937d1cd0-0830-4ef2-bed3-4aaaef904203",
+          "_LowerGuid": "60f33498-e440-4fed-9170-c6a8ca3c6773"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase8\u0000",
+          "_InstanceGuid": "60f33498-e440-4fed-9170-c6a8ca3c6773",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "778af2f7-8838-4b06-b845-6862babf2ac0",
+          "_LowerGuid": "7146ef18-ca3b-4034-817b-ec765f50b4fc"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderPhase9\u0000",
+          "_InstanceGuid": "7146ef18-ca3b-4034-817b-ec765f50b4fc",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "60f33498-e440-4fed-9170-c6a8ca3c6773",
+          "_LowerGuid": "5fd939c8-464a-4e48-b87e-499eed86a79e"
+        },
+        {
+          "_Class": "cToGrappleVsSpiderEndParaliseLoop\u0000",
+          "_InstanceGuid": "5fd939c8-464a-4e48-b87e-499eed86a79e",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "7146ef18-ca3b-4034-817b-ec765f50b4fc",
+          "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    "_ExportSettingArray": {
+      "_DataArray": [
+        {
+          "_Guid": "9e06db22-8f52-473e-9753-9c407454f814",
+          "_ClassName": "Em0150_00Action\u0000",
+          "_ActionCategory": 0
+        }
+      ]
+    },
+    "_BaseActionID": {
+      "_ActionID": {},
+      "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+    },
+    "_ConnectInheritGuidsDic": {}
+  }
+}

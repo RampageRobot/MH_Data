@@ -1,0 +1,118 @@
+{
+  "ace.user_data.ActionID": {
+    "_ActionIDArray": {
+      "_DataArray": [
+        {
+          "_Class": "cSysIdle\u0000",
+          "_InstanceGuid": "a0ef607f-fda2-051f-3d83-b6014ca51b6d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "00000000-0000-0000-0000-000000000000",
+          "_LowerGuid": "dbfb1ec8-1309-4de4-9726-d871c82b6220"
+        },
+        {
+          "_Class": "cWait\u0000",
+          "_InstanceGuid": "dbfb1ec8-1309-4de4-9726-d871c82b6220",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "a0ef607f-fda2-051f-3d83-b6014ca51b6d",
+          "_LowerGuid": "87529a9c-c7f6-470e-a4f8-4c83c2cf636d"
+        },
+        {
+          "_Class": "cWait2\u0000",
+          "_InstanceGuid": "87529a9c-c7f6-470e-a4f8-4c83c2cf636d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "dbfb1ec8-1309-4de4-9726-d871c82b6220",
+          "_LowerGuid": "14c23156-497e-4449-948b-2dfe83bd8043"
+        },
+        {
+          "_Class": "cSing1\u0000",
+          "_InstanceGuid": "14c23156-497e-4449-948b-2dfe83bd8043",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "87529a9c-c7f6-470e-a4f8-4c83c2cf636d",
+          "_LowerGuid": "db251968-06f6-4bc8-b517-3853633a412c"
+        },
+        {
+          "_Class": "cSing2\u0000",
+          "_InstanceGuid": "db251968-06f6-4bc8-b517-3853633a412c",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "14c23156-497e-4449-948b-2dfe83bd8043",
+          "_LowerGuid": "55bd69b9-1413-4807-a014-147c53e4af12"
+        },
+        {
+          "_Class": "cPeck\u0000",
+          "_InstanceGuid": "55bd69b9-1413-4807-a014-147c53e4af12",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "db251968-06f6-4bc8-b517-3853633a412c",
+          "_LowerGuid": "f9c24b63-bb07-4a20-b9ab-da1139c9750d"
+        },
+        {
+          "_Class": "cPeckBottom\u0000",
+          "_InstanceGuid": "f9c24b63-bb07-4a20-b9ab-da1139c9750d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "55bd69b9-1413-4807-a014-147c53e4af12",
+          "_LowerGuid": "baf92bdd-4126-4226-82e4-65e1b65cb3ca"
+        },
+        {
+          "_Class": "cCaution\u0000",
+          "_InstanceGuid": "baf92bdd-4126-4226-82e4-65e1b65cb3ca",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "f9c24b63-bb07-4a20-b9ab-da1139c9750d",
+          "_LowerGuid": "528d5203-e081-49bd-a0a2-d0b38364f38f"
+        },
+        {
+          "_Class": "cFly\u0000",
+          "_InstanceGuid": "528d5203-e081-49bd-a0a2-d0b38364f38f",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "baf92bdd-4126-4226-82e4-65e1b65cb3ca",
+          "_LowerGuid": "c2ccbc69-bd33-44fc-9edf-34fa105fad14"
+        },
+        {
+          "_Class": "cToEndFly\u0000",
+          "_InstanceGuid": "c2ccbc69-bd33-44fc-9edf-34fa105fad14",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "528d5203-e081-49bd-a0a2-d0b38364f38f",
+          "_LowerGuid": "1d8cef4b-69e3-4310-9474-2b304693631d"
+        },
+        {
+          "_Class": "cDamageFly\u0000",
+          "_InstanceGuid": "1d8cef4b-69e3-4310-9474-2b304693631d",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "c2ccbc69-bd33-44fc-9edf-34fa105fad14",
+          "_LowerGuid": "8706e9f6-57a6-47d2-b5d3-8cd51926f001"
+        },
+        {
+          "_Class": "cToDamageFinishFly\u0000",
+          "_InstanceGuid": "8706e9f6-57a6-47d2-b5d3-8cd51926f001",
+          "_OverrideOwnerClass": false,
+          "_BaseActionGuid": "00000000-0000-0000-0000-000000000000",
+          "_UpperGuid": "1d8cef4b-69e3-4310-9474-2b304693631d",
+          "_LowerGuid": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    "_ExportSettingArray": {
+      "_DataArray": [
+        {
+          "_Guid": "ab468920-214f-4c15-89d4-f3894362d786",
+          "_ClassName": "Em5201_00Action\u0000",
+          "_ActionCategory": 0
+        }
+      ]
+    },
+    "_BaseActionID": {
+      "_ActionID": {},
+      "_ExportGuid": "00000000-0000-0000-0000-000000000000"
+    },
+    "_ConnectInheritGuidsDic": {}
+  }
+}

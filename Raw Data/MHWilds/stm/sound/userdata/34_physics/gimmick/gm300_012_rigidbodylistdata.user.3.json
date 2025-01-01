@@ -1,0 +1,48 @@
+{
+  "soundlib.SoundRigidBodyListData": {
+    "_PhysicsSettingList": [
+      {
+        "_BodyIdList": [
+          0
+        ],
+        "_PhysicsValueType": 0,
+        "_ContactPoint": true,
+        "_AntiRepeatTime": 0.5,
+        "_TriggerAll": false,
+        "_ThresholdTriggerList": [
+          {
+            "_Threshold": 1.8,
+            "_TriggerId": 200607357
+          },
+          {
+            "_Threshold": 0.5,
+            "_TriggerId": 2945021724
+          }
+        ]
+      }
+    ],
+    "_BodyMaterialParamList": [
+      {
+        "_BodyId": 0,
+        "_UpdateOverlapping": true
+      }
+    ],
+    "_LimitContact": {
+      "IsEnableLimit": false,
+      "Limit": 0
+    },
+    "_LimitOverlapping": {
+      "IsEnableLimit": false,
+      "Limit": 0
+    },
+    "_EnabeClearLimitOverlapping": true,
+    "_LimitAntiUpdate": {
+      "IsEnableLimit": false,
+      "Limit": 0
+    },
+    "_LimitUpdate": {
+      "IsEnableLimit": false,
+      "Limit": 0
+    }
+  }
+}

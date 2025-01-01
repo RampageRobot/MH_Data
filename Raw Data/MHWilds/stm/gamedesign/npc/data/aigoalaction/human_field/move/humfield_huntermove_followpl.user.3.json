@@ -1,0 +1,214 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "2d208ad4-ccc0-4238-b4c6-080fc4fdc8fb",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 4175418299
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "SEQUENTIAL",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "2d208ad4-ccc0-4238-b4c6-080fc4fdc8fb",
+                "_GoalNameHash": {
+                  "_Hash": 62229336
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "2d208ad4-ccc0-4238-b4c6-080fc4fdc8fb",
+                "_GoalNameHash": {
+                  "_Hash": 3638330834
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "2d208ad4-ccc0-4238-b4c6-080fc4fdc8fb",
+                "_GoalNameHash": {
+                  "_Hash": 3918046225
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_TargetType": "MASTER_PL",
+              "STRUCT__Reach__HasValue": true,
+              "STRUCT__Reach__Value": 1.0,
+              "_DisableStreet": true,
+              "_IsUseHunterNavFilter": true,
+              "_IsUseAdjuster": true,
+              "_AdjustParam": {
+                "_AheadDist": 1.5,
+                "_DetectDist": 6.0,
+                "_AvoidRate": 1.0,
+                "_IsAvoidPlayer": true,
+                "_IsAvoidNpc": true,
+                "_IsAvoidPoint": true,
+                "_IsAvoidPorter": true,
+                "_IsAvoidOtomo": true,
+                "_IsAvoidEmZako": true,
+                "_IsAvoidEmBoss": false,
+                "_IsAvoidGimmick": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 62229336
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "Immediate": false,
+              "NonStopDismount": false
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 3638330834
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "Immediate": false
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 3918046225
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "2d208ad4-ccc0-4238-b4c6-080fc4fdc8fb",
+                "_GoalNameHash": {
+                  "_Hash": 3763592441
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 3763592441
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_SpeedCalcParam": {
+                "_MoveTypeDests": [
+                  {
+                    "_Dest": 5.0,
+                    "_SpeedLv": "STOP"
+                  },
+                  {
+                    "_Dest": 9.0,
+                    "_SpeedLv": "WALK"
+                  },
+                  {
+                    "_Dest": 12.0,
+                    "_SpeedLv": "RUN"
+                  },
+                  {
+                    "_Dest": 9999.0,
+                    "_SpeedLv": "DASH"
+                  }
+                ],
+                "_Threshold": 2.0
+              },
+              "STRUCT__OverwriteMoveBlendRate__HasValue": false,
+              "STRUCT__OverwriteMoveBlendRate__Value": 0.0
+            }
+          },
+          {
+            "_Param": {
+              "_MoveType": "MISSION_FOLLOW"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

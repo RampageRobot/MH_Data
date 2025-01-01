@@ -1,0 +1,91 @@
+{
+  "snow.enemy.em089.Em089_UniqueData": {
+    "_furyHpVitalPercentage": 45.0,
+    "_furyHpVitalPercentageHigh": 65.0,
+    "_furyHpVitalPercentageMaster": 65.0,
+    "_gas": {
+      "GasMaxValue": 100.0,
+      "BuildingUpStartPercentage": 30.0,
+      "AutoBuildingUpValueNormal": 0.5,
+      "AutoBuildingUpValueAnger": 1.0,
+      "BuildingUpValueWhenArmOnibiCancel": 30.0,
+      "BuildingUpValueWhenFaceOnibiCancel": 30.0,
+      "BuildingUpValueWhenTailOnibiCancel": 30.0,
+      "CriticalModeBackPartsPercentageCorrection": 100.0,
+      "CriticalModeTime": 50.0,
+      "PartsCorrection": {
+        "OnibiExpandCorrection": 5.0,
+        "AngerCorrection": 20.0,
+        "FuryCorrection": 50.0,
+        "LargeBreathCorrection": 50.0
+      },
+      "Detonation": {
+        "Damage": {
+          "DamageRate": 1.75,
+          "CriticalDamageRate": 3.0
+        },
+        "DamageHigh": {
+          "DamageRate": 1.75,
+          "CriticalDamageRate": 3.0
+        },
+        "DamageMaster": {
+          "DamageRate": 1.75,
+          "CriticalDamageRate": 3.0
+        },
+        "ShowDamageJoint": "Spine_01\u0000",
+        "ShowDamageOffset": [
+          0.0,
+          3.0,
+          0.0
+        ]
+      }
+    },
+    "_heatEnd": {
+      "CatchJointData": {
+        "_JointHash": 4192679175,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_JointName": "Tongue_02\u0000"
+      }
+    },
+    "_sysMotBankID": 0,
+    "_sysMotArmorStartMotionID": 120,
+    "_sysMotArmorLoopMotionID": 121,
+    "_sysMotArmorEndMotionID": 122,
+    "_sysMotArmorOpenFrame": 205,
+    "_sysMotBackSpineStartMotionID": 123,
+    "_sysMotBackSpineLoopMotionID": 124,
+    "_sysMotBackSpineEndMotionID": 125,
+    "_sysMotBackSpineOpenFrame": 75,
+    "_sysBackSpineFuryOpenFrame": 205,
+    "_VFXContainerID": 150,
+    "_VFXArmOnibiElementID": 101,
+    "_VFXFaceOnibiElementID": 100,
+    "_VFXTailOnibiElementID": 102,
+    "_VFXArmOnibiCriticalElementID": 121,
+    "_VFXFaceOnibiCriticalElementID": 120,
+    "_VFXTailOnibiCriticalElementID": 122,
+    "_VFXGasStartElementID": 111,
+    "_VFXGasCriticalElementID": 112,
+    "_VFXArmOnibiCancelElementID": 201,
+    "_VFXFaceOnibiCancelElementID": 200,
+    "_VFXTailOnibiCancelElementID": 202,
+    "_VFXArmOnibiCriticalCancelElementID": 221,
+    "_VFXFaceOnibiCriticalCancelElementID": 220,
+    "_VFXTailOnibiCriticalCancelElementID": 222,
+    "_VFXGasStartCancelElementID": 211,
+    "_VFXGasCriticalCancelElementID": 212,
+    "_VFXOnibiHitElementID": 260,
+    "_VFXOnibiHitFaceJoint": "Chin_00\u0000",
+    "_VFXOnibiHitArmLJoint": "L_Arm_03_S\u0000",
+    "_VFXOnibiHitArmRJoint": "R_Arm_03_S\u0000",
+    "_VFXOnibiHitTailJoint": "Tail_04\u0000",
+    "_VFXGasHitElementID": 250,
+    "_VFXGasHitCriticalElementID": 251,
+    "_VFXTailLossElementID": 500,
+    "_VFXTailLossCriticalElementID": 501
+  }
+}

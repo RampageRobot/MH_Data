@@ -1,0 +1,48 @@
+{
+  "snow.enemy.Em024UniqueData": {
+    "_WindData": {
+      "LevelArray": [
+        {
+          "_Threshold": 40,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 80,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 100,
+          "_MotionSpeedRate": 1.0
+        }
+      ],
+      "_IncRateAngry": 0.0,
+      "_IncRatePoison": 0.5,
+      "_DecRateTired": 0.0,
+      "_RemainHpToCorrect": 0.0,
+      "_IncRateRemainHp": 1.0,
+      "_AdjustValueAngry": 0,
+      "InitValueLotData": []
+    },
+    "_CreateBarrierPeriod": 3.0,
+    "_CreateBarrierLifeTime": 0.5,
+    "_CreateBarrierJointName": "Spine_00\u0000",
+    "_EffectDatas": [
+      {
+        "_ContainerId": 0,
+        "_ElementId": 0
+      },
+      {
+        "_ContainerId": 150,
+        "_ElementId": 10
+      },
+      {
+        "_ContainerId": 150,
+        "_ElementId": 11
+      }
+    ],
+    "_AngerWindMinValue": 40,
+    "_HornBreakPenalty": 85,
+    "_PoisonPenalty": 40,
+    "_MultiPartsRecoverValue": 0.2
+  }
+}

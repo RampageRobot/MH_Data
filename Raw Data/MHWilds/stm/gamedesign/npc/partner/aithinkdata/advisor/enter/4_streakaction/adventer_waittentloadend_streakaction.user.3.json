@@ -1,0 +1,45 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 2,
+    "_ActionEffectParam": {
+      "_Param": {
+        "STRUCT__ActionTime__HasValue": false,
+        "STRUCT__ActionTime__Value": 0.0,
+        "_ImmediateActionSet": false,
+        "_UseVariation": false,
+        "_VariIntervalTime": [
+          1101004800,
+          1101004800
+        ],
+        "_VariProbability": [
+          1112014848,
+          0
+        ],
+        "_IsContinue": true,
+        "_DisableGesture": false,
+        "_DisableIdleStanceChange": false
+      }
+    },
+    "_LStickEffectParam": {
+      "_Param": {}
+    },
+    "_AimEffectParam": {
+      "_Param": {
+        "_DelayTime": 0.0,
+        "_IsAlphaZero": true,
+        "_IsDisableAlphaFade": true,
+        "_IsAlphaZero_Porter": true,
+        "_IsDisableAlphaFade_Porter": true,
+        "_CheckState": 2
+      }
+    },
+    "_EvaluatorParams": [
+      {
+        "_Param": {
+          "_CheckState": 2
+        },
+        "_Inverse": false
+      }
+    ]
+  }
+}

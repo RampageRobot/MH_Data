@@ -1,0 +1,117 @@
+{
+  "snow.enemy.EnemyCombatMonsterData": {
+    "_NonCombatEnemyTargetRate": 100,
+    "_CombatEnemyTargetRate": 100,
+    "_NonCombatLotInfo": {
+      "_LowerRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      },
+      "_SameRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      },
+      "_HigherRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      }
+    },
+    "_CombatLotInfo": {
+      "_LowerRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      },
+      "_SameRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      },
+      "_HigherRankLotInfo": {
+        "_ThreatRate": 0,
+        "_CombatRate": 100,
+        "_EscapeRate": 0
+      }
+    },
+    "_SubStayTimeInfo": {
+      "_SubStayTimeS": 30,
+      "_SubStayTimeM": 60,
+      "_SubStayTimeL": 600
+    },
+    "_GrappleInfoData": {
+      "_ConstInfoList": [
+        {
+          "_jointName": "PL_Catch\u0000",
+          "_jointHash": 3182037595,
+          "_offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "_axisSelectType": 3
+        }
+      ],
+      "_GrappleInfoList": [
+        {
+          "_PartnerEnemy": 89,
+          "_SelfAttack": false,
+          "_IsEnable": true,
+          "_Result": 2,
+          "_DamageInfo": [
+            {
+              "_DamageHpRate": 0.1,
+              "_PartsDamage": 65535,
+              "_PartsDamageRate": 0.0,
+              "_ConditionDamage": 18,
+              "_ConditionDamageValue": 0
+            }
+          ],
+          "_ActionEndDamageInfo": {
+            "_ConditionDamage": 7,
+            "_ConditionDamageValue": 20000,
+            "_IsDefenceOnlyDamage": false,
+            "_IsLoserOnlyDamage": false,
+            "_NoMarionetteLoopBegin": false,
+            "_IsSetMarionetteDamage": true
+          },
+          "_IsSurpriseAttackTarget": false,
+          "_IsPointGrapple": false
+        },
+        {
+          "_PartnerEnemy": 1369,
+          "_SelfAttack": false,
+          "_IsEnable": true,
+          "_Result": 2,
+          "_DamageInfo": [
+            {
+              "_DamageHpRate": 0.1,
+              "_PartsDamage": 65535,
+              "_PartsDamageRate": 0.0,
+              "_ConditionDamage": 18,
+              "_ConditionDamageValue": 0
+            }
+          ],
+          "_ActionEndDamageInfo": {
+            "_ConditionDamage": 7,
+            "_ConditionDamageValue": 20000,
+            "_IsDefenceOnlyDamage": false,
+            "_IsLoserOnlyDamage": false,
+            "_NoMarionetteLoopBegin": false,
+            "_IsSetMarionetteDamage": true
+          },
+          "_IsSurpriseAttackTarget": false,
+          "_IsPointGrapple": false
+        }
+      ],
+      "_IsEnableSurpriseAttack": false,
+      "_SurpriseAttackExecEnableCount": 2,
+      "_PointDesignationDistance": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

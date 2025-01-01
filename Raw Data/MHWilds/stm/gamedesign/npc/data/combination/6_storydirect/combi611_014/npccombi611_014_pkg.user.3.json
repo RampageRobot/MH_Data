@@ -1,0 +1,116 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/6_StoryDirect/Combi611_014/Combi611_014_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            -768.0,
+            0.0,
+            896.0
+          ],
+          "_DegY": 0
+        },
+        "_Range": -1.0,
+        "_DestType": 0,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": false,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 3,
+                  "_ModelKindFixedID": -1
+                },
+                "_ID": "NPC111_11_070"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": false,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": -1,
+                "_VisualType": {
+                  "_Species": 3,
+                  "_ModelKindFixedID": -1
+                },
+                "_ID": "NPC111_31_002"
+              }
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              },
+              "_NpcEmId": "EM1151_00_1_1201",
+              "_VisualChecker": {
+                "STRUCT__IsChild__HasValue": false,
+                "STRUCT__IsChild__Value": false
+              },
+              "_IsTerminateAction": false
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              },
+              "_GmID": "INVALID",
+              "_GmTargetID": "CART",
+              "_IsCreate": false,
+              "_IsSetInteractDest": false,
+              "_InteractDestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true
+      }
+    }
+  }
+}

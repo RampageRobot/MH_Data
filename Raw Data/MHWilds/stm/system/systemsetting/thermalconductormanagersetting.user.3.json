@@ -1,0 +1,28 @@
+{
+  "app.user_data.AppThermalConductorManagerSetting": {
+    "ThermalConductorParam": {
+      "_Active": true,
+      "_SetupConductorLink": true,
+      "_SetupVoxelSize": 10.0,
+      "_SetupResolutionX": 64,
+      "_SetupResolutionY": 16,
+      "_SetupResolutionZ": 64,
+      "_SetupMaxHeatReceiverNum": 60000,
+      "_SetupMaxHeatReceiverPairNum": 150000,
+      "_SetupMaxHeatSourceNum": 100,
+      "_SetupMaxHeatSensorNum": 2000
+    },
+    "_RecoveryNumOneTime": 100,
+    "_CreateHeatReceiverNumOneTime": 300,
+    "_RecoveryTimeEnvironmentChange": 0.0,
+    "_BurningMapSize": [
+      1000,
+      1000
+    ],
+    "_BurningMapResetLength": [
+      100.0,
+      100.0
+    ],
+    "_BurningMapBuffer": "MasterMaterial/ByteAddressBuffer/BurningMap.gpbf\u0000"
+  }
+}

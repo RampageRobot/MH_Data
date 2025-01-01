@@ -1,0 +1,35 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_RangeType": 1
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": true,
+        "_ActStatus": 1365660259
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_SubType": 1,
+        "_DisableGroupFiter": false,
+        "_IsPrioryMysteryGroupTarget": true
+      },
+      {
+        "_RangeType": 1,
+        "_UseMoveWeaponOff": false,
+        "_ExecComboCheck": true,
+        "_IsInComboRange": true,
+        "_ExitOnOccuringPush": true,
+        "_ExitOnOccuringPushTimeSec": 0.5
+      }
+    ]
+  }
+}

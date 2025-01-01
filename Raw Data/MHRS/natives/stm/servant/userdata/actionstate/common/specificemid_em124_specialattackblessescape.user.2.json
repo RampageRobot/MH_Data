@@ -1,0 +1,40 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": true,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_Start": false,
+        "_Breath": true,
+        "_End": false
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_Min": 0.0,
+        "_Max": 30.0
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": false,
+        "_Start": false,
+        "_Breath": true,
+        "_End": true
+      }
+    ],
+    "_Tasks": [
+      {
+        "_InputTypeSwordMan": 4,
+        "_InputTypeGunner": 4,
+        "_HangingTime": 1.5,
+        "_StartDelayTimeMax": 0.6,
+        "_EndDelayTimeMax": 0.8,
+        "_WireRange": 10.0
+      }
+    ]
+  }
+}

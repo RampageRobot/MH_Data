@@ -1,0 +1,23 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_FollowTask": 22
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_TargetPositionType": 7,
+        "_WarpKind": 3,
+        "_DisappearTime": 0.5,
+        "_AppearTime": 1.2,
+        "_WaitForMasterBecomeNotFly": true,
+        "_IsAreaWarp": false
+      }
+    ]
+  }
+}

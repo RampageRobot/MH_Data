@@ -1,0 +1,956 @@
+{
+  "snow.enemy.EnemyHyakuryuSystemData": {
+    "_Em2EmCombatDisable": true,
+    "_ShakeWallEnable": false,
+    "_EscapeHalfDyingPercent": 50,
+    "_EscapeDyingPercent": 20,
+    "_RoleDataList": [
+      {
+        "_TargetPropsHateDataInfoList": [
+          {
+            "_Dist": 20.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 40.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 60.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 80.0,
+            "_Hate": 10.0
+          }
+        ],
+        "_PropsTargetRangeOutHate": 0.0,
+        "_PropsAddHateGroupA": {
+          "_NormalHate": 5,
+          "_AngerHate": 10000,
+          "_TargetInitPoint": 100,
+          "_AttackRate": 3.0,
+          "_MidAttackRate": 3.5,
+          "_WaveBossAttackRate": 4.0,
+          "_FinalAttackRate": 4.0
+        },
+        "_PropsAddHateGroupB": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupC": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupD": {
+          "_NormalHate": 5000,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupE": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.0,
+          "_FinalAttackRate": 1.0
+        },
+        "_PropsAddHateGroupF": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 3.0,
+          "_MidAttackRate": 4.0,
+          "_WaveBossAttackRate": 4.0,
+          "_FinalAttackRate": 4.0
+        },
+        "_PlayerTargetContinueTime": 10,
+        "_HateGuidedBulletEffectiveTime": 30,
+        "_RoleBaseVital": 1200,
+        "_HyakuryuGimmickVitalData": {
+          "_NormalBossVital": {
+            "_VitalS": 200,
+            "_VitalM": 200,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          },
+          "_MidBossVital": {
+            "_VitalS": 300,
+            "_VitalM": 300,
+            "_VitalL": 100,
+            "_VitalKnockBack": 20
+          },
+          "_BigBossVital": {
+            "_VitalS": 400,
+            "_VitalM": 400,
+            "_VitalL": 100,
+            "_VitalKnockBack": 20
+          }
+        }
+      },
+      {
+        "_TargetPropsHateDataInfoList": [
+          {
+            "_Dist": 20.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 40.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 60.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 80.0,
+            "_Hate": 10.0
+          }
+        ],
+        "_PropsTargetRangeOutHate": 0.0,
+        "_PropsAddHateGroupA": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 0.5,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 3.0,
+          "_FinalAttackRate": 5.0
+        },
+        "_PropsAddHateGroupB": {
+          "_NormalHate": 5,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupC": {
+          "_NormalHate": 1,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupD": {
+          "_NormalHate": 5000,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.0,
+          "_FinalAttackRate": 1.0
+        },
+        "_PropsAddHateGroupE": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.0,
+          "_FinalAttackRate": 1.0
+        },
+        "_PropsAddHateGroupF": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.5,
+          "_FinalAttackRate": 1.5
+        },
+        "_PlayerTargetContinueTime": 15,
+        "_HateGuidedBulletEffectiveTime": 30,
+        "_RoleBaseVital": 1200,
+        "_HyakuryuGimmickVitalData": {
+          "_NormalBossVital": {
+            "_VitalS": 120,
+            "_VitalM": 120,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          },
+          "_MidBossVital": {
+            "_VitalS": 200,
+            "_VitalM": 200,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          },
+          "_BigBossVital": {
+            "_VitalS": 280,
+            "_VitalM": 280,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          }
+        }
+      },
+      {
+        "_TargetPropsHateDataInfoList": [
+          {
+            "_Dist": 20.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 40.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 60.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 80.0,
+            "_Hate": 10.0
+          }
+        ],
+        "_PropsTargetRangeOutHate": 10.0,
+        "_PropsAddHateGroupA": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 3.0,
+          "_FinalAttackRate": 5.0
+        },
+        "_PropsAddHateGroupB": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupC": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupD": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 0.5,
+          "_MidAttackRate": 0.8,
+          "_WaveBossAttackRate": 0.8,
+          "_FinalAttackRate": 0.8
+        },
+        "_PropsAddHateGroupE": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 0.5,
+          "_MidAttackRate": 0.8,
+          "_WaveBossAttackRate": 0.8,
+          "_FinalAttackRate": 0.8
+        },
+        "_PropsAddHateGroupF": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PlayerTargetContinueTime": 10,
+        "_HateGuidedBulletEffectiveTime": 30,
+        "_RoleBaseVital": 900,
+        "_HyakuryuGimmickVitalData": {
+          "_NormalBossVital": {
+            "_VitalS": 80,
+            "_VitalM": 80,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          },
+          "_MidBossVital": {
+            "_VitalS": 120,
+            "_VitalM": 120,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          },
+          "_BigBossVital": {
+            "_VitalS": 200,
+            "_VitalM": 200,
+            "_VitalL": 100,
+            "_VitalKnockBack": 10
+          }
+        }
+      },
+      {
+        "_TargetPropsHateDataInfoList": [
+          {
+            "_Dist": 20.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 40.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 60.0,
+            "_Hate": 10.0
+          },
+          {
+            "_Dist": 80.0,
+            "_Hate": 10.0
+          }
+        ],
+        "_PropsTargetRangeOutHate": 10.0,
+        "_PropsAddHateGroupA": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 2.0,
+          "_MidAttackRate": 2.0,
+          "_WaveBossAttackRate": 2.0,
+          "_FinalAttackRate": 2.0
+        },
+        "_PropsAddHateGroupB": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.5,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 1.5,
+          "_FinalAttackRate": 1.5
+        },
+        "_PropsAddHateGroupC": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.5,
+          "_MidAttackRate": 1.5,
+          "_WaveBossAttackRate": 1.5,
+          "_FinalAttackRate": 1.5
+        },
+        "_PropsAddHateGroupD": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.0,
+          "_FinalAttackRate": 1.0
+        },
+        "_PropsAddHateGroupE": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 1.0,
+          "_MidAttackRate": 1.0,
+          "_WaveBossAttackRate": 1.0,
+          "_FinalAttackRate": 1.0
+        },
+        "_PropsAddHateGroupF": {
+          "_NormalHate": 0,
+          "_AngerHate": 0,
+          "_TargetInitPoint": 0,
+          "_AttackRate": 3.0,
+          "_MidAttackRate": 3.0,
+          "_WaveBossAttackRate": 3.0,
+          "_FinalAttackRate": 3.0
+        },
+        "_PlayerTargetContinueTime": 0,
+        "_HateGuidedBulletEffectiveTime": 5,
+        "_RoleBaseVital": 10000,
+        "_HyakuryuGimmickVitalData": {
+          "_NormalBossVital": {
+            "_VitalS": 9999,
+            "_VitalM": 9999,
+            "_VitalL": 200,
+            "_VitalKnockBack": 30
+          },
+          "_MidBossVital": {
+            "_VitalS": 9999,
+            "_VitalM": 9999,
+            "_VitalL": 200,
+            "_VitalKnockBack": 30
+          },
+          "_BigBossVital": {
+            "_VitalS": -1,
+            "_VitalM": -1,
+            "_VitalL": 300,
+            "_VitalKnockBack": -1
+          }
+        }
+      }
+    ],
+    "_ShooterStayTime": 30,
+    "_SpecialRolePlayerAttackTime": 160,
+    "_SpecialRoleGimmickAttackTime": 20,
+    "_ExitEraseTime": 0,
+    "_ForceExitTime": 0,
+    "_TimeoutForceExitRestartTime": 20,
+    "_SpecialRoleAngerPointAddBeginTime": 60,
+    "_SpecialRoleTimeAddAngerPoint": 5,
+    "_SpecialRoleSpecialAttackPrepareRateCount": 3,
+    "_SpecialRoleSpecialAttackPrepareTimeRate": 0.25,
+    "_SpecialFastPlayerTarget": {
+      "_SecondPhaseFastTime": 10,
+      "_FirstFastAccelRate": 1.3,
+      "_SecondFastAccelRate": 3.0,
+      "_DamageFastPlayerTargetTime": 1.0
+    },
+    "_Em089Unique": {
+      "_ShooterTime": 60,
+      "_AttackerTime": 75
+    },
+    "_AttackTypeInfoList": [
+      {
+        "_EmType": 1,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1793,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 8,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 2,
+        "_AttackType": 2,
+        "_ArrangePosType": 1,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 1
+      },
+      {
+        "_EmType": 1794,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 3,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 3,
+        "_AttackType": 0,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4,
+        "_AttackType": 0,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 7,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1799,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 13,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 23,
+        "_AttackType": 2,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 11,
+        "_ShooterMoveType": 2
+      },
+      {
+        "_EmType": 24,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 25,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 27,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 32,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 37,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 42,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 44,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 47,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 54,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 57,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1849,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 14,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 59,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 60,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1852,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 9,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 61,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 62,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 82,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1874,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 7,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 1366,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 89,
+        "_AttackType": 2,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 2
+      },
+      {
+        "_EmType": 90,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 91,
+        "_AttackType": 2,
+        "_ArrangePosType": 1,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 1
+      },
+      {
+        "_EmType": 92,
+        "_AttackType": 0,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 93,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 94,
+        "_AttackType": 0,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 95,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 96,
+        "_AttackType": 3,
+        "_ArrangePosType": 2,
+        "_UniqueArrangeType": 10,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 97,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 98,
+        "_AttackType": 1,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 99,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 100,
+        "_AttackType": 0,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 102,
+        "_AttackType": 2,
+        "_ArrangePosType": 1,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 1
+      },
+      {
+        "_EmType": 107,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 108,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 109,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 118,
+        "_AttackType": 2,
+        "_ArrangePosType": 1,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 1
+      },
+      {
+        "_EmType": 131,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4099,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 5379,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4103,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4104,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4109,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4110,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4112,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4115,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4121,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4122,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4123,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4125,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4130,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4131,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4132,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 0,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4134,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4135,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4136,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4137,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4138,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4139,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4140,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4145,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4147,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 5427,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4186,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4187,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 5467,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      },
+      {
+        "_EmType": 4188,
+        "_AttackType": 5,
+        "_ArrangePosType": 0,
+        "_UniqueArrangeType": 1,
+        "_ShooterMoveType": 0
+      }
+    ]
+  }
+}

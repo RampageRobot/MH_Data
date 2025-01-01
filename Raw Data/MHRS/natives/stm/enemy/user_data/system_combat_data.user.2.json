@@ -1,0 +1,37 @@
+{
+  "snow.enemy.EnemyCombatSystemData": {
+    "_BossCombatPassageStayTime": 20,
+    "_OutMainRoutineTime": 20,
+    "_ZakoCombatThinkTargetTerritoryTime": 15,
+    "_BlockMoveAfterKehaiDownDistance": 15.0,
+    "_BlockMoveAfterKehaiDownDistanceSq": 225.0,
+    "_BlockMoveAfterKehaiDownValue": 4000.0,
+    "_WallTargetUnderGroundOffsetLength": 2.5,
+    "_NoFloorCheckTime": 20.0,
+    "_NoFloorSafeZoneCheckTime": 10.0,
+    "_NoFloorDieCheckTime": 10.0,
+    "_SpecialPointMoveInsuranceSec": 60.0,
+    "_NoFloorCheckXMax": 2000.0,
+    "_NoFloorCheckXMin": -2000.0,
+    "_NoFloorCheckYMax": 500.0,
+    "_NoFloorCheckYMin": -500.0,
+    "_NoFloorCheckZMax": 2000.0,
+    "_NoFloorCheckZMin": -2000.0,
+    "_RoarActionElapsedTime": 10,
+    "_KehaiRangeNonCombatModeRate": 1.0,
+    "_KehaiRangeCautionModeRate": 1.0,
+    "_KehaiRangeCombatModeRate": 1.0,
+    "_SilencerWeaponHateRate": 0.7,
+    "_PerturbationDamageHateRate": 2.0,
+    "_ChainDeathMatchAddHate": 50,
+    "_HornToneAddKehai": 10000,
+    "_LongSwordSpacingAddHate": 200,
+    "_FastForwardTimerLimitList": [
+      8,
+      5,
+      2
+    ],
+    "_CombatNaviMoveDistLimit": 100.0,
+    "_WallPointHeightLimit": 2.0
+  }
+}

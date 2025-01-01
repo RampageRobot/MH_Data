@@ -1,0 +1,45 @@
+{
+  "snow.enemy.Em057UniqueData": {
+    "_UniquePopChangeChargePoint": {
+      "_ChangeChargePointPlayerNum1": -5,
+      "_ChangeChargePointPlayerNum2": -3,
+      "_ChangeChargePointPlayerNum3": -3,
+      "_ChangeChargePointPlayerNum4": -3
+    },
+    "_UniquePopChangeChargePointCharged": {
+      "_ChangeChargePointChargedPlayerNum1": 0.03,
+      "_ChangeChargePointChargedPlayerNum2": 0.01,
+      "_ChangeChargePointChargedPlayerNum3": 0.01,
+      "_ChangeChargePointChargedPlayerNum4": 0.01
+    },
+    "_BarrierData": {
+      "LevelArray": [
+        {
+          "_Threshold": 0,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 99,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 100,
+          "_MotionSpeedRate": 1.0
+        }
+      ],
+      "_IncRateAngry": 1.0,
+      "_IncRatePoison": 1.0,
+      "_DecRateTired": 1.0,
+      "_RemainHpToCorrect": 0.0,
+      "_IncRateRemainHp": 1.0,
+      "_AdjustValueAngry": 0,
+      "InitValueLotData": [
+        {
+          "_Prob": 100,
+          "_Value": 0
+        }
+      ]
+    },
+    "_MRInitChargePoint": 50
+  }
+}

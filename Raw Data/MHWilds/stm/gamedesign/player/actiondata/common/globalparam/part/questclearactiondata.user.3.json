@@ -1,0 +1,98 @@
+{
+  "app.QuestClearActionData": {
+    "_QuestClearActionRaffle": {
+      "_ParamList": [
+        {
+          "EnumValue": "NOTE",
+          "CheckOtomo": false,
+          "CheckPorter": false,
+          "CheckSpace": false,
+          "CheckWaistWater": false,
+          "Ms001135Clear": false,
+          "Ms003210Clear": false,
+          "Rate": 5
+        },
+        {
+          "EnumValue": "OTOMO_STROKE",
+          "CheckOtomo": true,
+          "CheckPorter": false,
+          "CheckSpace": true,
+          "CheckWaistWater": true,
+          "Ms001135Clear": false,
+          "Ms003210Clear": false,
+          "Rate": 20
+        },
+        {
+          "EnumValue": "OTOMO_HOLD",
+          "CheckOtomo": true,
+          "CheckPorter": false,
+          "CheckSpace": true,
+          "CheckWaistWater": false,
+          "Ms001135Clear": false,
+          "Ms003210Clear": false,
+          "Rate": 20
+        },
+        {
+          "EnumValue": "PT_EAT",
+          "CheckOtomo": false,
+          "CheckPorter": true,
+          "CheckSpace": true,
+          "CheckWaistWater": false,
+          "Ms001135Clear": true,
+          "Ms003210Clear": false,
+          "Rate": 20
+        },
+        {
+          "EnumValue": "OTOMO_PT_EAT",
+          "CheckOtomo": true,
+          "CheckPorter": true,
+          "CheckSpace": true,
+          "CheckWaistWater": true,
+          "Ms001135Clear": false,
+          "Ms003210Clear": false,
+          "Rate": 50
+        },
+        {
+          "EnumValue": "OTOMO_PT_HOLD",
+          "CheckOtomo": true,
+          "CheckPorter": true,
+          "CheckSpace": true,
+          "CheckWaistWater": false,
+          "Ms001135Clear": true,
+          "Ms003210Clear": true,
+          "Rate": 50
+        }
+      ]
+    },
+    "_QuestClearActionRideRaffle": {
+      "_ParamList": [
+        {
+          "EnumValue": "RIDE_PT_STROKE",
+          "CheckOtomo": false,
+          "CheckPorter": true,
+          "CheckSpace": false,
+          "CheckWaistWater": false,
+          "Ms001135Clear": true,
+          "Ms003210Clear": false,
+          "Rate": 5
+        },
+        {
+          "EnumValue": "RIDE_ADVISOR",
+          "CheckOtomo": false,
+          "CheckPorter": true,
+          "CheckSpace": true,
+          "CheckWaistWater": false,
+          "Ms001135Clear": false,
+          "Ms003210Clear": false,
+          "Rate": 20
+        }
+      ]
+    },
+    "_SpaceAround": 3.0,
+    "_SpaceFront": 5.0,
+    "_WaistWaterHeight": 0.5,
+    "_AdvisorDistanceMax": 50.0,
+    "STRUCT__SpaceHeight__Min": 1.0,
+    "STRUCT__SpaceHeight__Max": 3.0
+  }
+}

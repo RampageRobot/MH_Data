@@ -1,0 +1,158 @@
+{
+  "goatree.user_data.GoalDefinition": {
+    "_SelfGuid": "87820d4c-d5cf-4f91-91b8-61d2f4a02b05",
+    "_RootGoalNameHash": {
+      "_Hash": 4175418299
+    },
+    "_ParentAssetList": [],
+    "_CustomGoalList": [],
+    "_GoalList": [
+      {
+        "_GoalNameHash": {
+          "_Hash": 3727498062
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": []
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1201667428
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "SEQUENTIAL",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": true,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [
+              {
+                "_AssetGuid": "87820d4c-d5cf-4f91-91b8-61d2f4a02b05",
+                "_GoalNameHash": {
+                  "_Hash": 1416419878
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              },
+              {
+                "_AssetGuid": "87820d4c-d5cf-4f91-91b8-61d2f4a02b05",
+                "_GoalNameHash": {
+                  "_Hash": 1895307321
+                },
+                "_JustOnce": false,
+                "_Inverse": false,
+                "_IgnoreInterrupt": false,
+                "_EvaluatorParam": {}
+              }
+            ],
+            "_InterruptGoalList": []
+          }
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_UseOtomoToolType": "SET_BOMB"
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1895307321
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          },
+          "_IsWaitActionEnd": false,
+          "_IgnoreSuspensionGoal": false,
+          "_IsIgnoreForceInterruptActionGoalEnd": true,
+          "_IsEnableActionEnd": false,
+          "_IsEnableInterruptGoalEnd": false,
+          "_IsReserveAIState": false,
+          "_IsEnableCancel": false
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_UseOtomoToolType": "SET_BOMB"
+            }
+          },
+          {
+            "_Param": {
+              "_ActionID": "645bb2af-5f55-4dd5-b1b0-abd9e4c09f96",
+              "_AppendDataType": 0
+            }
+          }
+        ]
+      },
+      {
+        "_GoalNameHash": {
+          "_Hash": 1416419878
+        },
+        "_BuildType": 0,
+        "_SubGoalSelectType": "MOST_DESIRABILITY",
+        "_EndlessLoop": false,
+        "_ParallelWhenInterrupted": false,
+        "_UseableToReferent": false,
+        "_OverridableToReferent": false,
+        "_GoalParam": {
+          "_SubGoalWrapper": {
+            "_SubGoalList": [],
+            "_InterruptGoalList": []
+          },
+          "_IsWaitActionEnd": false,
+          "_IgnoreSuspensionGoal": false,
+          "_IsIgnoreForceInterruptActionGoalEnd": false,
+          "_IsEnableActionEnd": false,
+          "_IsEnableInterruptGoalEnd": false,
+          "_IsReserveAIState": false,
+          "_IsEnableCancel": false
+        },
+        "_GoalEffectParams": [
+          {
+            "_Param": {
+              "_OffsetType": 0,
+              "_CalcType": 0,
+              "_MoveInfo": {
+                "_SkipEndMotion": true,
+                "_EnableStopSpeedDown": false,
+                "_EnableFreeActMovement": false,
+                "_IsSpeedAdjust": false,
+                "_IsRotAdjust": true,
+                "_IsUseRandomTarget": false,
+                "_IsSelectMoveStopPoint": false,
+                "_ArriveTargetType": 2,
+                "_OptionType": 0,
+                "_ExMoveType": -1
+              },
+              "_IsNavigationUpdateInterval": false,
+              "_IsValidPlSetItemPosDist": 5.0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

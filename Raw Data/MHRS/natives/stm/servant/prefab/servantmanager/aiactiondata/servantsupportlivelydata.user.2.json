@@ -1,0 +1,391 @@
+{
+  "snow.ai.ServantSupportLivelyData": {
+    "_WalkAroundAmount": 3,
+    "_CoolTime": [
+      2,
+      8
+    ],
+    "_BreakRangeWithMaster": 11,
+    "_WalkAroundBackWaitPositionDistance": 6.0,
+    "_WalkAroundMinEvaluationRate": 0.2,
+    "_Em135NGType": 1,
+    "_Em058NGType": 1,
+    "_TimeEnableActiveStates": {
+      "_WalkAroundEnableStates": [
+        2
+      ],
+      "_ItemUseEnableStates": [
+        2,
+        6
+      ],
+      "_ChatActionEnableStates": [
+        2,
+        6
+      ],
+      "_ServantWaitEnableStates": [
+        2
+      ],
+      "_CookingEnableStates": [
+        2,
+        6
+      ]
+    },
+    "_ServantSettings": [
+      {
+        "_ServantId": 1,
+        "_PersonalCoolTime": 4,
+        "_WeightDontAct": 10,
+        "_WeightWalkAround": 70,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 10
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 49,
+            "_Weight": 20
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 3,
+            "_Weight": 120
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      },
+      {
+        "_ServantId": 2,
+        "_PersonalCoolTime": 8,
+        "_WeightDontAct": 50,
+        "_WeightWalkAround": 30,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 5
+          },
+          {
+            "_ItemId": 68157911,
+            "_Weight": 5
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 49,
+            "_Weight": 15
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 7,
+            "_Weight": 120
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      },
+      {
+        "_ServantId": 3,
+        "_PersonalCoolTime": 2,
+        "_WeightDontAct": 5,
+        "_WeightWalkAround": 100,
+        "_ItemUse": [],
+        "_ChatAction": [],
+        "_ServantChatAction": [
+          {
+            "_ChatAction": 0,
+            "_Weight": 10
+          }
+        ],
+        "_ServantWait": [
+          {
+            "_ChatAction": 4,
+            "_Weight": 80
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 3,
+            "_Weight": 10
+          }
+        ]
+      },
+      {
+        "_ServantId": 4,
+        "_PersonalCoolTime": 8,
+        "_WeightDontAct": 50,
+        "_WeightWalkAround": 30,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 5
+          },
+          {
+            "_ItemId": 68157909,
+            "_Weight": 5
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 49,
+            "_Weight": 25
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 4,
+            "_Weight": 100
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      },
+      {
+        "_ServantId": 5,
+        "_PersonalCoolTime": 4,
+        "_WeightDontAct": 10,
+        "_WeightWalkAround": 70,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 5
+          },
+          {
+            "_ItemId": 68157912,
+            "_Weight": 5
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 14,
+            "_Weight": 100
+          },
+          {
+            "_ChatAction": 47,
+            "_Weight": 10
+          },
+          {
+            "_ChatAction": 48,
+            "_Weight": 10
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 3,
+            "_Weight": 100
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 3,
+            "_Weight": 10
+          }
+        ]
+      },
+      {
+        "_ServantId": 6,
+        "_PersonalCoolTime": 2,
+        "_WeightDontAct": 5,
+        "_WeightWalkAround": 100,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 8
+          },
+          {
+            "_ItemId": 68157913,
+            "_Weight": 2
+          }
+        ],
+        "_ChatAction": [],
+        "_ServantChatAction": [
+          {
+            "_ChatAction": 0,
+            "_Weight": 10
+          }
+        ],
+        "_ServantWait": [
+          {
+            "_ChatAction": 3,
+            "_Weight": 80
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      },
+      {
+        "_ServantId": 7,
+        "_PersonalCoolTime": 8,
+        "_WeightDontAct": 50,
+        "_WeightWalkAround": 30,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157448,
+            "_Weight": 10
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 13,
+            "_Weight": 5
+          },
+          {
+            "_ChatAction": 19,
+            "_Weight": 10
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 4,
+            "_Weight": 120
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 2,
+            "_Weight": 10
+          }
+        ]
+      },
+      {
+        "_ServantId": 8,
+        "_PersonalCoolTime": 2,
+        "_WeightDontAct": 5,
+        "_WeightWalkAround": 100,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157448,
+            "_Weight": 10
+          }
+        ],
+        "_ChatAction": [],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 4,
+            "_Weight": 80
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 2,
+            "_Weight": 10
+          }
+        ]
+      },
+      {
+        "_ServantId": 9,
+        "_PersonalCoolTime": 8,
+        "_WeightDontAct": 50,
+        "_WeightWalkAround": 30,
+        "_ItemUse": [],
+        "_ChatAction": [
+          {
+            "_ChatAction": 49,
+            "_Weight": 10
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 4,
+            "_Weight": 120
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      },
+      {
+        "_ServantId": 10,
+        "_PersonalCoolTime": 4,
+        "_WeightDontAct": 10,
+        "_WeightWalkAround": 70,
+        "_ItemUse": [
+          {
+            "_ItemId": 68157450,
+            "_Weight": 10
+          }
+        ],
+        "_ChatAction": [
+          {
+            "_ChatAction": 18,
+            "_Weight": 10
+          },
+          {
+            "_ChatAction": 19,
+            "_Weight": 10
+          },
+          {
+            "_ChatAction": 3,
+            "_Weight": 10
+          }
+        ],
+        "_ServantChatAction": [],
+        "_ServantWait": [
+          {
+            "_ChatAction": 3,
+            "_Weight": 100
+          }
+        ],
+        "_Cooking": [
+          {
+            "_CookingResult": 1,
+            "_Weight": 2
+          },
+          {
+            "_CookingResult": 2,
+            "_Weight": 8
+          }
+        ]
+      }
+    ]
+  }
+}

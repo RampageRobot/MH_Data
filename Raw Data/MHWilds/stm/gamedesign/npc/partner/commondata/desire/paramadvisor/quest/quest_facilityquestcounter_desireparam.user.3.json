@@ -1,0 +1,44 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1084227584,
+          0
+        ],
+        "_Cancel": [
+          1084227584,
+          0
+        ],
+        "_Group": [
+          1084227584,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "_Range": 8.0,
+            "_CameraFrontDeg": 35.0,
+            "_CameraToPlDeg": 70.0,
+            "_CameraToPlIgnoreRange": 2.0
+          },
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": [
+        {
+          "_Param": {
+            "_Range": 10.0,
+            "_CameraFrontDeg": 40.0,
+            "_CameraToPlDeg": 80.0,
+            "_CameraToPlIgnoreRange": 2.2
+          },
+          "_Inverse": false
+        }
+      ]
+    },
+    "_OverwriteKindParams": []
+  }
+}

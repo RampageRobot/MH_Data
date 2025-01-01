@@ -1,0 +1,106 @@
+{
+  "app.user_data.EmParamVisual": {
+    "_IsBossZakoParam": true,
+    "_BlendShapeType": 2,
+    "_EyeBlinkParam": {
+      "_BlinkType": 0,
+      "_MotionSetIDOneShot": 24576,
+      "_MotionSetIDClose": 24577,
+      "_MotionSetIDCloseLoop": 24578,
+      "_MotionSetIDOpen": 24579,
+      "_BlinkSpanMin": 2.0,
+      "_BlinkSpanMax": 4.0,
+      "_FastBlinkRate": 20
+    },
+    "_FacialParam": {
+      "_MotionSetIDLife": 4294967295,
+      "_MotionSetIDCombatBegin": 4294967295,
+      "_MotionSetIDCombatLoop": 4294967295,
+      "_MotionSetIDCombatEnd": 4294967295
+    },
+    "_PredictionIKParam": {},
+    "_GrassPressParam": {
+      "_CollisionType": 1,
+      "_JointArray": [],
+      "_FootSizeType": -1,
+      "_FootSize": 3.0,
+      "_FootPowerType": -1,
+      "_FootPower": 0.8
+    },
+    "_SnowPressParam": {
+      "_CollisionType": 2,
+      "_Extent": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "_TextureIndex": 0,
+      "_JointArray": [
+        {
+          "_Hash": 935285574,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 1601026730,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 2890959283,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 3156905843,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 1936325518,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 791560683,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 868238282,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 1165652456,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        },
+        {
+          "_Hash": 0,
+          "_RequestOBB": "NOT IMPLEMENTED",
+          "_TextureIndex": 0
+        }
+      ]
+    },
+    "_TurnFootParam": {
+      "_footLockOffDistanceXZ": 2.0,
+      "_footLockOnDistanceXZ": 1.0,
+      "_footLockOffDistanceX": 0.3
+    },
+    "_RotateTwoFootsParam": {
+      "_ChangeRotationBorderAngle": 45.0,
+      "_ChangeStopBorderAngle": 30.0,
+      "_RotationLerpFrame": 10.0,
+      "_StopRotationLerpFrame": 10.0,
+      "_ChangeFootRollLimit": 1.0,
+      "_ChangeHealRollLimit": 1.0
+    },
+    "_SandSinkParam": {
+      "_SandSinkSettingPattern": 2
+    },
+    "_FieldPitfallParam": {
+      "_ConstJointNameHash": 1549972489
+    }
+  }
+}

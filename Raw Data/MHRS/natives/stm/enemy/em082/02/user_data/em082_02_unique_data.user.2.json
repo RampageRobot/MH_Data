@@ -1,0 +1,37 @@
+{
+  "snow.enemy.Em082UniqueData": {
+    "_SlipLoopEffectOnDeltaSecAddPosLengthMin": 0.05,
+    "_MultiPartsWetHealRate": 0.5,
+    "_BarrierData": {
+      "LevelArray": [
+        {
+          "_Threshold": 0,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 99,
+          "_MotionSpeedRate": 1.0
+        },
+        {
+          "_Threshold": 100,
+          "_MotionSpeedRate": 1.0
+        }
+      ],
+      "_IncRateAngry": 1.0,
+      "_IncRatePoison": 1.0,
+      "_DecRateTired": 1.0,
+      "_RemainHpToCorrect": 0.0,
+      "_IncRateRemainHp": 1.0,
+      "_AdjustValueAngry": 0,
+      "InitValueLotData": [
+        {
+          "_Prob": 100,
+          "_Value": 50
+        }
+      ]
+    },
+    "_ChargeIntervalSec": 5.0,
+    "_ChargeWetPointOnGround": 20,
+    "_ChargeWetPointOnWater": 50
+  }
+}

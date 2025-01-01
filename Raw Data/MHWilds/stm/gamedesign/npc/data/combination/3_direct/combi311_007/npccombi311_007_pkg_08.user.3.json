@@ -1,0 +1,67 @@
+{
+  "app.user_data.NpcCombinationPackage": {
+    "_ParamHolder": {
+      "_Value": {
+        "_Fsm": "GameDesign/NPC/Data/Combination/3_Direct/Combi311_007/Combi311_007_fsm.fsmv2\u0000",
+        "_DisableTalk": true,
+        "_CenterData": {
+          "_Pos": [
+            -851.8406,
+            10.0272,
+            1016.372
+          ],
+          "_DegY": 65
+        },
+        "_Range": 2.5,
+        "_DestType": 1,
+        "_Situations": [
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "_DegY": 0
+              },
+              "_NpcEmId": "EM1151_00_1_1108",
+              "_VisualChecker": {
+                "STRUCT__IsChild__HasValue": false,
+                "STRUCT__IsChild__Value": false
+              },
+              "_IsTerminateAction": false
+            }
+          },
+          {
+            "_Character": {
+              "_DestData": {
+                "_Pos": [
+                  1.10139,
+                  0.0,
+                  0.04254
+                ],
+                "_DegY": -90
+              },
+              "_MotionPack_Base": {},
+              "_MotionPack_Sub": {},
+              "_IsRestartFsm": true,
+              "_IsTerminateAction": false,
+              "_VisualChecker": {
+                "_SkeletonType": "HUMAN_ADL",
+                "_Gender": 1,
+                "_VisualType": {
+                  "_Species": 0,
+                  "_ModelKindFixedID": 3101409
+                },
+                "_ID": "INVALID"
+              }
+            }
+          }
+        ],
+        "_LookAtDestinations": [],
+        "_IsBind": true
+      }
+    }
+  }
+}

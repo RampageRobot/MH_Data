@@ -1,0 +1,140 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          0,
+          0
+        ],
+        "_Cancel": [
+          0,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": [
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1132920832,
+              1114636288
+            ],
+            "_Cancel": [
+              1106247680,
+              1106247680
+            ],
+            "_Group": [
+              1119092736,
+              1119092736
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {},
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_ItemID": "ITEM_0014"
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_AmmoType": "FLASH"
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Condition": 18,
+                "_ResistLevel": 1
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Condition": 18
+              },
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "ItemType": 1
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            },
+            {
+              "_Param": {},
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1077936128,
+                  1108606976
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  1084227584,
+                  1101004800
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_TargetType": 1,
+                "_IsDungTarget": false,
+                "_TargetEnemyRange": 0.0,
+                "_SlingerTargetRange": 0.0
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {},
+              "_Inverse": true
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_IsWeakAmmo": false,
+                "_AmmoType": "FLASH"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "UTILITY_ITEM",
+        "_KindLv": "LV2"
+      }
+    ]
+  }
+}

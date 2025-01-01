@@ -1,0 +1,348 @@
+{
+  "snow.enemy.SystemMarionetteUserData": {
+    "_BindWireJointNameHash": 3903073785,
+    "_wireTotalNumParam": [
+      {
+        "_wireIndex": 1,
+        "_wireTimer": 0.0
+      },
+      {
+        "_wireIndex": 2,
+        "_wireTimer": 3.0
+      },
+      {
+        "_wireIndex": 3,
+        "_wireTimer": 5.0
+      },
+      {
+        "_wireIndex": 4,
+        "_wireTimer": 7.0
+      }
+    ],
+    "_otomoWireTotalNumParam": {
+      "_wireIndex": 0,
+      "_wireTimer": 25.0
+    },
+    "_propsWireTotalNumParam": [
+      {
+        "_wireIndex": 1,
+        "_wireTimer": 3.0
+      },
+      {
+        "_wireIndex": 2,
+        "_wireTimer": 5.0
+      },
+      {
+        "_wireIndex": 3,
+        "_wireTimer": 8.0
+      },
+      {
+        "_wireIndex": 4,
+        "_wireTimer": 12.0
+      }
+    ],
+    "_wireStrengthParam": [
+      {
+        "_wireIndex": 1,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 12.0,
+        "_baseLengthMax": 18.0
+      },
+      {
+        "_wireIndex": 2,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 10.0,
+        "_baseLengthMax": 16.0
+      },
+      {
+        "_wireIndex": 3,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      },
+      {
+        "_wireIndex": 4,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      }
+    ],
+    "_otomoWireStrengthParam": {
+      "_wireIndex": 0,
+      "_baseStrength": 1.0,
+      "_baseLengthMin": 8.0,
+      "_baseLengthMax": 14.0
+    },
+    "_otomoWireStartPullAdjustParam": {
+      "_EnableFrame": 60.0,
+      "_DisableDist": 15.0,
+      "_PullDist": 0.5
+    },
+    "_propsWireStrengthParam": [
+      {
+        "_wireIndex": 1,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 12.0,
+        "_baseLengthMax": 18.0
+      },
+      {
+        "_wireIndex": 2,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 10.0,
+        "_baseLengthMax": 16.0
+      },
+      {
+        "_wireIndex": 3,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      },
+      {
+        "_wireIndex": 4,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      }
+    ],
+    "_isPropsWireDamageReaction": true,
+    "_propsBindWireMaxNum": 4,
+    "_WireGaugeRecoverTimeSec": 0.5,
+    "_marionetteWireGaugeParam": {
+      "_MarionetteGaugePointMax": 3000.0,
+      "_BaseSpendMarionetteGaugePointPerSec": 30.0,
+      "_WeakAttackHitRegainMarionetteGaugePoint": 50.0,
+      "_StrongAttackHitRegainMarionetteGaugePoint": 30.0,
+      "_DodgeHitRegainMarionetteGaugePoint": 0.0
+    },
+    "_ZakoHitMarionetteGaugePointAddRate": 0.0,
+    "_FinalAttackLimitTime": 10.0,
+    "_ZakoHitFinalAttackPointAddRate": 0.1,
+    "_FinalAttackPointAddByTargetEnemyDamageMaxHpRate": 0.03,
+    "_FinalAttackPointAddRateByArroundEnemyDamageInHyakuryu": 1.0,
+    "_FinalAttackMoveEndTime": 10.0,
+    "_IsCancelPreInputOn": true,
+    "_CancelPreInputLastSec": 0.4,
+    "_FreeRunTargetPosUpdateTimeFrame": 10.0,
+    "_FreeRunDashTransitionFrame": 90.0,
+    "_MarioDamageTypeStockValue": 1000.0,
+    "_MarioCoolTime": 300.0,
+    "_MarionetteStartDamageData": {
+      "_DefaultStockData": {
+        "_DefaultLimit": 500.0,
+        "_AddLimit": 2000.0,
+        "_MaxLimit": 6100.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_AttackByMarionetteStockData": {
+        "_DefaultLimit": 0.0,
+        "_AddLimit": 0.0,
+        "_MaxLimit": 0.0,
+        "_SubValue": 0.0,
+        "_SubInterval": 0.0
+      },
+      "_MaxStock": 0.0,
+      "_ActiveTime": 15.0,
+      "_SubActiveTime": 0.0,
+      "_MinActiveTime": 0.0,
+      "_AddTiredTime": 0.0,
+      "_DamageInterval": 0.0,
+      "_Damage": 0.0,
+      "_UseData": 1,
+      "_NoraFirstLimit": 65.0
+    },
+    "_RideOnPopRadius": 15.0,
+    "_StartWaitLoopSubTimeMaxHpRate": 0.02,
+    "_NearAttackSATime": 0.0,
+    "_FarAttackSATime": 50.0,
+    "_DodgeSATime": 60.0,
+    "_QuickDodgeSATime": 60.0,
+    "_NearAttackCancelForbiddenTime": 60.0,
+    "_FarAttackCancelForbiddenTime": 60.0,
+    "_DamageCancelForbiddenTime": 60.0,
+    "_MarionetteDamageReduceWireTime": 5.0,
+    "_MarionetteDodgeBlockingTimerM": 50.0,
+    "_MarionetteDodgeBlockingTimerS": 0.0,
+    "_MarionetteDodgeBlockingAddFinalAttackGaugePointM": 10,
+    "_MarionetteDodgeBlockingAddFinalAttackGaugePointS": 10,
+    "_DodgeBlockingHitStopFrameM": 14.0,
+    "_DodgeBlockingHitStopFrameS": 0.0,
+    "_DodgeBlockingDamageRateM": 0.005,
+    "_DodgeBlockingDamageRateS": 0.005,
+    "_DodgeBlockingDamageMotSpeedRateS": 0.8,
+    "_DodgeBlockingDamageMotSpeedRateM": 0.8,
+    "_GetupInvicibleTimeM": 150.0,
+    "_GetupInvicibleTimeS": 150.0,
+    "_FrindlyFireDamageBorder": 50.0,
+    "_FrindlyFireGaugeDamage": 9999,
+    "_FriendlyDamageRate": 0.1,
+    "_ShootWallHitTimeS": 12.0,
+    "_DashShootWallHitTimeS": 12.0,
+    "_ShootWallHitDamageRateList": [
+      0.01,
+      0.011,
+      0.012,
+      0.013
+    ],
+    "_ShootWallHitDamageAddRateDash": 0.0005,
+    "_ShootWallHitDamageAddRateGoodTiming": 0.0005,
+    "_ShootEnemyHitDamageRate": 1.0,
+    "_ChallengeStartUseWireGaugeNum": 1,
+    "_MaxChallengeNum": 4,
+    "_FinishShootChallengeFreeRunDashTransitionFrame": 90.0,
+    "_LastChallengeInputEnableTimeFrame": 60.0,
+    "_ChallengeCreateWireNumList": [
+      2,
+      3,
+      4,
+      4,
+      4
+    ],
+    "_ShootDownTimeSecList": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      6.0
+    ],
+    "_ChallengeStartInputWaitMotSpeedList": [
+      1.2,
+      1.4,
+      1.4,
+      1.4
+    ],
+    "_FinishShootChallengeFreeCameraTransitionFrame": 100.0,
+    "DropItemPercentage": 100,
+    "DropItemMaxNum": 3,
+    "DropItemModelType": 0,
+    "_MarionetteEnemyTargetContinueTimeSec": 60.0,
+    "_MarionetteEnemyTargetCoolTimeSec": 60.0,
+    "_AttackHitStopInfo": [
+      {
+        "_HitStopFrame": 6,
+        "_BorderMarioDamageLBottom": 1,
+        "_BorderMarioDamageLTop": 5
+      },
+      {
+        "_HitStopFrame": 8,
+        "_BorderMarioDamageLBottom": 6,
+        "_BorderMarioDamageLTop": 20
+      },
+      {
+        "_HitStopFrame": 12,
+        "_BorderMarioDamageLBottom": 21,
+        "_BorderMarioDamageLTop": 100
+      }
+    ],
+    "_MarionetteYarareDamageBorder": 20,
+    "_MarionetteGaugeDamage": 500,
+    "_AttackPartsVitalAdjustRate": 1.0,
+    "_MarionetteLCoolTimeFrame": 30,
+    "_IgnoreMarionetteRideOnOptionDamageRate": 1.0,
+    "_SoloTargetOfs": [
+      0.0,
+      0.0,
+      20.0
+    ],
+    "_AttackAdjustInfo": {
+      "_WeakAttackInfo": {
+        "_Front": 1.0,
+        "_Back": 1.0,
+        "_Left": 1.0,
+        "_Right": 1.0,
+        "_Neutral": 1.0
+      },
+      "_StrongAttackInfo": {
+        "_Front": 1.0,
+        "_Back": 1.0,
+        "_Left": 1.0,
+        "_Right": 1.0,
+        "_Neutral": 1.0
+      },
+      "_FinalAttackRate": 1.0
+    },
+    "_ComboAfterMotInterpolateAddFrame": 10,
+    "<ModePower>k__BackingField": {
+      "<AttackModeRate>k__BackingField": {
+        "<AttackRate>k__BackingField": {
+          "<Weak>k__BackingField": 1.0,
+          "<Strong>k__BackingField": 1.0,
+          "<Final>k__BackingField": 1.8,
+          "<Shoot>k__BackingField": 1.0
+        },
+        "<PartsAttackRate>k__BackingField": {
+          "<Weak>k__BackingField": 1.0,
+          "<Strong>k__BackingField": 1.0,
+          "<Final>k__BackingField": 1.0,
+          "<Shoot>k__BackingField": 1.0
+        }
+      }
+    },
+    "<ModeReward>k__BackingField": {
+      "<AttackModeRate>k__BackingField": {
+        "<AttackRate>k__BackingField": {
+          "<Weak>k__BackingField": 1.0,
+          "<Strong>k__BackingField": 1.0,
+          "<Final>k__BackingField": 1.0,
+          "<Shoot>k__BackingField": 1.0
+        },
+        "<PartsAttackRate>k__BackingField": {
+          "<Weak>k__BackingField": 1.0,
+          "<Strong>k__BackingField": 1.0,
+          "<Final>k__BackingField": 1.0,
+          "<Shoot>k__BackingField": 1.0
+        }
+      },
+      "<DropItemMaxNum>k__BackingField": 6,
+      "<MaxWallHitDropItemNum>k__BackingField": 10,
+      "<WallhitDropItemMax>k__BackingField": 0,
+      "<WallHitDropItemCont>k__BackingField": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "<OtomoBindWireMaxNum>k__BackingField": 3,
+    "<OtomoBindWireSecondNum>k__BackingField": 2,
+    "<OtomoBindWireTotalNumParamList>k__BackingField": [
+      {
+        "_wireIndex": 1,
+        "_wireTimer": 0.0
+      },
+      {
+        "_wireIndex": 2,
+        "_wireTimer": 3.0
+      },
+      {
+        "_wireIndex": 3,
+        "_wireTimer": 5.0
+      }
+    ],
+    "<OtomoBindWireStrengthParamList>k__BackingField": [
+      {
+        "_wireIndex": 1,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 12.0,
+        "_baseLengthMax": 18.0
+      },
+      {
+        "_wireIndex": 2,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 10.0,
+        "_baseLengthMax": 16.0
+      },
+      {
+        "_wireIndex": 3,
+        "_baseStrength": 1.0,
+        "_baseLengthMin": 8.0,
+        "_baseLengthMax": 12.0
+      }
+    ],
+    "<TwinMarionetteStartWaitTime>k__BackingField": 25.0,
+    "<TwinMarionetteFinalAttackPointAddRate>k__BackingField": 0.75,
+    "<TwinMarionetteGaugePointSubRate>k__BackingField": 0.5,
+    "<DelaySarvantTwinMarionetteSec>k__BackingField": 0.1,
+    "<TwinMarionetteFinalAttackGuideDelaySec>k__BackingField": 8.5
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "app.user_data.NpcAITableActionData": {
+    "_ConditionParams": [
+      {
+        "_Param": {
+          "WallAction": 3
+        },
+        "_Inverse": false,
+        "_IsContinue": false
+      },
+      {
+        "_Param": {
+          "_CheckVertical": 2,
+          "_Dist": 0.0,
+          "_EnableLinkRange": 5.0
+        },
+        "_Inverse": false,
+        "_IsContinue": false
+      }
+    ],
+    "_ActionSetting": {
+      "_ForceInterrupt": false,
+      "_TableEnd": false
+    },
+    "_Param": {
+      "_Param": {
+        "_EffectHolder": {
+          "_Param": {
+            "_SpeedLv": "INVALID",
+            "_UseExternalSpeed": false,
+            "_StickDir": 0,
+            "MoveDir": 0,
+            "ClimbAction": 2,
+            "DelayTime": 0.5
+          }
+        }
+      }
+    }
+  }
+}

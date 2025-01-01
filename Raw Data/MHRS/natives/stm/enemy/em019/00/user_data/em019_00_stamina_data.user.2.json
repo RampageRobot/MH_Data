@@ -1,0 +1,85 @@
+{
+  "snow.enemy.EnemyStaminaData": {
+    "_motRate": 0.8,
+    "_tiredSec": 60.0,
+    "_hyakuryuTiredSec": 0.0,
+    "_mapNikuEatSec": 20.0,
+    "_MouthToNullDistance": 4.0,
+    "_InCombatMapMeatEatFlag": false,
+    "_dataInfo": [
+      {
+        "_recovStartPoint": 20.0,
+        "_recovEndPoint": 80.0,
+        "_stPointArray": [
+          {
+            "_percent": 100,
+            "_point": 1000
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 20.0,
+        "_recovEndPoint": 80.0,
+        "_stPointArray": [
+          {
+            "_percent": 100,
+            "_point": 1000
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 100,
+            "_point": 700
+          }
+        ]
+      },
+      {
+        "_recovStartPoint": 0.0,
+        "_recovEndPoint": 100.0,
+        "_stPointArray": [
+          {
+            "_percent": 55,
+            "_point": 800
+          },
+          {
+            "_percent": 45,
+            "_point": 1000
+          }
+        ]
+      }
+    ],
+    "_MapNikuList": [
+      {
+        "_Stamina": 0.0,
+        "_Probability": 30.0
+      }
+    ],
+    "_IsEnableSetMeatEat": false,
+    "_SetMeatEatSec": 15.0,
+    "_SetMeatConditionSec": 5.0,
+    "_SetMeatRecovStartPoint": 30.0,
+    "_SetMeatRecovEndPoint": 70.0,
+    "_SetMeatNormalList": [
+      {
+        "_StaminaRate": 50.0,
+        "_CheckTime": 15.0,
+        "_Distance": 60.0,
+        "_Rate": 100.0,
+        "_IsAnySameBlockCheck": false
+      }
+    ],
+    "_SetMeatCombatList": [],
+    "_PredatorDataInfo": {
+      "_IsPredator": 0,
+      "_ActionStance": 0,
+      "_EnableRadius": 400.0,
+      "_EmTypes": [
+        0
+      ]
+    }
+  }
+}

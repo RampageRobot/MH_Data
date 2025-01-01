@@ -1,0 +1,33 @@
+{
+  "snow.WwiseCullingTargetSettingsData": {
+    "_ObjectType": 2,
+    "_ContainerNoCulling": false,
+    "_Weight": 2700,
+    "_AngerWeight": 3000,
+    "_ContainerTurnOffByNoiceness": 3500,
+    "_ContainerTurnOffByDistance": 90.0,
+    "_ContainerToReturnFrame": 10,
+    "_TrackCullingInfo": [
+      {
+        "_CullingTrackType": 1,
+        "_ForceStopNoiceness": 15000.0,
+        "_Noiceness": 3500,
+        "_Distance": 70.0,
+        "_DistanceInBattle": 50.0,
+        "_ForceStopNoicenessInExcite": 10000.0,
+        "_DistanceInExcite": 20.0,
+        "_DisableMaster": false
+      },
+      {
+        "_CullingTrackType": 0,
+        "_ForceStopNoiceness": 10000.0,
+        "_Noiceness": 3500,
+        "_Distance": 30.0,
+        "_DistanceInBattle": 20.0,
+        "_ForceStopNoicenessInExcite": 4500.0,
+        "_DistanceInExcite": 10.0,
+        "_DisableMaster": false
+      }
+    ]
+  }
+}

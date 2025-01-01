@@ -1,0 +1,473 @@
+{
+  "ace.btable.user_data.BTableOrderList": {
+    "_OperatorFactories": [
+      {
+        "_OrderType": "app.btable.EmCommonOperator.cEnemyOperatorRandom\u0000",
+        "_ArgumentType": "ace.btable.cOperatorArgumentRandom\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonOperator.cOperatorElseRandom\u0000",
+        "_ArgumentType": "ace.btable.cOperatorArgumentRandom\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonOperator.cOperatorRandomEnd\u0000",
+        "_ArgumentType": "ace.btable.cOperatorArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonOperator.cOperatorUpdatePrevTableIndex\u0000",
+        "_ArgumentType": "ace.btable.cOperatorArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      }
+    ],
+    "_CommandFactories": [
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cRequestAction\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cRequestActionSync\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cRequestSelectedAction\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cRequestSelectedActionArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cActionSwitch\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cActionSwitchArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cActionSwitchCase\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDest\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetDestArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckDistance\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckDistanceArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAngle\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckAngleArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckSelfType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckSelfTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckTargetType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckTargetTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckSelfStatus\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckStatusArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cCheckStatusStandStateArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckTargetStatus\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckStatusArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cCheckStatusStandStateArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMovePointRelay\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckIsAreaMove\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMoveIncludeFixedRoute\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMoveIsInFixedRoute\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMoveInFixedRoute\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckMoveOnFixedRoute\u0000",
+        "_ArgumentType": "\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMoveFixedRouteAttr\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckAreaMoveFixedRouteAttrArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAreaMoveFixedRouteActionPoint\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckAreaMoveFixedRouteActionPointArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cEntranceEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEntranceTargetArrival\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEscapeCause\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckEscapeCauseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckHoldPrey\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckHoldingPrey\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cReadyPredatorPrey\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckCurrentActionInfo\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckCurrentActionInfoArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetSkipActionTbl\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetSkipActionTblArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckUniqueLeveledValueMax\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectUniqueLeveledValueCategoryArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cArgSetting_UniqueLeveledValueCategory\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckUniqueLeveledValueLevel\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckUniqueLeveledValueLevelArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cArgSetting_UniqueLeveledValueCategory\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLeader\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckRidingParts\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cRidePartsSelectArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cRidePartsSelectArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckReEscape\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckHeight\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckHeightArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cCheckHeightArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckStrollPointArrive\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckStrollPointOptionTag\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckStrollTagArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cRequestActionDesireRecover\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectActionDesireRecoverArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckOccludedToDest\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLifeActType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckLifeActArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cFinishLifeAct\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckLifeActArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLifeActPointArrive\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLifeActPointRelay\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestMoveWallStart\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetDestMoveWallStartArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestMoveWallPoint\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetDestMoveWallPointArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckMoveWallStayPoint\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckMoveWallStayPointArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestMoveWallNext\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEscapePanic\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestMoveFlyRoute\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetDestFlyRouteArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestMoveFlyRouteNextPoint\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckInAttackArea\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckBreakParts\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSelectBreakPartsArg\u0000",
+        "_ArgumentSettingType": "app.btable.EmCommonCommand.cPartsArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckOccludedToDestWithAction\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckOccludedToDestWithActionArg\u0000",
+        "_ArgumentSettingType": "app.btable.AppBTableUtil.cSelectActionArgSetting\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLeadChasePhase\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckLeadChasePhaseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckCanDung\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckStateSignTyoe\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckStateSignTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLifeActNeedTurn\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckLifeActAngleArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckUnfairRoutineActive\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEnvironmentType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckEnvironmentTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEnvironmentTimeZone\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckEnvironmentTimeZoneArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckDestinationRelation\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckDestinationRelationArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckPredatorHoldComplete\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckObstacleClimbWallDive\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckTemperatureType\u0000",
+        "_ArgumentType": "app.btable.cCheckTemperatureTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckObstacleType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckObstacleTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckObstacleStepClimb\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckDepletionReadyEnd\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckDestOffset\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckNearTargetEnergyCrystal\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckNearTargetEnergyCrystalArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cPredatorTargetHasNotPredationPoint\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckPointAttribute\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckPointAttributeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckAlone\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckGrassPoint\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckGrassPointArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckCombatEmInvade\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckNearSelfEnergyCrystal\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckNearSelfEnergyCrystalArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cApplyNoCancelNoDamage\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cApplyNoCancel\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckGimmickReactionType\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckGimmickReactionTypeArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetCrackAreaMove\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetCrackAreaMoveArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetCrackExit\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cSetCrackAreaMoveArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetDestCocoon\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckTargetCombatEmVital\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckTargetCombatEmVitalArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckLimeStonePoolInArea\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cIsEnablePredatorTakeOut\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckObstacleClimbHeight\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cSetObstacleClimbDestForRise\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckEatDistance\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckEatDistanceArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckRise\u0000",
+        "_ArgumentType": "app.btable.EmCommonCommand.cCheckRiseArg\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cRequestDesireRecover\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      },
+      {
+        "_OrderType": "app.btable.EmCommonCommand.cCheckNoRequestAction\u0000",
+        "_ArgumentType": "ace.btable.cCommandArgumentNone\u0000",
+        "_ArgumentSettingType": "ace.btable.cArgumentSettingNone\u0000"
+      }
+    ]
+  }
+}

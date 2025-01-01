@@ -1,0 +1,85 @@
+{
+  "snow.sensor.PerceptionFollowWarpCountData": {
+    "_Follow": {
+      "_PerceptionFollowWarpFlag": 1,
+      "_StartWarpCountRangePL": 60.0,
+      "_StartWarpCountRangeNavi": 80.0,
+      "_StartWarpCountRangeEMHeight": 5.0,
+      "_WarpTime": 6.0
+    },
+    "_Combat": {
+      "_PerceptionFollowWarpFlag": 2,
+      "_StartWarpCountRangePL": 60.0,
+      "_StartWarpCountRangeNavi": 9999.0,
+      "_StartWarpCountRangeEMHeight": 10.0,
+      "_WarpTime": 3.0
+    },
+    "_Emergency": {
+      "_WallRunFailureTimeSec": 0.3,
+      "_TsutaClimbFailureTimeSec": -1.0,
+      "_WallHitFailureTimeSec": 5.0,
+      "_CeilingHitFailureTimeSec": 2.0,
+      "_EnemyPushFailureTimeSec": 0.0,
+      "_NaviFailureTimeSec": 5.0,
+      "_WallRunEndTimeSec": 0.1,
+      "_UseAcrossWall": true,
+      "_UseTentBackMasterPl": true,
+      "_AcrossWallConditionDegreeX": 10.0,
+      "_AcrossWallCastRayFailedCoolTimeSec": 1.0
+    },
+    "_TsutaWallOffset": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0
+      ],
+      [
+        3.0,
+        0.0
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.5,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -1.5,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        -0.5
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ]
+  }
+}

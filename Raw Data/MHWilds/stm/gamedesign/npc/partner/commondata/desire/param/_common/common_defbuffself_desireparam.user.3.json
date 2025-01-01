@@ -1,0 +1,91 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1092616192,
+          0
+        ],
+        "_Cancel": [
+          1092616192,
+          0
+        ],
+        "_Group": [
+          1092616192,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": [
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1135869952,
+              1123024896
+            ],
+            "_Cancel": [
+              1084227584,
+              1084227584
+            ],
+            "_Group": [
+              1139802112,
+              1114636288
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {
+                "_ItemID": "ITEM_0153"
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_QuestFlow": 1
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1108082688
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1113325568
+                ]
+              },
+              "_Inverse": false
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemID": "ITEM_0153"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV2"
+      }
+    ]
+  }
+}

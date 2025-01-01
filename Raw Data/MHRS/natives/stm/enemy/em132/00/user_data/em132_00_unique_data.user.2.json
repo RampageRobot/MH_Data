@@ -1,0 +1,125 @@
+{
+  "snow.enemy.Em132UniqueData": {
+    "_CreateExFireballBloodSickleData": [
+      {
+        "_OffsetDegY": 15.0
+      },
+      {
+        "_OffsetDegY": 60.0
+      },
+      {
+        "_OffsetDegY": -65.0
+      },
+      {
+        "_OffsetDegY": 105.0
+      },
+      {
+        "_OffsetDegY": -105.0
+      },
+      {
+        "_OffsetDegY": 150.0
+      },
+      {
+        "_OffsetDegY": -150.0
+      },
+      {
+        "_OffsetDegY": -15.0
+      }
+    ],
+    "_CreateLateExFireballBloodSickleData": [
+      {
+        "_IntervalSec": 1.0,
+        "_CreateData": [
+          {
+            "_OffsetDegY": 0.0
+          },
+          {
+            "_OffsetDegY": 30.0
+          },
+          {
+            "_OffsetDegY": 60.0
+          },
+          {
+            "_OffsetDegY": 90.0
+          },
+          {
+            "_OffsetDegY": 120.0
+          },
+          {
+            "_OffsetDegY": 150.0
+          },
+          {
+            "_OffsetDegY": 180.0
+          },
+          {
+            "_OffsetDegY": -30.0
+          },
+          {
+            "_OffsetDegY": -60.0
+          },
+          {
+            "_OffsetDegY": -90.0
+          },
+          {
+            "_OffsetDegY": -120.0
+          },
+          {
+            "_OffsetDegY": -150.0
+          },
+          {
+            "_OffsetDegY": -180.0
+          }
+        ]
+      }
+    ],
+    "_BloodPowerData": {
+      "_PointsMaxList": [
+        130,
+        100,
+        80,
+        70,
+        65,
+        60,
+        50,
+        40
+      ],
+      "_AddPointSec": 1,
+      "_SuckBloodValueByAttack": 8,
+      "_PowerUpDuration": 180.0
+    },
+    "_LeechDamagePlayerData": {
+      "_AdjustRateInfo": {
+        "_One": 1.2,
+        "_Two": 1.4,
+        "_Three": 1.6,
+        "_Four": 2.0
+      }
+    },
+    "_ZakoSuckBloodEnableHpRate": 50.0,
+    "_ZakoSuckBloodCoolTime": 120.0,
+    "_ZakoSuckBloodPoint": 60,
+    "_ZakoSuckLeechComeBackOffset": [
+      -5.5,
+      0.0,
+      15.0
+    ],
+    "_LeechConstJointHash": 4175418299,
+    "_DeadLeechFlyJointHash": 1044645269,
+    "_LeechScale": 1.0,
+    "_LeechNonCombatFlyPosOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "_BloodActivationDamageRate": {
+      "_Neck": 1.1,
+      "_LegLeft": 1.0,
+      "_LegRight": 1.0,
+      "_TailTip": 1.2,
+      "_Other": 0.3
+    },
+    "_MysteryBloodSuckEffectConnectJointHash": 3038825710,
+    "_ShadowMoveEffectConnectJointHash": 4190776307,
+    "_ShadowMoveLeechEffectLifeSec": 3.0
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "snow.otomo.OtDogFreeUseParam": {
+    "_BallSabotageRateCurve": {
+      "v0": [],
+      "v1": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v2": [
+        0,
+        0,
+        200,
+        66
+      ],
+      "v3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v4": [
+        0,
+        0,
+        200,
+        66
+      ],
+      "v5": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v6": [
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    "_BallSabotageResetRate": 60.0,
+    "_BallSabotageResetTime": 0.0,
+    "_TeamAtkDelayTimer": 32.0,
+    "_LocateNormalFollowAngA": 120.0,
+    "_LocateNormalFollowAngB": 150.0,
+    "_LocateNormalFollowAngC": 135.0,
+    "_LocateNormalFollowDistA": 6.0,
+    "_LocateNormalFollowDistB": 8.0,
+    "_LocateNormalFollowDistC": 5.0,
+    "_LocateBattleFollowAngA": 120.0,
+    "_LocateBattleFollowAngB": 45.0,
+    "_LocateBattleFollowAngC": 120.0,
+    "_LocateBattleFollowDistA": 6.0,
+    "_LocateBattleFollowDistB": 0.0,
+    "_LocateBattleFollowDistC": 0.0,
+    "_DogToolNoLotTime": 600.0,
+    "_Scroll00_CureType_Dog": 1,
+    "_Scroll00_CureHp_Dog": 1,
+    "_Scroll00_CureInterval_Dog": 10,
+    "_Scroll00_CureType_Player": 1,
+    "_Scroll00_CureHp_Player": 1,
+    "_Scroll00_CureInterval_Player": 20,
+    "_Scroll02_AtkUpValue": 20,
+    "_Scroll02_BreakUpRate": 1.5,
+    "_Scroll03_IntervalFrame": 600.0,
+    "_Scroll03_CriticalUpValue": 10,
+    "_Scroll03_CriticalUpMaxValue": 100,
+    "_Scroll04_MotSpeedRate": 1.2,
+    "_Scroll05_DefUpRate": 1.3,
+    "_Scroll07_InashiUpVale": 5,
+    "_InashiRate": 45,
+    "_UmbrellaGuardRate": 80,
+    "_RideSelfJumpStemClimbMax": 8.0,
+    "_SelfRecoveryUserData": {
+      "_CheckVital": 20,
+      "_BaseLotRate": 80.0,
+      "_MissAddRate": 5.0,
+      "_LotTimer": 10.0
+    },
+    "_PlayerRescueUserData": {
+      "_BaseLotRateLv35": 80.0,
+      "_BaseLotRateLv20": 75.0,
+      "_BaseLotRateLv1": 50.0,
+      "_UserTimer": 60.0,
+      "_LotTimer": 5.0
+    },
+    "_Wire_AtkBuffRate": 1.25,
+    "_Wire_AtkBuffTime": 1200.0,
+    "_Wire_AutoShotCoolTime": 360.0,
+    "_Wire_AutoShotRange": [
+      1084227584,
+      1090519040
+    ],
+    "_Wire_AutoShotAngle": [
+      35.0,
+      10.0
+    ],
+    "_Wire_AutoShotAimTime": 5.0,
+    "_Wire_AutoShotReloadAct": {
+      "_Type": 111,
+      "_TargetDistCheckS": 4.0,
+      "_TargetDistCheckM": 8.0,
+      "_TargetDistCheckL": 12.0,
+      "_KunaiType": 112,
+      "_StartTimer_Locate": 0.0,
+      "_StartTimer_Attack": 0.0,
+      "_EnableTimer": 0.0,
+      "_ForceBreakFlag": true
+    },
+    "_Wire_SPAttackTime": 30.0,
+    "_Wire_SPAttackAct": {
+      "_Type": 113,
+      "_TargetDistCheckS": 5.0,
+      "_TargetDistCheckM": 10.0,
+      "_TargetDistCheckL": 15.0,
+      "_KunaiType": 113,
+      "_StartTimer_Locate": 0.0,
+      "_StartTimer_Attack": 0.0,
+      "_EnableTimer": 252.0,
+      "_ForceBreakFlag": true
+    },
+    "_DogItemCollectTime": 10.0,
+    "_DogItemCollectDistToPL": 60.0,
+    "_DogItemCollectDistToPop": 30.0,
+    "_DogRefineRideWarpDistPL": 9.0,
+    "_DogTeamAtkDistance": 40.0,
+    "_MRSkill": {
+      "_KunaiDistRate_025": 1.5,
+      "_KunaiDistRate_026": 0.1
+    }
+  }
+}

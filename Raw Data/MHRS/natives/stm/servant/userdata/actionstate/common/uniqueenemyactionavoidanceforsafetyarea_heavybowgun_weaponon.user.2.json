@@ -1,0 +1,73 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": true
+      },
+      {
+        "IsNot": false,
+        "_Flag": 1
+      },
+      {
+        "IsNot": false,
+        "_WeaponTypeBit": 16
+      },
+      {
+        "IsNot": true
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_RangeType": 0
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 3
+      },
+      {
+        "IsNot": true,
+        "_Min": 0.0,
+        "_Max": 5.0
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": true,
+        "_WeaponTypeBit": 4096
+      },
+      {
+        "IsNot": true
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_RangeType": 0
+      },
+      {
+        "IsNot": true,
+        "_Min": 0.0,
+        "_Max": 5.0
+      }
+    ],
+    "_Tasks": [
+      {
+        "_Type": 3,
+        "_PeriodTimeSec": -1.0,
+        "_Force": false,
+        "_CallOnly": true
+      },
+      {
+        "_Type": 22,
+        "_PeriodTimeSec": -1.0,
+        "_Force": false,
+        "_CallOnly": false
+      }
+    ]
+  }
+}

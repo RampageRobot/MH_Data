@@ -1,0 +1,57 @@
+{
+  "app.user_data.EmParamCombat": {
+    "CombatValue": {
+      "IsEnableBeginSec": true,
+      "BeginSec": 5.0,
+      "IsEnableEndSec": true,
+      "EndSec": 20.0,
+      "PlayerRangeHateDatas": [
+        {
+          "Range": 15.0,
+          "AddValue": 15.0
+        }
+      ],
+      "PlayerOutRangeHateValue": -1.0,
+      "PlayerOutAreaHateValue": -3.0,
+      "PlayerConditionHateData": {
+        "PlayerBadConditionHateDatas": [],
+        "CarryEggHateValue": 0.0
+      },
+      "PlayerHitAttackHateRate": 10.0,
+      "PlayerSoundActionRange": 50.0,
+      "PlayerSoundActionHateValue": 10.0,
+      "OtomoRangeHateDatas": [
+        {
+          "Range": 5.0,
+          "AddValue": 1.0
+        }
+      ],
+      "OtomoOutRangeHateValue": -3.0,
+      "OtomoOutAreaHateValue": -10.0,
+      "OtomoHitAttackHateRate": 10.0,
+      "NpcRangeHateDatas": [
+        {
+          "Range": 15.0,
+          "AddValue": 15.0
+        }
+      ],
+      "NpcOutRangeHateValue": -1.0,
+      "NpcOutAreaHateValue": -3.0,
+      "NpcConditionHateData": {
+        "NpcBadConditionHateDatas": []
+      },
+      "NpcHitAttackHateRate": 10.0
+    },
+    "CombatOption": {
+      "IsEnableAttackStay": false,
+      "IsEnableAttackStayCombatEm": true,
+      "AttackableMaxNum": 1,
+      "AttackableSecQuestTargetMin": 10.0,
+      "AttackableSecQuestTargetMax": 20.0,
+      "AttackableSecMin": 10.0,
+      "AttackableSecMax": 20.0,
+      "AttackStayCoolDown": 5.0,
+      "IsAutoSendDetector": false
+    }
+  }
+}

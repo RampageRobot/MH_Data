@@ -1,0 +1,20 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_CommandState": 10
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_RequestCommandState": 10,
+        "_RequestCommandDir": 5,
+        "_UseFailedSteeringCoverDirection": false
+      }
+    ]
+  }
+}

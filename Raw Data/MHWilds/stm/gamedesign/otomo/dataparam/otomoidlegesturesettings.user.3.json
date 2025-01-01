@@ -1,0 +1,468 @@
+{
+  "app.user_data.OtomoIdleGestureSettings": {
+    "_RequiredTimeForNextGestureLottery": [
+      1084227584,
+      1092616192
+    ],
+    "_GestureGroupHolders": [
+      {
+        "_Group": "IDLE_SHORT",
+        "_Actions": [
+          {
+            "_ActionSelector": {
+              "_ActionID": "7e773a71-02b6-4f36-b385-4782ddf4170b"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "9c9e3c03-e839-4169-9d87-37fb2d83bc91"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "c5ac3312-6c10-4951-a9b7-44ef5b46a2fe"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          }
+        ],
+        "_RequiredTimeForLottery": 5.0
+      },
+      {
+        "_Group": "IDLE_MIDDLE",
+        "_Actions": [
+          {
+            "_ActionSelector": {
+              "_ActionID": "a7eeda87-1d49-4cf2-a926-5228cdd5feea"
+            },
+            "_LotteryWeight": 2,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "6d4826b0-0b31-424a-bdb6-246c051c7b01"
+            },
+            "_LotteryWeight": 2,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          }
+        ],
+        "_RequiredTimeForLottery": 20.0
+      },
+      {
+        "_Group": "IDLE_LONG",
+        "_Actions": [
+          {
+            "_ActionSelector": {
+              "_ActionID": "e93f415b-84b7-469c-9bd2-89155ae8722c"
+            },
+            "_LotteryWeight": 3,
+            "STRUCT__LoopCountRange__HasValue": true,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              1
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "2534d36a-350f-49d4-9611-3162c0b3c73d"
+            },
+            "_LotteryWeight": 3,
+            "STRUCT__LoopCountRange__HasValue": true,
+            "STRUCT__LoopCountRange__Value": [
+              10,
+              6
+            ]
+          }
+        ],
+        "_RequiredTimeForLottery": 30.0
+      },
+      {
+        "_Group": "RIDE_PT_WITH_PL",
+        "_Actions": [
+          {
+            "_ActionSelector": {
+              "_ActionID": "2f1ca8d5-94ab-4951-8c67-a111300c0ac8"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "01f27a92-1ebd-4ce2-974a-7ac76a709cd1"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          }
+        ],
+        "_RequiredTimeForLottery": 10.0
+      },
+      {
+        "_Group": "RIDE_PT_WITH_ADVISOR",
+        "_Actions": [
+          {
+            "_ActionSelector": {
+              "_ActionID": "b47ce15c-5e9a-4a5e-b2e1-1ab0bf1227be"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          },
+          {
+            "_ActionSelector": {
+              "_ActionID": "11a77447-b52b-40e3-b093-b79f4468d9db"
+            },
+            "_LotteryWeight": 1,
+            "STRUCT__LoopCountRange__HasValue": false,
+            "STRUCT__LoopCountRange__Value": [
+              0,
+              0
+            ]
+          }
+        ],
+        "_RequiredTimeForLottery": 10.0
+      }
+    ],
+    "_GesturePatternHolders": [
+      {
+        "_SituationType": "MAGMA",
+        "_IsOverwritingBaseMotion": true,
+        "_IsOverwritingGestureMotion": true,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "c5e6a76a-67ea-4e5b-b903-417b5044afd5"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "43501613-31bf-4b92-8b41-f81851ca78c2"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ATTACK_AREA",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "THORN_GRASS",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "POISON_AREA",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ABNORMAL_CONDITION",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ABNORMAL_ST103",
+        "_IsOverwritingBaseMotion": true,
+        "_IsOverwritingGestureMotion": true,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "a666317d-9f9b-49e1-9528-03eafc8a3cf5"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "84a48280-77ab-4451-909b-9e139ce87d7b"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ABNORMAL_ST104",
+        "_IsOverwritingBaseMotion": true,
+        "_IsOverwritingGestureMotion": true,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "a8036e2a-0419-47a2-8ace-2a1ea7a0e092"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "94c00ae6-c1d2-43f2-b1a4-7b692870095a"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "HOT_AREA",
+        "_IsOverwritingBaseMotion": true,
+        "_IsOverwritingGestureMotion": true,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "a42b55ea-4e91-4b09-9619-e6ede040efe8"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "12e45ae6-dbcf-44b2-ac82-fdf0b6d30012"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "COLD_AREA",
+        "_IsOverwritingBaseMotion": true,
+        "_IsOverwritingGestureMotion": true,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "b2d2feb0-3733-4115-ab5d-468e5fc1c03f"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "11ba9e7a-bea6-40d6-9e6b-0c542fda80fe"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "DESERT_CORNER",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ABNORMAL_ST101",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": true,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": false,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "WATERSIDE",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": true,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "ABNORMAL_ST102",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": true,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "STEEP_ANGLE_DESERT",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": true,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "LIFE_AREA",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": true,
+        "_UseIdleMiddle": false,
+        "_UseIdleLong": false
+      },
+      {
+        "_SituationType": "DEFAULT",
+        "_IsOverwritingBaseMotion": false,
+        "_IsOverwritingGestureMotion": false,
+        "_RequiredLoopRangeForLottery_OverwritingBaseMotion": [
+          2,
+          2
+        ],
+        "_IsOverwritingUpperBody": false,
+        "_BaseActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_GestureActionForOverwrite": {
+          "_ActionID": "e279419c-1c0b-4072-a0e0-fb2eb64f5530"
+        },
+        "_UseIdleShort": true,
+        "_UseIdleMiddle": true,
+        "_UseIdleLong": true
+      }
+    ],
+    "_AngleAsSteep": 20.0
+  }
+}

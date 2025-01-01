@@ -1,0 +1,198 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          0,
+          0
+        ],
+        "_Cancel": [
+          0,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_EndConditionParams": [],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": [
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1137836032,
+              1106247680
+            ],
+            "_Cancel": [
+              1097859072,
+              1084227584
+            ],
+            "_Group": [
+              1137836032,
+              1123024896
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {
+                "_HealthThreshold": 35,
+                "_IsIgnoreDead": true
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1112014848
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1106247680
+                ]
+              },
+              "_Inverse": false
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "AREA_HEAL"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV0"
+      },
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1134886912,
+              1106247680
+            ],
+            "_Cancel": [
+              1097859072,
+              1084227584
+            ],
+            "_Group": [
+              1132920832,
+              1123024896
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {
+                "_HealthThreshold": 35,
+                "_IsIgnoreDead": true
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1112014848
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1106247680
+                ]
+              },
+              "_Inverse": false
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "AREA_HEAL"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV1"
+      },
+      {
+        "_Param": {
+          "_CoolTime": {
+            "_Complete": [
+              1131413504,
+              1114636288
+            ],
+            "_Cancel": [
+              1084227584,
+              1084227584
+            ],
+            "_Group": [
+              1123024896,
+              1123024896
+            ]
+          },
+          "_StartConditionParams": [
+            {
+              "_Param": {
+                "_HealthThreshold": 60,
+                "_IsIgnoreDead": true
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1112014848
+                ]
+              },
+              "_Inverse": false
+            },
+            {
+              "_Param": {
+                "_Range": [
+                  0,
+                  1109393408
+                ]
+              },
+              "_Inverse": false
+            }
+          ],
+          "_EndConditionParams": [
+            {
+              "_Param": {
+                "_ItemCategory": "AREA_HEAL"
+              },
+              "_Inverse": false
+            }
+          ],
+          "_ContinueConditionParams": []
+        },
+        "_KindType": "HEAL_ITEM",
+        "_KindLv": "LV2"
+      }
+    ]
+  }
+}

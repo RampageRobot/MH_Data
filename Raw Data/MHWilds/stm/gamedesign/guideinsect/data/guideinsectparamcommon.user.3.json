@@ -1,0 +1,58 @@
+{
+  "app.user_data.GuideInsectParamCommon": {
+    "_MoveDataNotRidingPorter": {
+      "_Speed": 15.0,
+      "_GuideInsectToHunterLengthMax": 10.0
+    },
+    "_MoveDataRidingPorterStop": {
+      "_Speed": 10.0,
+      "_GuideInsectToHunterLengthMax": 5.0
+    },
+    "_MoveDataRidingPorterWalk": {
+      "_Speed": 15.0,
+      "_GuideInsectToHunterLengthMax": 10.0
+    },
+    "_MoveDataRidingPorterRun": {
+      "_Speed": 15.0,
+      "_GuideInsectToHunterLengthMax": 15.0
+    },
+    "_MoveDataRidingPorterDash": {
+      "_Speed": 20.0,
+      "_GuideInsectToHunterLengthMax": 15.0
+    },
+    "_MoveDataRidingPorterTopSpeed": {
+      "_Speed": 20.0,
+      "_GuideInsectToHunterLengthMax": 20.0
+    },
+    "_MoveDataRidingPorterManualMove": {
+      "_GuideInsectToHunterLengthMax": 5.0
+    },
+    "_NavigationParam": {
+      "_RestartNaviDegXZ": 90.0,
+      "_RestartNaviByChangeNaviRouteTime": 3.0,
+      "_RestartNaviWhenEffectNoneTime": 3.0,
+      "_ToGoalGuideInsectStartNaviLengthMin": 5.0,
+      "_ToGoalGuideInsectNaviResultIgnoreLengthMin": 3.0,
+      "_StartNavigationLengthAfterNavigationCompleted": 50.0,
+      "_RestartRouteEffectEndArrivedToTargetLen": 30.0,
+      "_AutoRestartRouteEffectToPlayerLen": 20.0,
+      "_AutoRestartRouteEffectEndToTargetLen": 30.0,
+      "_AutoRestartMax": 3
+    },
+    "_MainRouteAllParam": {
+      "_Speed": 30.0,
+      "_IntervalLength": 5.0,
+      "_MainRouteAllEffectListCountMax": 30,
+      "_JudgeArrivalLength": 10.0,
+      "_AllClearTimer": 30.0,
+      "_OffsetY": 1.0
+    },
+    "_MainRouteEffectParam": {
+      "_OffsetY": 1.0,
+      "_OffsetYAdjustTime": 1.0
+    },
+    "_AccsssPopRouteEffectData": {
+      "_Speed": 20.0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": true,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_Min": 0.0,
+        "_Max": 0.65
+      },
+      {
+        "IsNot": false,
+        "_Min": 270.0,
+        "_Max": 330.0
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_ChatAction": -1,
+        "_ChatActionUnique": 15
+      }
+    ]
+  }
+}

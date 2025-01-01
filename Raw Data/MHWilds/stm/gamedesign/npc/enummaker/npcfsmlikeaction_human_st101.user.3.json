@@ -1,0 +1,785 @@
+{
+  "ace.user_data.EnumMaker": {
+    "_DataList": [
+      {
+        "_EnumName": "INVALID\u0000",
+        "_EnumValue": -1,
+        "_FixedID": 1116084352
+      },
+      {
+        "_EnumName": "ADL_BASIC_IDLE\u0000",
+        "_EnumValue": 0,
+        "_FixedID": -1308348416
+      },
+      {
+        "_EnumName": "ADL_BASIC_TURN\u0000",
+        "_EnumValue": 1,
+        "_FixedID": -288358432
+      },
+      {
+        "_EnumName": "ADL_BASIC_MOVE\u0000",
+        "_EnumValue": 2,
+        "_FixedID": 266556272
+      },
+      {
+        "_EnumName": "ADL_BASIC_RUN\u0000",
+        "_EnumValue": 3,
+        "_FixedID": -656929856
+      },
+      {
+        "_EnumName": "ADL_BASIC_MOVE_STORY1\u0000",
+        "_EnumValue": 4,
+        "_FixedID": -358324800
+      },
+      {
+        "_EnumName": "ADL_AVOID_MOVE\u0000",
+        "_EnumValue": 5,
+        "_FixedID": -1342469760
+      },
+      {
+        "_EnumName": "ADL_BUMPED_MOVE\u0000",
+        "_EnumValue": 6,
+        "_FixedID": 1116236800
+      },
+      {
+        "_EnumName": "ADL_BUMPED_WAIT\u0000",
+        "_EnumValue": 7,
+        "_FixedID": 1208630400
+      },
+      {
+        "_EnumName": "ADL_PANIC_MOVE\u0000",
+        "_EnumValue": 8,
+        "_FixedID": -1588770176
+      },
+      {
+        "_EnumName": "ADL_HOLD_IDLE\u0000",
+        "_EnumValue": 9,
+        "_FixedID": -1027848256
+      },
+      {
+        "_EnumName": "ADL_INTERRUPT_IDLE\u0000",
+        "_EnumValue": 10,
+        "_FixedID": -362394400
+      },
+      {
+        "_EnumName": "ADL_BENCH\u0000",
+        "_EnumValue": 11,
+        "_FixedID": 1851511808
+      },
+      {
+        "_EnumName": "ADL_BENCH_COMBI\u0000",
+        "_EnumValue": 12,
+        "_FixedID": 1508929664
+      },
+      {
+        "_EnumName": "ADL_SIT_GROUND\u0000",
+        "_EnumValue": 13,
+        "_FixedID": -431107200
+      },
+      {
+        "_EnumName": "ADL_SIT_GROUND_COMBI\u0000",
+        "_EnumValue": 14,
+        "_FixedID": -1023831104
+      },
+      {
+        "_EnumName": "ADL_LEAN_BACK\u0000",
+        "_EnumValue": 15,
+        "_FixedID": 1626719744
+      },
+      {
+        "_EnumName": "ADL_LEAN_BACK_COMBI\u0000",
+        "_EnumValue": 16,
+        "_FixedID": 1508833408
+      },
+      {
+        "_EnumName": "ADL_DRINKING_WATER\u0000",
+        "_EnumValue": 17,
+        "_FixedID": -244655904
+      },
+      {
+        "_EnumName": "ADL_NARUKO_CLEANUP\u0000",
+        "_EnumValue": 18,
+        "_FixedID": 1761472000
+      },
+      {
+        "_EnumName": "ADL_WALL_MAINT\u0000",
+        "_EnumValue": 19,
+        "_FixedID": 105826984
+      },
+      {
+        "_EnumName": "ADL_WALL_MAINT_VARI2\u0000",
+        "_EnumValue": 20,
+        "_FixedID": -409798816
+      },
+      {
+        "_EnumName": "ADL_BOWL_TAKE\u0000",
+        "_EnumValue": 21,
+        "_FixedID": 444291264
+      },
+      {
+        "_EnumName": "ADL_BOWL_PUT\u0000",
+        "_EnumValue": 22,
+        "_FixedID": -621750080
+      },
+      {
+        "_EnumName": "ADL_POT_TAKE\u0000",
+        "_EnumValue": 23,
+        "_FixedID": 2124480000
+      },
+      {
+        "_EnumName": "ADL_POT_PUT\u0000",
+        "_EnumValue": 24,
+        "_FixedID": 1110424448
+      },
+      {
+        "_EnumName": "ADL_POT_DRAW_WATER\u0000",
+        "_EnumValue": 25,
+        "_FixedID": -1405392256
+      },
+      {
+        "_EnumName": "ADL_POT_DRAW_WATER_VARI2\u0000",
+        "_EnumValue": 26,
+        "_FixedID": -1916626560
+      },
+      {
+        "_EnumName": "ADL_POT_PUT_WATER\u0000",
+        "_EnumValue": 27,
+        "_FixedID": 1219829504
+      },
+      {
+        "_EnumName": "ADL_POT_PUT_WATER_VARI2\u0000",
+        "_EnumValue": 28,
+        "_FixedID": 43801712
+      },
+      {
+        "_EnumName": "ADL_POT_BOTH_TAKE\u0000",
+        "_EnumValue": 29,
+        "_FixedID": -1032935232
+      },
+      {
+        "_EnumName": "ADL_POT_BOTH_PUT\u0000",
+        "_EnumValue": 30,
+        "_FixedID": -1547676928
+      },
+      {
+        "_EnumName": "ADL_MILKBALL_POT_TAKE\u0000",
+        "_EnumValue": 31,
+        "_FixedID": -1614745856
+      },
+      {
+        "_EnumName": "ADL_MILKBALL_POT_PUT\u0000",
+        "_EnumValue": 32,
+        "_FixedID": -554794816
+      },
+      {
+        "_EnumName": "ADL_MILKBALL_THROW\u0000",
+        "_EnumValue": 33,
+        "_FixedID": 1084279168
+      },
+      {
+        "_EnumName": "ADL_STONE_BLOCK_TAKE\u0000",
+        "_EnumValue": 34,
+        "_FixedID": -814729344
+      },
+      {
+        "_EnumName": "ADL_STONE_CRUSH\u0000",
+        "_EnumValue": 35,
+        "_FixedID": 1691841152
+      },
+      {
+        "_EnumName": "ADL_CHEESE_POT_MIXING\u0000",
+        "_EnumValue": 36,
+        "_FixedID": -648344384
+      },
+      {
+        "_EnumName": "ADL_CHEESE_DRYING\u0000",
+        "_EnumValue": 37,
+        "_FixedID": -1749551360
+      },
+      {
+        "_EnumName": "ADL_CHEESE_PUT_AWAY\u0000",
+        "_EnumValue": 38,
+        "_FixedID": 527210080
+      },
+      {
+        "_EnumName": "ADL_MILKING\u0000",
+        "_EnumValue": 39,
+        "_FixedID": 775555264
+      },
+      {
+        "_EnumName": "ADL_MILKING_WAIT\u0000",
+        "_EnumValue": 40,
+        "_FixedID": 575202112
+      },
+      {
+        "_EnumName": "ADL_MILKING_TAKE_BESIDE\u0000",
+        "_EnumValue": 41,
+        "_FixedID": -882956416
+      },
+      {
+        "_EnumName": "ADL_MILKING_PUT_MILK\u0000",
+        "_EnumValue": 42,
+        "_FixedID": 117802680
+      },
+      {
+        "_EnumName": "ADL_GATEKEEPER\u0000",
+        "_EnumValue": 43,
+        "_FixedID": 1683835648
+      },
+      {
+        "_EnumName": "ADL_GATEKEEPER_RIDER\u0000",
+        "_EnumValue": 44,
+        "_FixedID": 1561149184
+      },
+      {
+        "_EnumName": "ADL_PICKAXE_TAKE\u0000",
+        "_EnumValue": 45,
+        "_FixedID": 717834176
+      },
+      {
+        "_EnumName": "ADL_PICKAXE_PUT\u0000",
+        "_EnumValue": 46,
+        "_FixedID": 378465472
+      },
+      {
+        "_EnumName": "ADL_LIVESTOCK_SHEAR\u0000",
+        "_EnumValue": 47,
+        "_FixedID": -1688773632
+      },
+      {
+        "_EnumName": "ADL_CHECK_LUGGAGE\u0000",
+        "_EnumValue": 48,
+        "_FixedID": -1543597952
+      },
+      {
+        "_EnumName": "ADL_FEEDING\u0000",
+        "_EnumValue": 49,
+        "_FixedID": -253461168
+      },
+      {
+        "_EnumName": "ADL_SWEEPING\u0000",
+        "_EnumValue": 50,
+        "_FixedID": 1690755968
+      },
+      {
+        "_EnumName": "ADL_BROOM_TAKE\u0000",
+        "_EnumValue": 51,
+        "_FixedID": -1014547264
+      },
+      {
+        "_EnumName": "ADL_BROOM_PUT\u0000",
+        "_EnumValue": 52,
+        "_FixedID": 1474457728
+      },
+      {
+        "_EnumName": "ADL_STONE_CART_WORK\u0000",
+        "_EnumValue": 53,
+        "_FixedID": -1580740864
+      },
+      {
+        "_EnumName": "ADL_STONE_GIVE\u0000",
+        "_EnumValue": 54,
+        "_FixedID": -1315916544
+      },
+      {
+        "_EnumName": "ADL_STONE_RECEIVE\u0000",
+        "_EnumValue": 55,
+        "_FixedID": -2095284224
+      },
+      {
+        "_EnumName": "ADL_STONE_BLOCK_PUT\u0000",
+        "_EnumValue": 56,
+        "_FixedID": -1171439744
+      },
+      {
+        "_EnumName": "ADL_WALL_MAINT_REPLENISH\u0000",
+        "_EnumValue": 57,
+        "_FixedID": 807174784
+      },
+      {
+        "_EnumName": "ADL_STICK_TAKE\u0000",
+        "_EnumValue": 58,
+        "_FixedID": -115152296
+      },
+      {
+        "_EnumName": "ADL_STICK_PUT\u0000",
+        "_EnumValue": 59,
+        "_FixedID": -1603914368
+      },
+      {
+        "_EnumName": "ADL_SIT_WALL\u0000",
+        "_EnumValue": 60,
+        "_FixedID": -1871252224
+      },
+      {
+        "_EnumName": "ADL_CHECK_CHEESE\u0000",
+        "_EnumValue": 61,
+        "_FixedID": -1045996480
+      },
+      {
+        "_EnumName": "ADL_STRAW_TAKE\u0000",
+        "_EnumValue": 62,
+        "_FixedID": 1954327936
+      },
+      {
+        "_EnumName": "ADL_STRAW_PUT\u0000",
+        "_EnumValue": 63,
+        "_FixedID": -410457632
+      },
+      {
+        "_EnumName": "ADL_PORTER_BRUSHING\u0000",
+        "_EnumValue": 64,
+        "_FixedID": -1301297280
+      },
+      {
+        "_EnumName": "ADL_UDU_TAKE\u0000",
+        "_EnumValue": 65,
+        "_FixedID": 499798304
+      },
+      {
+        "_EnumName": "ADL_UDU_PUT\u0000",
+        "_EnumValue": 66,
+        "_FixedID": -536252576
+      },
+      {
+        "_EnumName": "ADL_UDU_PLAY\u0000",
+        "_EnumValue": 67,
+        "_FixedID": 2088392960
+      },
+      {
+        "_EnumName": "ADL_DUNG_PACK\u0000",
+        "_EnumValue": 68,
+        "_FixedID": 1493717632
+      },
+      {
+        "_EnumName": "ADL_LIE\u0000",
+        "_EnumValue": 69,
+        "_FixedID": 1431339648
+      },
+      {
+        "_EnumName": "ADL_CHECK_LUGGAGE_ELEVATION\u0000",
+        "_EnumValue": 70,
+        "_FixedID": 160145728
+      },
+      {
+        "_EnumName": "ADL_MAKE_WINDOW\u0000",
+        "_EnumValue": 71,
+        "_FixedID": -1387567488
+      },
+      {
+        "_EnumName": "ADL_FIELD_MOVE\u0000",
+        "_EnumValue": 72,
+        "_FixedID": -1408513024
+      },
+      {
+        "_EnumName": "ADL_FIELD_IDLE\u0000",
+        "_EnumValue": 73,
+        "_FixedID": 1870952320
+      },
+      {
+        "_EnumName": "ADL_QUARRYING\u0000",
+        "_EnumValue": 74,
+        "_FixedID": 1998885376
+      },
+      {
+        "_EnumName": "ADL_STONE_LOAD\u0000",
+        "_EnumValue": 75,
+        "_FixedID": -1630562944
+      },
+      {
+        "_EnumName": "ADL_STONE_CART_GET_ON\u0000",
+        "_EnumValue": 76,
+        "_FixedID": -869941696
+      },
+      {
+        "_EnumName": "ADL_STONE_CART_GET_OFF\u0000",
+        "_EnumValue": 77,
+        "_FixedID": -346869984
+      },
+      {
+        "_EnumName": "ADL_CART_WORK\u0000",
+        "_EnumValue": 78,
+        "_FixedID": 1400910208
+      },
+      {
+        "_EnumName": "ADL_CAUTION_IDLE\u0000",
+        "_EnumValue": 79,
+        "_FixedID": -939897344
+      },
+      {
+        "_EnumName": "ADL_CAUTION_MOVE\u0000",
+        "_EnumValue": 80,
+        "_FixedID": -685591680
+      },
+      {
+        "_EnumName": "ADL_FOLLOW_IDLE\u0000",
+        "_EnumValue": 81,
+        "_FixedID": -130995320
+      },
+      {
+        "_EnumName": "ADL_FOLLOW_MOVE\u0000",
+        "_EnumValue": 82,
+        "_FixedID": -253688400
+      },
+      {
+        "_EnumName": "ADL_GATE_OPEN\u0000",
+        "_EnumValue": 83,
+        "_FixedID": 519655776
+      },
+      {
+        "_EnumName": "ADL_GATE_CLOSE\u0000",
+        "_EnumValue": 84,
+        "_FixedID": -1585462272
+      },
+      {
+        "_EnumName": "ADL_PANIC_IDLE\u0000",
+        "_EnumValue": 85,
+        "_FixedID": -1364857600
+      },
+      {
+        "_EnumName": "ADL_POT_BOTH_VARI2_TAKE\u0000",
+        "_EnumValue": 86,
+        "_FixedID": 922000320
+      },
+      {
+        "_EnumName": "ADL_POT_BOTH_VARI2_PUT\u0000",
+        "_EnumValue": 87,
+        "_FixedID": 1375031424
+      },
+      {
+        "_EnumName": "ADL_SHELTER_IDLE\u0000",
+        "_EnumValue": 88,
+        "_FixedID": -1792297728
+      },
+      {
+        "_EnumName": "OLD_BASIC_IDLE\u0000",
+        "_EnumValue": 89,
+        "_FixedID": -1257912192
+      },
+      {
+        "_EnumName": "OLD_BASIC_TURN\u0000",
+        "_EnumValue": 90,
+        "_FixedID": -1444346112
+      },
+      {
+        "_EnumName": "OLD_BASIC_MOVE\u0000",
+        "_EnumValue": 91,
+        "_FixedID": -1800796416
+      },
+      {
+        "_EnumName": "OLD_AVOID_MOVE\u0000",
+        "_EnumValue": 92,
+        "_FixedID": 1707703680
+      },
+      {
+        "_EnumName": "OLD_BUMPED_MOVE\u0000",
+        "_EnumValue": 93,
+        "_FixedID": 1444142208
+      },
+      {
+        "_EnumName": "OLD_BUMPED_WAIT\u0000",
+        "_EnumValue": 94,
+        "_FixedID": -1966969984
+      },
+      {
+        "_EnumName": "OLD_PANIC_MOVE\u0000",
+        "_EnumValue": 95,
+        "_FixedID": -673102848
+      },
+      {
+        "_EnumName": "OLD_INTERRUPT_IDLE\u0000",
+        "_EnumValue": 96,
+        "_FixedID": 441752896
+      },
+      {
+        "_EnumName": "OLD_BENCH\u0000",
+        "_EnumValue": 97,
+        "_FixedID": -1732398848
+      },
+      {
+        "_EnumName": "OLD_BENCH_COMBI\u0000",
+        "_EnumValue": 98,
+        "_FixedID": 1978547712
+      },
+      {
+        "_EnumName": "OLD_SIT_GROUND\u0000",
+        "_EnumValue": 99,
+        "_FixedID": 2102026880
+      },
+      {
+        "_EnumName": "OLD_SIT_GROUND_COMBI\u0000",
+        "_EnumValue": 100,
+        "_FixedID": -1421629056
+      },
+      {
+        "_EnumName": "OLD_STONE_CARVING\u0000",
+        "_EnumValue": 101,
+        "_FixedID": -1958690432
+      },
+      {
+        "_EnumName": "OLD_STONE_SHAPING\u0000",
+        "_EnumValue": 102,
+        "_FixedID": -497290400
+      },
+      {
+        "_EnumName": "OLD_CHECK_LUGGAGE\u0000",
+        "_EnumValue": 103,
+        "_FixedID": 88883536
+      },
+      {
+        "_EnumName": "OLD_WEAVING\u0000",
+        "_EnumValue": 104,
+        "_FixedID": 985010880
+      },
+      {
+        "_EnumName": "OLD_CARPET_PAINTING\u0000",
+        "_EnumValue": 105,
+        "_FixedID": 1848379520
+      },
+      {
+        "_EnumName": "OLD_SLEEP\u0000",
+        "_EnumValue": 106,
+        "_FixedID": 491587200
+      },
+      {
+        "_EnumName": "OLD_SHELTER_IDLE\u0000",
+        "_EnumValue": 107,
+        "_FixedID": 518599616
+      },
+      {
+        "_EnumName": "OLD_FOLLOW_IDLE\u0000",
+        "_EnumValue": 108,
+        "_FixedID": 30370
+      },
+      {
+        "_EnumName": "CLD_BASIC_IDLE\u0000",
+        "_EnumValue": 109,
+        "_FixedID": 552057024
+      },
+      {
+        "_EnumName": "CLD_BASIC_TURN\u0000",
+        "_EnumValue": 110,
+        "_FixedID": -2007694848
+      },
+      {
+        "_EnumName": "CLD_BASIC_MOVE\u0000",
+        "_EnumValue": 111,
+        "_FixedID": -347134880
+      },
+      {
+        "_EnumName": "CLD_BASIC_RUN\u0000",
+        "_EnumValue": 112,
+        "_FixedID": 1625606016
+      },
+      {
+        "_EnumName": "CLD_AVOID_MOVE\u0000",
+        "_EnumValue": 113,
+        "_FixedID": 1592459904
+      },
+      {
+        "_EnumName": "CLD_AVOID_RUN\u0000",
+        "_EnumValue": 114,
+        "_FixedID": -742517760
+      },
+      {
+        "_EnumName": "CLD_BUMPED_MOVE\u0000",
+        "_EnumValue": 115,
+        "_FixedID": -1546931584
+      },
+      {
+        "_EnumName": "CLD_BUMPED_WAIT\u0000",
+        "_EnumValue": 116,
+        "_FixedID": -444256256
+      },
+      {
+        "_EnumName": "CLD_PANIC_MOVE\u0000",
+        "_EnumValue": 117,
+        "_FixedID": -1900254976
+      },
+      {
+        "_EnumName": "CLD_INTERRUPT_IDLE\u0000",
+        "_EnumValue": 118,
+        "_FixedID": -127222528
+      },
+      {
+        "_EnumName": "CLD_POT_BOTH_TAKE\u0000",
+        "_EnumValue": 119,
+        "_FixedID": 224952768
+      },
+      {
+        "_EnumName": "CLD_POT_BOTH_PUT\u0000",
+        "_EnumValue": 120,
+        "_FixedID": 1948441728
+      },
+      {
+        "_EnumName": "CLD_LEAN_BACK\u0000",
+        "_EnumValue": 121,
+        "_FixedID": -1312621184
+      },
+      {
+        "_EnumName": "CLD_LEAN_BACK_COMBI\u0000",
+        "_EnumValue": 122,
+        "_FixedID": 511786336
+      },
+      {
+        "_EnumName": "CLD_SIT_GROUND\u0000",
+        "_EnumValue": 123,
+        "_FixedID": -937573440
+      },
+      {
+        "_EnumName": "CLD_SIT_GROUND_COMBI\u0000",
+        "_EnumValue": 124,
+        "_FixedID": 459828224
+      },
+      {
+        "_EnumName": "CLD_SIT_STRAIGHT_LEGGED\u0000",
+        "_EnumValue": 125,
+        "_FixedID": -1723503488
+      },
+      {
+        "_EnumName": "CLD_SIT_STRAIGHT_COMBI\u0000",
+        "_EnumValue": 126,
+        "_FixedID": -662485888
+      },
+      {
+        "_EnumName": "CLD_SIT_CROUCH\u0000",
+        "_EnumValue": 127,
+        "_FixedID": -1786211200
+      },
+      {
+        "_EnumName": "CLD_COLLECT_FUR\u0000",
+        "_EnumValue": 128,
+        "_FixedID": -1737069312
+      },
+      {
+        "_EnumName": "CLD_SWEEPING\u0000",
+        "_EnumValue": 129,
+        "_FixedID": -1427731456
+      },
+      {
+        "_EnumName": "CLD_BROOM_TAKE\u0000",
+        "_EnumValue": 130,
+        "_FixedID": 1740973952
+      },
+      {
+        "_EnumName": "CLD_BROOM_PUT\u0000",
+        "_EnumValue": 131,
+        "_FixedID": 240615136
+      },
+      {
+        "_EnumName": "CLD_CLEANING_TOOLS_TAKE\u0000",
+        "_EnumValue": 132,
+        "_FixedID": 458913152
+      },
+      {
+        "_EnumName": "CLD_CLEANING_TOOLS_PUT\u0000",
+        "_EnumValue": 133,
+        "_FixedID": 149239920
+      },
+      {
+        "_EnumName": "CLD_DUNG_PACK\u0000",
+        "_EnumValue": 134,
+        "_FixedID": 685872000
+      },
+      {
+        "_EnumName": "CLD_BOWL_DUNG_COLLECT\u0000",
+        "_EnumValue": 135,
+        "_FixedID": -1462552832
+      },
+      {
+        "_EnumName": "CLD_BOWL_DUNG_DISPOSE\u0000",
+        "_EnumValue": 136,
+        "_FixedID": 1545180160
+      },
+      {
+        "_EnumName": "CLD_BOWL_DUNG_DISPOSE_VARI2\u0000",
+        "_EnumValue": 137,
+        "_FixedID": 381880096
+      },
+      {
+        "_EnumName": "CLD_BOWL_TAKE\u0000",
+        "_EnumValue": 138,
+        "_FixedID": -715538432
+      },
+      {
+        "_EnumName": "CLD_BOWL_PUT\u0000",
+        "_EnumValue": 139,
+        "_FixedID": -1672547456
+      },
+      {
+        "_EnumName": "CLD_BENCH\u0000",
+        "_EnumValue": 140,
+        "_FixedID": 181155568
+      },
+      {
+        "_EnumName": "CLD_BENCH_COMBI\u0000",
+        "_EnumValue": 141,
+        "_FixedID": -1823205504
+      },
+      {
+        "_EnumName": "CLD_CHECK_LUGGAGE\u0000",
+        "_EnumValue": 142,
+        "_FixedID": -2082227968
+      },
+      {
+        "_EnumName": "CLD_STRAW_TAKE\u0000",
+        "_EnumValue": 143,
+        "_FixedID": 1092881536
+      },
+      {
+        "_EnumName": "CLD_STRAW_DISPOSE\u0000",
+        "_EnumValue": 144,
+        "_FixedID": -877699840
+      },
+      {
+        "_EnumName": "CLD_STRAW_DISPOSE_VARI2\u0000",
+        "_EnumValue": 145,
+        "_FixedID": -277592800
+      },
+      {
+        "_EnumName": "CLD_CHEESE_STEAL\u0000",
+        "_EnumValue": 146,
+        "_FixedID": -1317981184
+      },
+      {
+        "_EnumName": "CLD_STRAW_PLACE_REST\u0000",
+        "_EnumValue": 147,
+        "_FixedID": -158002624
+      },
+      {
+        "_EnumName": "CLD_NARUKO_TOUCH\u0000",
+        "_EnumValue": 148,
+        "_FixedID": 35268384
+      },
+      {
+        "_EnumName": "CLD_PORTER_SECONDARY_RIDE\u0000",
+        "_EnumValue": 149,
+        "_FixedID": -1025278848
+      },
+      {
+        "_EnumName": "CLD_PORTER_SECONDARY_DISMOUNT\u0000",
+        "_EnumValue": 150,
+        "_FixedID": -1209313920
+      },
+      {
+        "_EnumName": "CLD_ONIGOKKO\u0000",
+        "_EnumValue": 151,
+        "_FixedID": -1764744960
+      },
+      {
+        "_EnumName": "CLD_SLEEP\u0000",
+        "_EnumValue": 152,
+        "_FixedID": 1857752576
+      },
+      {
+        "_EnumName": "CLD_SHELTER_IDLE\u0000",
+        "_EnumValue": 153,
+        "_FixedID": 2094538368
+      }
+    ],
+    "_ExportNamespaceName": "app\u0000",
+    "_ExportClassName": "NpcDef\u0000",
+    "_ExportEnumName": "FSM_LIKE_ACTION_HUMAN_ST101\u0000",
+    "_EnumNameOfMaxElementCount": "MAX\u0000"
+  }
+}

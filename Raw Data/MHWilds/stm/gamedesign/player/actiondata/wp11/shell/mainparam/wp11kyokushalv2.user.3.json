@@ -1,0 +1,261 @@
+{
+  "ace.user_data.ShellMainParam": {
+    "_ShellMiniParams": [
+      {
+        "MiniParamName": "Common\u0000",
+        "MiniParamtype": 1,
+        "_IsDependedOn": false,
+        "UpdateOrder": 0,
+        "LateUpdateOrder": 0,
+        "_LifeSec": 1.5,
+        "_HitOnSec": 0.0
+      },
+      {
+        "MiniParamName": "PlWp11Arrow\u0000",
+        "MiniParamtype": 6,
+        "_IsDependedOn": false,
+        "UpdateOrder": 500,
+        "LateUpdateOrder": 500,
+        "_ArrowType": 3,
+        "_ArrowLv": 2,
+        "_Critical_Begin_Dist": -1.0,
+        "_Critical_End_Dist": -1.0,
+        "_Critical_AttackRate": 1.0,
+        "_Before_Critical_AttackRate": 1.0,
+        "_After_Critical_AttackRate": 1.0,
+        "_SpecialShot_HitSlowSpeedRate": 0.15,
+        "_SpecialShot_HitSlowTime": 0.3,
+        "_HomingSpecialShot_Speed": 150.0,
+        "_HomingStartDistRate": 0.2,
+        "_HomingMoveSpeed": 25.0,
+        "_HomingMoveAccTime": 0.1,
+        "_HomingTurnMaxSpeed": 80.0,
+        "_HomingTurnAcc": 40.0,
+        "_HomingTurnAccDistanceRate": {
+          "v0": [],
+          "v1": [
+            0,
+            0,
+            32,
+            65
+          ],
+          "v2": [
+            0,
+            0,
+            32,
+            193
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            200,
+            66
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_HomingTurnAccAngelRate": {
+          "v0": [],
+          "v1": [
+            0,
+            0,
+            32,
+            65
+          ],
+          "v2": [
+            0,
+            0,
+            32,
+            193
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            200,
+            66
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_HomingTurnMaxDeg": 120.0,
+        "_MultiLockonAcc": 40.0,
+        "_MultiLockonScatterDistRate": 0.1,
+        "_MultiLockonTurnAccStartDistRate": {
+          "v0": [],
+          "v1": [
+            0,
+            0,
+            32,
+            65
+          ],
+          "v2": [
+            0,
+            0,
+            32,
+            193
+          ],
+          "v3": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v4": [
+            0,
+            0,
+            200,
+            66
+          ],
+          "v5": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "v6": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        "_MultiLockonImmediatelyHomingDist": 3.0,
+        "_TsugiyaAtkRate": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "MiniParamName": "CallLifespanChildShell\u0000",
+        "MiniParamtype": 4,
+        "_IsDependedOn": false,
+        "UpdateOrder": 0,
+        "LateUpdateOrder": 0,
+        "_CreateNum": 1,
+        "_Offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IsInheritChildScaleValue": false,
+        "_IsRotWorldY": false,
+        "STRUCT__StartRot__HasValue": true,
+        "STRUCT__StartRot__Value": [
+          0.7071068,
+          0.0,
+          0.0,
+          0.7071068
+        ],
+        "STRUCT__OffsetRot__HasValue": false,
+        "STRUCT__OffsetRot__Value": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IsSameTimeCall": false,
+        "_IsCreateShellOwnerPos": false,
+        "_IsChainShell": false,
+        "_ChainID": 0,
+        "_LinkParentChainID": 0,
+        "_ChildOverrideParam": {
+          "_OffsetArray": [],
+          "_StartRotArray": [],
+          "_OffsetRotArray": []
+        },
+        "_LifespanShell": {
+          "_IsPassingHitID": false,
+          "_ShellNameHash": 934753989
+        }
+      },
+      {
+        "MiniParamName": "MoveParabola\u0000",
+        "MiniParamtype": 2,
+        "_IsDependedOn": false,
+        "UpdateOrder": 200,
+        "LateUpdateOrder": 200,
+        "_MoveSpeed": 0.0,
+        "_TargetOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_RotationType": 2,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__HasValue": false,
+        "STRUCT__OverwriteTurnToMoveDirCalcType__Value": 0,
+        "_IsUseTargetRotOffset": false,
+        "_TargetRotOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "_IsDisableTarget": false,
+        "_IsTargetDirLimit": false,
+        "_TargetDirLimitDeg_X": 0,
+        "_TargetDirLimitDeg_Y": 0,
+        "_IsUseDistanceTargetDirLimitDegX": false,
+        "_IsUseDistanceParentRoot": false,
+        "_TargetDirMaxDistance": 0.0,
+        "_TargetDirMinDistance": 0.0,
+        "_IsUseNoTargetAdjustYaw": false,
+        "_NoTargetAdjustYaw_Deg": 90.0,
+        "_Range_Distance": -1.0,
+        "_ParabolaType": 1,
+        "_Gravity": 9.8,
+        "_TargetDistMax": 0.0,
+        "_TargetDistMin": 0.0,
+        "_UseOnlyTargetHeight": false,
+        "_IsDistanceRoot": false,
+        "_TargetDistFix": 0.0,
+        "_AddSpeedXZPerDist": 0.0,
+        "_TargetHeightDiffMax": -1.0,
+        "_ReachTime": 1.5,
+        "_MaxHight": 0.0,
+        "_MinHight": 0.0
+      }
+    ],
+    "_CommonParam": {
+      "MiniParamName": "Common\u0000",
+      "MiniParamtype": 1,
+      "_IsDependedOn": false,
+      "UpdateOrder": 0,
+      "LateUpdateOrder": 0,
+      "_LifeSec": 1.5,
+      "_HitOnSec": 0.0
+    }
+  }
+}

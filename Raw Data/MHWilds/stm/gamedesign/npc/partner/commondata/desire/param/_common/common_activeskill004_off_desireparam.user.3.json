@@ -1,0 +1,44 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1092616192,
+          0
+        ],
+        "_Cancel": [
+          1092616192,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {
+            "_ActiveSkillType": "A_SKILL_004"
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_ActiveSkillType": "A_SKILL_004"
+          },
+          "_Inverse": true
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {
+            "_ActiveSkillType": "A_SKILL_004"
+          },
+          "_Inverse": true
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

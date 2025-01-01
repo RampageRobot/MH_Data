@@ -1,0 +1,39 @@
+{
+  "app.user_data.NpcAITableActionData": {
+    "_ConditionParams": [
+      {
+        "_Param": {
+          "_NaviAttr": 8
+        },
+        "_Inverse": false,
+        "_IsContinue": true
+      },
+      {
+        "_Param": {
+          "ItemList": [
+            1,
+            4,
+            8
+          ]
+        },
+        "_Inverse": false,
+        "_IsContinue": true
+      }
+    ],
+    "_ActionSetting": {
+      "_ForceInterrupt": false,
+      "_TableEnd": false
+    },
+    "_Param": {
+      "_Param": {
+        "_EffectHolder": {
+          "_Param": {
+            "_SpeedLv": "STOP",
+            "_UseExternalSpeed": false,
+            "_StickDir": 0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1100 @@
+{
+  "snow.enemy.Em135_00UniqueData": {
+    "_MoveArea2HPRate": 59.0,
+    "_ModeMotSpeed": {
+      "Phase1MotSpeed": 1.0,
+      "Phase2MotSpeed": 1.15,
+      "Phase2FullPowerMotSpeed": 1.2
+    },
+    "_FullPowerAtkRate": 1.2,
+    "_RockPreVacuumList": [
+      {
+        "_PaternList": [
+          {
+            "_FallPoint": [
+              -29.0,
+              69.0,
+              66.0
+            ],
+            "_MeshIndex": 0
+          },
+          {
+            "_FallPoint": [
+              10.0,
+              69.0,
+              65.0
+            ],
+            "_MeshIndex": 1
+          },
+          {
+            "_FallPoint": [
+              -36.0,
+              69.0,
+              48.0
+            ],
+            "_MeshIndex": 2
+          },
+          {
+            "_FallPoint": [
+              -4.0,
+              69.0,
+              75.0
+            ],
+            "_MeshIndex": 3
+          }
+        ]
+      },
+      {
+        "_PaternList": [
+          {
+            "_FallPoint": [
+              -32.0,
+              69.0,
+              60.0
+            ],
+            "_MeshIndex": 4
+          },
+          {
+            "_FallPoint": [
+              -18.0,
+              69.0,
+              72.0
+            ],
+            "_MeshIndex": 3
+          },
+          {
+            "_FallPoint": [
+              6.0,
+              69.0,
+              70.0
+            ],
+            "_MeshIndex": 2
+          },
+          {
+            "_FallPoint": [
+              -37.0,
+              69.0,
+              41.0
+            ],
+            "_MeshIndex": 1
+          }
+        ]
+      },
+      {
+        "_PaternList": [
+          {
+            "_FallPoint": [
+              2.0,
+              69.0,
+              75.0
+            ],
+            "_MeshIndex": 0
+          },
+          {
+            "_FallPoint": [
+              -32.0,
+              69.0,
+              54.0
+            ],
+            "_MeshIndex": 4
+          },
+          {
+            "_FallPoint": [
+              -15.0,
+              69.0,
+              70.0
+            ],
+            "_MeshIndex": 2
+          },
+          {
+            "_FallPoint": [
+              11.0,
+              69.0,
+              65.0
+            ],
+            "_MeshIndex": 3
+          }
+        ]
+      }
+    ],
+    "_SafeRockMeshList": [
+      "enemy/em135/common/mod/safe_rock/em135_safe_rock_00.mesh\u0000",
+      "enemy/em135/common/mod/safe_rock/em135_safe_rock_01.mesh\u0000",
+      "enemy/em135/common/mod/safe_rock/em135_safe_rock_02.mesh\u0000",
+      "enemy/em135/common/mod/safe_rock/em135_safe_rock_03.mesh\u0000",
+      "enemy/em135/common/mod/safe_rock/em135_safe_rock_04.mesh\u0000"
+    ],
+    "_SafeRockCapsuleHeight": 2.0,
+    "_SafeRockCapsuleRadius": 2.0,
+    "_VacuumJointInfo": {
+      "_JointHash": 3423383387,
+      "_Offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "_JointName": "EM_Laser\u0000"
+    },
+    "_FrakeS": {
+      "MaxNum": 10,
+      "GenEffectContainerID": 0,
+      "GenEffectElementID": 0,
+      "ExplosionEffectContainerID": 150,
+      "ExplosionEffectElementID": 3,
+      "LoopEffectContainerID": 0,
+      "LoopEffectElementID": 0,
+      "ExplosionDamage": 2,
+      "DamageDispOffset": [
+        2.0,
+        -1.0
+      ]
+    },
+    "_FrakeM": {
+      "MaxNum": 20,
+      "GenEffectContainerID": 150,
+      "GenEffectElementID": 201,
+      "ExplosionEffectContainerID": 150,
+      "ExplosionEffectElementID": 2,
+      "LoopEffectContainerID": 0,
+      "LoopEffectElementID": 0,
+      "ExplosionDamage": 23,
+      "DamageDispOffset": [
+        -2.0,
+        1.0
+      ]
+    },
+    "_FrakeL": {
+      "MaxNum": 5,
+      "GenEffectContainerID": 150,
+      "GenEffectElementID": 200,
+      "ExplosionEffectContainerID": 150,
+      "ExplosionEffectElementID": 1,
+      "LoopEffectContainerID": 150,
+      "LoopEffectElementID": 205,
+      "ExplosionDamage": 84,
+      "DamageDispOffset": [
+        3.2,
+        3.0
+      ]
+    },
+    "_FrakeVacuumInitSpeed": 0.5,
+    "_FrakeVacuumSpeedInfoList": [
+      {
+        "Acceleration": 2.0,
+        "TimerSec": 1.5
+      },
+      {
+        "Acceleration": 15.0,
+        "TimerSec": 6.0
+      }
+    ],
+    "_FrakeVacuumTimerSec": 9.0,
+    "_FrakeAttachLandYTop": 20.0,
+    "_FrakeAttachLandYBottom": -20.0,
+    "_FrakeGenOffsetY": -0.05,
+    "_FrakeDamageDispDiffLength": 2.0,
+    "_FrakeCheckVauumDist": 1.0,
+    "_FrakeMDropVital": 48.0,
+    "_FrakeRandomGenCenterPos": [
+      -10.0,
+      69.0,
+      69.0
+    ],
+    "_FrakeRandomGenRadius": 28.0,
+    "_FrakeBehaviorVacuum": {
+      "RandomShakeTimeSec": 1.0,
+      "RandomShake": 0.02,
+      "FlyTimeSec": 2.5,
+      "FlyRotVecDeg": [
+        180.0,
+        180.0,
+        180.0
+      ],
+      "FlyRandRotVecDeg": [
+        60.0,
+        60.0,
+        60.0
+      ]
+    },
+    "_FrakeExplosionRandMaxXZ": 4.0,
+    "_FrakeExplosionDownItemJointInfo": {
+      "_JointHash": 3423383387,
+      "_Offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "_JointName": "EM_Laser\u0000"
+    },
+    "_TrenchMortarShellList": [
+      {
+        "_pointXZ": [
+          7.5,
+          15.0
+        ],
+        "_delayTimeSec": 0.5
+      },
+      {
+        "_pointXZ": [
+          -9.0,
+          -1.0
+        ],
+        "_delayTimeSec": 0.6
+      },
+      {
+        "_pointXZ": [
+          -8.0,
+          20.0
+        ],
+        "_delayTimeSec": 0.7
+      },
+      {
+        "_pointXZ": [
+          25.0,
+          20.0
+        ],
+        "_delayTimeSec": 0.8
+      },
+      {
+        "_pointXZ": [
+          -27.0,
+          -5.0
+        ],
+        "_delayTimeSec": 0.9
+      },
+      {
+        "_pointXZ": [
+          9.0,
+          -1.0
+        ],
+        "_delayTimeSec": 1.4
+      },
+      {
+        "_pointXZ": [
+          5.0,
+          22.0
+        ],
+        "_delayTimeSec": 1.5
+      },
+      {
+        "_pointXZ": [
+          -11.0,
+          15.0
+        ],
+        "_delayTimeSec": 1.6
+      },
+      {
+        "_pointXZ": [
+          4.5,
+          -10.0
+        ],
+        "_delayTimeSec": 1.7
+      },
+      {
+        "_pointXZ": [
+          25.0,
+          0.0
+        ],
+        "_delayTimeSec": 1.8
+      },
+      {
+        "_pointXZ": [
+          -25.0,
+          5.0
+        ],
+        "_delayTimeSec": 1.9
+      },
+      {
+        "_pointXZ": [
+          -7.5,
+          15.0
+        ],
+        "_delayTimeSec": 2.3
+      },
+      {
+        "_pointXZ": [
+          9.0,
+          -1.0
+        ],
+        "_delayTimeSec": 2.4
+      },
+      {
+        "_pointXZ": [
+          8.0,
+          20.0
+        ],
+        "_delayTimeSec": 2.5
+      },
+      {
+        "_pointXZ": [
+          -4.5,
+          -11.0
+        ],
+        "_delayTimeSec": 2.6
+      },
+      {
+        "_pointXZ": [
+          6.0,
+          -20.0
+        ],
+        "_delayTimeSec": 2.7
+      },
+      {
+        "_pointXZ": [
+          -15.0,
+          -2.0
+        ],
+        "_delayTimeSec": 2.8
+      },
+      {
+        "_pointXZ": [
+          27.0,
+          2.0
+        ],
+        "_delayTimeSec": 2.9
+      },
+      {
+        "_pointXZ": [
+          -25.0,
+          26.0
+        ],
+        "_delayTimeSec": 3.0
+      },
+      {
+        "_pointXZ": [
+          -5.0,
+          22.0
+        ],
+        "_delayTimeSec": 3.2
+      },
+      {
+        "_pointXZ": [
+          15.0,
+          0.0
+        ],
+        "_delayTimeSec": 3.3
+      },
+      {
+        "_pointXZ": [
+          7.6,
+          15.5
+        ],
+        "_delayTimeSec": 3.4
+      },
+      {
+        "_pointXZ": [
+          -9.5,
+          -1.0
+        ],
+        "_delayTimeSec": 3.5
+      },
+      {
+        "_pointXZ": [
+          5.5,
+          -11.0
+        ],
+        "_delayTimeSec": 3.6
+      },
+      {
+        "_pointXZ": [
+          -6.0,
+          -22.0
+        ],
+        "_delayTimeSec": 3.7
+      },
+      {
+        "_pointXZ": [
+          29.0,
+          6.0
+        ],
+        "_delayTimeSec": 3.8
+      },
+      {
+        "_pointXZ": [
+          -20.0,
+          -10.0
+        ],
+        "_delayTimeSec": 3.9
+      },
+      {
+        "_pointXZ": [
+          0.5,
+          23.5
+        ],
+        "_delayTimeSec": 4.1
+      },
+      {
+        "_pointXZ": [
+          7.5,
+          21.5
+        ],
+        "_delayTimeSec": 4.2
+      },
+      {
+        "_pointXZ": [
+          -7.9,
+          15.0
+        ],
+        "_delayTimeSec": 4.3
+      },
+      {
+        "_pointXZ": [
+          -9.4,
+          1.0
+        ],
+        "_delayTimeSec": 4.4
+      },
+      {
+        "_pointXZ": [
+          9.8,
+          1.5
+        ],
+        "_delayTimeSec": 4.5
+      },
+      {
+        "_pointXZ": [
+          -5.5,
+          -23.5
+        ],
+        "_delayTimeSec": 4.6
+      },
+      {
+        "_pointXZ": [
+          14.0,
+          17.0
+        ],
+        "_delayTimeSec": 4.7
+      },
+      {
+        "_pointXZ": [
+          -18.0,
+          14.0
+        ],
+        "_delayTimeSec": 4.8
+      },
+      {
+        "_pointXZ": [
+          -25.0,
+          0.0
+        ],
+        "_delayTimeSec": 4.9
+      },
+      {
+        "_pointXZ": [
+          15.0,
+          -15.0
+        ],
+        "_delayTimeSec": 4.95
+      },
+      {
+        "_pointXZ": [
+          18.0,
+          13.0
+        ],
+        "_delayTimeSec": 5.0
+      },
+      {
+        "_pointXZ": [
+          -20.0,
+          9.0
+        ],
+        "_delayTimeSec": 5.1
+      },
+      {
+        "_pointXZ": [
+          7.5,
+          15.0
+        ],
+        "_delayTimeSec": 5.2
+      },
+      {
+        "_pointXZ": [
+          -4.5,
+          -11.0
+        ],
+        "_delayTimeSec": 5.3
+      },
+      {
+        "_pointXZ": [
+          -11.0,
+          -3.0
+        ],
+        "_delayTimeSec": 5.4
+      },
+      {
+        "_pointXZ": [
+          14.0,
+          -2.0
+        ],
+        "_delayTimeSec": 5.5
+      },
+      {
+        "_pointXZ": [
+          30.0,
+          20.0
+        ],
+        "_delayTimeSec": 5.6
+      },
+      {
+        "_pointXZ": [
+          -22.0,
+          -10.0
+        ],
+        "_delayTimeSec": 5.7
+      },
+      {
+        "_pointXZ": [
+          -15.0,
+          5.0
+        ],
+        "_delayTimeSec": 5.9
+      },
+      {
+        "_pointXZ": [
+          20.0,
+          7.5
+        ],
+        "_delayTimeSec": 6.0
+      },
+      {
+        "_pointXZ": [
+          5.0,
+          22.0
+        ],
+        "_delayTimeSec": 6.1
+      },
+      {
+        "_pointXZ": [
+          -5.5,
+          24.0
+        ],
+        "_delayTimeSec": 6.2
+      },
+      {
+        "_pointXZ": [
+          12.0,
+          -5.0
+        ],
+        "_delayTimeSec": 6.3
+      },
+      {
+        "_pointXZ": [
+          -15.0,
+          -6.0
+        ],
+        "_delayTimeSec": 6.4
+      },
+      {
+        "_pointXZ": [
+          25.0,
+          0.0
+        ],
+        "_delayTimeSec": 6.5
+      },
+      {
+        "_pointXZ": [
+          -28.0,
+          5.0
+        ],
+        "_delayTimeSec": 6.6
+      },
+      {
+        "_pointXZ": [
+          10.0,
+          20.0
+        ],
+        "_delayTimeSec": 6.8
+      },
+      {
+        "_pointXZ": [
+          -9.0,
+          18.0
+        ],
+        "_delayTimeSec": 6.9
+      },
+      {
+        "_pointXZ": [
+          -11.0,
+          -8.0
+        ],
+        "_delayTimeSec": 7.0
+      },
+      {
+        "_pointXZ": [
+          5.0,
+          -13.0
+        ],
+        "_delayTimeSec": 7.1
+      },
+      {
+        "_pointXZ": [
+          29.0,
+          -8.0
+        ],
+        "_delayTimeSec": 7.2
+      },
+      {
+        "_pointXZ": [
+          -30.0,
+          -4.0
+        ],
+        "_delayTimeSec": 7.3
+      },
+      {
+        "_pointXZ": [
+          35.0,
+          20.0
+        ],
+        "_delayTimeSec": 1.5
+      },
+      {
+        "_pointXZ": [
+          26.0,
+          30.0
+        ],
+        "_delayTimeSec": 3.0
+      },
+      {
+        "_pointXZ": [
+          -35.0,
+          25.0
+        ],
+        "_delayTimeSec": 2.0
+      },
+      {
+        "_pointXZ": [
+          10.0,
+          35.0
+        ],
+        "_delayTimeSec": 4.0
+      },
+      {
+        "_pointXZ": [
+          -10.0,
+          35.0
+        ],
+        "_delayTimeSec": 6.0
+      },
+      {
+        "_pointXZ": [
+          -29.0,
+          26.0
+        ],
+        "_delayTimeSec": 2.5
+      },
+      {
+        "_pointXZ": [
+          31.0,
+          33.0
+        ],
+        "_delayTimeSec": 3.5
+      },
+      {
+        "_pointXZ": [
+          3.0,
+          36.0
+        ],
+        "_delayTimeSec": 4.5
+      },
+      {
+        "_pointXZ": [
+          -16.0,
+          33.0
+        ],
+        "_delayTimeSec": 5.5
+      },
+      {
+        "_pointXZ": [
+          -1.0,
+          29.0
+        ],
+        "_delayTimeSec": 4.25
+      },
+      {
+        "_pointXZ": [
+          0.0,
+          15.0
+        ],
+        "_delayTimeSec": 5.25
+      }
+    ],
+    "_TrenchMortarShellGenHeight": 50.0,
+    "_TrenchMortarTerminableLifeTimeSec": 6.0,
+    "_DirectHPDamageByDropping": 0.0,
+    "_WallStanceStageColOffset": [
+      0.0,
+      5.0,
+      0.0
+    ],
+    "_AxisZOfEachWall": [
+      [
+        0.6,
+        0.9,
+        0.0
+      ],
+      [
+        0.0,
+        0.86,
+        0.6
+      ],
+      [
+        -0.6,
+        0.7,
+        0.0
+      ]
+    ],
+    "_targetWallOffsetPos": [
+      0.0,
+      -3.0,
+      0.0
+    ],
+    "_ObstacleBlendRateReverseLerpFrame": 50.0,
+    "_GroundBlendRateReverseLerpFrame": 50.0,
+    "_InClimbingPropsDamageUIColor": 0,
+    "_InClimbingDamageDispRange": 120.0,
+    "_BipedShellIntervalAtLaserLanding": 0.5,
+    "_QuadrupedShellIntervalAtLaserLanding": 0.01,
+    "_QuadrupedShellGenSpaceAtLaserLanding": 5.0,
+    "_CuriaControlInfoList": [
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 30.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      },
+      {
+        "Scale": 1.0,
+        "FadeFrame": 100.0,
+        "MotSpeed": 1.0
+      }
+    ],
+    "_BackTargetCuriaVital": 610.0,
+    "_BackTargetCuriaVital_Second": 500.0,
+    "_BackTargetCuriaVital_BeforeFall": 435.0,
+    "_BackTargetCuriaVital_AfterFall": 560.0,
+    "_BackTargetCuriaVitalMultiRate_2": 1.8,
+    "_BackTargetCuriaVitalMultiRate_3": 2.4,
+    "_BackTargetCuriaVitalMultiRate_4": 3.0,
+    "_BackTargetCuriaVitalRate_Servant_1": 2.0,
+    "_BackTargetCuriaVitalRate_Servant_2": 2.8,
+    "_BackTargetCuriaBreakDamage": 48.0,
+    "_BackTargetCuriaBreakDamage_DamageReaction": 62.0,
+    "_BackTargetBreakDamageUIColor": 1,
+    "_BackTargetCuriaBreakDamageUIOffsetY": 7.0,
+    "_BackTargetCuriaPropsDamageUIColor": 1,
+    "_BackTargetCuriaPropsDamageRate": 4.0,
+    "_ServantDamageCheckTime": 180.0,
+    "_BackTargetCuriaVitalFirst_Demo": 1300.0,
+    "_BackTargetCuriaVitalSecond_Demo": 1100.0,
+    "_BackTargetCuriaBreakDamage_Demo": 196.0,
+    "_BackTargetBreakDamageUIColor_Demo": 1,
+    "_BackTargetCuriaBreakDamageUIOffsetY_Demo": -2.0,
+    "_BackTargetCuriaBreakFrame_Demo": 8.0,
+    "_HomingBreathJointName": "EM_Laser\u0000",
+    "_HomingBreathCreatePatternList": [
+      {
+        "ParamList_First": [],
+        "ParamList_Second": [
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -10.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 4.0
+          },
+          {
+            "CreateFrame": 180.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 10.0
+          },
+          {
+            "CreateFrame": 120.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -4.0
+          }
+        ]
+      },
+      {
+        "ParamList_First": [
+          {
+            "CreateFrame": 100.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": -10.0
+          },
+          {
+            "CreateFrame": 180.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": 6.0
+          },
+          {
+            "CreateFrame": 120.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 12.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -8.0
+          }
+        ],
+        "ParamList_Second": [
+          {
+            "CreateFrame": 30.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -8.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 7.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 12.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -4.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -11.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 6.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -12.0
+          }
+        ]
+      },
+      {
+        "ParamList_First": [
+          {
+            "CreateFrame": 140.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": -8.0
+          },
+          {
+            "CreateFrame": 160.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": 6.0
+          }
+        ],
+        "ParamList_Second": [
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 4.0
+          },
+          {
+            "CreateFrame": 120.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 13.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -6.0
+          },
+          {
+            "CreateFrame": 120.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 4.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -11.0
+          }
+        ]
+      },
+      {
+        "ParamList_First": [
+          {
+            "CreateFrame": 100.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": 8.0
+          },
+          {
+            "CreateFrame": 180.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": -7.0
+          },
+          {
+            "CreateFrame": 120.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": 9.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 15.0,
+            "FallDownTargetOfsX": -8.0
+          }
+        ],
+        "ParamList_Second": [
+          {
+            "CreateFrame": 30.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 14.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 6.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -5.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -13.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 8.0
+          },
+          {
+            "CreateFrame": 90.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": -12.0
+          },
+          {
+            "CreateFrame": 60.0,
+            "FallDownTargetOfsY": 20.0,
+            "FallDownTargetOfsX": 12.0
+          }
+        ]
+      }
+    ],
+    "_HomingBreathDamageRateFromShell012": 20.0,
+    "_WallLeechRotDegList": [
+      [
+        0.0,
+        90.0,
+        90.0
+      ],
+      [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -90.0,
+        -90.0
+      ]
+    ],
+    "_ServantDemoWarpYOffset": -22.0,
+    "_ServantDemoAngleDegX": -60.0,
+    "_InterpolationFrameAfterNotEndNaviDash": 20.0
+  }
+}

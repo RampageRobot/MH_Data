@@ -1,0 +1,1039 @@
+{
+  "snow.npc.motion.userdata.NpcMotionPatternUserData": {
+    "_MotionPatternData": [
+      {
+        "_ID": 1,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.7,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": [
+              32
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 32,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.7,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": [
+              32
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 2,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.2,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": [
+              10,
+              29,
+              28
+            ]
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.1,
+            "_GroupNpcIDList": [
+              10,
+              29
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 10,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": [
+              23
+            ]
+          },
+          {
+            "_PatternID": 5,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 23,
+        "_Priority": 3,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.45,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 29,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.45,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": [
+              17
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 17,
+        "_Priority": 2,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.45,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 28,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.7,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 4,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              15
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 15,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.25,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.25,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 26,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.8,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.2,
+            "_GroupNpcIDList": [
+              24
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 24,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.2,
+            "_GroupNpcIDList": [
+              16
+            ]
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 5,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.15,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 16,
+        "_Priority": 2,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.8,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 7,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 9,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 11,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.7,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": [
+              22
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 22,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.7,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 30,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 12,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 56,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 67,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 27,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.6,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 44,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 63,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              65,
+              66
+            ]
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              65,
+              66
+            ]
+          }
+        ],
+        "_Condition": [
+          {
+            "_Flags": [
+              145
+            ]
+          },
+          {
+            "_Flags": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "_ID": 65,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 66,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 39,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.6,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": [
+              42
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 42,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.6,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.0,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 40,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.6,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 62,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 1,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.6,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 87,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 88,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 89,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.4,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": [
+          {
+            "_Flags": [
+              844
+            ]
+          }
+        ]
+      },
+      {
+        "_ID": 103,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 106,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 107,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 95,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3,
+            "_GroupNpcIDList": [
+              98
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 138,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              139
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 147,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3333,
+            "_GroupNpcIDList": [
+              114
+            ]
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              114
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 85,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.1,
+            "_GroupNpcIDList": [
+              115,
+              116
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 140,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              76
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 76,
+        "_Priority": 1,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.2,
+            "_GroupNpcIDList": [
+              90,
+              91,
+              77
+            ]
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.37,
+            "_GroupNpcIDList": [
+              77
+            ]
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.37,
+            "_GroupNpcIDList": [
+              77
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 77,
+        "_Priority": 2,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              127
+            ]
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              127
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 127,
+        "_Priority": 3,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 91,
+        "_Priority": 2,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.99,
+            "_GroupNpcIDList": [
+              95
+            ]
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.3333,
+            "_GroupNpcIDList": [
+              84
+            ]
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": [
+              100,
+              101
+            ]
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 90,
+        "_Priority": 2,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": true,
+            "_Probablity": 0.33,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.33,
+            "_GroupNpcIDList": []
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      },
+      {
+        "_ID": 124,
+        "_Priority": 0,
+        "_Pattern": [
+          {
+            "_PatternID": 2,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.2,
+            "_GroupNpcIDList": [
+              86
+            ]
+          },
+          {
+            "_PatternID": 3,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.25,
+            "_GroupNpcIDList": [
+              86
+            ]
+          },
+          {
+            "_PatternID": 4,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.333,
+            "_GroupNpcIDList": [
+              80
+            ]
+          },
+          {
+            "_PatternID": 5,
+            "_IsChoicedOtherNpc": false,
+            "_Probablity": 0.5,
+            "_GroupNpcIDList": []
+          }
+        ],
+        "_Condition": []
+      }
+    ]
+  }
+}

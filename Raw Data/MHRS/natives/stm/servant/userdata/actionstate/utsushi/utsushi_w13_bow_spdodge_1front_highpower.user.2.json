@@ -1,0 +1,35 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": true,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_ComboList": [
+          261876555
+        ]
+      },
+      {
+        "IsNot": false,
+        "_Min": 135.0,
+        "_Max": 225.0
+      },
+      {
+        "IsNot": false,
+        "_CheckChargeLevel1": false,
+        "_CheckChargeLevel2": true,
+        "_CheckChargeLevel3": true,
+        "_CheckChargeLevel4": true
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_SpecifiedComboId": 10008,
+        "_IsDerivedNG": false,
+        "_IsComboInterruptToFailed": true,
+        "_DisableComboInterruptFlag": true
+      }
+    ]
+  }
+}

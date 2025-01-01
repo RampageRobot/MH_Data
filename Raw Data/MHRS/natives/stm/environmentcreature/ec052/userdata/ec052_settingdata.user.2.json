@@ -1,0 +1,183 @@
+{
+  "snow.envCreature.Ec052SettingData": {
+    "_TargetAdjustRate": 0.2,
+    "_WaitMaxAngle": 45.0,
+    "_MotionDefaultRotAngle": 45.0,
+    "_MinShotSpanTimeOnTargetChange": 1.0,
+    "_ShotSpanAddStartDistance": 10.0,
+    "_ShotSpanAddIntervalDistance": 7.0,
+    "_MinShotSpan": 8.0,
+    "_MaxShotSpan": 8.0,
+    "_ShotSpanAddRate": 5.0,
+    "_CoolTime": 2.0,
+    "_SPShotCoolTime": 1200.0,
+    "_MaxOneSetShotCount": 30,
+    "_IsPrioritizeDownEnemy": true,
+    "_IsLockTargetBySPShot": true,
+    "_SPShotTargetIsDownEMOnly": false,
+    "_IsSPFlagNoCancel": true,
+    "_IsResetShotSpanOnSPShot": true,
+    "_IsFixedShotSpanTimeOnSPShot": true,
+    "_SPShotSpanFixedTime": 0.0,
+    "_PLTargetShotOffsetList": [
+      {
+        "_MaxDistance": 25.0,
+        "_OffsetList": [
+          [
+            1.5,
+            -2.0
+          ],
+          [
+            -1.5,
+            -2.0
+          ],
+          [
+            0.8,
+            -1.0
+          ],
+          [
+            -0.8,
+            -1.0
+          ],
+          [
+            0.0,
+            -0.3
+          ]
+        ]
+      },
+      {
+        "_MaxDistance": 35.0,
+        "_OffsetList": [
+          [
+            -1.5,
+            -2.0
+          ],
+          [
+            0.8,
+            -1.0
+          ],
+          [
+            -0.8,
+            -1.0
+          ],
+          [
+            0.0,
+            -0.3
+          ]
+        ]
+      },
+      {
+        "_MaxDistance": 80.0,
+        "_OffsetList": [
+          [
+            0.8,
+            -1.0
+          ],
+          [
+            -0.8,
+            -1.0
+          ],
+          [
+            0.0,
+            -0.3
+          ]
+        ]
+      }
+    ],
+    "_EMTargetShotOffsetList": [
+      {
+        "_MaxDistance": 17.0,
+        "_OffsetList": [
+          [
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.0
+          ],
+          [
+            -0.4,
+            0.0
+          ]
+        ]
+      },
+      {
+        "_MaxDistance": 30.0,
+        "_OffsetList": [
+          [
+            3.0,
+            0.0
+          ],
+          [
+            -2.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "_MaxDistance": 80.0,
+        "_OffsetList": [
+          [
+            2.0,
+            0.0
+          ],
+          [
+            -2.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "_SPShotOffsetList": [
+      [
+        -0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  }
+}

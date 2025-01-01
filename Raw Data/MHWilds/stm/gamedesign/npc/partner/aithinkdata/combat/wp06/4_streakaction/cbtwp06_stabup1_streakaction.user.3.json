@@ -1,0 +1,62 @@
+{
+  "app.user_data.NpcStreakActionData": {
+    "_TerminateType": 18,
+    "_ActionEffectParam": {
+      "_Category": -1675163520,
+      "_Action": 4
+    },
+    "_LStickEffectParam": {},
+    "_AimEffectParam": {
+      "_Param": {
+        "_ActionSelector": {
+          "_Category": -1675163520,
+          "_Action": 4
+        },
+        "_ActionEnd": false,
+        "_IgnoreError": false,
+        "_RetryCommad": true
+      }
+    },
+    "_EvaluatorParams": [
+      {
+        "_Param": {
+          "_StartType": 0,
+          "_EndType": 0,
+          "_CanAimWpOff": false,
+          "_UseParabora": 0,
+          "_StartActionSelector": {
+            "_Category": 773579456,
+            "_Action": 0
+          },
+          "_LogicType": 0,
+          "_AdjustType": 1,
+          "_UpdateTiming": 0,
+          "_CheckRayCast": false,
+          "_IsDirectionAim": false
+        }
+      },
+      {
+        "_Param": {}
+      },
+      {
+        "_Param": {},
+        "_Inverse": false
+      },
+      {
+        "_Param": {},
+        "_Inverse": true
+      },
+      {
+        "_Param": {
+          "_Immediate": false,
+          "_Strict": true,
+          "_ActionSelector": {
+            "_Category": -1675163520,
+            "_Action": 4
+          }
+        },
+        "_Inverse": false
+      }
+    ]
+  }
+}

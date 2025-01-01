@@ -1,0 +1,466 @@
+{
+  "snow.enemy.Em001_02PowerUpData": {
+    "PowerUpCountChangeDatas": [
+      {
+        "RatioMax": 1.0,
+        "RatioMin": 0.8,
+        "count": 100
+      },
+      {
+        "RatioMax": 0.8,
+        "RatioMin": 0.5,
+        "count": 120
+      },
+      {
+        "RatioMax": 0.5,
+        "RatioMin": 0.3,
+        "count": 90
+      },
+      {
+        "RatioMax": 0.3,
+        "RatioMin": 0.0,
+        "count": 80
+      }
+    ],
+    "_PowerUpCountAddMoitonDatas": [
+      {
+        "_EnumName": "None\u0000",
+        "_Name": "なし\u0000",
+        "_ActNo": 0,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RollingTailL\u0000",
+        "_Name": "回転尻尾攻撃（時計回り）\u0000",
+        "_ActNo": 1,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RollingTail2L\u0000",
+        "_Name": "回転尻尾攻撃2段目（時計回り）\u0000",
+        "_ActNo": 48,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "RollingTailR\u0000",
+        "_Name": "回転尻尾攻撃（反時計回り）\u0000",
+        "_ActNo": 2,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "NormalBreathStart\u0000",
+        "_Name": "地上ブレス開始\u0000",
+        "_ActNo": 3,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "NormalBreathShot\u0000",
+        "_Name": "早い地上ブレス発射\u0000",
+        "_ActNo": 4,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "DashBite\u0000",
+        "_Name": "ダッシュ ⇒ かみつき\u0000",
+        "_ActNo": 7,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "TiredDashBite\u0000",
+        "_Name": "疲れダッシュ ⇒ かみつき\u0000",
+        "_ActNo": 8,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyScrach\u0000",
+        "_Name": "空中ひっかき\u0000",
+        "_ActNo": 10,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyFrontBite\u0000",
+        "_Name": "空中前噛みつき\u0000",
+        "_ActNo": 14,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyFrontBiteAfter\u0000",
+        "_Name": "空中前噛みつき後半\u0000",
+        "_ActNo": 15,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "DashBiteMiddle\u0000",
+        "_Name": "中距離噛みつき\u0000",
+        "_ActNo": 32,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "HighPowerBreath\u0000",
+        "_Name": "強化ブレス\u0000",
+        "_ActNo": 33,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "ThreeWayBreath\u0000",
+        "_Name": "3wayブレス\u0000",
+        "_ActNo": 34,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "TripleDashAttackFirst\u0000",
+        "_Name": "3連続突進＿１\u0000",
+        "_ActNo": 35,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "TripleDashAttackFirstNoEnd\u0000",
+        "_Name": "3連続突進＿１(止まりなし)\u0000",
+        "_ActNo": 60,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "TripleDashAttackSecond\u0000",
+        "_Name": "3連続突進＿２\u0000",
+        "_ActNo": 36,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "TripleDashAttackThird\u0000",
+        "_Name": "3連続突進＿３\u0000",
+        "_ActNo": 37,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "AdjustBite\u0000",
+        "_Name": "左右自動遷移ありのかみつき\u0000",
+        "_ActNo": 38,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSault\u0000",
+        "_Name": "サマーソルト\u0000",
+        "_ActNo": 39,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "SomerSaultTailCutOff\u0000",
+        "_Name": "サマーソルト(尻尾切断時)\u0000",
+        "_ActNo": 71,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "DoubleSomerSaultKick\u0000",
+        "_Name": "サマソルト２連続_１\u0000",
+        "_ActNo": 40,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "DoubleSomerSaultKickTailCutOff\u0000",
+        "_Name": "サマソルト２連続_１(尻尾切断時)\u0000",
+        "_ActNo": 72,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "DoubleSomerSaultKickSecond\u0000",
+        "_Name": "サマソルト２連続_２\u0000",
+        "_ActNo": 41,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "DoubleSomerSaultKickSecondTailCutOff\u0000",
+        "_Name": "サマソルト２連続_２(尻尾切断時)\u0000",
+        "_ActNo": 73,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFly\u0000",
+        "_Name": "空中_サマーソルト\u0000",
+        "_ActNo": 42,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFlyTailCutOff\u0000",
+        "_Name": "空中_サマーソルト(尻尾切断時)\u0000",
+        "_ActNo": 74,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFlyToLanding\u0000",
+        "_Name": "空中_サマーソルト→着地\u0000",
+        "_ActNo": 43,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFlyToLandingTailCutOff\u0000",
+        "_Name": "空中_サマーソルト→着地(尻尾切断時)\u0000",
+        "_ActNo": 75,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickNoAdjust\u0000",
+        "_Name": "空中_サマーソルト　方向補正なし\u0000",
+        "_ActNo": 44,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickNoAdjustTailCutOff\u0000",
+        "_Name": "空中_サマーソルト　方向補正なし(尻尾切断時)\u0000",
+        "_ActNo": 76,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFlyToLandNoAdjust\u0000",
+        "_Name": "空中_サマーソルト→着地　方向補正なし\u0000",
+        "_ActNo": 45,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickFlyToLandNoAdjustTailCutOff\u0000",
+        "_Name": "空中_サマーソルト→着地　方向補正なし(尻尾切断時)\u0000",
+        "_ActNo": 77,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickTakeOff\u0000",
+        "_Name": "サマーソルト→空中おわり\u0000",
+        "_ActNo": 46,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SomerSaultKickTakeOffTailCutOff\u0000",
+        "_Name": "サマーソルト→空中おわり(尻尾切断時)\u0000",
+        "_ActNo": 78,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "GlideAttackShort\u0000",
+        "_Name": "ショート滑空攻撃\u0000",
+        "_ActNo": 47,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "FlyBreath\u0000",
+        "_Name": "空中ブレス\u0000",
+        "_ActNo": 49,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "BigThreatStand\u0000",
+        "_Name": "【ヌシ】大咆哮(地上)\u0000",
+        "_ActNo": 50,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigThreatFly\u0000",
+        "_Name": "【ヌシ】大咆哮(空中)\u0000",
+        "_ActNo": 51,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillReady\u0000",
+        "_Name": "【ヌシ】大技(予兆)\u0000",
+        "_ActNo": 52,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillDoubleSaultKickFirst\u0000",
+        "_Name": "【ヌシ】大技(猛毒シェル2連サマー1段目)\u0000",
+        "_ActNo": 53,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillDoubleSaultKickFirstNormalQuest\u0000",
+        "_Name": "【ヌシ】大技(猛毒シェル2連サマー1段目)(通常クエスト用)\u0000",
+        "_ActNo": 70,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "IntroBigSkill\u0000",
+        "_Name": "【ヌシ】イントロ大技(「大咆哮」流用)\u0000",
+        "_ActNo": 68,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BigSkillDoubleSaultKickSecond\u0000",
+        "_Name": "【ヌシ】大技(猛毒シェル2連サマー2段目)\u0000",
+        "_ActNo": 54,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BiteFirstL\u0000",
+        "_Name": "【ヌシ】連続回り込み噛み付き1段目_左\u0000",
+        "_ActNo": 55,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BiteFirstR\u0000",
+        "_Name": "【ヌシ】連続回り込み噛み付き1段目_右\u0000",
+        "_ActNo": 64,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BiteSecondL\u0000",
+        "_Name": "【ヌシ】連続回り込み噛み付き2段目(1段目左)\u0000",
+        "_ActNo": 56,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BiteSecondR\u0000",
+        "_Name": "【ヌシ】連続回り込み噛み付き2段目(1段目右)\u0000",
+        "_ActNo": 65,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoarTailAttack\u0000",
+        "_Name": "【ヌシ】尻尾叩きつけ威嚇\u0000",
+        "_ActNo": 57,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RushCancelSomerSault\u0000",
+        "_Name": "【ヌシ】突進キャンセルサマーソルト\u0000",
+        "_ActNo": 58,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "TailAttack\u0000",
+        "_Name": "【ヌシ】尻尾ぶん回し\u0000",
+        "_ActNo": 59,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "DropTailAttack\u0000",
+        "_Name": "【ヌシ】急降下尻尾攻撃\u0000",
+        "_ActNo": 63,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "BiteAndTailAttackNormal\u0000",
+        "_Name": "【ヌシ】噛み付き尻尾叩きつけ(通常版)\u0000",
+        "_ActNo": 66,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "BiteAndTailAttackDash\u0000",
+        "_Name": "【ヌシ】噛み付き尻尾叩きつけ(ダッシュ版)\u0000",
+        "_ActNo": 67,
+        "_AddCount": 5
+      },
+      {
+        "_EnumName": "SideSomerSaultGround\u0000",
+        "_Name": "【希少種】360度サマーソルト(地上)\u0000",
+        "_ActNo": 7000,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "SideSomerSaultFly\u0000",
+        "_Name": "【希少種】360度サマーソルト(空中)\u0000",
+        "_ActNo": 7001,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "StepInSomerSaultStart\u0000",
+        "_Name": "【希少種】突進前薙ぎサマーソルト(地上開始部分)\u0000",
+        "_ActNo": 7003,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "StepInSomerSaultAttackLeft\u0000",
+        "_Name": "【希少種】突進前薙ぎサマーソルト左旋回(薙ぎ払い部分)\u0000",
+        "_ActNo": 7004,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "StepInSomerSaultAttackRight\u0000",
+        "_Name": "【希少種】突進前薙ぎサマーソルト右旋回(薙ぎ払い部分)\u0000",
+        "_ActNo": 7005,
+        "_AddCount": 10
+      },
+      {
+        "_EnumName": "StepInSomerSaultLanding\u0000",
+        "_Name": "【希少種】突進前薙ぎサマーソルト(着陸)\u0000",
+        "_ActNo": 7002,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "StepInSomerSaultFlyEnd\u0000",
+        "_Name": "【希少種】突進前薙ぎサマーソルト(空中エンド)\u0000",
+        "_ActNo": 7020,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BackThreeWayHighPowerBreathFirst\u0000",
+        "_Name": "【希少種】下がり３連高出力ブレス(左右ブレス)\u0000",
+        "_ActNo": 7006,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "BackThreeWayHighPowerBreathSecond\u0000",
+        "_Name": "【希少種】下がり３連高出力ブレス(薙ぎ払い+ブレス)\u0000",
+        "_ActNo": 7019,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathStart\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス開始\u0000",
+        "_ActNo": 7007,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathFirstBack\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス1振り目(後退)\u0000",
+        "_ActNo": 7008,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathFirstFront\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス1振り目(前進)\u0000",
+        "_ActNo": 7009,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathSecondBack\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス2振り目(後退)\u0000",
+        "_ActNo": 7010,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathSecondFront\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス2振り目(前進)\u0000",
+        "_ActNo": 7011,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "RoughTailChargeBreathShot\u0000",
+        "_Name": "【希少種】乱れ尻尾チャージブレス発射\u0000",
+        "_ActNo": 7012,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "UltimateBreathGroundStart\u0000",
+        "_Name": "【希少種】超火力ブレス(地上開始部分)\u0000",
+        "_ActNo": 7013,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "UltimateBreathFlyStart\u0000",
+        "_Name": "【希少種】超火力ブレス(空中開始部分)\u0000",
+        "_ActNo": 7016,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "UltimateBreathShotLeft\u0000",
+        "_Name": "【希少種】超火力ブレス(左旋回攻撃部分)\u0000",
+        "_ActNo": 7017,
+        "_AddCount": 0
+      },
+      {
+        "_EnumName": "UltimateBreathShotRight\u0000",
+        "_Name": "【希少種】超火力ブレス(右旋回攻撃部分)\u0000",
+        "_ActNo": 7018,
+        "_AddCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_ComboList": [
+          34212903
+        ]
+      },
+      {
+        "IsNot": false,
+        "_Min": 195.0,
+        "_Max": 345.0
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_ComboList": [
+          {
+            "_FromNodeID": 34212903
+          }
+        ],
+        "_Additional": 4
+      }
+    ]
+  }
+}

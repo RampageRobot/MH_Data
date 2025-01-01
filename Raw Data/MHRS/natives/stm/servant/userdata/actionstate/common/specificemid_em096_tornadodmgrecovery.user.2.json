@@ -1,0 +1,31 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_Env": false,
+        "_Atk": false,
+        "_Dmg": true,
+        "_Flt": false
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 33
+      }
+    ],
+    "_ContinuousConditions": [],
+    "_Tasks": [
+      {
+        "_EscapeType": 0,
+        "_InputTypeSwordMan": 2,
+        "_InputTypeGunner": 3,
+        "_DelayTimeSec": 0.0
+      }
+    ]
+  }
+}

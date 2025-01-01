@@ -1,0 +1,29 @@
+{
+  "app.user_data.NpcAITableActionData": {
+    "_ConditionParams": [
+      {
+        "_Param": {
+          "_IsCompare": false,
+          "_SpeedLv": "DASH"
+        },
+        "_Inverse": false,
+        "_IsContinue": false
+      }
+    ],
+    "_ActionSetting": {
+      "_ForceInterrupt": false,
+      "_TableEnd": false
+    },
+    "_Param": {
+      "_Param": {
+        "_EffectHolder": {
+          "_Param": {
+            "_SpeedLv": "DASH",
+            "_UseExternalSpeed": true,
+            "_StickDir": 0
+          }
+        }
+      }
+    }
+  }
+}

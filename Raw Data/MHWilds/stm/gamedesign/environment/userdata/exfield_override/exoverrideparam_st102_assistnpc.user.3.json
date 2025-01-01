@@ -1,0 +1,26 @@
+{
+  "app.user_data.ExFieldParam_Override": {
+    "_OverrideID": "ST102_ASSIST_NPC",
+    "_StageType": "ST102",
+    "_IsSetMainEnvironment": false,
+    "_IsFixEnvironment": false,
+    "_IsTransitionEnv": false,
+    "_EnvType": "RUIN",
+    "_PopEmOverrideEvents": [],
+    "_GimmickOverrideEvents": [
+      {
+        "_Enabled": false,
+        "_ExecMinute_Real": 0.0,
+        "_StayMinute_Real": 50,
+        "_GimmickEvent": "ASSIST_NPC_001",
+        "_AreaNo": 12,
+        "_AreaID": "st102_12",
+        "_IsRare": false,
+        "_IsAssistNpc": true
+      }
+    ],
+    "_AnimalOverrideEvents": [],
+    "_IsExtentSchedule": false,
+    "_LayoutData": {}
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "snow.ai.AIActionStateDataPl": {
+    "_Protection": false,
+    "_Intercept": false,
+    "_Conditions": [
+      {
+        "IsNot": false,
+        "_Type": 58,
+        "_ActionCategory": 4,
+        "_ActionIDList": [
+          5056
+        ]
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false
+      },
+      {
+        "IsNot": false,
+        "_ActionType": 14
+      },
+      {
+        "IsNot": true,
+        "_PlStatus": 2
+      },
+      {
+        "IsNot": true,
+        "_Min": 0.0,
+        "_Max": 12.0
+      }
+    ],
+    "_ContinuousConditions": [
+      {
+        "IsNot": false,
+        "_Type": 58,
+        "_ActionCategory": 4,
+        "_ActionIDList": [
+          5056
+        ]
+      }
+    ],
+    "_Tasks": [
+      {
+        "_WireType": 1,
+        "_TargetType": 1,
+        "_ActionType": 0,
+        "_UseWireAfterJump": false
+      },
+      {}
+    ]
+  }
+}

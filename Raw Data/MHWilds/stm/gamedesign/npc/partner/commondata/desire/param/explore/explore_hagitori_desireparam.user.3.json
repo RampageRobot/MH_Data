@@ -1,0 +1,62 @@
+{
+  "app.user_data.NpcDesireParam": {
+    "_DefaultParam": {
+      "_CoolTime": {
+        "_Complete": [
+          1084227584,
+          0
+        ],
+        "_Cancel": [
+          1084227584,
+          0
+        ],
+        "_Group": [
+          0,
+          0
+        ]
+      },
+      "_StartConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": true
+        },
+        {
+          "_Param": {},
+          "_Inverse": true
+        },
+        {
+          "_Param": {
+            "_IsEnableBoss": true,
+            "_IsEnableLostParts": true,
+            "_IsEnableCaptureBoss": false,
+            "_IsEnableZako": false,
+            "_IsEnablePopComplete": false,
+            "_IsOnlyQuestTarget": true
+          },
+          "_Inverse": false
+        },
+        {
+          "_Param": {
+            "_Range": [
+              0,
+              1102053376
+            ]
+          },
+          "_Inverse": true
+        },
+        {
+          "_Param": {},
+          "_Inverse": true
+        }
+      ],
+      "_EndConditionParams": [
+        {
+          "_Param": {},
+          "_Inverse": false
+        }
+      ],
+      "_ContinueConditionParams": []
+    },
+    "_OverwriteKindParams": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "snow.envCreature.Ec055Setting": {
+    "_DetectRadius": 9.0,
+    "_ElementInfos": [
+      {
+        "_Transitionable": true,
+        "_AttackElement": 1,
+        "_DebuffType": 1,
+        "_RequestMaterialCurveIndexs": [
+          0,
+          5,
+          10
+        ],
+        "_RequestHitID": 1,
+        "_ShellEffectType": 1
+      },
+      {
+        "_Transitionable": true,
+        "_AttackElement": 2,
+        "_DebuffType": 2,
+        "_RequestMaterialCurveIndexs": [
+          1,
+          6,
+          10
+        ],
+        "_RequestHitID": 2,
+        "_ShellEffectType": 2
+      },
+      {
+        "_Transitionable": true,
+        "_AttackElement": 3,
+        "_DebuffType": 3,
+        "_RequestMaterialCurveIndexs": [
+          2,
+          7,
+          10
+        ],
+        "_RequestHitID": 3,
+        "_ShellEffectType": 3
+      },
+      {
+        "_Transitionable": true,
+        "_AttackElement": 4,
+        "_DebuffType": 4,
+        "_RequestMaterialCurveIndexs": [
+          3,
+          8,
+          10
+        ],
+        "_RequestHitID": 4,
+        "_ShellEffectType": 4
+      },
+      {
+        "_Transitionable": false,
+        "_AttackElement": 0,
+        "_DebuffType": 0,
+        "_RequestMaterialCurveIndexs": [
+          4,
+          9,
+          11
+        ],
+        "_RequestHitID": 5,
+        "_ShellEffectType": 5
+      }
+    ],
+    "_DefaultElementIndex": 4,
+    "_AffectedHitOwnerTypes": [
+      2,
+      1
+    ],
+    "_AffectByMasterOnly": true,
+    "_DamagedAction": 1,
+    "_AffectedAction": 2,
+    "_ActivateAction": 3,
+    "_ActivateCameraVibration": 12,
+    "_ActivateCameraVibrationPriority": 1,
+    "_UpVectorRotate": [
+      0.0,
+      0.0,
+      180.0
+    ],
+    "_CheckTerrainDistance": 2.0,
+    "_CheckTerrainCollisionFilter": "physics/collision filter/terrain/player_character_NoCamera.cfil\u0000",
+    "_CogJointNames": [
+      "Auto_00\u0000",
+      "Auto_01\u0000",
+      "Auto_02\u0000",
+      "Auto_03\u0000",
+      "Auto_04\u0000"
+    ]
+  }
+}

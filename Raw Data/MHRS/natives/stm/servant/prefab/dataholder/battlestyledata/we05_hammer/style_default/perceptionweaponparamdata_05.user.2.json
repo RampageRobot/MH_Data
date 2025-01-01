@@ -1,0 +1,81 @@
+{
+  "snow.sensor.PerceptionWeaponParamData05": {
+    "_CombatRangeMinCombo": 0.0,
+    "_CombatRangeMaxCombo": 6.5,
+    "_CombatRangeMinPositioning": 6.5,
+    "_CombatRangeMaxPositioning": 20.0,
+    "_CombatRangeMinApproach": 19.0,
+    "_CombatRangeMaxApproach": 60.0,
+    "_CombatRangeMinWeaponOn": 0.0,
+    "_CombatRangeMaxWeaponOn": 29.0,
+    "_CombatRangeMinWeaponOff": 29.0,
+    "_CombatRangeMaxWeaponOff": 100.0,
+    "_CombatRangeEnemyTarget": 5.0,
+    "_CombatRangePositioningAvoidance": 8.0,
+    "_CombatDegreePositioningAvoidance": 30.0,
+    "_CombatRangeHealRatioPositioningAvoidance": 1.7,
+    "_TargetEnemyHeightFilter": 2.0,
+    "_TargetEnemyHeightFilterSP1": 2.0,
+    "_UseUtsusemi": false,
+    "_UtsusemiTypeAHoldTimeSec": 120.0,
+    "_UtsusemiTypeBHoldTimeSec": 120.0,
+    "_MovePatterTable": [
+      {
+        "_Type": 3,
+        "_OffsetType": 2,
+        "_PreConditions": [
+          16
+        ],
+        "_ContinuousConditions": [
+          16
+        ]
+      },
+      {
+        "_Type": 2,
+        "_OffsetType": 1,
+        "_PreConditions": [
+          10,
+          12
+        ],
+        "_ContinuousConditions": [
+          3,
+          9,
+          15
+        ]
+      },
+      {
+        "_Type": 0,
+        "_OffsetType": 0,
+        "_PreConditions": [
+          6
+        ],
+        "_ContinuousConditions": [
+          6
+        ]
+      },
+      {
+        "_Type": 1,
+        "_OffsetType": 0,
+        "_PreConditions": [
+          7
+        ],
+        "_ContinuousConditions": [
+          7,
+          17
+        ]
+      }
+    ],
+    "_DistanceGoal": 1.7,
+    "_DistanceFar": 13.0,
+    "_DistanceNear": 4.0,
+    "_TimeDeltaPlenty": 50.0,
+    "_TimeDeltaBit": 30.0,
+    "_OffsetAxisZ": 10.0,
+    "_FrontRangeDegree": 210.0,
+    "_AroundLeverLimitDeg": 5.0,
+    "_AroundLeverNonLimitDeg": 10.0,
+    "_AroundDirectionLimitDeg": 75.0,
+    "_ChargeMovePushTimeSec_ToDodge": 1.2,
+    "_ChargeMovePushTimeSec_ToCombo": 0.3
+  }
+}
