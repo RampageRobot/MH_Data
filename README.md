@@ -1,2 +1,3 @@
 # MH_Data
-Some collated data from MH World/Iceborne. Much of it has been translated into class structures for various little personal projects I've worked on. 
+Game data for MHWI, MHRS, and MHWilds (partial).
+Formatted and parsed data is in [Parsed Data](https://github.com/RampageRobot/MH_Data/tree/main/Parsed%20Files). Raw game files are in [Raw Data](https://github.com/RampageRobot/MH_Data/tree/main/Raw%20Data).
